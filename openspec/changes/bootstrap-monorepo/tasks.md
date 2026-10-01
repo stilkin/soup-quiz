@@ -3,7 +3,7 @@
 ## 1. Workspace scaffolding
 
 - [x] 1.1 Initialize pnpm workspace (`pnpm-workspace.yaml` with `apps/*`, `packages/*`), root `package.json` with `typecheck`/`lint`/`test` scripts fanning out via `pnpm -r`; verify `pnpm -r run typecheck` succeeds (no-op) at root
-- [ ] 1.2 Add base `tsconfig.base.json` (strict, moduleResolution bundler) and per-package tsconfigs extending it; verify `tsc --noEmit` passes in each package
+- [x] 1.2 Add base `tsconfig.base.json` (strict, moduleResolution bundler) and per-package tsconfigs extending it; verify `tsc --noEmit` passes in each package
 - [x] 1.3 Add Biome config (lint + format rules committed) and root `biome.json`; verify `pnpm lint` and `pnpm format` run clean on the scaffolded tree
 
 ## 2. Schema package (`packages/schema`)
@@ -20,9 +20,9 @@
 
 ## 4. Engine package (`packages/engine`)
 
-- [ ] 4.1 Implement seeded PRNG (mulberry32) and dataset sampler; verify same seed → same item order across repeated calls, different seeds differ
-- [ ] 4.2 Implement declarative mode config + the single `ingredients → country` mode instance; generator builds prompt from ingredient display names, correct option from item's countries, distractors from other items' countries; verify options are distinct and the distractor-starved stub item is skipped, per spec scenarios
-- [ ] 4.3 Implement answer checking (any of item's countries counts) and round scoring (`generateRound(dataset, mode, {seed, length})` returning ordered questions); verify unit tests mirror the quiz-gameplay spec scenarios: determinism, multi-origin acceptance, one-answer-per-question enforcement at the engine API level
+- [x] 4.1 Implement seeded PRNG (mulberry32) and dataset sampler; verify same seed → same item order across repeated calls, different seeds differ
+- [x] 4.2 Implement declarative mode config + the single `ingredients → country` mode instance; generator builds prompt from ingredient display names, correct option from item's countries, distractors from other items' countries; verify options are distinct and the distractor-starved stub item is skipped, per spec scenarios
+- [x] 4.3 Implement answer checking (any of item's countries counts) and round scoring (`generateRound(dataset, mode, {seed, length})` returning ordered questions); verify unit tests mirror the quiz-gameplay spec scenarios: determinism, multi-origin acceptance, one-answer-per-question enforcement at the engine API level
 
 ## 5. App shell (`apps/soup-quiz`)
 

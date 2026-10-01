@@ -25,6 +25,19 @@ importers:
         specifier: ^5.0.3
         version: 5.0.3(vite@8.3.2)
 
+  packages/engine:
+    dependencies:
+      '@soup-quiz/schema':
+        specifier: workspace:*
+        version: link:../schema
+    devDependencies:
+      typescript:
+        specifier: ^7.0.2
+        version: 7.0.2
+      vitest:
+        specifier: ^5.0.3
+        version: 5.0.3(vite@8.3.2)
+
   packages/schema:
     dependencies:
       zod:
