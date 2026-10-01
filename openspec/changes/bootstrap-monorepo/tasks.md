@@ -15,8 +15,8 @@
 
 ## 3. Stub dataset (`packages/data`)
 
-- [ ] 3.1 Author 10 adversarial stub items per design D7 (multi-country, region-not-country, multi-type, shared canonical ingredients with differing display spellings, one distractor-starved item); use real names/curid URLs from `data/raw/wikipedia/list-of-soups.wikitext` where possible; verify file exists and imports typed as `SoupItem[]`
-- [ ] 3.2 Add `validateDataset` test as this package's test suite — the stub dataset must pass; verify `pnpm test` fails if any stub item is corrupted (mutation check by hand once)
+- [x] 3.1 Author 10 adversarial stub items per design D7 (multi-country, region-not-country, multi-type, shared canonical ingredients with differing display spellings, one distractor-starved item); use real names/curid URLs from `data/raw/wikipedia/list-of-soups.wikitext` where possible; verify file exists and imports typed as `SoupItem[]`
+- [x] 3.2 Add `validateDataset` test as this package's test suite — the stub dataset must pass; verify `pnpm test` fails if any stub item is corrupted (mutation check by hand once)
 
 ## 4. Engine package (`packages/engine`)
 
