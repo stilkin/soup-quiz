@@ -2,9 +2,9 @@
 
 ## 1. Workspace scaffolding
 
-- [ ] 1.1 Initialize pnpm workspace (`pnpm-workspace.yaml` with `apps/*`, `packages/*`), root `package.json` with `typecheck`/`lint`/`test` scripts fanning out via `pnpm -r`; verify `pnpm -r run typecheck` succeeds (no-op) at root
+- [x] 1.1 Initialize pnpm workspace (`pnpm-workspace.yaml` with `apps/*`, `packages/*`), root `package.json` with `typecheck`/`lint`/`test` scripts fanning out via `pnpm -r`; verify `pnpm -r run typecheck` succeeds (no-op) at root
 - [ ] 1.2 Add base `tsconfig.base.json` (strict, moduleResolution bundler) and per-package tsconfigs extending it; verify `tsc --noEmit` passes in each package
-- [ ] 1.3 Add Biome config (lint + format rules committed) and root `biome.json`; verify `pnpm lint` and `pnpm format` run clean on the scaffolded tree
+- [x] 1.3 Add Biome config (lint + format rules committed) and root `biome.json`; verify `pnpm lint` and `pnpm format` run clean on the scaffolded tree
 
 ## 2. Schema package (`packages/schema`)
 
