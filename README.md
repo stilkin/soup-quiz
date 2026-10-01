@@ -1,9 +1,9 @@
 # Soup Quiz
 
-> **Status: planning phase.** This repository currently contains project planning
-> (OpenSpec), raw source data, and no application code. The first implementation
-> change (`bootstrap-monorepo`) is fully proposed and ready to apply — see
-> [Roadmap](#roadmap). Everything below marked *planned* is decided but not yet built.
+> **Status: change 1 (`bootstrap-monorepo`) implemented** — monorepo, schema, engine,
+> stub dataset, and a playable quiz round. The real dataset pipeline, stats, and the
+> daily challenge are the next changes (see [Roadmap](#roadmap)). Everything below
+> marked *planned* is decided but not yet built.
 
 ## What is this project?
 
@@ -27,51 +27,52 @@ The concept, in priorities:
 
 | Present in this repo | Planned (decided in OpenSpec changes) |
 |---|---|
-| Raw wikitext snapshots of 16 Wikipedia list articles (`data/raw/wikipedia/`) | pnpm monorepo: `packages/{schema,data,engine}` + `apps/soup-quiz` |
-| Dedup measurement: **583 unique soup titles** across sources | Expo (React Native, TypeScript) app, iOS + Android |
-| OpenSpec planning artifacts for change 1 (`openspec/changes/bootstrap-monorepo/`) | Python/pandas dataset pipeline validating against an exported JSON Schema |
-| Locked product decisions (`openspec/config.yaml` → `context`) | On-device stats, streaks, SRS; UTC daily challenge; share texts |
+| pnpm monorepo: `packages/{schema,data,engine}` + `apps/soup-quiz` (Expo, iOS + Android) | Python/pandas dataset pipeline validating against the exported JSON Schema |
+| Zod item contract with JSON Schema export; 249-country registry; flag emoji | Real dataset (~583 soups), credited bundled images |
+| Seed-deterministic engine: mode-as-data, `generateRound`, scoring (52 tests) | More game modes over the same data (declarative configs) |
+| Stub dataset: 10 adversarial soups; one playable mode (ingredients → country) | On-device stats, streaks, SRS; UTC daily challenge; share texts |
+| Raw wikitext snapshots of 16 Wikipedia list articles (`data/raw/wikipedia/`) | Share-card page, notifications, photo mode, store submission |
 
 ## Technology
 
-**In the repo today:** Markdown/YAML planning artifacts (OpenSpec, spec-driven schema) and
-raw wikitext data. Nothing else — no build, no runtime.
+**In the repo today:** TypeScript (strict) across `packages/` and the Expo app
+(SDK 57, React Native 0.86, expo-router, Reanimated, expo-image, Fraunces via
+@expo-google-fonts), zod 4 (with native JSON Schema export), Vitest, Biome; raw
+wikitext data for the future pipeline.
 
-**Planned stack** (per the `bootstrap-monorepo` design; adjusted only via OpenSpec changes):
+**Planned additions** (adjusted only via OpenSpec changes):
 
-- **TypeScript** (strict) end-to-end for the app; **Python 3 + pandas** for the dataset pipeline
-- **Expo SDK / React Native** (new architecture) with **expo-router**, targeting iOS and Android
-- **Reanimated** for animated answer feedback; tokenized theme
-- **zod** as the single schema source of truth, exporting **JSON Schema** as the contract
-  the Python pipeline validates against
-- **pnpm** workspaces (no build orchestrator yet); **Biome** (lint + format); **Vitest**
-- **expo-sqlite** for on-device stats (from change 4)
-- Seeded PRNG (mulberry32) for deterministic, replayable rounds
+- **Python 3 + pandas** dataset pipeline (change 2), validating against the JSON Schema
+  exported from `packages/schema`
+- **expo-sqlite** for on-device stats, streaks, and spaced repetition (change 4)
 
 ## Repository layout
 
 ```
-openspec/
-  config.yaml                  project context + locked decisions
-  changes/bootstrap-monorepo/  change 1 artifacts: proposal, specs, design, tasks
-data/
-  raw/wikipedia/               wikitext snapshots (pipeline inputs, not app content)
-.claude/                       OpenSpec slash commands + skills (agent workflow)
+apps/soup-quiz/        Expo app (UI only): expo-router screens, theme tokens, feedback
+packages/schema/       zod item contract, registries, validateDataset, JSON Schema
+packages/data/         stub dataset v0 (adversarial by design) + validation tests
+packages/engine/       pure, seed-deterministic quiz logic (no framework imports)
+data/raw/wikipedia/    wikitext snapshots (pipeline inputs, not app content)
+openspec/              config (locked decisions), changes, durable specs
+.claude/               OpenSpec slash commands + skills (agent workflow)
 ```
 
 ## Installation and running
 
-Nothing to install or run yet — there is no application code. Clone and read.
-
-Once `bootstrap-monorepo` is applied (`/opsx:apply bootstrap-monorepo`), the repo will
-provide, per its task list:
+Requires Node 20+ and pnpm 10.
 
 ```bash
 pnpm install        # workspace deps
 pnpm typecheck      # tsc --noEmit across packages
 pnpm lint           # Biome lint + format check
 pnpm test           # Vitest: schema, engine, dataset validation
-npx expo start      # from apps/soup-quiz — run in Expo Go / emulator
+```
+
+To play (from `apps/soup-quiz`):
+
+```bash
+pnpm start          # expo start — scan the QR code with Expo Go
 ```
 
 The dataset pipeline (change 2) adds a Python side under `data/` with its own
@@ -97,7 +98,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 
 | # | Change | Status |
 |---|---|---|
-| 1 | `bootstrap-monorepo` — monorepo, schema, stub data, one playable mode | **proposed, ready to apply** |
+| 1 | `bootstrap-monorepo` — monorepo, schema, stub data, one playable mode | **implemented** (17/18 tasks; on-device round pending) |
 | 2 | `add-dataset-pipeline` — scrape/enrich/review/compile, image bundling + attribution | planned |
 | 3 | `add-quiz-modes` — declarative mode configs over the real dataset | planned |
 | 4 | `add-stats-streaks-srs` — SQLite stats, streaks, spaced repetition | planned |

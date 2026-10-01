@@ -31,7 +31,26 @@ workflow). Key rules:
 
 ## Commands
 
-There is nothing to build, lint, or test yet — no code. Currently useful:
+From the repo root:
+
+```bash
+pnpm typecheck   # tsc --noEmit in every workspace package (incl. the Expo app)
+pnpm lint        # Biome check across the workspace
+pnpm format      # Biome format --write
+pnpm test        # Vitest in schema, data, engine (52 tests)
+```
+
+From `apps/soup-quiz`:
+
+```bash
+pnpm start                                      # expo start — scan the QR with Expo Go
+pnpm exec expo export --platform android        # bundle smoke check, no device needed
+```
+
+Editing `packages/data/src/soups.v0.json`? Its tests are the gate — a corrupted
+dataset fails `pnpm test`.
+
+OpenSpec:
 
 ```bash
 openspec list                       # in-flight changes
@@ -41,17 +60,25 @@ openspec validate "<name>"          # change validity
 git push                            # main tracks origin (github.com:stilkin/soup-quiz)
 ```
 
-When change 1 lands (`pnpm typecheck` / `pnpm lint` / `pnpm test`, `expo start` from
-`apps/soup-quiz`), update this section — keep it the source of truth for commands.
-Package manager is pnpm (decided in change-1 design); do not use npm/yarn.
+Package manager is pnpm; do not use npm/yarn.
 
-## Architecture (planned — `openspec/changes/bootstrap-monorepo/design.md` is authoritative)
+## Architecture
 
-Target monorepo: `packages/schema` (zod, single source of truth, exports JSON Schema),
-`packages/data` (datasets), `packages/engine` (pure, seed-deterministic TS — no React),
-`apps/soup-quiz` (Expo app, UI only). A Python/pandas pipeline (change 2) produces
-datasets validated against the exported JSON Schema — TS and Python only meet through
-that contract. Update this section as changes are applied; delete stale claims.
+`openspec/changes/bootstrap-monorepo/design.md` documents the decisions; as built:
+
+- `packages/schema` — zod item contract (single source of truth), registries
+  (SOUP_TYPES, 249-entry COUNTRIES, flagEmoji), `validateDataset`, exported JSON Schema
+- `packages/data` — `soups.v0.json` stub dataset (adversarial by design, D7)
+- `packages/engine` — pure, seed-deterministic: mode-as-data configs, `generateRound`,
+  `isCorrect`, `scoreRound`; no framework imports
+- `apps/soup-quiz` — Expo app, UI only: theme tokens (`src/theme.ts`, "menu card"
+  direction), expo-router screens, Reanimated feedback; no quiz logic lives here
+
+Internal-package pattern (design D2): packages export raw TS source (`main: ./src/index.ts`),
+no build step — Metro and Vitest consume them directly. Soup images will bundle as
+`apps/soup-quiz/assets/soups/<id>.jpg`, mapped in `src/images.ts` (change 2).
+A Python/pandas pipeline (change 2) produces datasets validated against the exported
+JSON Schema — TS and Python only meet through that contract.
 
 ## Data rules
 
