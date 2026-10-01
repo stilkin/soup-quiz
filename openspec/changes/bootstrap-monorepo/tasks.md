@@ -8,10 +8,10 @@
 
 ## 2. Schema package (`packages/schema`)
 
-- [ ] 2.1 Create internal package (D2 pattern: exports TS source, no build step) with zod; define `SoupItem` shape per design D3 (id, name, description, sourceUrl, `countries` 1..n ISO alpha-2, optional `region`, `types` 1..n from vocabulary, `ingredients` 1..n unique canonical ids, optional `image` = `{ sourceFile, credit }` with credit mandatory when present); verify a typed sample parses in a unit test
-- [ ] 2.2 Export shared registries: `SOUP_TYPES` controlled vocabulary and `COUNTRIES` (alpha-2 → display name) plus `flagEmoji(code)` helper; verify `flagEmoji('IT')` returns the Italian flag and unknown codes return a placeholder
-- [ ] 2.3 Export JSON Schema document from the zod schema and a `validateDataset()` that reports item id + failing field; verify tests cover: duplicate ids, zero countries, unknown type, empty/duplicated ingredient ids, malformed sourceUrl — each rejected with the offending item named
-- [ ] 2.4 Document in `packages/schema/README.md` any validation rules not expressible in JSON Schema (so the Python pipeline can compensate); verify the README lists zero undocumented gaps or names each one
+- [x] 2.1 Create internal package (D2 pattern: exports TS source, no build step) with zod; define `SoupItem` shape per design D3 (id, name, description, sourceUrl, `countries` 1..n ISO alpha-2, optional `region`, `types` 1..n from vocabulary, `ingredients` 1..n unique canonical ids, optional `image` = `{ sourceFile, credit }` with credit mandatory when present); verify a typed sample parses in a unit test
+- [x] 2.2 Export shared registries: `SOUP_TYPES` controlled vocabulary and `COUNTRIES` (alpha-2 → display name) plus `flagEmoji(code)` helper; verify `flagEmoji('IT')` returns the Italian flag and unknown codes return a placeholder
+- [x] 2.3 Export JSON Schema document from the zod schema and a `validateDataset()` that reports item id + failing field; verify tests cover: duplicate ids, zero countries, unknown type, empty/duplicated ingredient ids, malformed sourceUrl — each rejected with the offending item named
+- [x] 2.4 Document in `packages/schema/README.md` any validation rules not expressible in JSON Schema (so the Python pipeline can compensate); verify the README lists zero undocumented gaps or names each one
 
 ## 3. Stub dataset (`packages/data`)
 
