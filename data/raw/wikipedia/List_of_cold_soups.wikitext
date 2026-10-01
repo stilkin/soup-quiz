@@ -1,0 +1,93 @@
+{{Short description|none}} <!-- This short description is INTENTIONALLY "none" - please see WP:SDNONE before you consider changing it! -->
+{{see also|List of soups|Category:Cold soups}}
+[[File:Окрошка Okroshka 05.jpg|thumb|260px|A bowl of [[okroshka]] soup]]
+This is a list of notable cold soups. [[Soup]]s have been made since ancient times. In warm climates, or in summer, many cultures make traditional cold soups.  These soups tend to be lighter than winter soups and typically contain less fat and meat per serving. Some are purely vegetable based but many use light meat or fish stocks.
+
+==Cold soups==
+<!-- Start of comment - Note to editors:  Add rows below the original rows.  The table is sortable.  Images should be scaled to around 110 pixels horizontally. If a soup description article does not exist on English Wikipedia, please add it first. No external links. Keep descriptions short. Soup Name should be an internal link. Articles in other language versions of Wikipedia should be translated if possible. End of comment tag. -->
+
+{| class="wikitable sortable"
+|-
+! Name
+! Image
+! Origin country
+! Summary description
+|-
+|[[Ajoblanco]]
+|[[File:Ajo blanco.jpg|123px]]
+|Spain
+|Spanish cold soup typical from Granada and Málaga (Andalusia). It is also a common dish in Extremadura (Ajo Blanco Extremeño).<sup>[1]</sup> This dish is made of bread, crushed almonds, garlic, water, olive oil, salt and sometimes vinegar
+|-
+|[[Avocado soup]]
+|[[File:Avocado soup.jpg|120px]]
+|
+|Can be prepared and served as a cold or hot soup
+|-
+|[[Cold borscht]]
+|[[File:Chlodnik (Cold Borscht).jpg|123px]]
+|[[Slavs|Slav]] and [[Baltic Sea|Baltic]] nations
+| Made from beetroot with optional onions, garlic, carrot, celery parsnip etc; with a base of sour cream, buttermilk, kefir, kvass, or yogurt. May be served with boiled potato or egg. National varieties include  ''svekolnik'', ''kholodnik'', ''šaltibarščiai''.
+|-
+|[[Fruit soup]]
+|[[File:Chinese fruit soup 3.jpg|123px]]
+|
+|Soup prepared using fruit as a primary ingredient. Pictured is Chinese fruit soup. Some fruit soups are also served warm or hot.
+|-
+|[[Gazpacho]]
+|[[File:Gazpacho con su guarnición - jlastras.jpg|123px]]
+|Spain
+|Soup made of raw vegetables and served cold, usually with a tomato base, originating in the southern Spanish region of Andalusia.|In Andalusia, most gazpacho recipes typically include stale bread, tomato, cucumber, bell pepper, onion and garlic, olive oil, wine vinegar, water, and salt.
+|-
+|[[Naengmyeon]]
+|[[File:Korean.food-Mul.naeng.myeon-03.jpg|123px]]
+|Korea
+|Cold noodle soup in cold meat broth
+|-
+|[[Naengguk]]
+|[[File:Korean cold cucumber soup-Oi naengguk-01.jpg|123px]]
+|Korea
+|Refers to all kinds of cold guk (soups) in Korean cuisine, mainly eaten in summer. It is so called changuk, which literally means "cold soup" in pure Korean, while the term naengguk is a combination of a hanja word and a pure Korean word with the same meaning.
+|-
+| [[Okroshka]]
+| [[File:Kvass-okroshka.jpg|123px]]
+| Russia
+| A mix of mostly raw vegetables (like cucumbers, radishes and spring onions), boiled potatoes, eggs, and a cooked meat such as beef, veal, sausages, or ham with kvass, which is a non-alcoholic (1.5% or less) beverage made from fermented black or rye bread.
+|-
+|[[Salmorejo]]
+|[[File:Salmorejo - Barajas.JPG|123px]]
+|Spain
+|Salmorejo is a purée consisting of tomato and bread, originating from Cordoba in Andalucia, south Spain. It is made from tomatoes, bread, oil, garlic and vinegar.  The purée is served cold and may be garnished with diced Spanish serrano ham and diced hard-boiled eggs.
+|-
+|[[Sorrel soup]]
+|[[File:Borscz zelenyj ukr.jpg|123px]]
+|Eastern Europe
+|Also known as ''shchav'', ''green borscht'' or ''green shchi''.  The cold version is made from water, sorrel leaves, and salt. Varieties of the same soup include spinach, garden orache, chard, nettle, and occasionally dandelion, goutweed or ramsons, together with or instead of sorrel. It may include further ingredients such as egg yolks or whole eggs, potatoes, carrots, parsley root, and rice.
+|-
+|[[Swedish fruit soup]]
+|[[File:Fruit soup (Swedish Varma Koppen) (3077175410).jpg|123px]]
+|Sweden
+|Typically prepared using dried fruits, and typically served as a dessert dish. It may be served hot or cold.<ref>{{cite book | last=Marrone | first=T. | title=The Beginner's Guide to Making and Using Dried Foods: Preserve Fresh Fruits, Vegetables, Herbs, and Meat with a Dehydrator, a Kitchen Oven, or the Sun | publisher=Storey Publishing, LLC | year=2014 | isbn=978-1-60342-927-6 | url=https://books.google.com/books?id=fgEQAwAAQBAJ&pg=PA313 | page=313}}</ref>
+|-
+|[[Tarator]]
+|[[File:TaratorBg.jpg|123x123px]]
+|Bulgaria, North Macedonia, Serbia, Greece, Turkey, Balkans
+|Tarator, tarathor, taratur, or ttalattouri is a  soup, appetizer, or sauce found in the cuisines of Eastern Europe. It generally includes ground walnuts, garlic, and [[yogurt]] or [[tahini]], and often cucumber, herbs, and vinegar or lemon juice.
+|-
+|[[Vichyssoise]]
+|[[File:Vichyssoise.jpg|123px]]
+|United States
+|Vichyssoise is a purée of leeks, onions, potatoes, cream and chicken stock. It is served cold.
+|}
+
+==See also==
+{{Portal|Food}}
+* [[List of soups]]
+
+==References==
+{{reflist}}
+
+{{Lists of prepared foods}}
+
+[[Category:Soups| ]]
+[[Category:Cold soups| ]]
+[[Category:Soup-related lists|Cold]]

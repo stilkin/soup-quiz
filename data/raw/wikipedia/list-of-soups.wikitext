@@ -1,0 +1,1805 @@
+{{Short description|none}}
+{{see also|List of stews|Category:Soups}}
+
+This is a '''list of notable soups'''. [[Soup]]s have been made since [[Ancient history|ancient times]].
+
+Some soups are served with large chunks of meat or vegetables left in the liquid, while others are served as a broth. A [[broth]] is a flavored liquid usually derived from boiling a type of meat with bone, a spice mix, or a vegetable mix for a period of time in a [[Stock (food)|stock]].
+
+A [[potage]] is a category of thick soups, [[stew]]s, or [[porridge]]s, in some of which meat and vegetables are boiled together with water until they form a thick mush.
+
+[[Bisque (food)|Bisques]] are [[heavy cream]] soups traditionally prepared with [[shellfish]], but can be made with any type of [[seafood]] or other base ingredients. Cream soups are dairy based soups. Although they may be consumed on their own, or with a meal, the canned, condensed form of cream soup is sometimes used as a quick [[sauce]] in a variety of [[meat]] and [[pasta]] [[convenience food]] dishes, such as [[casserole]]s. Similar to bisques, [[chowder]]s are thick soups usually containing some type of starch.
+
+[[Coulis]] were originally meat juices, and now are thick [[purée]]s.
+
+While soups are usually heated, some soups are served only cold and other soups can optionally be served cold.
+<!--
+                                                              EDITORIAL NOTES:
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Do NOT add stews or sauces here.  There are separate "List of..." articles for these categories that should
+be added to instead.
+
+Please add entries in ALPHABETICAL ORDER,  to make duplicate entries less likely.
+
+New food entries here require a Wikilink to an EXISTING article for the food item described.
+This List article relies on the references and Talk discussion in the backup article.  If necessary, create and
+add references to a backup article first, then Wikilink to it from a brief summary entry added here.
+
+In the Description, mention the main ingredients, plus any special ingredients or other notable aspects.
+DO NOT OVERLINK any common ingredients listed in the article lead, but do Wikilink DISTINCTIVE
+ingredients, flavorings, or customs.
+
+Keep the entry concise, and use Wikilinks for any additional information with references.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Sample entry:
+
+|[[Food_name]]
+|[[File:Image_name|122px]]
+|[[Country_of_origin]] ([[Region_of_origin]])
+|Type
+|Brief description, listing essential ingredients, plus [[distinctive ingredient]]s, [[flavoring]]s, or [[custom]]s
+that make the dish unique. It is NOT necessary to repeat the name of the food or place of origin.
+|-
++++++++++++
+-->
+
+==Soups==
+{{dynamic list}}
+{| class="wikitable sortable"
+!Name
+!Image
+!Origin
+!Type
+!Distinctive ingredients and description
+|-
+|[[Abula (soup)]]
+|[[File:Amala_and_Abula.jpg|122px]]
+|[[Yorubaland]]
+|Smooth
+|[[Bean]]s (including [[locust beans]]), ''[[Corchorus#Food|ewedu]]'', [[chili pepper]]s, [[potash]] and other vegetables blended into water until smooth.<ref>{{Cite news |last=Olowe |first=Praise |date=20 October 2017 |title=Best Nigerian recipe for this weekend – Abula |url=https://thenationonlineng.net/best-nigerian-recipe-weekend-abula/ |location=Lagos, Nigeria|access-date=16 April 2025|newspaper=[[The Nation (Nigeria)|The Nation]]}}</ref>
+|-
+|[[Aguadito]]
+|[[File:Aguadito.jpg|122px]]
+|[[Peru]]
+|Chunky
+|Peruvian green soup usually made with [[cilantro]], [[carrot]], [[pea]]s, [[potato]]es and can have chicken, hen, mussels or fish. It also contains [[ají amarillo]] (yellow chili pepper) and various other vegetables and spices. The green color is due to cilantro. It is known for having a potential for easing or alleviating symptoms associated with the hangover.<ref name="Barrell 2017">{{cite web | author=Barrell, Ryan | title=13 Hangover Cures the World Swears By | website=Paste | date=13 March 2017 | url=https://www.pastemagazine.com/articles/2017/03/13-hangover-cures-the-world-swears-by.html | access-date=30 July 2017}}</ref>
+|-
+|[[Ajiaco]]
+|[[File:Ajiaco.jpg|122px]]
+|[[Colombia]]
+|Chunky
+|In the Colombian capital of Bogotá, ''ajiaco'' is typically made with chicken, three varieties of potatoes, and the ''[[Galinsoga parviflora]]'' herb commonly referred to in Colombia as ''guascas''.<ref name="mycolombian">{{cite web|url=http://www.mycolombianrecipes.com/ajiaco-bogotano-colombian-chicken-and |title=Ajiaco Bogotano (Colombian Chicken and Potato Soup) |work=Mycolombianrecipes.com |date=19 March 2009 |access-date=3 June 2014}}</ref> In [[Cuba]], it is a hearty stew made from beef, pork, chicken, vegetables, and a variety of starchy roots and [[tubers]] classified as ''viandas''.<ref>{{cite web|url=http://www.tasteofcuba.com/ajiacocubano.html |title=Cuban Ajiaco Recipe |work=Tasteofcuba.com |access-date=3 June 2014}}</ref>
+|-
+|[[Açorda]]
+|[[File:Açorda à Alentejana edited.jpg|alt=Açorda à Alentejana|122px]]
+|[[Portugal]]
+|Chunky
+|A typical [[Portugal|Portuguese]] dish composed of thinly sliced bread with [[garlic]], large amounts of finely chopped [[coriander]], [[olive oil]], vinegar, water, [[white pepper]], salt and [[poached eggs]].
+|-
+|[[Acquacotta]]
+|[[File:Acquacotta soup.jpg|122px]]
+|[[Italy]]
+|Chunky
+|Originally a [[Peasant foods|peasant food]],<ref>{{cite book | url=https://books.google.com/books?id=Wz3iAgAAQBAJ&pg=PA67 | title=The Italian Vegetable Cookbook | publisher=Houghton Mifflin Harcourt | author=Scicolone, Michelle | year=2014 | pages=67 | isbn=978-0547909165}}</ref> historically, its primary ingredients were water, stale bread, onion, tomato, olive oil<ref>{{cite book | url=https://books.google.com/books?id=1FVLv7WS4C4C&pg=PT190 | title=Essentials of Classic Italian Cooking | publisher=Knopf Doubleday Publishing Group | date=2011 | access-date=12 September 2014 | author=Hazan, Marcella|isbn=978-0307958303}}</ref> and any spare vegetables or leftovers. It has been described as an [[ancient]] dish.<ref>{{cite book | url=https://books.google.com/books?id=H_wJw4Zh2XEC&pg=PA103 | title=The Tuscan Year: Life and Food in an Italian Valley | publisher=Macmillan | author=Romer, Elizabeth | year=1989 | pages=103–104 | isbn=0865473870}}</ref>
+|-
+|[[Aloo tama]]
+|[[File:Aalu_Bodi_Tama_3.jpg|122px]]
+|[[Nepal]]
+|Chunky
+|Fermented [[bamboo shoots]], [[potato]], and [[black-eyed pea]]s in a broth
+|-
+|[[Amish preaching soup]]
+|
+|[[United States]]
+|Chunky
+|Typically served preceding or following Amish church services.<ref name="enc">{{cite book|last=Mariani|first=John F.|title=Encyclopedia of American Food and Drink|year=1999|publisher=[[Lebhar-Friedman Books]]|isbn=0-86730-784-6|page=[https://archive.org/details/encyclopediaofam00mari/page/5 5]|url-access=registration|url=https://archive.org/details/encyclopediaofam00mari/page/5}}</ref><ref>{{cite book | last=Mariani | first=J.F. | title=Encyclopedia of American Food and Drink | publisher=Bloomsbury Publishing | year=2014 | isbn=978-1-62040-161-3 | url=https://books.google.com/books?id=K5taAgAAQBAJ&pg=PT67 | access-date=January 24, 2015}}</ref> Some versions are prepared with beans and [[ham hock]]s.<ref>{{cite book | last=Cronley | first=C. | title=Sometimes a Wheel Falls Off: Essays from Public Radio | publisher=Hawk Publishing Group | year=2001 | isbn=978-1-930709-38-6 | url=https://books.google.com/books?id=-aLfAAAAMAAJ |page=113| access-date=January 24, 2015}}</ref>
+|-
+|[[Analı kızlı soup]]
+|[[File:Analı Kızlı Köfte.jpg|122px]]
+|[[Turkey]]
+|Chunky
+|[[Bulgur]] meatballs and [[chickpeas]] in gravy with yogurt
+|-
+|[[Ant egg soup]]
+|
+|[[Laos]], [[Northeastern Thailand]]
+|Chunky
+|A soup including [[ant egg]]s among its ingredients. Served hot.
+|-
+|[[Apple soup]]
+|[[File:Apple_parsnip_soup_with_apple_relish.jpg|122px]]
+|
+|Typically smooth
+|Any number of soups that use [[apple]] as a primary ingredient, usually with vegetables, spices, and broth.
+|-
+|[[Ash-e doogh]]
+|[[File:Ash-e-doogh.jpg|122px]]
+|[[Iran]], Azerbaijan, Turkey
+|Potage
+|A [[List of yogurt-based dishes and beverages|yogurt soup]] that consists of yogurt and [[leafy vegetables]]. Served hot.
+|-
+|[[Aush]], aash, āsh
+|[[File:Ash e reshte.jpg|frameless|120x120px]]
+|Iran, Afghanistan, Turkey, Caucasus 
+|Potage
+|A variety of thick [[soup]]s, served hot - with many different types of recipes and regional differences.
+|-
+|[[Avgolemono]]
+|[[File:Avgolemono Soup and Grilled Chicken and Mango Salad.jpg|122px]]
+|[[Greece]]
+|Potage
+|Chicken [[broth]], rice or [[orzo (pasta)|orzo]], and lemon, thickened with [[tempered eggs]]
+|-
+|[[Avocado soup]]
+|[[File:Avocado soup in square bowl.jpg|120px]]
+|
+|
+|Can be prepared and served as a cold or hot soup
+|-
+|[[Bacon soup]]
+|[[File:Celery and Bacon Soup.jpg|122px]]
+|[[Europe]]
+|Chunky
+|[[Bacon]], vegetables, and a thickening agent. Pictured is celery and bacon soup.
+|-
+|[[Bak kut teh]]
+|[[File:Bakutteh.jpg|122px]]
+|[[Indonesia]], [[Malaysia]]<ref>{{cite journal|last=Yoshino|first=Kosaku|year=2010|title=Malaysian Cuisine: A Case of Neglected Culinary Globalization|journal=Globalization, Food and Social Identities in the Asia Pacific Region|publisher=Sophia University Institute of Comparative Culture|location=Tokyo|page=4|url=http://icc.fla.sophia.ac.jp/global%20food%20papers/pdf/2_4_YOSHINO.pdf }}</ref> and [[Singapore]]
+|Herbal
+|Consists of meaty [[pork ribs]] simmered in a complex [[broth]] of herbs and spices (including [[star anise]], [[cinnamon]], [[clove]]s, ''[[Angelica sinensis|dang gui]]'', [[fennel|fennel seeds]] and [[garlic]]) for hours.<ref>Grêlé D, Raimbault L, Chng N. Discover Singapore on Foot. Select Publishing, 2007. page 158.</ref>
+|-
+|[[Bakso]]
+|[[File:Bakso.jpg|122px]]
+|[[Indonesia]]
+|Meatballs soup
+|Meatball noodle soup in rich beef [[broth]], sometimes include [[bok choy]], noodles, tofu, hard-boiled egg, fried shallots and wontons.<ref name="AP">{{cite news | url=http://www.nydailynews.com/life-style/eats/bakso-indonesian-meatball-soup-president-obama-loved-child-article-1.454324 | title=Bakso: The Indonesian meatball soup President Obama loved as a child | newspaper=[[NY Daily News]] | date=18 November 2010 | access-date=30 January 2015 | agency=Associated Press}}</ref>
+|-
+|[[Barley]]
+|[[File:Vegetable pork barley soup with chicken livers and sour cream, by Silar 2010 I.JPG|122px]]
+|
+|Chunky
+|Barley, vegetables, and broth
+|-
+|[[Batchoy]]
+|[[File:LaPazBatchoy.jpg|122px]]
+|[[Philippines]]
+|Noodle soup
+|A Filipino noodle soup made with pork offal, crushed pork cracklings, chicken stock, beef loin and round noodles.
+|-
+|[[Beef noodle soup]]
+|[[File:Pho-style noodle soup (cropped).jpg|122px]]
+|[[East Asia]]
+|Noodle
+|[[Stewed]] or [[red cooking|red braised]] [[beef]], beef broth, [[vegetable]]s and [[Chinese noodle]]s. It exists in various forms throughout [[East Asia]] and [[Southeast Asia]], and is popular as a [[Chinese cuisine|Chinese]] and [[Taiwanese cuisine|Taiwanese]] [[noodle soup]].
+|-
+|[[Beer soup]]
+|[[File:Beer cheese soup.jpg|122px]]
+|[[Europe]]
+|Beverage soup
+|Recipe from the [[Middle Ages]] using heated [[beer]] and pieces of [[bread]];<ref>[http://www.soupsong.com/rbeer1.html Recipe: DANISH BEER SOUP]</ref> though other ingredients were also used.<ref>{{cite book |url=https://books.google.com/books?id=8zKBmkw0kVIC&q=Beer+soup&pg=PA22 |title=Wild women in the kitchen: 101 ... - Google Books |access-date=26 September 2009 |isbn=9781573240307 |last1=Alper |first1=Nicole |date=January 1996 |publisher=Conari Press }}</ref>
+|-
+|[[Bergen fish soup]]
+|[[File:Fish soup in Bergen.jpg|122px]]
+|[[Norway]]
+|Fish
+|White fish (haddock, halibut, cod) and various vegetables in a heavy cream
+|-
+|[[Bermuda fish chowder]]
+|[[File:Bermuda Fish Chowder (3825239570).jpg|122px]]
+|[[Bermuda]]
+|Chowder
+|Fish, tomato, onion, other vegetables, served with [[black rum]] and "[[sherry]] [[chili pepper|peppers]]". The national dish of Bermuda.
+|-
+|[[Bilo-bilo]]
+|[[File:Ginataang Bilu-Bilo 001.jpg|122px]]
+|[[Philippines]]
+|Dessert
+| A Filipino dessert soup made of small glutinous balls (sticky rice flour rounded up by adding water) in coconut milk, sugar, jackfruit, saba bananas, various tubers, and tapioca pearls.
+|-
+|[[Binakol]]
+|
+|[[Philippines]]
+|Chicken
+|A Filipino chicken soup made from chicken cooked in coconut water with grated coconut, green papaya (or chayote), leafy vegetables, garlic, onion, ginger, lemongrass, and patis (fish sauce).
+|-
+|[[Binignit]]
+|[[File:Binignit (Philippines).jpg|122px]]
+|[[Philippines]]
+|Dessert
+|[[Coconut milk]], [[glutinous rice]], fruits, root crops, and [[tapioca]] pearls, served hot but sometimes chilled
+|-
+|[[Bird's nest soup]]
+|[[File:Bird's Nest soup.jpg|122px]]
+|[[China]]
+|Gelatinous
+|[[Edible bird's nest]], an expensive [[delicacy]] valued for its unusual texture
+|-
+|[[Black sesame soup]]
+|[[File:BlacksesameSoup.jpg|122px]]
+|[[China]]
+|Dessert
+|A sweet soup containing powdered [[black sesame]] seeds and rice, typically served warm
+|-
+|[[Blåbärssoppa]] (Blueberry soup)
+|[[File:Blåbärssoppa.jpg|122px]]
+|[[Nordic countries]]
+|Smooth
+|A sweet, thick soup made from [[bilberries]] (European blueberries) which is popular in [[Sweden]], [[Finland]], and [[Iceland]]. Can be served hot or cold.
+|-
+|[[Bob chorba]]
+|[[File:Bean soup with tomatoes and red peppers.jpeg|122px]]
+|[[Bulgaria]]
+|Bean
+|Dried beans, onions, tomatoes, chubritza (summer savoury) or dzhodzhen (spearmint), carrots
+|-
+|[[Borscht]]/ Borshch
+|[[File:Borscht served.jpg|122px]]
+|[[Eastern Europe]]
+|Chunky
+|[[Cabbage]] and [[beet]]-based soup with meat. May be served hot or cold. A national [[Ukraine|Ukrainian]] dish and wide spread [[Belarus|Belarusian]], [[Poland|Polish]] (with mushrooms instead of cabbage, served on the Christmas Eve) and [[Russia]]n dish.
+|-
+|[[Bouillabaisse]]
+|[[File:Brazilian bouillabaisse.jpg|122px]]
+|[[France]]
+|Fish
+|A type of fish soup from [[Provence|Provençal]], France. 
+|-
+|[[Bouillon (soup)|Bouillon]]
+|[[File:Bouyon bef.jpg|122px]]
+|[[Haiti]]
+|
+|Sliced meat, potatoes, sliced [[cooking banana|plantain]]s, yam, cabbage, and celery. Traditionally prepared on Saturdays
+|-
+|[[Bouneschlupp]]
+|[[File:Bouneschlupp16.jpg|122px]]
+|[[Luxembourg]]
+|
+|Green beans, potatoes, bacon and onions.
+|-
+|[[Bourou-Bourou]]
+|<!--[[File:|122px]]-->
+|[[Greece]] ([[Corfu]])
+|Potage
+|Vegetable and [[pasta]]
+|-
+|[[Bread soup]]
+|[[File:Brotsuppe Kellerhaus Weißenstadt.JPG|122px]]
+|[[Germany]] 
+|Bread 
+|[[Stale bread]] in a [[broth]]
+|-
+|[[Brenebon]]
+|[[File:Brenebon 1.JPG|122px]]
+|The [[Netherlands]] and [[Indonesia]]
+|Beans
+|[[Kidney bean]] soup served in [[pig's trotters]] broth, spiced with [[shallot]], [[garlic]], [[salt]], [[sugar]], [[wikt:pepper|pepper]], [[nutmeg]] and [[clove]]. Mixed with chopped [[green beans]], [[celery]] and [[scallion]].
+|-
+|[[Brown Windsor soup]]
+|
+|[[England]]
+|Chunky
+|[[Lamb and mutton|Lamb]] or [[beef]] steak, [[parsnip]]s, [[carrot]]s, [[leek]]s, [[bouquet garni]], [[Madeira wine]]; popular in England during the [[Victorian era|Victorian]] and [[Edwardian]] eras
+|-
+|[[Bun bo Hue]]
+|[[File:Bunbo.jpg|122px]]
+|[[Vietnam]]
+|Noodle
+|A noodle soup from central Vietnam, with beef.
+|-
+|[[Buridda]]
+|[[File:Buridda di seppie 01.jpg|122px]]
+|[[Italy]] ([[Liguria]])
+|Chunky
+|[[Seafood]] soup or stew.
+|-
+|[[Butajiru]] (Tonjiru)
+|[[File:Jikasei Tonjiru.jpg|122px]]
+|[[Japan]]
+|Chunky
+|[[Pork]] and vegetable soup, flavored with miso. 
+|-
+|[[Butternut soup]]
+|
+|[[South Africa]]
+|Smooth
+|[[Vegetable]] soup, made with butternut. 
+|-
+|[[Cabbage soup]], [[kapusniak]], [[kapustnica]], [[zelnacka]]
+|[[File:Cabbage Soup Kapuśniak 01.JPG|122px]]
+|[[Poland]]<br />[[Slovakia]]<br />[[Russia]]<br />[[Ukraine]]<br />[[Czech Republic]]
+|Chunky
+|[[Sauerkraut]], meat
+|-
+|[[Cacciucco]]
+|[[File:Cacciucco 0422.jpg|122px]]
+|[[Italy]]
+|
+|[[Seafood]] soup or stew.
+|-
+|-
+|[[Caldillo de congrio]]
+|[[File:Caldillo de congrio.jpg|122px]]
+|[[Chile]]
+|Eel
+|[[Conger eel]] heads, [[garlic]], [[onion]], [[coriander]], [[carrot]]s, [[Black pepper|pepper]], chopped tomatoes, cream, boiled potatoes, and conger meat.
+|-
+|[[Caldillo de perro]]
+|<!--[[File:|122px]]-->
+|[[Spain]] (southern)
+|Seafood
+|Seafood, [[hake]], [[garlic]], [[olive oil]], [[lemons]], and [[Seville oranges]].<ref name="Hopkinson2013">{{cite book|last=Hopkinson|first=Simon|title=Roast Chicken and Other Stories|url=https://books.google.com/books?id=4RyZAAAAQBAJ&pg=PT112|date=23 July 2013|publisher=Hyperion|isbn=9781401306144|page=112}}</ref> It is customarily served with sour [[orange juice]].
+|-
+|[[Caldo de pollo]]
+|[[File:Caldo_de_Pollo_(2411932823).jpg|122px]]
+|[[Latin America]]
+|Chunky
+|Whole cuts of chicken, halved potatoes, cabbage leaves, and other large preparations of vegetables.
+|-
+|[[Caldo de queso]]
+|[[File:Caldo_de_queso.jpg|122px]]
+|[[Hermosillo, Sonora|Hermosillo]], [[Sonora]], [[Mexico]]
+|Chunky
+|Potatoes, onions, tomato, green chiles, and oregano are simmered in broth. Cubes of cheese (usually [[queso ranchero]], [[queso fresco]] or [[queso cotija]] are added to the broth at the end of cooking, flavoring the broth and giving the cheese a gummy, chewy texture.
+|-
+|[[Caldo galego]]
+|[[File:Caldo_gallego_-_juantiagues.jpg|122px]]
+|[[Galicia (Spain)|Galicia]], [[Spain]]
+|Chunky
+|Cabbage and other greens simmered with potatoes, white beans, and cuts of pork such as belly, ham, bacon, or chorizo. 
+|-
+|[[Caldo tlalpeño]]
+|[[File:Caldo_tlalpeño.JPG|122px]]
+|[[Mexico]]
+|Chunky
+|A chicken soup with [[chickpea]]s, carrots, onion, green beans, and garlic flavored with [[epazote]], [[cumin]], and [[chipotle]].
+|-
+|[[Caldo verde]]
+|[[File:Caldo verde.jpg|122px]]
+|[[Portugal]] and [[Brazil]]
+|Chunky
+|Potatoes, thinly sliced [[kale]], with slices of ''[[chouriço]]'' added before serving.
+|-
+|[[Callaloo]]
+|[[File:Callaloo.jpg|122px]]
+|[[Caribbean]]
+|Chowder
+|[[Taro]] leaf or other leafy greens, usually with pork or crab added for flavor. The greens referred to as callaloo vary from island to island depending on availability.
+|-
+|[[Canh chua]]
+|[[File:Canhchua2.jpg|122px]]
+|[[Vietnam]]
+|Fish
+|A fish soup from southern Vietnam, made sour with [[tamarind]].
+|-
+|[[Canja de Galinha]]
+|[[File:Canja de galinha.jpg|122px]]
+|[[Portugal]], [[Brazil]], [[Cape Verde]]
+|Chunky
+|Chicken, pasta and lemon, particularly popular in the states of [[Minas Gerais]] and [[Goiás]]
+|-
+|{{ill|Carp soup|cs|Rybí polévka (Česko)}}
+|<!--[[File:Vanocní rybi polevka.jpg|122px]]-->
+|[[Czech Republic]]
+|Fish
+|Carp's head and [[offal]], onion and vegetable. Part of traditional [[Czech people|Czech]] Christmas Eve dinner.
+|-
+|[[Carrot soup]]
+|[[File:Carrot soup.jpg|120px]]
+|
+|
+|Prepared with [[carrot]] as a primary ingredient, it can be prepared as a cream-style soup<ref name="HuffPost 2012" /><ref name="Creasy 2008" /> and as a [[broth]]-style soup.<ref name="ABC" />
+|-
+|[[Cazuela]]
+|[[File:Cazuela ecuatoriana.jpg|120x120px]]
+|[[Latin America]]
+|Chunky
+|Clear broth, rice, potato, squash or pumpkin, corn and chicken or beef. Eaten in [[South America]] and [[Spain]], it combines native and introduced ingredients. Pictured is an Ecuadorian ''cazuela''.
+|-
+|[[Česnečka]]
+|[[File:Česnečka.jpg|122px]]
+|[[Czech Republic]], [[Slovakia]]
+|Brothy
+|A thin garlic soup with sliced potatoes, typically served with fried bread cubes 
+|-
+|Chestnut bisque
+|[[File:Chestnut and parsnip soup.jpg|122px]]
+|[[France]]
+|Bisque
+|[[Chestnut#Culinary|Chestnuts]] are a primary ingredient.
+|-
+|[[Chicken noodle soup]]
+|[[File:Chicken Noodle Soup (8521842725).jpg|122px]]
+|
+|Noodle
+|Chicken, stock, noodles, such as [[egg noodle]]s
+|-
+|[[Chicken soup]]
+|[[File:Southern Chinese style chicken soup with mushrooms and corn.jpg|122px]]
+|
+|Clear or Stock
+|Made from [[Chicken (food)|chicken]] simmered with various other ingredients. Pictured is southern Chinese style chicken soup with mushrooms and corn.
+|-
+|Chicken vegetable soup
+|[[File:KFC Chicken Soup.jpg|122px]]
+|
+|Vegetable soup
+|Chicken, stock, onion, green beans, carrots, potato
+|-
+|[[Chorba]], shorba
+|[[File:Ready kurban chorba.JPG|frameless|120x120px]]
+|[[Balkans]], [[North Africa]], [[Central Europe]], [[Eastern Europe]], [[Central Asia]], [[Middle East]], [[Indian subcontinent]]
+|Stock
+|Regionally recipes are made in different ways, but most all are a thinner, broth soup.
+|-
+|[[Chupe]]
+|[[File:Chupe de Camarones.jpg|122px]]
+|[[Peru]]
+|Chowder
+|Thin, milky seafood soup, also referred to as ''Chupe de Mariscos''
+|-
+|[[Chupe Andino]]
+|
+|[[Andes]]
+|
+|Refers to various soups and stews that are prepared in Andes Mountains region of South America
+|-
+|[[Cioppino]]
+|[[File:Cioppino.jpg|122px]]
+|[[San Francisco]], California
+|Fish
+|Fish stew with tomatoes and a variety of fish and shellfish (Italian-American)
+|-
+|[[Clam chowder]]
+|[[File:Quail 07 bg 041506.jpg|122px]]
+|[[United States]] ([[New England]])
+|Chowder
+|Thick soup made of clams, potatoes, salt pork and onions
+|-
+|[[Cockchafer soup]]
+|[[File:Maikäfersuppe.jpg|122px]]
+|[[Europe]]
+|Smooth or brothy
+|[[Cockchafer]] insects are fried and then simmered in stock, typically served with slices of veal liver or dove breast, and croutons
+|-
+|[[Cock-a-leekie]]
+|[[File:Cock-a-leekie Soup.jpg|122px]]
+|[[Scotland]]
+|Chunky
+|[[Leek]] and potato soup made with chicken stock
+|-
+|[[Coconut soup]]
+|
+|
+|Chunky
+|[[Coconut]] or [[coconut milk]]
+|-
+|[[Cold borscht]] / Šaltibarščiai
+|[[File:Lurid borscht.jpg|122px]]
+|[[Lithuania]]
+|Cold (chilled)
+|Beetroot (or sometimes tomato), popular in Eastern Europe. A [[Lithuania]]n specialty, usually made in summer time in one variety, almost always cold. Based on beets, usually served with either hot boiled or fried potatoes.
+|-
+|[[Consommé]]
+|[[File:Consomme de volaille.jpg|122px]]
+|[[France]]
+|Clear or Stock
+|A type of clear soup made from broth or stock.
+|-
+|[[Corn chowder]]
+|[[File:Corn chowder bowl.jpg|122px]]
+|[[United States]] ([[New England]])
+|Chowder
+|Similar to New England clam chowder, with corn substituted for clams in the recipe
+|-
+|[[Crab meat|Crab]] bisque
+|[[File:Cup of Crab Bisque at Coastal Kitchen.jpg|122px]]
+|[[France]]
+|[[Bisque (food)|Bisque]]
+|Crab stock and heavy cream
+|-
+|Cream of [[apple soup]]
+|<!--[[File:|122px]]-->
+|
+|Cream
+|Granny Smith apples, stock, cream, spices
+|-
+|[[Cream of asparagus]]
+|[[File:Crème d'asperge à la truffe.jpg|122px]]
+|
+|Cream
+|Onions, asparagus, chicken broth, heavy cream
+|-
+|[[Cream of broccoli]]
+|[[File:Cream of broccoli soup.jpg|122px]]
+|
+|Cream
+|[[Broccoli]], stock, and milk or cream as primary ingredients
+|-
+|Cream of [[celery]]
+|[[File:Cream of celery soup.jpg|122px]]
+|
+|Cream
+|
+|-
+|Cream of [[Chicken (food)|chicken]]
+|[[File:Creme de frango.JPG|122px]]
+|
+|Cream
+||Mass-produced in a [[condensed soup]] form, various non-commercial and homemade variations also exist
+|-
+|Cream of [[potato]]
+|[[File:Cream of potato soup (1).jpg|122px]]
+|
+|Cream
+|
+|-
+|Cream of [[tomato]]
+|[[File:Cream of tomato soup.jpg|122px]]
+|
+|Cream
+|
+|-
+|[[Cream of crab soup|Cream of crab]]
+|[[File:Cream of crab soup.jpg|122px]]
+|United States[[Eastern Shore of Maryland|(Eastern Maryland)]]
+|Cream
+|Pictured is Maryland cream of crab soup.
+|-
+|[[Cream of mushroom soup|Cream of mushroom]]
+|[[File:Cream of wild mushroom soup.jpg|122px]]
+|
+|Cream
+|
+|-
+|[[Crème Ninon]]
+|[[File:Cremeninon.JPG|122px]]
+|[[France]]
+|Bisque
+|[[Cooking base|Base]] of a heavy [[Stock (food)|stock]] [[purée]] of [[green pea]]s and dry [[Champagne (wine)|champagne]]
+|-
+|[[Cucumber soup]]
+|[[File:Cucumber soup.jpg|122px]]
+|
+|Cold (chilled)
+|Cucumber soup is known in various cuisines.
+|-
+|[[Cullen skink]]
+|[[File:Cullen Skink.JPG|122px]]
+|[[Scotland]]
+|Fish
+|Smoked [[haddock]], potatoes, onions and cream
+|-
+|[[Curry Mee]]
+|[[File:Malaysian noodles-Curry Mee-01.jpg|122px]]
+|[[Indonesia]] and [[Malaysia]]
+|Noodle
+|Thin yellow [[noodle]]s or/and string thin mee-hoon ([[rice vermicelli]]) with spicy curry soup, [[chile pepper|chilli]]/[[sambal]], [[coconut milk]], and a choice of dried [[tofu]], [[prawns]], [[cuttlefish]], [[chicken]], [[egg (food)|egg]], [[mint leaves]] and [[cockle (bivalve)|cockle]].
+|-
+|[[Dalithoy]]
+|
+|[[India]] ([[Konkan]] region)
+|Hot, Vegetable
+|Soup made with split yellow [[lentil]]s and spices.  It is a Konkani staple that is often served over rice.
+|-
+|[[Dashi]]
+|[[File:JapaneseBouillon Dashi.jpg|122px]]
+|[[Japan]]
+|Cold (chilled)
+|Clear fish stock made with ''[[kombu]]'' (sea kelp) and ''[[katsuobushi]]'' (smoked bonito flakes). ''Dashi'' broth is often used as a base for [[miso soup]] and other Japanese soup broths.
+|-
+|[[Dillegrout]]
+|[[File:Dillegrout, also known at le mess de gyron, girunt, dilgirunt, dilegrout, dillygrout, dilligrout, maupygernon, maupigyrnun, malepigernout, malpigernoun.jpg|122px]]
+|England
+|Stew
+|Chicken pottage made with [[almond milk]], sugar, and spices traditionally presented at coronations of English monarchs by the lord of the manor of [[Addington Palace|Addington]].<ref>{{Cite book|last=Clarkson|first=Janet|title=Soup : a global history|publisher=Reaktion|year=2010|isbn=978-1-86189-774-9|location=London|pages=113–114|oclc=642290114}}</ref>
+|-
+|[[Dinengdeng]]
+|[[File:Dinengdeng.jpg|122px]]
+|[[Philippines]]
+|Fermented
+|A dish of the Ilocano people of the Philippines, similar to [[pinakbet]]. It is classified as a [[bagoong monamon]] (fermented fish) soup-based dish. 
+|-
+|[[Duck soup noodles]]
+|
+|[[Malaysia]]
+|Noodle
+|The dish consists of ingredients such as [[duck]] meat in hot soup with mixed [[herbs]] and [[Chinese noodles#Rice based|Bee sua]] served in particular at [[Penang]] hawker centres.
+|-
+|[[Edikang ikong]]
+|[[File:Edikaikong.JPG|122px]]
+|[[Nigeria]] ([[Cross River State|Cross River]] and [[Akwa Ibom State]]s)
+|Chunky
+|A variety of meat products including beef, [[bushmeat]], cow [[tripe]], [[dried fish]], [[crayfish]], [[common periwinkle|periwinkle]], leaf vegetables, and [[palm oil]]
+|-
+|[[Egg drop soup]]
+|[[File:Egg drop soup (1).jpg|122px]]
+|[[China]]
+|Noodle
+|Savory soup made by pouring beaten eggs into swirling boiling water or broth
+|-
+|[[Egusi sauce|Egusi soup]]
+|[[File:Pot of Egusi soup.jpg|122px]]
+|[[Nigeria]]
+|Chunky ([[Medicine]])
+|A soup thickened with Egusi, the culinary name for various types of seeds from gourd plants, like melon and squash.
+|-
+|[[Ezogelin soup]]
+|[[File:Ezogelin soup, bread, and water.jpg|122px]]
+|[[Turkey]]
+|Chunky
+| Savory soup made by red lentil, bulgur, onion, garlic, salt, olive oil, black pepper, hot pepper and peppermint
+|-
+|[[Escudella i carn d'olla|Escudella]]
+|[[File:Escudella.jpg|122px]]
+|[[Spain]] ([[Catalonia]])
+|Stew
+|A traditional [[Catalan cuisine|Catalan]] meat and vegetable [[stew]] and [[soup]]. Typically during Christmas celebrations.
+|-
+|[[Fabada Asturiana]]
+|[[File:Fabada_en_cazuela_de_barro.jpg|122px]]
+|Spain (Asturias)
+|Chunky
+|Dried large white beans (fabes de la Granja, soaked overnight before use), shoulder of pork (lacón) or bacon (tocino), black pudding (morcilla), chorizo, and saffron (azafrán)
+|-
+|[[Fanesca]]
+|[[File:Fanesca.jpg|122px]]
+|[[Ecuador]]
+|Fish
+|Cod soup
+|-
+|[[Fish soup bee hoon]]
+|[[File:Fish soup bee hoon at Food Junction, May 26, 2013.jpg|122px]]
+|[[Singapore]]
+|Fish/seafood
+|Seafood soup served with thin noodles called Bee hoon.
+|-
+|[[Fish soup|Fish Soup]]
+|[[File:Uha 013.jpg|122px]]
+|
+|Clear or Stock
+|
+|-
+|[[Fisherman's Soup]]
+|[[File:Hungarian soup 03976.jpg|122px]]
+|[[Hungary]]
+|Fish
+|Ηot and spicy river fish soup with a lot of hot paprika ({{langx|hu|Halászlé}})
+|-
+|[[French onion soup]]
+|[[File:Woodsoup.jpg|122px]]
+|[[France]]
+|Potage
+|Deep, rich broth made with onions and beef. Often topped with croutons and [[gruyere cheese]] melted golden on top, over the edges of the bowl.
+|-
+|[[Flädle|Frittatensuppe]]
+|[[File:Frittatensuppe.jpg|122px]]
+|[[Austria]]
+|Clear
+|Broth with crumbled slices of [[pancake]]s, also popular in South Germany and Switzerland (''Pfannkuchensuppe'', ''Flädlisuppe'') 
+|-
+|[[Fruktsoppa]]
+|[[File:Fruit soup (Swedish Varma Koppen) (3077175410).jpg|122px]]
+|[[Sweden]]
+|Dessert soup
+|Typically prepared using dried fruits, and typically served as a dessert dish. It may be served hot or cold.<ref>{{cite book | last=Marrone | first=T. | title=The Beginner's Guide to Making and Using Dried Foods: Preserve Fresh Fruits, Vegetables, Herbs, and Meat with a Dehydrator, a Kitchen Oven, or the Sun | publisher=Storey Publishing, LLC | year=2014 | isbn=978-1-60342-927-6 | url=https://books.google.com/books?id=fgEQAwAAQBAJ&pg=PA313 | page=313}}</ref>
+|-
+|[[Fufu]] and [[Egusi]] soup
+|
+|[[Nigeria]]
+|Chunky
+|Vegetables, meat, fish, and balls of ground [[melon seed]]
+|-
+|[[Fish stock (food)|Fumet]]
+|<!--[[File:|122px]]-->
+|[[Europe]]
+|Clear or Stock
+|Fish stock, often concentrated and used as a base for sauces, and usually made with fish heads and bones
+|-
+|[[Garmugia]]
+|
+|[[Italy]] ([[Lucca]], [[Tuscany]], central Italy)
+|Chunky
+|Primary ingredients include chicken or vegetable [[Stock (food)|stock]] or [[broth]], asparagus, artichoke hearts, [[fava bean]]s, peas, onion and meats, such as [[pancetta]] and [[veal]].<ref>{{cite book | url=https://books.google.com/books?id=RWSOVYWK2WoC&pg=PA63 | title=Cucina Povera: Tuscan Peasant Cooking | pages=63| isbn=9781449402389 | last1=Johns | first1=Pamela Sheldon | date=13 September 2011 | publisher=Andrews McMeel }}</ref><ref>{{cite book | url=https://books.google.com/books?id=y_w-0C1mTXwC&pg=PA77 | title=A Culinary Traveller in Tuscany | pages=77–78| isbn=9781892145680 | last1=Elon | first1=Beth | year=2009 | publisher=New York Review of Books }}</ref>
+|-
+|[[Gazpacho]]
+|[[File:Gazpacho con su guarnición - jlastras.jpg|122px]]
+|[[Spain]]
+|Cold (chilled)
+|Pureed tomato and vegetables
+|-
+|[[Ginataan]]
+|[[File:Ginataang kalabasa at hipon (shrimp, calabaza, green beans, and eggplant in coconut milk) - Philippines.jpg|122px]]
+|[[Philippines]]
+|Chunky
+|Method of cooking using coconut milk. Due to the general nature of the term, it can refer to a number of different dishes, each called ''ginataan'', but distinct from one another.
+|-
+|[[Ginestrata]]
+|
+|[[Italy]] ([[Tuscany]], [[Northern Italy]])
+|Clear or stock
+|Thin, lightly spiced egg-based soup prepared with primary ingredients of egg yolks, chicken stock, and [[Marsala wine]] or white wine
+|-
+|[[Gising-gising]]
+|[[File:Sigarilyasjf1338.JPG|122px]]
+|[[Philippines]]
+|Chunky
+|A spicy Filipino vegetable soup or stew traditionally made with chopped winged beans (sigarillas or sigarilyas), and coconut milk spiced with labuyo chili, garlic, onions, and bagoong alamang (shrimp paste).
+|-
+|[[Goat meat pepper soup]]
+|[[File:Goat meat pepper soup served with bread.jpg|122px]]
+|[[Nigeria]]
+|
+|Common ingredients are [[goat meat]],<ref name="Jideofo" /> [[crayfish]], [[Uziza]], [[Negro Pepper]] (also called Uda Ewentia or Enge) and nutmeg,<ref name="Asika-Enahoro" /> such as Calabash Nutmeg (also called Ehu or Ariwo).
+|-
+|[[Gogi guksu]]
+|[[File:Gogiguksu gulmak.jpg|122px]]
+|[[South Korea]] ([[Jeju Province]])
+|
+|Pork and noodle soup
+|-
+|[[Gomguk]]
+|[[File:Korean.food-Seolleongtang-01.jpg|122px]]
+|[[Korea]]
+|Chunky
+|Beef parts such as ribs, oxtail, brisket, ox's head or ox bones by slow simmering on a low flame. The broth of ''gomguk'' tends to have a milky color, with a rich and hearty taste.
+|-
+|[[Goulash]]
+|[[File:2009-09-gulasch-pörkölt-paprikas-3.jpg|122px]]
+|[[Hungary]]
+|Chunky
+|Meat (usually beef), [[paprika]] and vegetables (especially potatoes). {{langx|hu|gulyás}} translates roughly as [[cowboy]]
+|-
+|[[Ground nut soup]]
+|[[File:Ground nut soup.jpg|122px]]
+|West Africa
+|
+|[[Peanut|Groundnuts]], also known as peanuts
+|-
+|[[Guk|Kimchi guk]]
+|[[File:Korean soup-Kongnamul guk-01.jpg|122px]]
+|[[Korea]]
+|Chunky
+|[[Kimchi]] soup
+|-
+|[[Gumbo]]
+|[[File:Shrimp gumbo.jpg|122px]]
+|[[United States]] ([[Louisiana]])
+|Chunky
+|[[Louisiana Creole cuisine|Creole]] soup from the American South, most popular in New Orleans. Often includes seafood, made with shrimp or crab stock and andouille sausage and thickened with a dark ''[[roux]]''.
+|-
+|[[Guthuk]]
+|[[File:Guthuk_soup.jpg|122px]]
+|[[Tibet]]
+|Chunky
+|A thick soup eaten days before the [[Losar]], the Tibetan New Year, made with various meats, vegetables, and leftover grains
+|-
+|[[Harira]]
+|[[File:Harira.png|122px]]
+|[[Maghreb]]
+|Chunky
+|Popular as a starter but is also eaten on its own as a light snack. There are many variations and it is mostly served during [[Ramadan]], although it can be made throughout the year.
+|-
+|[[Harqma]]
+|
+|[[Maghreb]]
+|Chunky
+|A lamb stew, sometimes using [[sheep's trotters|lamb's trotters]], often consumed during Ramadan.
+|-
+|[[Hot and sour soup]]
+|[[File:Hot-and-Sour-Soup-Bowl.jpg|122px]]
+|[[Asia]]
+|Chunky
+|Soups from several Asian culinary traditions. In all cases, the soup contains ingredients to make it both spicy and sour.
+|-
+|[[Ikan kuah kuning]]
+|[[File:Ikan kuah kuning.jpg|122px]]
+|[[Indonesia]] ([[Maluku Island|Maluku]], [[Papua (province)|Papua]])
+|Fish
+|Fish in a clear yellow broth.<ref>{{cite web |title=Ikan Kuah Kuning |url=https://id.tastemade.com/videos/ikan-kuah-kuning-khas-papua/#:~:text=Ikan%20kuah%20kuning%20adalah%20salah,pedas%20nikmat%20dan%20sangat%20segar. |website=tastemade.com |access-date=21 April 2022 |language=Indonesian}}</ref> It is a side dish of [[Papeda (food)|papeda]].
+|-
+|[[Inubaran]]
+|
+|[[Philippines]]
+|
+|A Filipino chicken stew or soup made with chicken cooked with diced banana pith, coconut milk (gata) or coconut cream (kakang gata), a souring agent, lemongrass, and various spices. 
+|-
+|[[Íslensk Kjötsúpa]]
+|[[File:Meat_soup.JPG|122px]]
+|[[Iceland]]
+|Chunky
+|Meat soup made with lamb and vegetables
+|-
+|[[Soup joumou|Joumou]]
+|[[File:Soup Joumou.jpg|122px]]
+|[[Haiti]]
+|Chunky
+|Mildly spicy squash soup made with pieces of beef, potato, plantains and vegetables such as parsley, carrots, green cabbage, celery and onions. It is eaten every first of January in honor of Haitian independence in 1804.
+|-
+|[[Jusselle]]
+|
+|[[Ancient Roman cuisine|Ancient Rome]]
+|Potage
+|Grated bread, eggs, sage and saffron cooked together in broth
+|-
+|[[Kadyos, baboy, kag langka]]
+|
+|[[Philippines]]
+|Pork
+|[[Pigeon peas]], [[ham hock]], and [[jackfruit]] soured with batuan fruits (''[[Garcinia binucao]]'')<ref>{{cite web |title=It's Time You Know about Kadios⁠ beyond KBL |url=https://pepper.ph/its-time-you-know-about-kadios%E2%81%A0-beyond-kbl/ |website=Pepper.ph |access-date=8 February 2021}}</ref>
+|-
+|[[Kadyos, manok, kag ubad]]
+|
+|[[Philippines]]
+|Chicken
+|[[Pigeon peas]], [[chicken]], and [[banana]] [[pith]]<ref>{{cite web |title=Manok at Kadyos / Purple Chicken With Pigeon Peas |url=http://www.marketmanila.com/archives/manok-at-kadyos-purple-chicken-with-pigeon-peas |website=Market Manila |date=21 October 2007 |access-date=8 February 2021}}</ref><ref>{{cite web |title=Kadyos Beans |url=https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/kadyos-beans/ |website=Ark of Taste |publisher=Slow Food Foundation for Biodiversity |access-date=8 February 2021}}</ref>
+|-
+|[[Kawlata]]
+|
+|[[Malta]]
+|Brothy
+|A primarily vegetable soup made with cabbage and pork, eaten usually during the winter
+|-
+|[[Kesäkeitto]]
+|[[File:Kesäkeitto_DSC04420_C.JPG|122px]]
+|[[Finland]]
+|Chunky
+|Potatoes, carrots, peas, cauliflower and sometimes other seasonal vegetables cooked in milk and butter
+|-
+|[[Kharcho]]
+|[[File:Kharcho meat soup.jpg|122px]]
+|[[Georgia (country)|Georgia]]
+|Chunky
+|Lamb, rice, vegetables and a highly spiced bouillon
+|-
+|[[Kusksu]]
+|[[File:Traditional Maltese Kusksu (Fava Bean Soup).jpg|122px]]
+|[[Malta]]
+|Chunky
+|[[Kusksu]] is a traditional [[Malta|Maltese]] soup made primarily from seasonal [[Vicia faba|broad beans]], small pasta beads - known locally as kusksu - and fresh [[Ġbejna|ġbejniet]]. Although similar is shape, kusksu pasta, which gives the soup its name, is "not to be confused with [[couscous]]".<ref>{{cite web |url=https://www.visitgozo.com/blog/cooking-perfect-kusksu/ |title=Cooking the perfect Kusksu! |date=21 April 2017 |publisher=Visit Gozo |access-date=29 April 2019 }}</ref>
+|-
+|[[Kwati (soup)|Kwāti]]
+|[[File:Buba kwati.jpg|122px]]
+|[[Nepal]]
+|Chunky
+|Mixed soup of nine types of sprouted beans: black gram, green gram, chickpea, field bean, soybean, field pea, garden pea, cowpea, and rice bean
+|-
+|[[Laksa]]
+|[[File:Penang laksa.jpg|122px]]
+|[[Indonesia]], [[Malaysia]], [[Singapore]]
+|Noodle
+|A [[Peranakan cuisine|Peranakan]] noodle soup usually consisting of a spicy curried coconut broth or a tart broth.<ref>{{cite web |url=http://www.citrusandcandy.com/2011/01/assam-laksa-king-of-malaysian-cuisine.html |title=Assam Laksa|publisher=Citrus and Candy|date= 24 January 2011 }}</ref><ref>{{cite news |url=http://www.meemalee.com/2011/05/laksa-lemak-malaysia-gordons-great.html |title=Laksa Lemak Recipe - Malaysia (Gordon's Great Escape)|date= 23 May 2011 }}</ref> Additional ingredients may include meats, fish, tofu, vegetables and herbs.
+|-
+|[[La mian|Lagman]]
+|
+|[[Uzbekistan]]
+|Chunky
+|Pasta, vegetables, ground lamb and numerous spices
+|-
+|[[Leek soup]]
+|[[File:Mon Plaisir, Covent Garden, London (3717184145).jpg|122px]]
+|[[Wales]]
+|Chunky
+|[[Leek]]s and often potatoes. Popular during St. David's Day. Pictured is leek and potato soup.
+|-
+|[[Lettuce soup]]
+|[[File:Butter lettuce soup.jpg|122px]]
+|
+|
+|[[Lettuce]] is a primary ingredient.<ref name="Haedrich">{{cite book | url=https://archive.org/details/soupmakesmeal00kenh | url-access=registration | title=Soup Makes the Meal | publisher=Harvard Common Press | author=Haedrich, Ken | year=2001 | pages=[https://archive.org/details/soupmakesmeal00kenh/page/17 17]–18 | isbn=155832187X}}</ref> Some versions [[purée]] all of the ingredients together, and cream of lettuce soup is a type of lettuce soup.<ref name="Haedrich" /><ref>{{cite book | url=https://books.google.com/books?id=H8lwmA52ltIC&pg=PA160 | title=Whole Food Facts: The Complete Reference Guide | publisher=Inner Traditions / Bear & Co | date=1996 | access-date=6 September 2014 | author=Roehl, Evelyn | pages=160|isbn=089281635X}}</ref>
+|-
+|[[Lentil soup]]
+|[[File:Lentilsouparab.jpg|122px]]
+|
+|Chunky
+|Red, green, or brown [[lentil]]s. Popular in the [[Middle East]] and [[Mediterranean]] area.
+|-
+|[[Linat-an]]
+|
+|[[Philippines]]
+|
+|Pork stew or soup from the [[Visayas]] and [[Mindanao]] islands of the [[Philippines]] that characteristically uses pork ribs (or other bony cuts of pork) simmered until very tender, [[lemongrass]] (tanglad), [[String bean|string]] beans, starchy ingredients for a thicker soup (usually [[taro]]), and various other vegetables.
+|-
+|[[Lobster stew]]
+|[[File:Caldereta.jpg|122px]]
+|[[Spain]]
+|Chunky
+|Cream or stock-based soup with chunks of [[lobster]]
+|-
+|[[Lobster]] bisque
+|[[File:Lobster bisque.jpg|122px]]
+|[[France]]
+|Bisque
+|Lobster stock, heavy cream, and [[sherry]]
+|-
+|Log-log
+|<!--[[File:|122px]]-->
+|[[Philippines]]
+|Noodle
+|[[Egg noodle]] soup (regional variants include ''Kinalas'', ''Batchoy'')
+|-
+|[[Lohikeitto]]
+|[[File:Lohikeitto.jpg|122px]]
+|[[Finland]]
+|Fish
+|[[Salmon]], potatoes (other root vegetables can be added such as [[rutabaga]], carrots, onions), cream, and [[dill]]
+|-
+|[[Lung fung soup]]
+|<!--[[File:|122px]]-->
+|[[China]]
+|Snake
+|Snake, chicken, lemon, chili peppers, and other vegetables.
+|-
+|[[Lyvzha]]
+|<!--[[File:|122px]]-->
+|[[Ossetia]]
+|Beef
+|Beef, potatoes, onion, garlic, carrots and thyme, etc.<ref>{{cite news|last=Plekhanova|first=Zalina|date=27 May 2019|title=How to increase a man's virility with the Ossetian soup: 'lyvzha'|url=https://www.rbth.com/russian-kitchen/330410-how-to-increase-mans-virility-ossetian-soup-lyvzha|work=[[Russia Beyond]]|access-date=21 June 2019}}</ref>
+|-
+|[[Maccu]]
+|[[File:Pasta col macco di fave.jpg|122px]]
+|[[Italy]] ([[Sicily]])
+|Chunky
+|[[Vicia faba|Fava beans]] is a primary ingredient
+|-
+|[[Maki mi]]
+|[[File:Maki Soup Wide.jpg|122px]]
+|[[Philippines]]
+|Noodle soup
+|A Filipino thick pork tenderloin soup originating from the Chinese-Filipino community of Binondo, Manila. It is made from lean pork pounded with a mallet until tender. It is marinated in soy sauce, garlic, black pepper, rice wine or vinegar, and onions before being covered with egg whites or starch (usually starch from corn, sweet potato or tapioca). It is then cooked in boiling beef stock, with beaten eggs dropped and stirred until they form strands. Egg noodles (mami) are also commonly added.
+|-
+|[[Mami soup]]
+|[[File:Mamijf.JPG|122px]]
+|[[Philippines]]
+|Noodle soup
+|A popular Filipino noodle soup made with wheat flour noodles, broth and the addition of meat (chicken, beef, pork) or wonton dumplings. 
+|-
+|[[Mandia peja]]
+|
+|[[India]]
+|
+|An Indian soup made with mandia ([[Finger millet]]) and rice.
+|-
+|[[Manhattan clam chowder]]
+|[[File:ManhattanClamChowder.jpg|122px]]
+|[[United States]] ([[Rhode Island]])
+|Chowder
+|Tomato-based clam chowder
+|-
+|[[Marghi special]]
+|[[File:Cat_Fish_pepper_soup.png|122px]]
+|[[Africa]] ([[West Africa]])
+|Brothy
+|A fish and vegetable soup seasoned with [[tamarind]]. [[Sorrel]], spinach, tomatoes, and bean sprouts are common used.
+|-
+|[[Maryland crab soup]]
+|[[File:Maryland_Crab_Soup.jpg|122px]]
+|[[United States]] ([[Maryland]])
+|Chowder
+|Vegetables, [[Callinectes sapidus|blue crab]], and [[Old Bay Seasoning]] in a tomato base
+|-
+|[[Matzah ball soup]]
+|[[File:MatzahBalls.jpg|122px]]
+|[[Jews|Jewish]] ([[Ashkenazi Jews|Ashkenazi]])
+|Chunky
+|Staple food on [[Passover]]. The Matzah ball [[dumpling]]s are traditionally served in chicken broth with sliced carrots, garnished with chopped parsley. Matzo balls are also referred to as ''knaidel'' or ''knaedle''.
+|-
+|[[Mee ka tee]]
+|[[File:Mee_ka_tee_(Laotian_egg_curry_noodle_soup).jpg|122px]]
+|[[Laos]]
+|Chunky
+|An egg drop soup with rice noodles, ground pork, and peanuts in a coconut milk broth flavored with red curry. It is garnished with fresh shredded cabbage, cilantro, green onions, beansprouts and mint.
+|-
+|[[Melon soup]]
+|[[File:MuskMelonPowderedShrimpBrokenHoneydewNasturtiumProsciutto (8318628657).jpg|122px]]
+|
+|Varies
+|Soup prepared with [[melon]] as a primary ingredient. Pictured is a soup with [[true melon]].
+|-
+|[[Minestrone]]
+|[[File:Minestrone soup.jpg|122px]]
+|[[Italy]]
+|Chunky
+|Vegetables and pasta
+|-
+|[[Miso soup]]
+|[[File:Miso soup 001.jpg|122px]]
+|[[Japan]]
+|Fermented
+|''Dashi'' stock base with dissolved miso paste (fermented rice, [[barley]] and/or soybeans). Common ingredients include tofu and seaweed.
+|-
+|[[Miyeok guk]]
+|[[File:Korea.food-Miyeok.guk-01.jpg|122px]]
+|[[Korea]]
+|Chunky
+|Seaweed soup from Korea, which is traditionally served to women who have just given birth, and people of all genders on their birthdays. Often with shrimp, ''sae-al shim'' (rice cake balls), or potato.
+|-
+|[[Mohinga]]
+|[[File:IMG Mohinga.JPG|122px]]
+|[[Burma]]
+|Fish
+|[[Chickpea flour]] and/or crushed toasted rice, [[garlic]], [[onion]]s, [[lemongrass]], [[banana|banana tree stem]], [[ginger]], fish paste, [[fish sauce]], and [[catfish]] in a rich broth. Served with [[rice vermicelli]].
+|-
+|[[Mote de queso]]
+|[[File:Mote_de_queso.jpg|122px]]
+|[[Colombia]]
+|Cheese
+|Made with ñame (yam) and Costeño cheese.
+|-
+|[[Mole de olla]]
+|[[File:Mole_de_olla.jpg|122px]]
+|[[Mexico]]
+|Chunky
+|Beef chuck and shank, [[xoconostle]] (a kind of edible cactus), [[chayote]], [[zucchini]], [[green bean]]s, [[Maize|corn]], potatoes, and cabbage in a broth flavored with a [[Mole (sauce)|mole]] of ground [[guajillo chili|guajillo]] and [[pasilla|pasilla chiles]], garlic, onion, and [[epazote]]. It is garnished with chopped [[serrano pepper]] and limes.
+|-
+|[[Mulligan stew (food)|Mulligan stew]]
+|<!--[[File:|122px]]-->
+|[[United States]]
+|Chunky
+|An improvised stew made by early 20th century [[hobo]]s, typically made communally with whatever ingredients are available. Potatoes and onions were common, along with meat and other vegetables, sometimes canned, and whatever could be begged, scavenged, found or stolen.
+|-
+|[[Mulligatawny]]
+|[[File:Mulligatawny.jpg|122px]]
+|[[India]]
+|Chunky
+|Meat, vegetables, and spices. Based on an Indian sauce recipe.
+|-
+|[[Naengmyeon]]
+|[[File:Mul naengmyeon by woinary in Tokyo International Airport.jpg|122px]]
+|[[Korea]]
+|Cold (chilled)
+|[[Buckwheat]] noodles in a tangy iced beef broth, raw julienned vegetables, a slice of a [[Korean pear]], and often a boiled egg and/or cold beef
+|-
+|[[Nettle soup]]
+|[[File:St John Restaurant, Smithfield, London (3445306202).jpg|122px]]
+|
+|Chunky
+|Tender shoots of the [[Urtica dioica|stinging nettle]], popular in [[Scandinavia]] and [[eastern Europe]]
+|-
+|[[New England clam chowder]]
+|[[File:Quail 07 bg 041506.jpg|122px]]
+|[[United States]] ([[New England]])
+|[[Chowder]]s
+|Bacon, ''[[mirepoix (cuisine)|mirepoix]]'', [[clam juice]] and heavy cream, with other ingredients such as potatoes and chopped clams
+|-
+|[[Nikujaga]]
+|[[File:Braised_pork_and_potatoes_(3089327692).jpg|122px]]
+|[[Japan]]
+|
+|Meat, potatoes and onion stewed in sweetened soy sauce, sometimes with ito konnyaku and vegetables
+|-
+|[[Nilaga]]
+|[[File:Bulacan,Batangasjf8355 22.JPG|122px]]
+|[[Philippines]]
+|
+|A traditional meat stew or soup from the [[Philippines]] made with boiled [[beef]] (''nilagang baka'') or [[pork]] (''nilagang baboy'') with various vegetables. It is typically eaten with [[white rice]] and is served with [[soy sauce]], [[patis (sauce)|patis]] (fish sauce), [[labuyo chili]]s, and [[calamansi]] on the side.<ref name="cv">{{cite web |title=Nilagang Baboy (Boiled Pork and Vegetables) |url=https://casaveneracion.com/nilagang-baboy-boiled-pork-ribs-with-vegetables/ |website=Casa Veneracion |access-date=9 September 2021}}</ref><ref name="Cailan">{{cite book |last1=Cailan |first1=Alvin |last2=Cuerdo |first2=Alexandra |title=Amboy: Recipes from the Filipino-American Dream |date=2020 |publisher=Houghton Mifflin Harcourt |isbn=9781328931733 |pages=27–28}}</ref>
+|-
+|[[Nsala soup]]
+|[[File:Igbo_cuisine,_ofe_nsala.jpg|122px]]
+|[[Nigeria]]
+|Fish
+|[[Catfish]] simmered in a broth with yams and flavored with [[ogiri]] or [[iru (food)|iru]], utazi, crayfish, and [[stock fish]]
+|-
+|[[Odong]]
+|[[File:Odong with sardines guisado (Philippines) 02.jpg|122px]]
+|[[Philippines]]
+|
+|A Filipino [[noodle soup]] made with {{lang|ceb|odong}} noodles, [[canned sardines]] in tomato sauce, [[bottle gourd]] ({{lang|ceb|upo}}), [[loofah]] ({{lang|ceb|patola}}), [[chayote]], ginger, garlic, [[red onions]], and various other vegetables.<ref name="teds">{{cite web |title=Sardines with Odong Noodles |url=https://kusinaniteds.com/2019/06/sardines-with-odong-noodles.html |website=Kusina ni Teds |access-date=18 January 2022}}</ref>
+|-
+|[[Ofe onugbo]]
+|[[File:Bitter leaf soup (Ofe Onugbu).jpg|122px]]
+|[[Igboland|Igbo people]], [[Nigeria]]
+|Assorted meat/fish
+|A local [[Igbo people|Igbo]] soup made with [[Ogiri|<nowiki>''ogiri''</nowiki>local]] seasoning and bitterleaf, with meat, smoked fish, stock fish, cow tripe, and local cocoyam (''ede uri''] paste as thickner 
+|-
+|Oi naengguk
+|[[File:Korean cold cucumber soup-Oi naengguk-01.jpg|122px]]
+|[[Korea]]
+|Cold
+|A Korean [[naengguk]] made with cucumber and garlicky, sour, salty, sweetish broth. Typically eaten as a refreshing side dish in summer.
+|-
+|[[Okra soup]]
+|[[File:Sayur oyong.JPG|122px]]
+|
+|
+|[[Okra]]
+|-
+|[[Okroshka]]
+|[[File:Okroshka, Russian okroshka, Rostov-on-Don, Russia.jpg|122px]]
+|[[Ukraine]]<br />[[Russia]]
+|Cold (chilled)
+|[[Kvass]]-based vegetable and ham soup
+|-
+|[[Oxtail soup]]
+|[[File:Sup Buntut - Nelayan Indonesian Restaurant.jpg|122px]]
+|
+|Chunky
+|Any soup that uses [[oxtail|beef tails]]
+|-
+|[[Palm nut soup]]
+|[[File:Palm nut soup close up.jpg|122px]]
+|[[Central Africa|Central]] and [[West Africa]]
+|
+|[[Palm kernel]]
+|-
+|[[Palóc soup]]
+|[[File:Palócleves - Gundel.jpg|122px]]
+|[[Hungary]]
+|Chunky
+|A meat (typically beef, pork, or [[mutton]]) and vegetable soup similar to goulash, soured with vinegar or lemon juice and the addition of sour cream
+|-
+|[[Panada]]
+|
+|[[Europe]]
+|Potage
+|Bread soup made with leftover [[bread]], [[egg (food)|eggs]], beef broth and [[Parmigiano-Reggiano]] Cheese.<ref name="happystove.com">{{cite web |url=http://www.happystove.com/recipe/68/Panada+(Bread+Soup) |title=Panada recipe }}</ref>
+|-
+|-
+|[[Panadelsuppe]]
+|[[File:Panadelsuppe.jpg|122px]]
+|[[Austria]]
+|Bread
+|Made with broth, [[bread rolls|rolls]] and eggs
+|-
+|[[Pancit buko]]
+|
+|[[Philippines]]
+|
+|A Filipino dish made from very thin strips of young coconut (buko) meat with various spices, vegetables, and meat or seafood.
+|-
+|[[Pancotto]]
+|[[File:Pane cotto.jpg|122px]]
+|[[Italy]]
+|Vegetable soup
+|Prepared with pieces of stale bread boiled in broth or water and seasoned.
+|-
+|[[Pappa al pomodoro]]
+|[[File:PappaPomodoro.png|122px]]
+|[[Italy]]
+|Bread soup
+|Typically prepared with fresh tomatoes, bread, olive oil, garlic, basil, and various other fresh ingredients. It is usually made with stale or leftover bread, and can be served hot, room temperature, or chilled
+|-
+|[[Pasta fagioli]]
+|[[File:Pasta e fagioli rapida.jpg|122px]]
+|[[Italy]]
+|Noodle
+|Slow cooked beans, pasta and vegetables.
+|-
+|[[Pasulj]]
+|[[File:Šareni pasulj obrok (pinto beans).jpg|122px]]
+|[[Balkans]]
+|Chunky
+|Smoked meat, such as bacon, sausage, or ham hocks, cooked with beans and typically eaten during the winter months 
+|-
+|[[Pawpaw soup]]
+|
+|[[Nigeria]]
+|
+|Beef, [[egusi]], dried pawpaw flakes and palm oil cooked together
+|-
+|[[Pea soup]]
+|[[File:Yellow Split Pea Soup.jpg|122px]]
+|
+|Chunky
+|One of any cosmopolitan soups using [[peas]] as the primary ingredient. Other vegetables and different cuts of pork are commonly used to flavor the soup. [[Split pea soup]] uses [[split pea]]s in particular. Pictured is Canadian yellow pea soup.
+|-
+|[[Peanut soup]]
+|[[File:Fufu.jpg|122px]]
+|[[Africa]]
+|Chunky
+|Made from [[peanut]]s, popular in [[African cuisine]]. Pictured is peanut soup (left) with [[fufu]].
+|-
+|[[Peppersoup]]
+|[[File:Assorted meat pepper soup at Lagos Island.jpg|122px]]
+|[[Nigeria]]
+|Brothy
+|A thin, spicy soup containing various meats or fishes, flavored with chili peppers, [[Ocimum gratissimum|clove basil]] and [[Monodora myristica|calabash nutmeg]]
+|-
+|[[Philadelphia Pepper Pot]]
+|<!--[[File:|122px]]-->
+|[[United States]] ([[Philadelphia]])
+|Chunky
+|[[Beef]] [[tripe]] and pepper soup
+|-
+|[[Phở]]
+|[[File:Pho-Beef-Noodles-2008.jpg|122px]]
+|[[Vietnam]]
+|Noodle
+|Staple noodle soup made by simmering [[Bone marrow|marrow]]-rich beef leg bones and knuckles with [[star anise]], [[cinnamon]], [[clove]], [[cardamom]], [[coriander]], [[fennel]], charred [[ginger]], and charred [[onion]] to create the broth, served with rice noodles and various meats. ''Pho Dac Biet'', or "Special Combination" Pho, usually includes rare beef slices, beef balls, [[tripe]], and flank meat. Pho is garnished to taste with [[thai basil]], squeezed lime, [[jalapeños]], [[bean sprouts]], and sometimes [[culantro]]. [[Sriracha]] and [[hoisin sauce]] are also popular additions. Chicken, seafood and vegetarian varieties also exist.
+|-
+|[[Pickle soup]]
+|[[File:Rassolnik (1).jpg|122px]]
+|
+|Chunky
+|Various types of [[Pickling|pickled]] vegetables, [[dill pickle]] soup is a variety of pickle soup prepared with [[pickled cucumber]].<ref name="WCA">{{cite book | url=https://books.google.com/books?id=adO88lhxff4C&pg=PA333 | title=What's Cooking America | pages=333| isbn=9781560447924 | last1=Stradley | first1=Linda | last2=Cook | first2=Andra | date=March 2000 | publisher=Globe Pequot Press }}</ref> Pictured is kidney and pickle soup with barley ([[rassolnik]]).
+|-
+|[[Pork blood soup]]
+|[[File:Namtok-noodles102.jpg|122px]]
+|[[Thailand]]
+|
+|[[Thai cuisine]];<ref>{{cite news | url=http://www.laweekly.com/squidink/2014/07/09/where-to-find-khao-soi-the-excellent-thai-noodle-dish-youre-not-ordering | title=Where to Find Khao Soi, The Excellent Thai Noodle Dish You're Not Ordering | newspaper=[[LA Weekly]] | date=9 July 2014 | access-date=7 September 2014 | author=Gordon, James}}</ref> one version is called ''tom lueat mu''. Also a part of [[Chinese cuisine]], and was consumed by laborers in [[Kaifeng]] "over 1,000 years ago".<ref>{{cite book | url=https://books.google.com/books?id=mz9r_eg3LDoC&pg=PA30 | title=Offal: A Global History | pages=30| isbn=9781780231341 | last1=Edwards | first1=Nina | date=June 2013 | publisher=Reaktion Books }}</ref>
+|-
+|[[Powsowdie]]
+|
+|[[Scotland]]
+|Chunky
+|[[Sheep]]'s head and [[Sheep trotters|trotters]] cooked in a broth, sometimes with dried pea and barley 
+|-
+|[[Pozole]]
+|[[File:Pozole.jpg|122px]]
+|[[Mexico]]
+|Chunky
+|Pork or chicken meat and broth, [[hominy]], onion, garlic, dried chiles and cilantro, in a thick, hearty soup
+|-
+|[[Prawn soup]]
+|[[File:Penang_Har_Mee.jpg|122px]]
+|
+|Chunky<br/>chowder
+|One of any cosmopolitan soups that use [[prawn]]s or [[shrimp]] as a primary ingredient
+|-
+|[[Prdelačka]]
+|[[File:Prdelačka.jpg|122px]]
+|[[Czech Republic]]
+|Chunky
+|Pig blood, cooked in pork broth with potato, [[Groat (grain)|groat]], onion and garlic. It is traditionally made as a part of [[pig slaughter]].
+|-
+|[[Psarosoupa]] (ψαρόσουπα)
+|<!--[[File:|122px]]-->
+|[[Greece]]
+|Fish
+|Oil-and-lemon sauce, vegetables, rice, and salt-water fish
+|-
+|[[Pumpkin]]
+|[[File:Cremas de calabaza-2.jpg|122px]]
+|[[North America]]
+|Smooth or chunky
+|Pumpkin cream soup may contain some green pepper (Italian), red bell pepper, onion, salt and some oil. ''[[Rucola]]'' leaves top the soup.
+|-
+|[[Purée Mongole]]
+|
+|
+|Smooth or chunky
+|Split peas, tomatoes, carrots, onions, white turnips, leeks, stock (beef or chicken), milk; simplified versions may be made using canned, condensed pea and tomato soups as a base; also called Cream Mongole
+|-
+|[[Ramen]]
+|[[File:Soy ramen.jpg|122px]]
+|[[Japan]]
+|Noodle
+|Fresh or dried noodles in a variety of broths with a variety of toppings such as roast pork, onion, herbs, and vegetables 
+|-
+|[[Rasam (dish)|Rasam]]
+|[[File:Rasam (closeup).jpg|122px]]
+|[[India]] (southern)
+|Potage
+|Broth made in various ways using different spices and [[tamarind]]
+|-
+|[[Rassolnik]]
+|[[File:Рассольник по-ленинградски.JPG|122px]]
+|[[Russia]]
+|Chunky
+|[[Dill pickle]] soup. It usually contains groats, such as [[pearl barley]], rice or oatmeal, potatoes, greens and herbs. It is either vegetarian or more commonly made with meat (often [[offal]], such as kidney).
+|-
+|[[Rawon]]
+|[[File:Rawon Setan II.jpg|122px]]
+|[[Indonesia]] ([[Surabaya]])
+|Chunky beef
+|A beef soup in ''[[Pangium edule|keluak]]''-flavored broth. Specialty of the city of [[Surabaya]], [[East Java]].
+|-
+|[[Ribollita]]
+|[[File:Minestra di pane.jpg|122px]]
+|[[Italy]] ([[Tuscany]])
+|
+|A bread soup, panade, porridge, or potage made with bread and vegetables, often from leftovers
+|-
+|Rishtay / Rqaq o Adas
+|[[File:Rishtay.png|left|frameless|122px]]
+|[[Middle East]] ([[Palestinians|Palestinian]])
+|Bean / Noodle
+|A whole lentil soup made with hand cut wheat noodles (similar to linguine) and flavored with fried garlic.
+|-
+|[[Rose hip soup]] (Nyponsoppa)
+|[[File:Nyponsoppa.jpg|122px]]
+|[[Sweden]]
+|Watery
+|A soup made from blended [[rose hips]], usually served for breakfast or dessert
+|-
+|[[Rumford's Soup]]
+|[[File:Rumfordsuppe.jpg|122px]]
+|[[Germany]] ([[Munich]], [[Bavaria]])
+|Potage
+|Simple soup prepared with [[barley]] or barley meal and dried peas as primary ingredients that was utilized to feed impoverished people.<ref>{{cite book | last1=Kellogg | first1=D.O. | last2=Baynes | first2=T.S. | last3=Smith | first3=W.R. | title=The Encyclopædia Britannica: New American supplement. A-ZUY | publisher=Werner | series=The Encyclopædia Britannica: A Dictionary of Arts, Sciences, and General Literature. Original 9th Ed. in 25 Vols | year=1903 | url=https://books.google.com/books?id=Su8hAQAAMAAJ&pg=PA673 | access-date=24 January 2015 | page=673}}</ref>
+|-
+|[[Saimin]]
+|[[File:Wontonsaimin.jpg|122px]]
+|[[United States]] ([[Hawaii]])
+|Noodle
+|Fresh, soft, undried egg noodles in bonito [[fish]] or [[shrimp]] broth with Chinese, Japanese, Filipino, Hawaiian, Korean, and Portuguese influences
+|-
+|[[Salmorejo]]
+|[[File:Salmorejo 4.jpg|122px]]
+|[[Spain]]
+|Cold (chilled)
+|Tomato soup with [[garlic]] and bread crumbs
+|-
+|[[Sambar (dish)|Sambar]]
+|[[File:Vadai&Sambar.jpg|122px]]
+|[[India]]
+|Chunky, gelatinous
+|Sambar, also spelt sambhar, is a [[lentil]]-based [[vegetable]] [[stew]] or [[chowder]] based on a broth made with [[tamarind]] popular in [[South Indian]] and [[Sri Lankan Tamils|Sri Lankan Tamil]] cuisines, adapted in each to its taste and environment.
+|-
+|[[Samgyetang]]
+|[[File:KOCIS Korea Malbok Samgyetang 03 (9493375058).jpg|122px]]
+|[[Korea]]
+|Chunky
+|Chicken [[ginseng]] soup made with [[glutinous rice]], [[jujube]]s, [[chestnut]]s, [[garlic]], and [[ginger]]
+|-
+|[[Sayur Asem]]
+|[[File:Sayur asem vegetable soup.jpg|122px]]
+|[[Indonesia]]
+|Cold
+|An Indonesian vegetable soup that is sour and spicy
+|-
+|[[Sayur Lodeh]]
+|[[File:Sayur lodeh.JPG|122px]]
+|[[Indonesia]] ([[Java]])
+|Chunky vegetable soup
+|Vegetables stew in coconut milk based soup.
+|-
+|[[Scotch Broth]]
+|[[File:Lunch at Inveraray Castle - Scotch broth (14342541740).jpg|122px]]
+|[[Scotland]]
+|Potage
+|[[Mutton]], [[barley]], and various vegetables
+|-
+|[[Shark fin soup]]
+|[[File:Chinese cuisine-Shark fin soup-01.jpg|122px]]
+|[[China]]
+|Gelatinous
+|An expensive Chinese delicacy using [[Shark's fin|shark fins]], valued for their texture; considered controversial for the killing of sharks for only their fins.
+|-
+|[[Shchav]], [[sorrel soup]], [[green borscht]], [[green shchi]]
+|[[File:Sorrel soup with egg and croutons (Zupa szczawiowa z jajkiem i grzankami).jpg|122px]]
+|[[Eastern Europe]]
+|Chunky
+|Made from [[water]] or [[broth]], [[sorrel]] leaves, and [[Edible salt|salt]]. Varieties of the same soup include [[spinach]], [[garden orache]], [[chard]], [[Urtica dioica|nettle]], and occasionally [[Taraxacum officinale|dandelion]], [[Aegopodium podagraria|goutweed]] or [[Allium ursinum|ramsons]], together with or instead of sorrel.
+It is known in [[Jewish cuisine|Ashkenazi Jewish]], [[Belarusian cuisine|Belarusian]], [[Estonian cuisine|Estonian]], [[Hungarian cuisine|Hungarian]], [[Latvian cuisine|Latvian]], [[Lithuanian cuisine|Lithuanian]], [[Romanian cuisine|Romanian]], [[Armenian cuisine|Armenian]], [[Georgian cuisine|Georgian]], [[Polish cuisine|Polish]], [[Russian cuisine|Russian]] and [[Ukrainian cuisine|Ukrainian]] cuisines.
+|-
+|[[Shchi]]
+|[[File:Schi.jpg|122px]]
+|[[Russia]]
+|Chunky
+|Cabbage soup, a national Russian dish.
+|-
+|[[Seafood chowder]]
+|[[File:Seafood_chowder_with_pieces_of_fish.JPG|122px]]
+|[[Ireland]]
+|Chowder
+|Salmon, mussels, shrimp, and [[scallop]]s in a cream base
+|-
+|[[She-crab soup]]
+|[[File:She-Crab Soup.jpg|122px]]
+|[[United States]] ([[Charleston, South Carolina]])
+|Chowder
+|Blue crab meat and crab roe
+|-
+|Shrimp bisque
+|[[File:Shrimp Bisque.jpg|122px]]
+|[[France]]
+|Bisque
+|[[Shrimp (food)|Shrimp]]
+|-
+|[[Sinabawang gulay]]
+|[[File:Laswa.jpg|122px]]
+|[[Philippines]]
+|
+|A Filipino vegetable soup made with leafy vegetables (usually moringa leaves) and various other vegetables in a broth seasoned with seafood stock or patis (fish sauce).
+|-
+|[[Sinigang]]
+|[[File:Sinigang na Baboy.jpg|122px]]
+|[[Philippines]]
+|
+|A Filipino soup or stew characterized by its sour and savoury taste. It is most often associated with tamarind (Filipino: sampalok), although it can use other sour fruits and leaves as the souring agent. It is one of the more popular dishes in Filipino cuisine. 
+|-
+|[[Sishen soup]]
+|[[File:ShiShenTang.JPG|122px]]
+|[[Taiwan]]
+|Chunky
+|Typically made using traditional Chinese medicine ingredients and is a popular dish in night markets and eateries across Taiwan. The broth of tends to have a milky color, with a rich and hearty taste.
+|-
+|[[Sliced fish soup]]
+|[[File:Sliced fish soup, Pek Kio Market & Food Centre (25065937730).jpg|122px]]
+|[[Singapore]]
+|Fish
+|Fish, prawns, and vegetables
+|-
+|[[Snert]]
+|[[File:Erwtensoep roggebrood katenspek.jpg|122px]]
+|[[Netherlands]]
+|Chunky
+|Thick pea soup, eaten in the winter, traditionally served with sliced sausage
+|-
+|[[Solyanka]]
+|[[File:Soljanka with olives.jpg|122px]]
+|[[Russia]]
+|Chunky
+|Pickled cucumbers, sausages, smoked meat, fish or mushrooms, olives
+|-
+|[[Sop saudara]]
+|[[File:Sop Saudara 1.JPG|122px]]
+|[[Indonesia]] ([[Makassar]])
+|Chunky
+|Spicy [[beef]] soup contains bits of beef and [[offal]]s (usually fried cow's lungs), [[rice vermicelli]], ''[[perkedel]]'' (fried potato patty) and hard [[boiled egg]].<ref name="tv">{{cite news|author=Usman|title=Wisata Kuliner Makassar: Menikmati Sop Saudara Dan Ikan Bandeng Bakar Khas Pangkep|url=http://www.makassartv.co.id/index.php?option=com_content&view=article&id=7389&catid=3&Itemid=56|access-date=9 May 2016|archive-url=https://web.archive.org/web/20160305045032/http://makassartv.co.id/index.php?catid=3&id=7389&itemid=56&option=com_content&view=article|archive-date=5 March 2016|url-status=usurped}}</ref>
+|-
+|[[Sopa de fideo]]
+|[[File:Sopita de fideo (regular), chicken, avocado, corn.jpg|122px]]
+|[[Spain]], [[Mexico]], [[Philippines]]
+|Brothy
+|Spanish and Mexican sopa de fideo ("noodle soup") is made by browning thin wheat flour noodles slightly before cooking them in broth; vegetables and seasoning are usually added as well. Filipino sopa de fideo uses [[glass noodles]] in chicken stock and may include other meat and vegetable additions. 
+|-
+|[[Sopa de Gato]]
+|<!--[[File:|122px]]-->
+|[[Spain]] (southern)
+|
+|Simple soup, typically includes water, bread, oil, garlic, and salt
+|-
+|[[Sopa de lima]]
+|[[File:Sopa_de_lima.jpg|122px]]
+|[[Yucatan]], [[Mexico]]
+|Chicken
+|Chicken and vegetables like tomato and bell pepper in a chicken broth flavored primarily with lime juice, often served with tortilla chips
+|-
+|[[Sopas]]
+|[[File:8475Photos taken 2020 coronavirus pandemic Baliuag, Bulacan 17.jpg|122px]]
+|[[Philippines]]
+|Noodle soup
+|A Filipino macaroni soup made with elbow macaroni, various vegetables, and meat (usually chicken), in a creamy broth with evaporated milk. 
+|-
+|[[Soto (food)|Soto]]
+|[[File:Soto Babat 2.jpg|122px]]
+|[[Indonesia]]
+|Chunky
+|Rich soups based on various spice pastes, broths and sometimes [[coconut milk]], often named by their originating region. ''Soto'' usually features numerous garnishes, including sprouts, [[sambal]], crackers, fritters, and sometimes noodles.
+|-
+|[[Soto ayam]]
+|[[File:Soto ayam.JPG|122px]]
+|[[Indonesia]]
+|Noodle
+|Rich chicken soup with shredded chicken and rice noodles. Served with a variety of garnishes, which may include bean sprouts, hard-boiled egg, green onions, fried shallots, sambal, compressed rice cakes, [[emping]] (''melinjo'' nut crackers) and potato fritters.
+|-
+|[[Soup Number Five|Soup No. 5]]
+|
+|[[Philippines]]
+|Chunky ([[aphrodisiac]])
+|The main ingredient of this dish are the bull's [[testes]] or/and [[penis]], other ingredients include lemongrass, thai chili peppers, green onion, ginger, onions, garlic and fish sauce.
+|-
+|[[Sour cherry soup]]
+|[[File:Sour cherry soup.jpg|122px]]
+|[[Hungary]]
+|Cold (chilled)
+|{{langx|hu|meggyleves}}. [[Sour cherries]], [[sour cream]]
+|-
+|[[Sour rye soup]], [[white borscht]], [[żur]]
+|[[File:Żurek w chlebku.JPG|122px]]
+|[[Poland]], [[Belarus]]
+|
+|Made of [[fermentation (food)|soured]] [[rye]] flour (akin to [[sourdough]]) and meat (usually boiled pork [[sausage]] or pieces of smoked sausage, bacon or ham)
+|-
+|[[Sour soup]] (fish soup)
+|<!--[[File:|122px]]-->
+|[[Vietnam]]
+|Fish
+|Rice, fish, various vegetables, and in some cases [[pineapple]]. The term also refers to various soups in a number of national cuisines.
+|-
+|[[Spinach soup]]
+|[[File:Cream of spinach soup (rotated).jpg|120px]]
+|
+|Broth- or cream-based
+|Prepared using [[spinach]] as a main ingredient
+|-
+
+|Squash bisque
+|[[File:Butternut squash bisque at Sobu in Knoxville, TN.jpg|122px]]
+|[[France]]
+|Bisque
+|
+|-
+|[[Stone soup]]
+|<!--[[File:|122px]]-->
+|[[Portugal]]
+|Chunky
+|Pork meat products (such as black ''chouriço'', common ''chouriço'' and bacon), [[red bean]]s, and [[coriander]]
+|-
+|[[Stracciatella (soup)|Stracciatella]]
+|[[File:Straciatella_-_bowl.JPG|122px]]
+|[[Italy]]
+|Broth with chunks
+|Made by drizzling a preparation based on beaten eggs into boiling meat broth while stirring.
+|-
+|[[Sulu köfte]]
+|[[File:Sulu koftes.jpg|122px]]
+|[[Turkey]]
+|Chunky
+|Ground meat, rice, spices, broth
+|-
+|[[Sup Kambing]]
+|[[File:Sup kepala kambing.jpg|122px]]
+|[[Indonesia]] and [[Malaysia]]
+|Chunky
+|Goat meat, tomato, celery, spring onion, ginger, candlenut and lime leaf, its broth is yellowish in color
+|-
+|[[Suam na mais]]
+|[[File:3182Corn and malunggay soup with shrimps Suam na Mais 02.jpg|122px]]
+|[[Philippines]]
+|Chunky/Seafood
+|Corn kernels, shrimp, pork, leafy vegetables
+|-
+|[[Taco soup]]
+|[[File:Taco soup.jpg|122px]]
+|[[United States]]
+|Chunky
+|Similar ingredients to those used inside a [[taco]]: [[ground beef]], [[tomato]]es, chopped green chilis, [[olive]]s, [[onion]]s, [[maize|corn]], [[bean]]s, and a packet of taco [[seasoning]].<ref>{{Citation | last = Crider   | first = Kitty   | title = Flavors of traditional foods can make some tasty soups | newspaper = The Spokesman-Review  | page = 33  | date = 29 January 2003 | url =https://news.google.com/newspapers?id=EWZWAAAAIBAJ&pg=6846,5434048&dq=taco-soup&hl=en| access-date = 18 April 2012}}</ref> Vegetarian versions combine beans with the other ingredients, except for the ground beef.<ref>{{Citation | title = Taco Soup Has A Flavorful Combination | newspaper = The Mount Airy News (Mount Airy, North Carolina) | page = 9  | date = 18 October 1995 | url =https://news.google.com/newspapers?id=lnRAAAAAIBAJ&pg=5282,2195689&dq=taco-soup&hl=en | access-date = 18 April 2012}}</ref>
+|-
+|[[Taiwanese beef noodle soup]]
+|[[File:Taiwanese_Beef_Noodle_Soup.jpg|122px]]
+|[[Taiwan]]
+|Brothy
+|Beef chunks simmered in broth for hours, served with noodles, and made distinct by the addition of [[suan cai]] and green onions served on top, sometimes with other vegetables cooked in the broth
+|-
+|[[Talabaw]]
+|[[File:Talabaw (cropped).jpg|122px]]
+|[[Myanmar]]
+|Brothy to stewlike
+|Primary ingredient is [[Bamboo shoot|bamboo shoots]], with a small amount of rice and some shreds of meat or seafood.<ref name="mmtime">{{Cite news |date=11 September 2019 |title=Top Ten Kayin things to experience |work=[[The Myanmar Times]] |url=https://www.mmtimes.com/news/top-ten-kayin-things-experience.html?qt-social_plugin=1 |url-status=dead |archive-url=https://web.archive.org/web/20220827185136/https://www.mmtimes.com/news/top-ten-kayin-things-experience.html |archive-date=27 August 2022}}</ref><ref name="kyaw">{{Cite web |last=Kyaw |first=Min Ye |date=2018-07-17 |title=Ethnic recipe: Karen Tarlapaw soup |url=https://www.myanmore.com/2018/07/ethnic-recipe-karen-tarlapaw-soup/ |access-date=2022-12-26 |website=[[Myanmore Magazine]] |language=en-US}}</ref><ref name="locpass">{{Cite web |title=Traditional Foods of Kayin State, Myanmar |url=https://www.mylocalpassion.com/posts/traditional-foods-of-kayin-state |access-date=2022-12-27 |website=MyLocal Passion}}</ref><ref name=":1">{{Cite web |title=ရာသီစာကရင့်ရိုးရာမျှစ်တာလပေါ့ဟင်း |url=https://www.bnionline.net/mm/news-5895.html |access-date=2023-01-11 |website=BNI |language=my}}</ref> One of the most well known soups in Myanmar, and widely considered to be the essential dish of [[Karen people|Karen]] cuisine.<ref name="dine">{{Cite web |last=Duwun |title=ကရင်မိသားစုတွေရဲ့ထမင်းဝိုင်းမှာ မပါမဖြစ်တာလပေါဟင်းတစ်ခွက် |url=https://www.duwun.com.mm/article/p-id49930 |access-date=2022-12-27 |website=Duwun |date=4 August 2021 }}</ref>
+|-
+|[[Talbina]]
+|[[File:Talbinah.jpg|122px]]
+|[[Arabian Peninsula]]
+|
+|Talbina is a soup made from barley flour, formed by adding milk and honey to the dried barley powder. It is called talbina, which comes from the Arabic word laban meaning yogurt (milk/fermented churned milk), because of its resemblance to yogurt, as it is soft and white.
+|-
+|[[Tāng Fěn]]
+|<!--[[File:|122px]]-->
+|[[China]]
+|Noodle
+|Rice noodles in broth, usually beef, chicken, or custom broth
+|-
+|[[Tāng miǎn]]
+|<!--[[File:|122px]]-->
+|[[China]]
+|Noodle
+|Egg noodles in broth, usually beef, chicken, or custom broth
+|-
+|[[Tapado]]
+|[[File:Tapado.jpg|122px]]
+|[[Garifuna]]
+|Seafood
+|Coconut milk, seafood, plantains
+|-
+|[[Tarator]]
+|[[File:TaratorBg.jpg|122px]]
+|[[Bulgaria]]
+|Cold (chilled)
+|Yogurt and cucumbers
+|-
+|[[Tarhana]]
+|[[File:Tarkhineh.JPG|122px]]
+|[[Middle East]]
+|Chunky
+|Fermented grain and dairy
+|-
+|[[Tekwan]]
+|[[File:Tekwan.JPG|122px]]
+|[[Indonesia]] ([[Palembang]])
+|Chunky
+|Fishcake or fishballs, jicama and mushroom soup in savoury broth. Specialty of the city of [[Palembang]].
+|-
+|[[Tharida]]
+|
+|[[Arab cuisine|Arabia]]
+|Chunky
+|A soup prepared with meat and breadcrumbs, which thickens the soup. Additional ingredients may include beans, [[walnut]]s, [[yogurt]], [[Mentha|mint]], and spices
+|-
+|[[Tiger penis soup]]
+|
+|[[China]]
+|Chunky
+|Soup prepared with tiger penis, and sometimes tiger bone as well. Preparation involves soaking dried tiger penis in water and then cooking it along with other medicines and spices. Believed to be a medicinal [[aphrodisiac]] in some cultures.
+|-
+|[[Tinola]]
+|[[File:Tinolalunch.jpg|122px]]
+|[[Philippines]]
+|Potage
+|Chicken, sliced green [[papaya]]s, [[malunggay]]
+|-
+|[[Tiyula itum]]
+|[[File:Tiyula Itum by Patrick Aye Beef Black Soup 8-37 screenshot.jpg|122px]]
+|[[Philippines]]
+|
+|A Filipino braised beef or goat soup or stew dish originating from the [[Tausug people]]. The dish is characteristically black due to the unique use of charred coconut meat. 
+|-
+|[[Tom yum]]
+|[[File:Tom yum.jpg|122px]]
+|[[Thailand]]
+|Chunky
+|[[Lemongrass]], [[galangal]] and [[kaffir lime]] leaf, fish sauce and lime juice in the broth, often garnished with shrimp/seafood (''Tom Yum Goong''), straw mushrooms, hot chili peppers, and [[cilantro]].
+|-
+|Tomato bisque
+|[[File:Rustic_Tomato_Pumpkin_Bisque_(4827393849).jpg|122px]]
+|[[France]]
+|Bisque
+|Tomatoes and heavy cream; [[basil]] can be added to create tomato basil bisque
+|-
+|[[Tomato soup]]
+|[[File:Tomato soup.jpg|122px]]
+|
+|Smooth or chunky
+|Tomato is the primary ingredient. Also popular in many countries, including Hungary ({{langx|hu|paradicsomleves}}) and Poland ({{langx|pl|pomidorowa}})
+|-
+|[[Tongseng]]
+|[[File:Tongseng Dish.jpg|122px]]
+|[[Indonesia]] ([[Surakarta|Solo]])
+|Chunky meat
+|A sweet and spicy [[goat meat]] soup, specialty of the city of [[Surakarta]] (also known as Solo), Central Java.
+|-
+|[[Tortilla soup]]
+|[[File:Sopa Azteca.jpg|122px]]
+|[[Mexico]]
+|Chunky
+|Fried corn tortilla pieces submerged into a broth of tomato and other ingredients.
+|-
+|[[Tteokguk]]
+|[[File:Korean.food-Tteok.mandu.guk-01.jpg|122px]]
+|[[Korea]]
+|Chunky
+|The ''[[Tteok]]'' (rice cake) soup is eaten during New Year's Day. 
+|-
+|Turkey soup
+|[[File:Turkey rice soup (12017596396).jpg|122px]]
+|[[United States]] and [[Canada]]
+|Chunky
+|Turkey stock and meat, vegetables (typically onions, carrots, celery), broad egg noodles or rice
+|-
+|[[Ugali#Ghana|Tuo zaafi]]
+|[[File:Tuo zaafi.jpg|122px]]
+|[[Ghana]]
+|Brothy
+|Ugali, cornmeal dough boiled in boiling water or milk, served in a green vegetable soup
+|-
+|[[Ukha]] or [[yushka]]
+|[[File:Uha 013.jpg|122px]]
+|[[Russia]]<br />[[Ukraine]]
+|Fish
+|Various types of fish, vegetables, lime, [[dill]], [[parsley]], and black pepper
+|-
+|[[Vegetable soup]]
+|[[File:Vegetable udon noodle soup.jpg|122px]]
+|
+|Clear or Stock
+|Vegetables are a primary ingredient
+|-
+|[[Vichyssoise]]
+|[[File:Vichyssoise.jpg|122px]]
+|[[United States]]
+|Cold (chilled)
+|Creamy potato and [[leek]] soup, served with [[chives]]
+|-
+|[[Vori vori]]
+|[[File:Vorí vorí paraguay.jpg|122px]]
+|[[Paraguay]]
+|Chunky 
+|Balls of corn flour and cheese, often with chicken
+|-
+|[[Walnut soup]]
+|[[File:Hup Tul Woo.jpg|122px]]
+|[[China]], [[Italy]], [[Mexico]]
+|Smooth
+|A creamy soup that uses [[walnut]]s as a prominent ingredient. 
+|-
+|[[Watercress soup]]
+|[[File:A simple watercress soup.jpg|122px]]
+|
+|Brothy<br/>Creamy
+|A soup which uses [[watercress]] as a primary ingredient. Other vegetables may be included as well as cheese, butter, lemon, and seasoning
+|-
+|[[Waterzooi]]
+|[[File:(waterzooi) (79743868).jpg|122px]]
+|[[Belgium]]
+|Fish
+|Stew made with fish (traditional) or chicken
+|-
+|[[Wedding soup]]
+|[[File:Wedding soup.jpg|122px]]
+|[[United States]] (Italian–American)
+|Clear or Stock
+|Green vegetables, meat, chicken broth
+|-
+|[[Wine soup]]
+|
+|[[Hungary]]
+|Beverage soup
+|{{langx|hu|borleves}}.
+|-
+|[[Winter melon]]
+|[[File:Wintermelonsoup.jpg|122px]]
+|[[China]]
+|Chunky
+|[[Winter melon]], filled with stock (usually chicken stock), vegetables, and meat, which has been steamed for a few hours
+|-
+|[[Zalewajka]]
+|[[File:Zalewajka pomorska from Pila.JPG|122px]]
+|[[Poland]]
+|Chunky
+|A soup of boiled potatoes, sometimes with [[Polish sausage]] and dried [[mushroom]]s, thickened sour rye made from a [[sourdough starter]]. Other ingredients may include onions, garlic, sour cream, bacon, and herbs.
+|-
+|[[Zuppa del canavese]]
+|<!--[[File:|122px]]-->
+|[[Canavese]] ([[Piedmont]], [[Italy]])
+|Bread
+|Sliced bread cooked with cabbage, [[Grana (cheese)|grana]], and broth
+|-
+|[[Zuppa pavese]]
+|<!--[[File:|122px]]-->
+|[[Italy]]
+|Broth with chunks
+|Consists of broth into which fried slices of bread and [[poached egg]]s are placed. It is usually served with [[grated cheese]].<ref>[[Elizabeth David]], ''Italian Food'', 1954, p. 53</ref>
+|-
+|[[Zuppa toscana]]
+|[[File:A bowl of Zuppa Toscana prepared from the Wikibooks recipe (cropped).JPG|122px]]
+|[[Italy]] ([[Tuscany]])
+|Chunky
+|A soup with [[cannellini bean]]s, [[potato]], and [[kale]]. Americanized versions substitutes the beans with [[Italian sausage]], and add cream, [[bacon]], and vegetables like onion and red bell pepper.
+|}
+
+==See also==
+{{Portal|Food|Society|Lists}}
+{{Div col|colwidth=22em}} 
+* [[Broth]]
+* [[Chowder]]
+* [[Consommé]]
+* [[Fish soup#List of fish soups|List of fish soups]]
+* [[Fruit soup]]
+* [[List of Azerbaijani soups and stews]]
+* [[List of cheese soups]]
+* [[List of Chinese soups]]
+* [[Cream soup#List of cream soups|List of cream soups]]
+* [[List of cold soups]]
+* [[List of fish and seafood soups]]
+* [[List of French soups and stews]]
+* [[List of German soups]]
+* [[List of Indonesian soups]]
+* [[List of Italian soups]]
+* [[List of Japanese soups and stews]]
+* [[List of Pakistani soups and stews]]
+* [[List of porridges]]
+* [[List of ramen dishes]]
+* [[List of Spanish soups and stews]]
+* [[List of vegetable soups]]
+* [[Soup and sandwich]]
+* [[Soups in East Asian cultures]]
+* [[Stew]]
+* [[Stock (food)|Stocks]]
+* [[Three grand soups]]
+{{div col end}}
+
+==References==
+{{reflist|30em|refs=
+<ref name="Jideofo">{{cite book|url=https://books.google.com/books?id=2xuQb11Iq9kC&pg=PA35|title=Healthier Alternatives|publisher=Tate Publishing|author=Jideofo, May|year=2007|isbn=978-1602478053|page=35}}</ref>
+<ref name="Asika-Enahoro">{{cite book|url=https://books.google.com/books?id=ddL44UDqyu8C&pg=PA17|title=A Slice of Africa|author=Asika-Enahoro, Chidi|publisher=iUniverse|year=2004|isbn=0595305288|page=17}}</ref>
+<ref name="HuffPost 2012">{{cite web | author=HuffPost | title=Recipe Of The Day: Creamy Carrot Soup | website=The Huffington Post | date=10 October 2012 | url=http://www.huffingtonpost.com/2012/10/10/carrot-soup_n_1951262.html | access-date=6 December 2015}}</ref>
+<ref name="ABC">{{cite web | url=https://abcnews.go.com/GMA/Recipes/recipe/carrot-soup-coconut-milk-recipe-michael-anthony-35220954 | title=Michael Anthony's Carrot Soup With Coconut Milk | publisher=[[ABC News (United States)|ABC News]] | access-date=6 December 2015}}</ref>
+<ref name="Creasy 2008">{{cite book | last=Creasy | first=R. | author-link=Rosalind Creasy|title=Rosalind Creasy's Recipes from the Garden | publisher=Tuttle Publishing | series=Cookery, Food and Drink Series | year=2008 | isbn=978-0-8048-3768-2 | url=https://books.google.com/books?id=ara-8q1FlE4C&pg=PA87| page=87}}</ref>
+}}
+
+==Further reading==
+* {{cite magazine | url=http://nymag.com/restaurants/features/62665/ | title=The Hot List: Fifty of the city's tastiest soups | magazine=[[New York (magazine)|New York]] | date=13 December 2009 | access-date=23 July 2014 |author1=Patronite, Rob |author2=Raisfeld, Robin }}
+* Rumble, Victoria R (2009) [https://books.google.com/books?id=kQtCKmQG4rsC&q=%22Soup+Through+the+Ages%22 ''Soup Through the Ages: A Culinary History With Period Recipes''] McFarland. {{ISBN|9780786439614}}.
+
+==External links==
+* {{commons category-inline|Soups}}
+
+{{Soups}}
+{{Lists of prepared foods}}
+{{Vegetarianism|state=collapsed}}
+
+[[Category:Soups| ]]
+[[Category:World cuisine|Soups]]
+[[Category:Soup-related lists| ]]

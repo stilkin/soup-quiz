@@ -1,0 +1,49 @@
+{{Short description|None}}
+[[File:Bullabessa.jpg|thumb|A traditional [[bouillabaisse]] from [[Marseille]], [[France]], with the fish served separately after the soup]]
+This is a '''list of French soups and stews'''. [[French cuisine]] consists of [[cooking]] traditions and practices from [[France]], famous for rich tastes and subtle nuances with a long and rich history.
+[[File:Butter lettuce soup.jpg|thumb|[[Lettuce#Cultivars|Butter lettuce]] soup with [[crouton]]s]]
+
+==French soups and stews==
+{{dynamic list}}
+*[[Bisque (food)|Bisque]]
+*[[Boeuf bourguignon]] - is a traditional French casserole, with marinated meat, button mushrooms, small whole onions and French herbs in wine.
+*[[Bouillabaisse]] – a [[stew]] of mixed herbs, fish, and vegetables.
+*[[Consommé]]
+*[[French onion soup]]
+*[[Garbure]] – a thick French [[soup]] or stew of meat and root vegetables.
+*[[Lettuce soup]]
+*[[Oille]] – a French ''potée'' or [[soup]] believed to be the forerunner of [[pot-au-feu]] composed of various meats and vegetables.<ref name=larousse>''[[Larousse Gastronomique]]'' (1961),  Crown Publishers<br>(''Translated from the French, Librairie Larousse, Paris (1938)'')</ref>
+*[[Oxtail]] – there are numerous [[Oxtail stews in French cuisine]]
+*[[Potée]]
+*[[Ragout]]
+**[[Ragout fin]] – its origin in France is not confirmed but the dish is also known in Germany as ''Würzfleisch'', although use of the French name is more common nowadays.
+*[[Ratatouille]] – a vegetable stew with olive oil, [[aubergine]], [[courgette]], bell pepper, tomato, onion and garlic
+*[[Tourin]] – a type of French garlic soup
+*[[Velouté]] - a soup or sauce made of chicken, veal, or fish stock and cream and thickened with butter and flour
+*[[Vichyssoise]] – chilled leek and potato soup with cream
+<gallery caption="" widths="200px" heights="150px">
+File:Lobster bisque.jpg|[[Lobster]] [[Bisque (food)|bisque]]
+File:Garbure.jpg|[[Garbure]]
+File:Tourin.jpg|[[Tourin]]
+File:Vichyssoise.jpg|[[Vichyssoise]]
+</gallery>
+
+==See also==
+{{portal|Food|France|Lists}}
+* [[List of soups]]
+* [[List of stews]]
+
+==References==
+{{reflist}}<ref>{{Cite web |last=Coates |first=Judith |date=September 21, 2020 |title=French Mediterranean Recipes For Everyday Meals! |url=https://www.lovefrenchfood.com/ |website=Love French Food}}</ref>
+
+==Further reading==
+{{Commons category|Soups and stews of France}} 
+* {{cite book | last=Rothert | first=L.A. | title=The Soups of France | publisher=Chronicle Books | year=2002 | isbn=978-0-8118-3342-4 | url=https://books.google.com/books?id=wwa_n1T6-6AC }} 224 pages.
+
+{{Lists of prepared foods|state=collapsed}}
+{{French cuisine}}
+
+{{DEFAULTSORT:French soups and stews}}
+[[Category:French soups| ]]
+[[Category:Soup-related lists|France]]
+[[Category:French cuisine-related lists|Soups and stews]]

@@ -1,0 +1,41 @@
+{{Short description|None}}
+This is a '''list of Pakistani soups and stews'''. [[Pakistani cuisine]] is a refined blend of various regional cooking traditions of [[South Asia]]. The cuisine significantly varies in different areas of the country. Pakistani cuisine is known for its richness and flavor.<ref>Taus-Bolstad, S (2003), Pakistan in Pictures. Lerner Publishing Group. {{ISBN|978-0-8225-4682-5}}</ref>
+
+==Pakistani soups and stews==
+{{dynamic list}}
+[[File:Dal Makhani.jpg|thumb|[[Dal makhani]]]]
+* ''Abgooshth'' – [[Lamb and mutton|lamb]] and [[lentil]] soup<ref name="Schmidt"/>
+* ''[[Chakna]]'' – tripe stew with chunks of liver and kidneys
+* ''[[Chorba|Shorva]]'' – ''Chorba'' (called ''shorba'' in Pakistan)<ref>{{cite book | last=Davidson | first=A. | last2=Jaine | first2=T. | last3=Vannithone | first3=S. | title=The Oxford Companion to Food | publisher=Oxford University Press | series=Oxford Companions Series | year=2014 | isbn=978-0-19-967733-7 | url=https://books.google.com/books?id=RL6LAwAAQBAJ&pg=PA739 | access-date=January 25, 2015}}</ref> is one of various kinds of soup or stew found in national cuisines across the Balkans, Eastern Europe, Central Asia, and the Middle East
+
+* ''[[Haleem]]'' – prepared with wheat, barley, chicken, [[Goat meat|goat]] or buffalo meat,<ref>{{cite book | last=Devine | first=C. | title=Encyclopedia of Meat Sciences: 3-volume set | publisher=Elsevier Science | year=2014 | isbn=978-0-12-384734-8 | url=https://books.google.com/books?id=vL9dAwAAQBAJ&pg=PA540 | access-date=January 25, 2015}}</ref> lentils and [[spice]]s
+* ''[[Kadhi]]'' – a spicy dish whose thick gravy is based on [[gram flour|chickpea flour]],<ref>{{cite book | last=Jaffrey | first=M. | title=From Curries to Kebabs: Recipes from the Indian Spice Trail | publisher=Clarkson Potter | year=2003 | isbn=978-0-609-60704-6 | url=https://books.google.com/books?id=bmjYF5E57K0C&pg=PA294 | access-date=January 25, 2015 | page=294}}</ref> and contains vegetable fritters called [[pakora]]s, to which sour [[yogurt]] is added. In [[Pakistan]], it is usually served with [[plain cooked rice|boiled rice]] and [[naan]]. Fish karhi and egg karhi are also popular.
+* ''[[Khichra]]'' – a variation of the dish [[Haleem]], popular with [[Muslim]]s of [[South Asia]]. It is prepared with lentils, rice, meat and spices.<ref>{{cite book | last=Smith | first=R.V. | title=Capital Vignettes: A Peep Into Delhi's Ethos | publisher=Rupa & Company | year=2008 | isbn=978-81-291-1317-7 | url=https://books.google.com/books?id=i6-mKS8IwrcC&pg=PT138 | access-date=January 25, 2015}}</ref>
+* ''[[Nihari]]'' – regarded as a [[national dish]] of Pakistan
+* ''[[Paya (food)|Siri paya]]'' − a Pakistani [[delicacy]], its main ingredients are the [[hoof]] (trotters) and head of a lamb or goat, cooked with cilantro and ginger.<ref>{{cite book | last=Sturtz | first=T. | title=Food Lovers' Guide to Tampa Bay: The Best Restaurants, Markets & Local Culinary Offerings | publisher=Globe Pequot | series=Food Lovers' Series | year=2013 | isbn=978-0-7627-8120-1 | url=https://books.google.com/books?id=JI-HHOrfq5QC&pg=PA72 | access-date=January 25, 2015}}</ref>
+
+<gallery class="center" caption="" widths="190px" heights="160px">
+File:Pakistani Haleem served with garnish.jpg|Pakistani [[haleem]] served with [[Garnish (food)|garnish]]
+File:gujaratikadhi.jpg|[[Kadhi]]
+File:Khichra.JPG|[[Khichra]]
+</gallery>
+
+==See also==
+* [[List of soups]]
+* [[List of stews]]
+* [[Pakistani meat dishes]]
+{{portalbar|Food|Pakistan|Lists}}
+
+==References==
+{{Commonscategory|Soups of Pakistan}}
+<references>
+<ref name="Schmidt">{{cite book | last=Schmidt | first=A. | last2=Fieldhouse | first2=P. | title=The World Religions Cookbook | publisher=Greenwood Press | year=2007 | isbn=978-0-313-33504-4 | url=https://books.google.com/books?id=ORy2aVD7cEgC&pg=PA178 | access-date=January 25, 2015 | pages=178–179}}</ref>
+</references>
+
+{{cuisine of Pakistan}}
+{{Lists of prepared foods}}
+
+{{DEFAULTSORT:Pakistani soups and stews}}
+[[Category:Pakistani soups and stews|*]]
+[[Category:Pakistani cuisine-related lists|Soups]]
+[[Category:Soup-related lists|Pakistan]]

@@ -1,0 +1,4 @@
+#REDIRECT [[Ramen#Types]]
+
+{{R from merge}}
+{{R to section}}

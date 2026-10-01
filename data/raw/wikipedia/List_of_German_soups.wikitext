@@ -1,0 +1,178 @@
+{{Short description|None}}
+This is a '''list of German soups'''. [[German cuisine]] has evolved as a national [[cuisine]] through centuries of social and political change with variations from region to region. In Germany, [[soup]]s are a popular and significant food, and many Germans eat soup at least once a week.<ref name="Sheraton"/> In German cuisine, it may be served as a first course or as a main course.<ref name="Sheraton"/> The use of a [[roux]] to thicken soups is common in German cuisine.<ref name="Heberle"/> The use of [[legume]]s and [[lentil]]s is significant and used in several German soups, such as [[split pea soup]].<ref name="Heberle"/> Common soups in German restaurants include [[oxtail]], beef or chicken broth with noodles, [[dumpling]]s, or rice, [[goulash]], split pea, [[Cream of asparagus soup|cream of asparagus]], [[turtle soup]] (''Echte Schildkrötensuppe'') and cream of lobster.<ref name="Sheraton"/>
+
+In the 1880s, Germans had an appreciation for soups prepared with [[beer]] as a primary ingredient, which was prepared with beer with a lesser alcohol content compared to standard beers.<ref name="Rumble"/> One recipe utilized beer, water, sugar, raisins, spices and grated, stale bread.<ref name="Rumble"/>
+
+This list includes soups that originated in Germany as well as those that are common in the country.
+
+==German soups==
+{{dynamic list}}
+{| class="wikitable sortable" style="width:100%;"
+|-
+! Name
+! Image
+! Type
+! Description
+|-|-'[[Asparagus Soup]]''
+|Asparagus Soup (Spargelsuppe)
+| 
+|Soup
+|A creamy soup made from asparagus.
+|-
+|[[Beer soup]]<ref>{{cite book | last=Smith | first=H. | title=The Master Books of Soups | publisher=Applewood Books | series=Cooking in America Series | year=2008 | isbn=978-1-4290-1180-8 | url=https://books.google.com/books?id=fwOvB7W0PnUC&pg=PA176 | access-date=January 25, 2015 | page=176}}</ref>
+|[[File:Beer cheese soup.jpg|120px]]
+|Soup
+|In [[Middle Ages|medieval]] Europe, it was served as a breakfast soup,<ref>[https://books.google.com/books?id=ptZgNoobsyUC&pg=PA128 1,001 Foods to Die For - Andrews McMeel Publishing, Madison Books - Google Books<!-- Bot generated title -->]</ref> sometimes poured over bread. Pictured is beer cheese soup.
+
+|-
+|[[Brain (food)|Brain]] soup<ref name="Rumble"/>
+|<!-- [[File:Example.jpg|120px -->
+|Soup
+|<!-- Description -->
+|-
+|[[Bread soup]]<ref name="Rumble"/>
+|[[File:Ostersuppe.jpg|120px]]
+|Soup
+|A simple soup that mainly consists of stale bread; variations exist in many countries, and it is often eaten during [[Lent]]. Bread soups are created with brown bread as well as with white bread.
+|-
+|Beansoup ([[Saarland]] Bohnesauf/Bippelches Bohnesupp)
+|[[File:Bohnesauf-Bippelches BohnesuppL1160635 (3).jpg|120px]]
+|Soup
+|Soup of beans, carrots, potatoes, onions and bacon
+|-
+|''[[Borscht]]''
+|[[File:Borscht with cream.jpg|120px]]
+|Soup
+|A [[beetroot]]-based soup served with sour cream ([[schmand]]) and beef (originally from [[Ukraine]])
+|-
+|''Buttermilchsuppe''
+|<!-- [[File:Example:jpg|120px]] -->
+|Soup
+|[[Buttermilk]] soup with flour [[dumpling]]s
+|-
+|[[Cheese soup]]<ref name="Rumble"/>
+|[[File:Four_cheese_soup.jpg|120px]]
+|Soup
+|All through the Middle Ages, soup prepared from cheese, eggs and pepper was commonly served in German [[Monastery|monasteries]].<ref name="Rumble"/> Pictured is a cheese and potato soup.
+|-
+|[[Crawfish]] soup<ref name="Rumble"/>
+|<!-- [[File:Example.jpg|120px]] -->
+|Soup
+|<!-- Description -->
+|-
+|[[Eintopf]]
+|[[File:GT Suppe Germany.jpg|120px]]
+|Soup
+|A simple vegetable soup; small meat balls are optional but common in it.
+|-
+|{{illm|Fliederbeersuppe|de|Fliederbeersuppe}}
+|[[File:Fliederbeersuppe.JPG|120px]]
+|Dessert
+|A [[dessert soup]] made from [[elderberry]], served with [[semolina]] dumplings
+|-
+|[[French onion soup]]<ref name="Sheraton"/>
+|[[File:Frenchonionsoupbirmingham.jpg|120px]]
+|Soup
+|A very common soup in German cuisine.<ref name="Sheraton"/>
+|-
+|[[Fruit soup]]<ref name="Rumble"/>
+|[[File:Cherry soup.jpg|120px]]
+|Soup
+|Cherry soup (pictured) has been described as a seemingly popular soup in Germany.<ref name="Rumble"/>
+|-
+|[[Goulash]]<ref name="Sheraton"/>
+|[[File:Bavarian Gulash mit Semmelknödel Seefeld.JPG|120px]]
+|Soup or stew
+|Pictured is [[Bavaria]]n ''Gulasch mit Semmelknödel'' which is often made with a mix of beef and pork. Here it is served with a ''Semmelknödel'', a bread dumpling.
+|-
+|''Grumbeersupp un Quetschekuche''
+|[[File:Grumbeersupp un Quetschekuche.jpg|120px]]
+|Main course
+|Potato soup and plum tart
+|-
+|{{illm|Hamburger Aalsuppe|de|Hamburger Aalsuppe}} (Hamburg [[Eel Soup]])<ref name="Sheraton 2010 p. 105"/>
+|[[File:Hamburger_Aalsuppe_bei_Hamburger_Fischerstuben.jpg|120px]]
+|Soup
+|A sweet and sour soup of [[eel]], meat [[broth]], [[dried fruit]]s, [[vegetable]]s, and [[herb]]s.
+|-
+|''[[Hochzeitssuppe]]'' (literally "wedding soup")
+|[[File:Bramstedt Hochzeitssuppe 01 (RaBoe).jpg|120px]]
+|Soup
+|A spicy meat broth with bread dumplings, liver dumplings and finely sliced pancakes
+|-
+|[[Kartoffelsuppe]]
+|[[File:Kartoffelsuppe.jpg|120px]]
+|Soup or stew
+|A stew made with raw potatoes and other ingredients such as vegetables and sausages.
+|-
+|{{illm|Kuttelsuppe|de|Kuttelsuppe}}
+|[[File:S%C3%A4chsische_Flecke_1.jpg|120px]]
+|Soup
+|A lightly bounded soup usually with acidified vinegar from [[tripe]], regional spot or spots mentioned, which is common in variants in numerous countries.
+|-
+|[[Lentil soup]]
+|[[File:Linsensuppe.jpg|120px]]
+|Soup
+|Prepared throughout the year in Germany, in part because the dry lentils store well.<ref name="Heberle"/>
+|-
+|[[Milk]] soup<ref name="Rumble"/>
+|<!-- [[File:Example.jpg|120px]] -->
+|Soup
+|Consumed with [[semolina]] by Germans in the 1880s.<ref name="Rumble"/>
+|-
+|''[[Chicken soup|Nudelsuppe]]''<ref name="Rumble"/>
+|[[File:Chicken noodle soup (1).jpg|120px]]
+|Soup
+|Strong [[chicken stock]] and [[noodle]]s<ref name="Rumble"/>
+|-
+|[[Potato]] soup<ref name="Heberle"/>
+|[[File:Potato and onion soup.jpg|120px]]
+|Soup
+|A common soup throughout Germany.<ref name="Heberle"/>
+|-
+|[[Rumford's Soup]]
+|[[File:Rumfordsuppe.jpg|122px]]
+|Soup
+|A simple soup prepared with [[barley]] or barley meal and dried [[pea]]s as primary ingredients that was utilized in [[Munich]] and greater [[Bavaria]] to feed impoverished people.<ref>{{cite book | last=Kellogg | first=D.O. | last2=Baynes | first2=T.S. | last3=Smith | first3=W.R. | title=The Encyclopædia Britannica: New American supplement. A-ZUY | publisher=Werner | series=The Encyclopædia Britannica: A Dictionary of Arts, Sciences, and General Literature. Original 9th Ed. in 25 Vols | year=1903 | url=https://books.google.com/books?id=Su8hAQAAMAAJ&pg=PA673 | access-date=January 24, 2015 | page=673}}</ref>
+|-
+|''Schälklöße''
+|<!-- [[File:Example.jpg|120px]] -->
+|Soup
+|Consists of [[filled pasta]] and various vegetables.
+|-
+|''[[Schwarzsauer]]''<ref name="Chaffey"/>
+|[[File:Schwarzsauer-3.jpg|120px]]
+|Soup
+|A type of pork [[blood soup]] with various spices cooked in vinegar-water.<ref name="Chaffey">{{cite book | last=Chaffey | first=D. | title=Dirty German | publisher=Ulysses Press | series=Dirty Everyday Slang Series | year=2010 | isbn=978-1-56975-850-2 | url=https://books.google.com/books?id=ojv9sR8vds4C&pg=PT272 | access-date=January 25, 2015 | page=272}}</ref> A sort of black pudding made with vinegar. The dish originated in eastern [[Prussia]].<ref name="Chaffey"/>
+|-
+|[[Snail as food|Snail soup]]
+|[[File:Schneckensuppe_IMG_0019.jpg|120px]]
+|Soup
+|Can be found in [[Baden cuisine]].
+|}
+
+==In culture==
+The German tale of Suppenkasper in the children's book ''[[Der Struwwelpeter]]'' involves "a little boy who faded away because he refused to eat his soup".<ref name="Sheraton"/>
+
+==See also==
+{{Portal|Food|Germany|Lists}}
+* [[List of German cheeses]]
+* [[List of German dishes]]
+* [[List of soups]]
+* [[List of stews]]
+
+==References==
+{{Commons category|Soups of Germany}}
+<references>
+<ref name="Heberle">{{cite book | last=Heberle | first=M.O. | title=German Cooking | publisher=HPBooks | year=1996 | isbn=978-1-55788-251-6 | url=https://books.google.com/books?id=yiF0voEEaF8C&pg=PA56 | access-date=January 25, 2015 | page=56}}</ref>
+<ref name="Rumble">{{cite book | last=Rumble | first=V.R. | title=Soup Through the Ages: A Culinary History with Period Recipes | publisher=McFarland, Incorporated Publishers | year=2009 | isbn=978-0-7864-5390-0 | url=https://books.google.com/books?id=kQtCKmQG4rsC&pg=PA77 | access-date=January 25, 2015 | pages=77–78}}</ref>
+<ref name="Sheraton">{{cite book | last=Sheraton | first=M. | title=The German Cookbook: A Complete Guide to Mastering Authentic German Cooking | publisher=Random House Publishing Group | year=2010 | isbn=978-0-307-75457-8 | url=https://books.google.com/books?id=afjItI5Q9JMC&pg=PT79 | access-date=January 25, 2015 | page=79}}</ref>
+<ref name="Sheraton 2010 p. 105">{{cite book | last=Sheraton | first=M. | title=The German Cookbook: A Complete Guide to Mastering Authentic German Cooking | publisher=Random House Publishing Group | year=2010 | isbn=978-0-307-75457-8 | url=https://books.google.com/books?id=afjItI5Q9JMC&pg=PT105 | access-date=January 25, 2015 | page=105}}</ref>
+</references>
+
+{{Lists of prepared foods|state=collapsed}}
+
+{{DEFAULTSORT:German soups}}
+[[Category:German soups| ]]
+[[Category:Soup-related lists|Germany]]
+[[Category:German cuisine-related lists|Soup]]

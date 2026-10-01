@@ -1,0 +1,50 @@
+{{Short description|None}}
+[[File:CocidoMadrileño.jpg|thumb|272px|''[[Cocido madrileño]]'' is a traditional [[chickpea]]-based stew from [[Madrid]], [[Spain]].]]
+
+This is a '''list of Spanish soups and stews'''. [[Spanish cuisine]] is a way of preparing varied dishes, which is enriched by the [[Culinary art|culinary]] contributions of the various regions that make up the [[Spain|country]]. It is a cuisine influenced by the people who, throughout history, have conquered the territory of that country. [[Soup]] is a primarily [[liquid diet|liquid food]], generally served warm (but may be cool or cold), that is made by combining ingredients such as meat and vegetables with [[Stock (food)|stock]], juice, water, or another liquid. [[Stew]] is a combination of solid food ingredients that have been cooked in liquid and served in the resultant [[gravy]]. Stews are typically cooked at a relatively low temperature ([[Simmering|simmered]], not [[Boiling|boiled]]), allowing flavors to mingle.
+
+==Spanish soups and stews==
+{{Multiple image|direction=vertical|align=right|image1=Cocidomontanes.JPG |caption1=''[[Cocido Montañés]]'' is originally from and most commonly found in [[Cantabria]] in northern [[Spain]]. | image2=Escudella.jpg |caption2=''[[Escudella i carn d'olla]]'' is a traditional [[Catalan cuisine|Catalan]] soup and stew. |image3=Gazpachuelo.jpg |caption3=''[[Gazpachuelo]]'' is a soup originating from [[Málaga]], Spain and is a typical fisherman's dish |width=211}}
+* ''{{annotated link|Ajoblanco}}''
+* ''{{annotated link|Alicot}}''
+* ''{{annotated link|Caldillo de perro}}''
+* ''{{annotated link|Caldo gallego}}''
+* ''{{annotated link|Caparrones}}''
+* ''{{annotated link|Cozido}}''
+* ''{{annotated link|Cocido lebaniego}}''
+* ''{{annotated link|Cocido madrileño}}''
+* ''{{annotated link|Cocido Montañés}}''
+* ''{{annotated link|Escudella i carn d'olla}}''
+* ''{{annotated link|Fabada asturiana}}''
+* ''{{annotated link|Fabes con almejas}}''
+* ''{{annotated link|Garbure}}''
+* ''{{annotated link|Gazpacho}}''
+* ''{{annotated link|Gazpachuelo}}''
+* {{annotated link|Lobster stew}}
+* ''{{annotated link|Olla podrida}}''
+* ''{{annotated link|Ollada}}''
+* ''{{annotated link|Piperade}}''
+* ''{{annotated link|Pisto}}''
+* ''{{annotated link|Porra antequerana}}''
+* ''{{annotated link|Salmorejo}}''
+* ''{{annotated link|Sopa de Gato}}''
+* ''{{annotated link|Tuna pot}}''
+* ''{{annotated link|Zoque (dish)|Zoque}}''
+
+==See also==
+* [[List of soups]]
+* [[List of stews]]
+{{Portalbar|Food|Spain|Lists}}
+
+==References==
+{{reflist|30em}}
+
+==External links==
+* {{commonscat-inline|Soups and stews of Spain}}
+
+{{Lists of prepared foods}}
+
+{{DEFAULTSORT:Spanish soups and stews}}
+[[Category:Spanish soups and stews| ]]
+[[Category:Soup-related lists|Spain]]
+[[Category:Spanish cuisine-related lists|Soups and stews]]

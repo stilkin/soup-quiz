@@ -1,0 +1,89 @@
+{{Short description|None}}
+[[File:Houtou.jpg|thumb|[[Hōtō]] (ほうとう) is a popular [[regional cuisine|regional dish]] originating from [[Yamanashi Prefecture|Yamanashi]], Japan made by stewing flat [[udon]] noodles and [[vegetable]]s in [[miso soup]].]]
+
+In [[Japanese cuisine]], the phrase {{Nihongo3|"one soup, three sides"|一汁三菜|[[ichijū-sansai]]}} refers to the makeup of a typical meal served, but has roots in classic {{transliteration|ja|[[kaiseki]]}}, {{transliteration|ja|[[honzen-ryōri|honzen]]}}, and {{ill|yūsoku|ja|有職料理|lt={{transliteration|ja|yūsoku}}}} cuisine. The term is also used to describe the first course served in standard {{transliteration|ja|kaiseki}} cuisine nowadays.<ref name=yomiuri>{{cite book|author=[[Yomiuri Shimbun]]|script-title=ja:雑学新聞|trans-title=Trivia Newspaper|publisher=PHP Research Institute|year=2005|url=https://books.google.com/books?id=iuANkSnZ8e0C&pg=PA158|isbn=978-4-569-64432-5|page=158}}</ref>
+
+==Japanese soups and stews==
+[[File:Chankonabe.jpg|right|thumb|[[Chankonabe]]]]
+[[File:Cone Cream Stew.jpg|thumb|[[Cream stew]]]]
+[[File:Kenchinjiru soy sauce flavor 2009.JPG|thumb|[[Kenchin jiru]]]]
+[[File:Tofu in miso soup by cathykid in Taipei.jpg|thumb|[[Miso soup]] with [[tofu]]]]
+=== Soup/''Shirumono'' ===
+* ''[[Butajiru]]'' – also known as ''tonjiru'', soup made with pork and vegetables, flavoured with miso
+* [[Dashi]] – a class of soup and cooking [[Stock (food)|stock]] used in Japanese cuisine
+* [[Sweet corn]] porridge soup
+* ''[[Kasujiru]]''
+* ''[[Kenchin jiru]]''
+*  [[Miso soup]] 
+* ''[[Noppe]]'' 
+* ''[[Ohaw]]''
+* ''Suimono'' – generic name for clear traditional soups
+** ''Ushiojiru'' – clear soup of clams
+* ''[[Torijiru]]'' – [[Chicken soup#Japan|Chicken soup]]
+* ''[[Red bean soup#Japan|Zenzai]]'' – In Okinawa Prefecture, refers to red bean soup served over shaved ice with ''[[mochi]]''
+* ''[[Zōni]]''
+
+=== Noodle soup ===
+{{further|Noodle soup}}
+* ''[[Champon]]'' – noodle dish that is a regional cuisine of Nagasaki
+* ''[[Hōtō]]'' – regional{{where|date=December 2025}} dish made by stewing flat [[udon]] noodles and vegetables in miso soup
+* [[Instant noodle]]s
+** [[Cup noodles]]
+* [[Okinawa soba|Okinawa ''soba'']]
+*  [[Ramen]] 
+** ''[[Tonkotsu]]'' ramen
+* ''[[Udon]]'' – many variations, including ''[[kitsune udon]]'' topped with ''aburaage'' (sweetened deep-fried tofu pockets)
+
+=== Stew/''nimono'' ===
+{{main|Nimono}}
+* [[Cream stew]] – [[yōshoku]] dish consisting of meat and mixed vegetables cooked in thick white roux.
+* ''[[Nikujaga]]'' 
+* ''[[Zosui]]''
+
+=== Hot pot/''Nabemono'' ===
+{{main|Hot pot#Japan|Nabemono}}
+* ''[[Chankonabe]]'' – stew commonly eaten by sumo wrestlers as part of a weight-gain diet
+* ''[[Dojō nabe]]'' – [[loach]], [[tokusanhin]] of [[Asakusa]] in [[Tokyo]]
+* ''[[Fugu chiri]]'' – [[pufferfish]]
+* ''[[Harihari-nabe]]'' – [[minke whale]] meat and [[mizuna]]
+* ''[[Imoni]]''  – beef and potatoes
+* ''[[Kiritanpo]]''
+* ''[[Motsunabe]]''
+* ''[[Oden]]''
+* ''[[Shabu-shabu]]''
+* ''[[Sukiyaki]]''
+
+<gallery class="center" caption="Japanese soups and stews" widths="195px" heights="150px">
+File:Sukiyaki 01.jpg|[[Sukiyaki]]
+File:Cookingsukiyaki.jpg|[[Nabemono]]
+File:Soy ramen.jpg|[[Ramen]]
+File:Zoni by yoppy.jpg|''[[Zōni]]'' 
+</gallery>
+
+==See also==
+{{portal|Food|Japan|Lists}}
+{{div col|colwidth=30em}}
+* [[Aonori]] – edible green [[seaweed]] used in Japanese soups and other dishes
+* [[Asian soup]]
+* [[Japanese noodles]]
+* [[List of Japanese condiments]]
+* [[List of Japanese dishes]]
+* [[List of Japanese desserts and sweets]]
+* [[List of Japanese ingredients]]
+* [[List of ramen dishes]]
+* [[List of soups]]
+* [[List of stews]]
+* [[Tsukemen]]
+{{div col end}}
+
+==References==
+{{Commons category|Soups and stews of Japan}} 
+{{reflist}}
+
+{{Lists of prepared foods|state=collapsed}}
+{{Japanese food and drink|state=collapsed}}
+
+{{DEFAULTSORT:Japanese soups and stews}}
+[[Category:Japanese soups and stews| ]]
+[[Category:Soup-related lists|Japan]]
+[[Category:Japanese cuisine-related lists|Soups]]
