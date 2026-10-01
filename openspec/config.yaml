@@ -1,0 +1,34 @@
+schema: spec-driven
+
+context: |
+  Quiz/training apps built from curated list datasets (e.g. Wikipedia lists). First app: soup quiz.
+  Stack: Expo (React Native, TypeScript) targeting iOS and Android, pnpm monorepo.
+  Local-first: all user statistics stored on-device (SQLite); no backend, no accounts.
+  Daily challenge resets at UTC midnight; all game modes free at launch (no unlock economy).
+  Data pipeline is Python (pandas), separate from the TS app; contract between them is a JSON Schema
+  exported from the zod schema in packages/schema. Raw wikitext sources live in data/raw/wikipedia/.
+  Dataset normalization: countries/regions and soup types are 1..n normalized lists (not single values).
+  Wikipedia content: facts only from articles, own short descriptions, per-item source attribution (CC BY-SA aware).
+  Look and feel is a priority: tokenized theming, animated feedback (Reanimated), no default-gray UI.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always state what is out of scope
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing

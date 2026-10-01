@@ -1,0 +1,19 @@
+# Claude Code local (per-user) settings
+.claude/settings.local.json
+
+# Node / package managers
+node_modules/
+.pnpm-store/
+
+# Expo / RN
+.expo/
+dist/
+*.tsbuildinfo
+
+# Python (dataset pipeline, change 2)
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor noise
+.DS_Store
