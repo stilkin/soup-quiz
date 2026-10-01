@@ -26,11 +26,11 @@
 
 ## 5. App shell (`apps/soup-quiz`)
 
-- [ ] 5.1 Scaffold Expo TypeScript app with expo-router, verify it boots in Expo Go on an emulator
-- [ ] 5.2 Wire monorepo deps (workspace `packages/schema`, `packages/data`, `packages/engine`) through Metro; verify a log line on the start screen shows the stub dataset size (proves D2 pattern end-to-end)
-- [ ] 5.3 Build theme tokens (`theme.ts`: colors, spacing, radius, typography) and the start screen (dataset size, mode name, play button); verify rendering against tokens with no hardcoded colors
-- [ ] 5.4 Build the play screen: question card (ingredient chips), 4 country options, Reanimated feedback (correct pulse / wrong shake), post-answer reveal with name, description, learn-more link (opens external browser), and — when the item has one — image with tappable credit line; verify a full round is playable by hand and the image renderer once with a temporary stub image
-- [ ] 5.5 Build the result screen (correct/total, replay with new seed); verify replay produces a visibly different round order
+- [x] 5.1 Scaffold Expo TypeScript app with expo-router, verify it boots in Expo Go on an emulator
+- [x] 5.2 Wire monorepo deps (workspace `packages/schema`, `packages/data`, `packages/engine`) through Metro; verify a log line on the start screen shows the stub dataset size (proves D2 pattern end-to-end)
+- [x] 5.3 Build theme tokens (`theme.ts`: colors, spacing, radius, typography) and the start screen (dataset size, mode name, play button); verify rendering against tokens with no hardcoded colors
+- [x] 5.4 Build the play screen: question card (ingredient chips), 4 country options, Reanimated feedback (correct pulse / wrong shake), post-answer reveal with name, description, learn-more link (opens external browser), and — when the item has one — image with tappable credit line; verify a full round is playable by hand and the image renderer once with a temporary stub image
+- [x] 5.5 Build the result screen (correct/total, replay with new seed); verify replay produces a visibly different round order
 
 ## 6. Integration checks
 
