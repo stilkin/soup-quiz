@@ -5,6 +5,14 @@
     "clientKind": "git",
     "useIgnoreFile": true
   },
+  "files": {
+    "includes": [
+      "**",
+      "!packages/data/src/soups.v1.json",
+      "!apps/soup-quiz/src/images.ts",
+      "!apps/soup-quiz/assets/soups/manifest.json"
+    ]
+  },
   "formatter": {
     "indentStyle": "space",
     "indentWidth": 2,
