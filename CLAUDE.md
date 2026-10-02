@@ -68,7 +68,7 @@ Package manager is pnpm; do not use npm/yarn.
 
 - `packages/schema` — zod item contract (single source of truth), registries
   (SOUP_TYPES, 249-entry COUNTRIES, flagEmoji), `validateDataset`, exported JSON Schema
-- `packages/data` — `soups.v0.json` stub dataset (adversarial by design, D7)
+- `packages/data` — `soups.v1.json` (362 real soups, compiled) + validation/pairing tests
 - `packages/engine` — pure, seed-deterministic: mode-as-data configs, `generateRound`,
   `isCorrect`, `scoreRound`; no framework imports
 - `packages/stats` — pure progress computations: `aggregateStats`, UTC `dayStreaks`,
@@ -81,8 +81,11 @@ Package manager is pnpm; do not use npm/yarn.
 Internal-package pattern (design D2): packages export raw TS source (`main: ./src/index.ts`),
 no build step — Metro and Vitest consume them directly. Soup images will bundle as
 `apps/soup-quiz/assets/soups/<id>.jpg`, mapped in `src/images.ts` (change 2).
-A Python/pandas pipeline (change 2) produces datasets validated against the exported
-JSON Schema — TS and Python only meet through that contract.
+`data/pipeline/` (Python, stdlib + pycountry + Pillow — no pandas) compiles the dataset
+from `data/raw/wikipedia/` + caches in `data/cache/`; run stages in numeric order (see
+`data/pipeline/README.md`). Overrides (`overrides.csv`) always win at compile; the
+dataset is regenerated, never hand-edited. TS and Python meet only through the schema
+contract.
 
 ## Data rules
 

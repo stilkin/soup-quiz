@@ -1,8 +1,8 @@
 # Soup Quiz
 
-> **Status: playable skeleton + local stats.** Change 1 (`bootstrap-monorepo`) is
-> archived; the stats page (change `add-stats-page`) records every round on-device and
-> shows streaks, accuracy, and mastery. Next up: the real dataset pipeline (see
+> **Status: real dataset shipped.** 362 soups compiled from Wikipedia with the
+> dataset pipeline (change `add-dataset-pipeline`), 197 with credited bundled images;
+> local stats record every round. Next up: SRS scheduling and the daily challenge (see
 > [Roadmap](#roadmap)). Everything below marked *planned* is decided but not yet built.
 
 ## What is this project?
@@ -28,11 +28,12 @@ The concept, in priorities:
 | Present in this repo | Planned (decided in OpenSpec changes) |
 |---|---|
 | pnpm monorepo: `packages/{schema,data,engine,stats}` + `apps/soup-quiz` (Expo, iOS + Android) | Python/pandas dataset pipeline validating against the exported JSON Schema |
-| Zod item contract with JSON Schema export; 249-country registry; flag emoji | Real dataset (~583 soups), credited bundled images |
+| Zod item contract with JSON Schema export; 249-country registry; flag emoji | SRS scheduling (serving weak soups more often) |
 | Seed-deterministic engine: mode-as-data, `generateRound`, scoring | SRS scheduling (serving weak soups more often) |
-| Stub dataset: 10 adversarial soups; one playable mode (ingredients → country) | More game modes over the same data (declarative configs) |
+| Real dataset: 362 soups via the Python pipeline, review pass + overrides; one playable mode | More game modes over the same data (declarative configs) |
 | Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, mastery | UTC daily challenge; share texts |
-| Raw wikitext snapshots of 16 Wikipedia list articles (`data/raw/wikipedia/`) | Share-card page, notifications, photo mode, store submission |
+| 197 credited Commons images bundled as ~200px JPEG (2.7 MB) | Share-card page, notifications, store submission |
+| Raw wikitext snapshots + cached article leads feeding the pipeline (`data/`) | |
 
 ## Technology
 
@@ -52,9 +53,12 @@ wikitext data for the future pipeline.
 ```
 apps/soup-quiz/        Expo app (UI only): expo-router screens, theme tokens, feedback
 packages/schema/       zod item contract, registries, validateDataset, JSON Schema
-packages/data/         stub dataset v0 (adversarial by design) + validation tests
+packages/data/         dataset v1 (362 soups) + validation and pairing tests
 packages/engine/       pure, seed-deterministic quiz logic (no framework imports)
+packages/stats/        pure progress computations: aggregation, UTC streaks, mastery
+data/pipeline/         Python pipeline: identity, extract, normalize, review, images, compile
 data/raw/wikipedia/    wikitext snapshots (pipeline inputs, not app content)
+data/cache/            cached corpus scan + article leads (offline re-runs)
 openspec/              config (locked decisions), changes, durable specs
 .claude/               OpenSpec slash commands + skills (agent workflow)
 ```
@@ -100,7 +104,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | # | Change | Status |
 |---|---|---|
 | 1 | `bootstrap-monorepo` — monorepo, schema, stub data, one playable mode | **archived 2026-10-02** (18/18 tasks) |
-| 2 | `add-dataset-pipeline` — scrape/enrich/review/compile, image bundling + attribution | next up |
+| 2 | `add-dataset-pipeline` — scrape/enrich/review/compile, image bundling + attribution | **implemented 2026-10-02** (device check pending) |
 | 3 | `add-quiz-modes` — declarative mode configs over the real dataset | planned |
 | 4 | `add-stats-page` — local recording, streaks, mastery, stats screen | **archived 2026-10-02** (10/10 tasks) |
 | 5 | `add-srs-scheduling` — spaced-repetition serving from recorded data | planned |

@@ -151,15 +151,16 @@ def main():
             continue
         raw_thumb = thumbs / f'{soup_id}_400.jpg'
         try:
-            download(meta['thumburl'], raw_thumb)
-            downloaded += 1
+            if not raw_thumb.exists():
+                download(meta['thumburl'], raw_thumb)
+                downloaded += 1
+                time.sleep(0.5)  # pace only actual CDN fetches
         except Exception as e:  # noqa: BLE001 — a failed download flags, not crashes
             incomplete.append({'id': soup_id, 'name': item['name'], 'file': item['image'],
                                'why': f'download failed: {e}'})
             continue
         reencode(raw_thumb, ASSETS / f'{soup_id}.jpg', TARGET_WIDTH, JPEG_QUALITY)
         manifest[soup_id] = {'sourceFile': item['image'], 'credit': credit}
-        time.sleep(0.5)
 
     ASSETS.mkdir(parents=True, exist_ok=True)
     (ASSETS / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
