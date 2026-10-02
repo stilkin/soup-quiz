@@ -27,7 +27,7 @@ HAND = {
     '30240271': {'countries': 'ES,US', 'ingredients': 'lobster:lobster;butter:butter;cream:cream'},  # Lobster stew
     '51118076': {'ingredients': 'millet:finger millet (ragi);rice:rice'},  # Mandia peja
     '7674269': {'ingredients': 'seaweed:wakame seaweed;beef:beef;garlic:garlic;sesame-oil:sesame oil'},  # Miyeok-guk
-    '45416841': {'ingredients': 'okra:okra;beef:beef;fish:fish'},  # Okra soup
+    '45416841': {'ingredients': 'okra:okra;beef:beef;fish:fish', 'image': 'no'},  # Okra soup (photo shows sayur oyong, a different dish)
     '71120585': {'ingredients': 'papaya:pawpaw;fish:fish;chili-pepper:chili'},  # Pawpaw soup
     '19396733': {'ingredients': 'fish:fish;potato:potato;carrot:carrot;celery:celery;egg:egg;lime:lemon'},  # Psarosoupa
     '25241404': {'ingredients': 'beef:beef;keluak:keluak nuts;garlic:garlic;galangal:galangal;lemongrass:lemongrass'},  # Rawon
@@ -40,6 +40,12 @@ HAND = {
     '53278267': {'ingredients': 'editan-leaf:editan leaves;offal:assorted meat;chili-pepper:pepper'},  # Editan
     '74194133': {'ingredients': 'ant-egg:weaver ant eggs;chili-pepper:chili;lime:lime'},  # Ant egg soup
     '46955205': {'ingredients': 'dried-fruit:dried fruits;apple:apples;raisin:raisins'},  # Fruktsoppa
+    # Delta pass (2026-10-02, after the prepared-food infobox fix)
+    '1175370': {'countries': 'ID,MY,SG'},  # Bak kut teh — pin; infobox adds CN (Chinese origin), list-reviewed core wins
+    '167082': {'types': 'broth'},  # Dashi — pin; it is a stock/broth, not a cold soup
+    '15894666': {'types': 'fish-soup'},  # Paila marina — pin; more specific than infobox "stew/soup"
+    '43811140': {'image': 'no'},  # Maccu — lead photo is raw fava beans, not the soup
+    '52643761': {'image': 'no'},  # Nangchang Jar soup — lead photos are plants/herbarium sheets
 }
 
 # Non-dish articles and unplaceable generic preparations: excluded, reported.
@@ -63,9 +69,18 @@ EXCLUDE = {
     '17966625': 'Spring soup (generic)', '46335': 'Stone Soup (folk tale)',
     '657129': 'Stock (technique)', '53699164': 'Vegetable soup (generic)',
     '29688929': 'Talbina (porridge)', '50580426': 'Tharida (region-only attribution)',
+    # Delta pass (2026-10-02): generic articles that rode in on list-linkage rows
+    '19446188': 'Brain as food (ingredient article)', '60900': 'Carp (species article)',
+    '14107236': 'Crab meat (ingredient article)', '3489856': 'Fish head (ingredient article)',
+    '1849474': 'Green laver (species article)', '10159687': 'Liver as food (ingredient article)',
+    '16344596': 'Sake kasu (ingredient article)', '26866': 'Seafood (generic)',
+    '178943': 'Tripe (ingredient article)', '20609697': 'Pork (ingredient article)',
+    '38272316': 'Pakistani meat dishes (cuisine list)', '176565': 'Hungarian cuisine (cuisine article)',
+    '406363': 'Indonesian cuisine (cuisine article)', '14443478': 'Javanese cuisine (cuisine article)',
+    '430984': 'Silkie (chicken breed — ingredient of Chinese soups, not a soup)',
 }
 
-FIELDS = ['id', 'countries', 'region', 'types', 'ingredients', 'description', 'include']
+FIELDS = ['id', 'countries', 'region', 'types', 'ingredients', 'description', 'include', 'image']
 
 
 def main():

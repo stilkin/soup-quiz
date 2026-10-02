@@ -41,7 +41,7 @@
  {
   "id": "43805440",
   "name": "Acquacotta",
-  "description": "thumb|Acquacotta at a restaurant in Milan, Italy thumb|Acquacotta, bean, and minestrone Acquacotta (; ) is an Italian broth-based bread soup that was originally a peasant food.",
+  "description": "Acquacotta is an Italian broth-based bread soup that was originally a peasant food. Its preparation and consumption dates back to ancient history, and it originated in the coastal area known as the Maremma, in southern Tuscany and northern Lazio.",
   "sourceUrl": "https://en.wikipedia.org/?curid=43805440",
   "countries": [
    "IT"
@@ -146,11 +146,12 @@
  {
   "id": "3160140",
   "name": "Ajiaco",
-  "description": "Ajiaco () is a soup common to Colombia, Cuba, and Peru. Scholars have debated the origin of the dish. The dish is especially popular in the Colombian capital, Bogotá, being called ajiaco santafereño, where it is typically made with chicken, three varieties of potatoes, and the herb Galinsoga parviflora, known locally a…",
+  "description": "Ajiaco is a soup common to Colombia, Cuba, and Peru. Scholars have debated the origin of the dish. The dish is especially popular in the Colombian capital, Bogotá, being called ajiaco santafereño, where it is typically made with chicken, three varieties of potatoes, and the herb Galinsoga parviflora, known locally as g…",
   "sourceUrl": "https://en.wikipedia.org/?curid=3160140",
   "countries": [
    "CO"
   ],
+  "region": "Latin America",
   "types": [
    "stew"
   ],
@@ -163,7 +164,15 @@
     "id": "chicken",
     "display": "chicken"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Ajiaco.jpg",
+   "credit": {
+    "author": "Mauricio Giraldo from Bogotá, Colombia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "6109964",
@@ -211,11 +220,12 @@
  {
   "id": "53673578",
   "name": "Aloo tama",
-  "description": "Aloo tama () or aloo bodi tama () is a Nepali soup dish made of fermented bamboo shoots, potatoes and black-eyed peas.",
+  "description": "Aloo tama or aloo bodi tama is a Nepali soup dish made of fermented bamboo shoots, potatoes and black-eyed peas.",
   "sourceUrl": "https://en.wikipedia.org/?curid=53673578",
   "countries": [
    "NP"
   ],
+  "region": "Hilly region of Nepal",
   "types": [
    "soup"
   ],
@@ -256,7 +266,15 @@
     "id": "salt",
     "display": "salt"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Aalu Bodi Tama 3.jpg",
+   "credit": {
+    "author": "Gaurav Dhwaj Khadka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "33309838",
@@ -396,7 +414,7 @@
  {
   "id": "47175174",
   "name": "Ash-e doogh",
-  "description": "Ash-e doogh () is a yogurt soup found in various parts of Iran, like in Azerbaijan and Shiraz, with differing but similar ingredients. It is a kind of Aush. Similar dishes are found all over West Asia. It originates from the ancient city of Ardabil, located in northwestern Iran.",
+  "description": "Ash-e doogh is a yogurt soup found in various parts of Iran, like in Azerbaijan and Shiraz, with differing but similar ingredients. It is a kind of Aush. Similar dishes are found all over West Asia. It originates from the ancient city of Ardabil, located in northwestern Iran.",
   "sourceUrl": "https://en.wikipedia.org/?curid=47175174",
   "countries": [
    "IR",
@@ -429,7 +447,7 @@
  {
   "id": "53255330",
   "name": "Atama soup",
-  "description": "thumb|Atama plant Atama soup or amme-eddi is a palm-fruit vegetable soup that originates from the Ibibio people of Akwa Ibom state, Urhobo and Isoko people of Delta State in South South Nigeria. It is a popular food among the Delta, Cross River and Akwa Ibom State people of Nigeria.",
+  "description": "Atama soup or amme-eddi is a palm-fruit vegetable soup that originates from the Ibibio people of Akwa Ibom state, Urhobo and Isoko people of Delta State in South South Nigeria. It is a popular food among the Delta, Cross River and Akwa Ibom State people of Nigeria.",
   "sourceUrl": "https://en.wikipedia.org/?curid=53255330",
   "countries": [
    "NG"
@@ -472,14 +490,14 @@
  {
   "id": "5781423",
   "name": "Aush",
-  "description": "Aush ( ; ), properly romanized as , is a variety of thick soup, usually served hot. It is part of Iranian cuisine and Afghan cuisine, and is also found in Azerbaijani, Turkish, and South Caucasian cuisines.",
+  "description": "Aush , properly romanized as , is a variety of thick soup, usually served hot. It is part of Iranian cuisine and Afghan cuisine, and is also found in Azerbaijani, Turkish, and South Caucasian cuisines.",
   "sourceUrl": "https://en.wikipedia.org/?curid=5781423",
   "countries": [
    "IR",
    "AF",
    "TR"
   ],
-  "region": "Caucasus",
+  "region": "Iran",
   "types": [
    "potage"
   ],
@@ -504,12 +522,20 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Ash e reshte.jpg",
+   "credit": {
+    "author": "Rye-96",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "640174",
   "name": "Avgolemono",
-  "description": "Avgolemono ( or literally egg-lemon) is a family of sauces and soups made with egg yolk and lemon juice mixed with broth, then reduced. Avgolemono can be used to thicken soups and stews.",
+  "description": "Avgolemono (or literally egg-lemon) is a family of sauces and soups made with egg yolk and lemon juice mixed with broth, then reduced. Avgolemono can be used to thicken soups and stews.",
   "sourceUrl": "https://en.wikipedia.org/?curid=640174",
   "countries": [
    "GR"
@@ -530,7 +556,15 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Avgolemono soup.jpg",
+   "credit": {
+    "author": "robin.norwood",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "11555461",
@@ -741,6 +775,7 @@
   "countries": [
    "ID"
   ],
+  "region": "Nationwide",
   "types": [
    "noodle-soup"
   ],
@@ -785,12 +820,20 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Bakso mi bihun.jpg",
+   "credit": {
+    "author": "christian r from Singapore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "2723248",
   "name": "Banmian",
-  "description": "Banmian () or pan mee () is a Chinese noodle dish that consists of handmade noodles served in soup. Other types of handmade noodles include youmian (similar dough texture and taste, but thinner round noodles), or mee hoon kueh (flat and thin rectangular pieces).",
+  "description": "Banmian or pan mee is a Chinese noodle dish that consists of handmade noodles served in soup. Other types of handmade noodles include youmian (similar dough texture and taste, but thinner round noodles), or mee hoon kueh (flat and thin rectangular pieces).",
   "sourceUrl": "https://en.wikipedia.org/?curid=2723248",
   "countries": [
    "CN"
@@ -897,12 +940,12 @@
  {
   "id": "8641932",
   "name": "Batchoy",
-  "description": "Batchoy, alternatively spelled batsoy (), is a Filipino noodle soup of pork offal, crushed pork cracklings, chicken stock, beef loin, and round noodles. The original and most popular variant, La Paz batchoy, traces its roots to the Iloilo City district of La Paz, in the Philippines.",
+  "description": "Batchoy, alternatively spelled batsoy , is a Filipino noodle soup of pork offal, crushed pork cracklings, chicken stock, beef loin, and round noodles. The original and most popular variant, La Paz batchoy, traces its roots to the Iloilo City district of La Paz, in the Philippines.",
   "sourceUrl": "https://en.wikipedia.org/?curid=8641932",
   "countries": [
    "PH"
   ],
-  "region": "[[La Paz",
+  "region": "La Paz",
   "types": [
    "noodle-soup"
   ],
@@ -941,6 +984,7 @@
   "countries": [
    "ID"
   ],
+  "region": "Maritime Southeast Asia",
   "types": [
    "noodle-soup"
   ],
@@ -997,7 +1041,15 @@
     "id": "sesame-oil",
     "display": "sesame oil"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Kwetiau Siram.jpg",
+   "credit": {
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "593120",
@@ -1033,7 +1085,7 @@
  {
   "id": "2455937",
   "name": "Beer soup",
-  "description": "Beer soup (, , ) is a soup which is usually roux-based and made with beer. In medieval Europe, it was served as a breakfast soup, sometimes poured over bread. A popular variant in Wisconsin restaurants and bars is called beer cheese soup, made with melted cheese, vegetables, and sometimes incorporating bratwurst.",
+  "description": "Beer soup is a soup which is usually roux-based and made with beer. In medieval Europe, it was served as a breakfast soup, sometimes poured over bread. A popular variant in Wisconsin restaurants and bars is called beer cheese soup, made with melted cheese, vegetables, and sometimes incorporating bratwurst.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2455937",
   "countries": [
    "DE"
@@ -1139,7 +1191,15 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Ginataang Bilu-Bilo 001.jpg",
+   "credit": {
+    "author": "Televido",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "60539561",
@@ -1243,6 +1303,7 @@
   "countries": [
    "ID"
   ],
+  "region": "Gorontalo",
   "types": [
    "fish-soup"
   ],
@@ -1259,12 +1320,20 @@
     "id": "basil",
     "display": "basil"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Binte Biluhuta.jpg",
+   "credit": {
+    "author": "Supardisahabu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "2212333",
   "name": "Bisque",
-  "description": "Bisque or bisk (; ) is a smooth, creamy, highly seasoned soup of French origin, classically based on a strained broth (coulis) of crustaceans. It can be made from lobster, langoustine, crab, shrimp, or crayfish. The French bisque is one of the most popular seafood soups around the world.",
+  "description": "Bisque or bisk is a smooth, creamy, highly seasoned soup of French origin, classically based on a strained broth (coulis) of crustaceans. It can be made from lobster, langoustine, crab, shrimp, or crayfish. The French bisque is one of the most popular seafood soups around the world.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2212333",
   "countries": [
    "FR"
@@ -1359,7 +1428,7 @@
  {
   "id": "3858135",
   "name": "Bob chorba",
-  "description": "Bob chorba () is a chorba, a Bulgarian soup. It is made from dry beans, onions, tomatoes, chubritza or dzhodzhen (spearmint) and carrots. Local variations may also exclude the carrots or include paprika, potatoes or even some kind of meat.",
+  "description": "Bob chorba is a chorba, a Bulgarian soup. It is made from dry beans, onions, tomatoes, chubritza or dzhodzhen (spearmint) and carrots. Local variations may also exclude the carrots or include paprika, potatoes or even some kind of meat. Historically, it has been a common soup and staple food at Bulgarian monasteries.",
   "sourceUrl": "https://en.wikipedia.org/?curid=3858135",
   "countries": [
    "BG"
@@ -1393,7 +1462,7 @@
  {
   "id": "216990",
   "name": "Borscht",
-  "description": "Borscht () is a sour soup, made with meat stock, vegetables and seasonings, common in Eastern Europe, Central Europe and Northern Asia.",
+  "description": "Borscht is a sour soup, made with meat stock, vegetables and seasonings, common in Eastern Europe, Central Europe and Northern Asia.",
   "sourceUrl": "https://en.wikipedia.org/?curid=216990",
   "countries": [
    "UA"
@@ -1472,7 +1541,7 @@
  {
   "id": "767584",
   "name": "Bouillabaisse",
-  "description": "Bouillabaisse ( , , ; ) is a traditional Provençal fish soup originating in the port city of Marseille. The word is originally a compound of the two Provençal verbs ('to boil') and ('to reduce heat', i.e. 'simmer').",
+  "description": "Bouillabaisse is a traditional Provençal fish soup originating in the port city of Marseille. The word is originally a compound of the two Provençal verbs ('to boil') and ('to reduce heat', i.e. 'simmer').",
   "sourceUrl": "https://en.wikipedia.org/?curid=767584",
   "countries": [
    "FR"
@@ -1556,7 +1625,7 @@
  {
   "id": "999601",
   "name": "Bouillon",
-  "description": "Bouillon (; ) is a Haitian soup. This name comes from the French verb bouillir, meaning to boil. It is made with sliced meat, potatoes, sliced plantains, yam, spinach, watercress, cabbage, and celery (other ingredient variations exist), and cooked as a mildly thick soup.",
+  "description": "Bouillon is a Haitian soup. This name comes from the French verb bouillir, meaning to boil. It is made with sliced meat, potatoes, sliced plantains, yam, spinach, watercress, cabbage, and celery (other ingredient variations exist), and cooked as a mildly thick soup.",
   "sourceUrl": "https://en.wikipedia.org/?curid=999601",
   "countries": [
    "HT"
@@ -1640,7 +1709,7 @@
  {
   "id": "54921384",
   "name": "Bozbash",
-  "description": "thumb|Küftə (meatball) bozbash thumb|Tikə (chunky) bozbash Bozbash ( ; ; ) is a traditional meat stew (also described as a soup) that is popular in Armenia, Azerbaijan and Iran.",
+  "description": "Bozbash is a traditional meat stew (also described as a soup) that is popular in Armenia, Azerbaijan and Iran.",
   "sourceUrl": "https://en.wikipedia.org/?curid=54921384",
   "countries": [
    "AZ"
@@ -1657,42 +1726,20 @@
     "id": "meatball",
     "display": "meatball"
    }
-  ]
- },
- {
-  "id": "19446188",
-  "name": "Brain as food",
-  "description": "thumb|right|Lamb brains sold as food thumb|, cattle's brain curry from Indonesia The brain, like most other internal organs, or offal, can serve as nourishment. Brains used for nourishment include those of pigs, squirrels, rabbits, horses, cattle, monkeys, chickens, camels, fish, lamb, and goats.",
-  "sourceUrl": "https://en.wikipedia.org/?curid=19446188",
-  "countries": [
-   "DE"
   ],
-  "types": [
-   "fish-soup"
-  ],
-  "ingredients": [
-   {
-    "id": "chicken",
-    "display": "chickens"
-   },
-   {
-    "id": "lamb",
-    "display": "mutton"
-   },
-   {
-    "id": "fish",
-    "display": "fish"
-   },
-   {
-    "id": "offal",
-    "display": "offal"
+  "image": {
+   "sourceFile": "File:Küftə (meatball) bozbash.jpg",
+   "credit": {
+    "author": "NurlanLalaev",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
    }
-  ]
+  }
  },
  {
   "id": "33034484",
   "name": "Bread soup",
-  "description": "thumb|Bread soup with pureed brown bread, [[wine and cream from Vienna, Austria]] Bread soup is a simple soup that mainly consists of bread, usually stale bread. Variations exist in many countries, and it is often eaten during Lent. Both brown and white bread may be used.",
+  "description": "Bread soup is a simple soup that mainly consists of bread, usually stale bread. Variations exist in many countries, and it is often eaten during Lent. Both brown and white bread may be used. The basis for bread soup is traditionally either meat soup or vegetable broth. Less often it is made with fish broth.",
   "sourceUrl": "https://en.wikipedia.org/?curid=33034484",
   "countries": [
    "DE"
@@ -1768,6 +1815,7 @@
   "countries": [
    "ID"
   ],
+  "region": "Yogyakarta",
   "types": [
    "stew"
   ],
@@ -1808,12 +1856,20 @@
     "id": "sugar",
     "display": "palm sugar"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Brongkos 1.jpg",
+   "credit": {
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "1889306",
   "name": "Buddha Jumps Over the Wall",
-  "description": "Buddha Jumps Over the Wall, also known as Buddha's Temptation or fotiaoqiang (), is a Chinese recipe, a variety of shark fin soup in Fujian cuisine. This dish is known in Chinese cuisine for its rich taste and special manner of cooking.",
+  "description": "Buddha Jumps Over the Wall, also known as Buddha's Temptation or fotiaoqiang , is a Chinese recipe, a variety of shark fin soup in Fujian cuisine. This dish is known in Chinese cuisine for its rich taste and special manner of cooking.",
   "sourceUrl": "https://en.wikipedia.org/?curid=1889306",
   "countries": [
    "CN"
@@ -1941,11 +1997,12 @@
  {
   "id": "4750535",
   "name": "Bún bò Huế",
-  "description": "(pronounced ) or () is a Vietnamese rice noodle () dish with sliced beef (), , and sometimes pork knuckles. The dish originates from Huế, a city in central Vietnam associated with the cooking style of the former royal court. The dish has a mix of spicy, salty, and savory flavors.",
+  "description": "(pronounced ) or is a Vietnamese rice noodle dish with sliced beef , , and sometimes pork knuckles. The dish originates from Huế, a city in central Vietnam associated with the cooking style of the former royal court. The dish has a mix of spicy, salty, and savory flavors.",
   "sourceUrl": "https://en.wikipedia.org/?curid=4750535",
   "countries": [
    "HU"
   ],
+  "region": "Central Vietnam (Huế)",
   "types": [
    "noodle-soup"
   ],
@@ -1978,7 +2035,15 @@
     "id": "noodle",
     "display": "noodles"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Bún bò Huế - Chợ Đông Ba (2024) - img 02.jpg",
+   "credit": {
+    "author": "Chainwit.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+   }
+  }
  },
  {
   "id": "40933402",
@@ -2041,7 +2106,7 @@
  {
   "id": "5374966",
   "name": "Cacciucco",
-  "description": "Cacciucco () is an Italian fish stew native to the western coastal towns of Tuscany. It is especially associated with the port city of Livorno, in Tuscany, and the town of Viareggio north of it.",
+  "description": "Cacciucco is an Italian fish stew native to the western coastal towns of Tuscany. It is especially associated with the port city of Livorno, in Tuscany, and the town of Viareggio north of it.",
   "sourceUrl": "https://en.wikipedia.org/?curid=5374966",
   "countries": [
    "IT"
@@ -2077,6 +2142,7 @@
   "countries": [
    "CL"
   ],
+  "region": "Southern Cone",
   "types": [
    "fish-soup"
   ],
@@ -2169,7 +2235,7 @@
  {
   "id": "9217993",
   "name": "Caldo de pollo",
-  "description": "(, lit. 'chicken broth') is a common soup that consists of chicken and vegetables. What makes this soup different from many other versions of chicken soup is that unlike the Brazilian , uses whole chicken pieces instead of chopped or shredded chicken.",
+  "description": "(lit. 'chicken broth') is a common soup that consists of chicken and vegetables. What makes this soup different from many other versions of chicken soup is that unlike the Brazilian , uses whole chicken pieces instead of chopped or shredded chicken.",
   "sourceUrl": "https://en.wikipedia.org/?curid=9217993",
   "countries": [
    "MX"
@@ -2243,7 +2309,15 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Caldo de Pollo (2411932823).jpg",
+   "credit": {
+    "author": "El Gran Dee",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "45566858",
@@ -2415,17 +2489,26 @@
     "id": "broth",
     "display": "chicken broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Caldo tlalpeño.JPG",
+   "credit": {
+    "author": "Saloca",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "2849631",
   "name": "Caldo verde",
-  "description": "thumb|200px|right|Traditional thumb|Two of the main ingredients arranged next to each other at a grocery store in Little Portugal, Toronto. The greens have been julienned specifically for the preparation of . (, Portuguese for \"green broth\") is a popular soup in Portuguese cuisine.",
+  "description": "(Portuguese for \"green broth\") is a popular soup in Portuguese cuisine. The basic traditional ingredients for are julienned Portuguese cabbage or (or alternatively other leafy greens such as kale or mustard greens), potatoes, olive oil, black pepper and salt, mainly flavoured with onion and garlic.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2849631",
   "countries": [
    "PT",
    "BR"
   ],
+  "region": "Minho Province",
   "types": [
    "broth"
   ],
@@ -2470,12 +2553,20 @@
     "id": "salt",
     "display": "salt"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Caldo verde.jpg",
+   "credit": {
+    "author": "Mateus Hidalgo",
+    "license": "CC BY-SA 2.5 br",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/br/deed.en"
+   }
+  }
  },
  {
   "id": "2006866",
   "name": "Callaloo",
-  "description": "Callaloo ( , ; many spelling variants, such as kallaloo, calaloo, calalloo, calaloux, or callalloo) is a plant used in popular dishes in many Caribbean countries, while for other Caribbean countries, a stew made with the plant is called . Cuisines, including the plant or dishes called , vary throughout the Caribbean.",
+  "description": "Callaloo (many spelling variants, such as kallaloo, calaloo, calalloo, calaloux, or callalloo) is a plant used in popular dishes in many Caribbean countries, while for other Caribbean countries, a stew made with the plant is called . Cuisines, including the plant or dishes called , vary throughout the Caribbean.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2006866",
   "countries": [
    "HT"
@@ -2503,11 +2594,12 @@
  {
   "id": "12244945",
   "name": "Canh chua",
-  "description": "Canh chua (, sour soup) is a Vietnamese sour soup indigenous to the Mekong Delta region of Southern Vietnam (Central Vietnam also have their own canh chua).",
+  "description": "Canh chua (sour soup) is a Vietnamese sour soup indigenous to the Mekong Delta region of Southern Vietnam (Central Vietnam also have their own canh chua).",
   "sourceUrl": "https://en.wikipedia.org/?curid=12244945",
   "countries": [
    "VN"
   ],
+  "region": "Mekong Delta",
   "types": [
    "fish-soup"
   ],
@@ -2572,12 +2664,20 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Canhchua2.jpg",
+   "credit": {
+    "author": "Jason Hutchens",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "27830438",
   "name": "Canja de galinha",
-  "description": "(, , (literally \"chicken congee\"), or simply , is a popular chicken soup of Portuguese, Cape Verdean, and Brazilian cuisine. The Portuguese term literally means \"hen\", but became the generic name for the species, much like chicken in English.",
+  "description": "((literally \"chicken congee\"), or simply , is a popular chicken soup of Portuguese, Cape Verdean, and Brazilian cuisine. The Portuguese term literally means \"hen\", but became the generic name for the species, much like chicken in English.",
   "sourceUrl": "https://en.wikipedia.org/?curid=27830438",
   "countries": [
    "BR"
@@ -2594,7 +2694,15 @@
     "id": "rice",
     "display": "rice"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Canja de galinha.jpg",
+   "credit": {
+    "author": "Sebástian Freire from Rio de Janeiro, Brasil",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "16267026",
@@ -2632,31 +2740,9 @@
   }
  },
  {
-  "id": "60900",
-  "name": "Carp",
-  "description": "thumb|1913 illustration of Cyprinus carpio, better known as the common carp thumb|Common carp in Lake Minnetonka, [[Minnesota]] The term carp (: carp) is a generic common name for numerous species of freshwater fish from the family Cyprinidae, a very large clade of ray-finned fish mostly native to Eurasia.",
-  "sourceUrl": "https://en.wikipedia.org/?curid=60900",
-  "countries": [
-   "CN"
-  ],
-  "types": [
-   "fish-soup"
-  ],
-  "ingredients": [
-   {
-    "id": "fish",
-    "display": "fish"
-   },
-   {
-    "id": "water",
-    "display": "water"
-   }
-  ]
- },
- {
   "id": "48744803",
   "name": "Carrot soup",
-  "description": "thumb|A cream of carrot soup with loaf|alt=A cream of carrot soup with bread thumb|A cream of carrot soup|alt=A cream of carrot soup Carrot soup (referred to in French as potage de Crécy, potage Crécy, potage à la Crécy, purée à la Crécy and crème à la Crécy) is a soup prepared with carrot as a primary ingredient.",
+  "description": "Carrot soup (referred to in French as potage de Crécy, potage Crécy, potage à la Crécy, purée à la Crécy and crème à la Crécy) is a soup prepared with carrot as a primary ingredient. It can be prepared as a cream- or broth-style soup.",
   "sourceUrl": "https://en.wikipedia.org/?curid=48744803",
   "countries": [
    "ID"
@@ -2681,12 +2767,20 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Carrot soup.jpg",
+   "credit": {
+    "author": "jules / stone soup",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "6250637",
   "name": "Cazuela",
-  "description": "Cazuela ( or ) is the common name given to a variety of dishes, especially from South America. It receives its name from the cazuela (Spanish for 'cooking pot')—traditionally, an often shallow pot made of unglazed earthenware used for cooking.",
+  "description": "Cazuela (or ) is the common name given to a variety of dishes, especially from South America. It receives its name from the cazuela (Spanish for 'cooking pot')—traditionally, an often shallow pot made of unglazed earthenware used for cooking.",
   "sourceUrl": "https://en.wikipedia.org/?curid=6250637",
   "countries": [
    "EC"
@@ -2716,7 +2810,15 @@
     "id": "rice",
     "display": "rice"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Cazuela ecuatoriana.jpg",
+   "credit": {
+    "author": "Paborbor",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  }
  },
  {
   "id": "3887348",
@@ -2724,8 +2826,9 @@
   "description": "Chakna or chaakna is a spicy stew, originating from the Indian subcontinent, made out of goat tripe and other animal digestive parts. It is a speciality among Hyderabadi Muslims. In all other parts of India, chakna refers to any snacks/finger foods for consumption with alcohol.",
   "sourceUrl": "https://en.wikipedia.org/?curid=3887348",
   "countries": [
-   "PK"
+   "IN"
   ],
+  "region": "Hyderabad",
   "types": [
    "stew"
   ],
@@ -2738,7 +2841,15 @@
     "id": "offal",
     "display": "kidney"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Chakna.jpg",
+   "credit": {
+    "author": "Mrudit161187",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "1043218",
@@ -2798,7 +2909,7 @@
  {
   "id": "3515347",
   "name": "Chankonabe",
-  "description": "thumb|right|Chanko set right|thumb|One example of chankonabe In Japanese cuisine, chankonabe (), also known as chanko or sumo stew, is a stew (a type of or one-pot dish) commonly eaten in vast quantities by sumo wrestlers while trying to gain weight.",
+  "description": "In Japanese cuisine, chankonabe , also known as chanko or sumo stew, is a stew (a type of or one-pot dish) commonly eaten in vast quantities by sumo wrestlers while trying to gain weight.",
   "sourceUrl": "https://en.wikipedia.org/?curid=3515347",
   "countries": [
    "JP"
@@ -2823,12 +2934,20 @@
     "id": "broth",
     "display": "chicken broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Chankonabe.jpg",
+   "credit": {
+    "author": "George N",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "26438398",
   "name": "Cheese soup",
-  "description": "thumb|upright=1.2|Four-cheese soup at a restaurant Cheese soup is a type of soup prepared using cheese as a primary ingredient, along with milk, broth and/or stock to form its basis. Various additional ingredients are used in its preparation, and various types and styles of cheese soup exist.",
+  "description": "Cheese soup is a type of soup prepared using cheese as a primary ingredient, along with milk, broth and/or stock to form its basis. Various additional ingredients are used in its preparation, and various types and styles of cheese soup exist.",
   "sourceUrl": "https://en.wikipedia.org/?curid=26438398",
   "countries": [
    "DE"
@@ -2845,12 +2964,20 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Four cheese soup.jpg",
+   "credit": {
+    "author": "Pille from Tallinn, Estonia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "39770602",
   "name": "Chicken and duck blood soup",
-  "description": "Chicken and duck blood soup () is a Shanghainese soup-based blood dish, using the blood of chicken and duck as a principal ingredient. Created by Xu Fuquan, a hawker from Shanghai, and described to be sour and spicy in taste, the dish is viewed as a healthy food with medicinal value in Shanghai.",
+  "description": "Chicken and duck blood soup is a Shanghainese soup-based blood dish, using the blood of chicken and duck as a principal ingredient. Created by Xu Fuquan, a hawker from Shanghai, and described to be sour and spicy in taste, the dish is viewed as a healthy food with medicinal value in Shanghai.",
   "sourceUrl": "https://en.wikipedia.org/?curid=39770602",
   "countries": [
    "CN"
@@ -2872,7 +2999,7 @@
  {
   "id": "5940610",
   "name": "Chorba",
-  "description": "Chorba, ( ; ) shorwa, shurba, shurpa, shurbah or shorba ( ) is a broad class of stews or rich soups found in national cuisines across North Africa, The Middle East, Iran, Turkey, Southeast Europe, Central Asia, East Africa and South Asia.",
+  "description": "Chorba, shorwa, shurba, shurpa, shurbah or shorba is a broad class of stews or rich soups found in national cuisines across North Africa, The Middle East, Iran, Turkey, Southeast Europe, Central Asia, East Africa and South Asia.",
   "sourceUrl": "https://en.wikipedia.org/?curid=5940610",
   "countries": [
    "PK"
@@ -2909,6 +3036,7 @@
    "PE"
   ],
   "types": [
+   "stew",
    "chowder"
   ],
   "ingredients": [
@@ -2976,7 +3104,15 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Chupe de Camarones.jpg",
+   "credit": {
+    "author": "Greg Ma",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "49168404",
@@ -3032,7 +3168,7 @@
  {
   "id": "2089671",
   "name": "Cioppino",
-  "description": "thumb|Cioppino with bread Cioppino (, ; from ) is a fish stew originating in San Francisco, California, a dish in Italian-American cuisine related to various fish soups in Italian cuisine.",
+  "description": "Cioppino is a fish stew originating in San Francisco, California, a dish in Italian-American cuisine related to various fish soups in Italian cuisine.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2089671",
   "countries": [
    "US"
@@ -3114,7 +3250,7 @@
  {
   "id": "46459",
   "name": "Clam soup",
-  "description": "thumb|upright=1.1|Clam soup thumb|Black clam miso soup at a Tokyo restaurant Clam soup is a soup prepared using clams as a primary ingredient. Clam soup can be prepared as a thin, broth- or cream/milk-based soup and as a thicker, chowder-style soup.",
+  "description": "Clam soup is a soup prepared using clams as a primary ingredient. Clam soup can be prepared as a thin, broth- or cream/milk-based soup and as a thicker, chowder-style soup. In Japan, hot miso soup prepared with clams is believed by some to be a cure for the hangover.",
   "sourceUrl": "https://en.wikipedia.org/?curid=46459",
   "countries": [
    "JP"
@@ -3139,7 +3275,15 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Clam soup.JPG",
+   "credit": {
+    "author": "Jdcgumpal",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "2932457",
@@ -3195,7 +3339,7 @@
  {
   "id": "57323119",
   "name": "Cockchafer soup",
-  "description": "thumb|\"Mockchafer soup\" made with crab meat in place of cockchafers, and served with toasted bread and liver Cockchafer soup is a European dish made from the cockchafer beetle. Cockchafers were once a common pest insect in Europe, with population explosions every four years.",
+  "description": "Cockchafer soup is a European dish made from the cockchafer beetle. Cockchafers were once a common pest insect in Europe, with population explosions every four years.",
   "sourceUrl": "https://en.wikipedia.org/?curid=57323119",
   "countries": [
    "DE"
@@ -3217,12 +3361,20 @@
     "id": "offal",
     "display": "liver"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Maikäfersuppe.jpg",
+   "credit": {
+    "author": "Rainer Z ...",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "725256",
   "name": "Consommé",
-  "description": "Consommé ( () is a type of clear soup made from richly flavoured stock or broth that has been clarified, a process that traditionally uses egg whites to remove fat and sediment. A later technique for clarification employs gelatin filtration.",
+  "description": "Consommé ( is a type of clear soup made from richly flavoured stock or broth that has been clarified, a process that traditionally uses egg whites to remove fat and sediment. A later technique for clarification employs gelatin filtration.",
   "sourceUrl": "https://en.wikipedia.org/?curid=725256",
   "countries": [
    "FR"
@@ -3358,32 +3510,6 @@
   }
  },
  {
-  "id": "14107236",
-  "name": "Crab meat",
-  "description": "thumb|250px|Crab meat from crab claws on Toast (food)|toast thumb|250px|The brown crab is commonly used for its meat Crab meat, also known as crab marrow, is the edible meat found in a crab, specifically in its legs and claws. It is widely used in global cuisines for its soft, delicate and sweet flavor.",
-  "sourceUrl": "https://en.wikipedia.org/?curid=14107236",
-  "countries": [
-   "FR"
-  ],
-  "types": [
-   "bisque"
-  ],
-  "ingredients": [
-   {
-    "id": "fish",
-    "display": "fish"
-   },
-   {
-    "id": "crab",
-    "display": "crab"
-   },
-   {
-    "id": "water",
-    "display": "water"
-   }
-  ]
- },
- {
   "id": "82216707",
   "name": "Cream of crab soup",
   "description": "Cream of crab soup is a dish from the Eastern Shore of Maryland. It is made with lump Maryland blue crab meat, onion, whole milk and/or half and half (milk and cream blend), butter, either flour or corn starch as a thickener, and Old Bay as the main seasoning.",
@@ -3502,7 +3628,15 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Cream Stew 001.jpg",
+   "credit": {
+    "author": "Ocdp",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  }
  },
  {
   "id": "18629609",
@@ -3563,7 +3697,7 @@
  {
   "id": "173821",
   "name": "Cucumber soup",
-  "description": "Cucumber soup is a traditional Polish and Lithuanian soup (, ). It is made from sour, salted cucumbers and potato. Occasionally, rice is substituted for the potatoes. Cucumber soup is also any soup using cucumbers as a primary ingredient, and is present in various cuisines.",
+  "description": "Cucumber soup is a traditional Polish and Lithuanian soup . It is made from sour, salted cucumbers and potato. Occasionally, rice is substituted for the potatoes. Cucumber soup is also any soup using cucumbers as a primary ingredient, and is present in various cuisines.",
   "sourceUrl": "https://en.wikipedia.org/?curid=173821",
   "countries": [
    "PL"
@@ -3603,7 +3737,7 @@
   "countries": [
    "GB"
   ],
-  "region": "Scotland",
+  "region": "Moray",
   "types": [
    "fish-soup"
   ],
@@ -3624,7 +3758,15 @@
     "id": "bread",
     "display": "bread"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Cullen Skink.JPG",
+   "credit": {
+    "author": "Metukkalihis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "2977173",
@@ -3691,13 +3833,13 @@
  {
   "id": "167082",
   "name": "Dashi",
-  "description": "thumb|Some common brands of packaged instant dashi is a family of stocks used in Japanese cuisine. Dashi forms the base for miso soup, clear broth soup, noodle broth soup, and many simmering liquids to accentuate the savory flavor known as umami.",
+  "description": "is a family of stocks used in Japanese cuisine. Dashi forms the base for miso soup, clear broth soup, noodle broth soup, and many simmering liquids to accentuate the savory flavor known as umami. Dashi is also mixed into the flour base of some grilled foods like okonomiyaki and takoyaki.",
   "sourceUrl": "https://en.wikipedia.org/?curid=167082",
   "countries": [
    "JP"
   ],
   "types": [
-   "cold-soup"
+   "broth"
   ],
   "ingredients": [
    {
@@ -3728,12 +3870,20 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Katsuobushi 02.jpg",
+   "credit": {
+    "author": "Sakurai Midori",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "63133991",
   "name": "Dillegrout",
-  "description": "thumb|Baron Bardolf#Honour at Coronation of the Monarch|Bardolf, a dish considered to be similar to dillegroutDillegrout or dilligrout is a dish traditionally presented at the coronations of kings and queens of England by the holders of the manor of Addington in a kitchen serjeanty.",
+  "description": "Dillegrout or dilligrout is a dish traditionally presented at the coronations of kings and queens of England by the holders of the manor of Addington in a kitchen serjeanty.",
   "sourceUrl": "https://en.wikipedia.org/?curid=63133991",
   "countries": [
    "GB"
@@ -3755,7 +3905,15 @@
     "id": "milk",
     "display": "milk"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Dillegrout, also known at le mess de gyron, girunt, dilgirunt, dilegrout, dillygrout, dilligrout, maupygernon, maupigyrnun, malepigernout, malpigernoun.jpg",
+   "credit": {
+    "author": "Valereee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "5305736",
@@ -3807,7 +3965,7 @@
  {
   "id": "79358082",
   "name": "Doghramaj",
-  "description": "Doghramaj () or Ovdukh (; ) is a cold Azerbaijani and Tat soup. It is a version of the Russian soup Okroshka, with minor differences separating the two, and similar to another warm soup from the territory of Azerbaijan, Dovga.",
+  "description": "Doghramaj or Ovdukh is a cold Azerbaijani and Tat soup. It is a version of the Russian soup Okroshka, with minor differences separating the two, and similar to another warm soup from the territory of Azerbaijan, Dovga.",
   "sourceUrl": "https://en.wikipedia.org/?curid=79358082",
   "countries": [
    "AZ"
@@ -3834,7 +3992,7 @@
  {
   "id": "40382513",
   "name": "Dojō nabe",
-  "description": "thumb|Dojō nabe Dojo nabe (Japanese: 泥鰌鍋 or ドジョウ鍋; dojō nabe) is a Japanese nabemono dish. To prepare the dish, pond loaches are cooked in a hot pot. The freshwater fishes are either killed ahead of cooking or are first soaked in cold sake and then cooked alive.",
+  "description": "Dojo nabe (Japanese: 泥鰌鍋 or ドジョウ鍋; dojō nabe) is a Japanese nabemono dish. To prepare the dish, pond loaches are cooked in a hot pot. The freshwater fishes are either killed ahead of cooking or are first soaked in cold sake and then cooked alive.",
   "sourceUrl": "https://en.wikipedia.org/?curid=40382513",
   "countries": [
    "JP"
@@ -3859,12 +4017,20 @@
     "id": "egg",
     "display": "egg"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Komakata Dozeu6.JPG",
+   "credit": {
+    "author": "江戸村のとくぞう (Edomura no Tokuzo)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "33655052",
   "name": "Duck blood and vermicelli soup",
-  "description": "Duck blood and vermicelli soup () is a traditional delicacy of Nanjing, capital of Jiangsu province, and is also eaten in other regions of China. A similar dish is eaten in Poland, Belarus, and Lithuania, where it is called czernina.",
+  "description": "Duck blood and vermicelli soup is a traditional delicacy of Nanjing, capital of Jiangsu province, and is also eaten in other regions of China. A similar dish is eaten in Poland, Belarus, and Lithuania, where it is called czernina.",
   "sourceUrl": "https://en.wikipedia.org/?curid=33655052",
   "countries": [
    "CN"
@@ -3895,7 +4061,7 @@
  {
   "id": "5809149",
   "name": "Duck soup noodles",
-  "description": "Duck soup noodles or duck leg noodles (; also spelt ak-twee-mee-sua) is a style of serving noodles. The dish consists of ingredients such as duck meat in hot soup with mixed herbs and noodles.",
+  "description": "Duck soup noodles or duck leg noodles (also spelt ak-twee-mee-sua) is a style of serving noodles. The dish consists of ingredients such as duck meat in hot soup with mixed herbs and noodles.",
   "sourceUrl": "https://en.wikipedia.org/?curid=5809149",
   "countries": [
    "MY"
@@ -3917,7 +4083,7 @@
  {
   "id": "51525715",
   "name": "Edikang ikong",
-  "description": "thumb|right|Edikang ikong Edikang ikong is a vegetable soup made with ikong ubong that originated among the Efik people of Cross River State and Ibibio people of Akwa Ibom State in Nigeria It is considered to be a delicacy among some Nigerians, and is sometimes served during occasions of importance.",
+  "description": "Edikang ikong is a vegetable soup made with ikong ubong that originated among the Efik people of Cross River State and Ibibio people of Akwa Ibom State in Nigeria It is considered to be a delicacy among some Nigerians, and is sometimes served during occasions of importance.",
   "sourceUrl": "https://en.wikipedia.org/?curid=51525715",
   "countries": [
    "NG"
@@ -3963,7 +4129,15 @@
     "id": "salt",
     "display": "salt"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Edikang ikong.jpg",
+   "credit": {
+    "author": "Aderiqueza",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "53278267",
@@ -3995,7 +4169,7 @@
  {
   "id": "47826135",
   "name": "Egg drop soup",
-  "description": "Egg drop soup, also known as egg flower soup, () is a Chinese soup of wispy beaten eggs in chicken broth. Condiments such as black or white pepper, and finely chopped scallions and tofu, are commonly added to the soup.",
+  "description": "Egg drop soup, also known as egg flower soup, is a Chinese soup of wispy beaten eggs in chicken broth. Condiments such as black or white pepper, and finely chopped scallions and tofu, are commonly added to the soup.",
   "sourceUrl": "https://en.wikipedia.org/?curid=47826135",
   "countries": [
    "CN"
@@ -4058,12 +4232,20 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Eggtongsui.jpg",
+   "credit": {
+    "author": "Benjwong",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+   }
+  }
  },
  {
   "id": "43746358",
   "name": "Egusi sauce",
-  "description": "thumb|Egusi seeds without shells thumb|Egusi soup atop a dish, with pounded yam (upper left) Egusi sauce or egusi soup a popular soup in Nigeria. The word 'Egusi' is of Yoruba origin. It is prepared with egusi seeds as a primary ingredient.",
+  "description": "Egusi sauce or egusi soup a popular soup in Nigeria. The word 'Egusi' is of Yoruba origin. It is prepared with egusi seeds as a primary ingredient. Egusi seeds are the fat- and protein-rich seeds of certain cucurbitaceous (squash, melon, gourd) plants.",
   "sourceUrl": "https://en.wikipedia.org/?curid=43746358",
   "countries": [
    "NG"
@@ -4183,11 +4365,12 @@
  {
   "id": "2599189",
   "name": "Escudella",
-  "description": "thumb|A bowl of escudella with pasta Escudella i carn d'olla, or shorter escudella (; ), is a traditional Catalan and Valencian soup made with meat and vegetables. Francesc Eiximenis wrote in the 14th century that it was eaten every day by Catalan people.",
+  "description": "Escudella i carn d'olla, or shorter escudella , is a traditional Catalan and Valencian soup made with meat and vegetables. Francesc Eiximenis wrote in the 14th century that it was eaten every day by Catalan people.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2599189",
   "countries": [
    "ES"
   ],
+  "region": "Catalonia",
   "types": [
    "soup"
   ],
@@ -4233,7 +4416,7 @@
  {
   "id": "47863702",
   "name": "Ezogelin soup",
-  "description": "Ezogelin soup or Ezo gelin soup (, \"the soup of Ezo the bride\") is a common soup in Turkish cuisine. The main ingredients are bulgur and red lentils. The origin of the soup is attributed to Ezo the bride from Gaziantep.",
+  "description": "Ezogelin soup or Ezo gelin soup (\"the soup of Ezo the bride\") is a common soup in Turkish cuisine. The main ingredients are bulgur and red lentils. The origin of the soup is attributed to Ezo the bride from Gaziantep.",
   "sourceUrl": "https://en.wikipedia.org/?curid=47863702",
   "countries": [
    "TR"
@@ -4351,7 +4534,7 @@
  {
   "id": "623596",
   "name": "Feijoada",
-  "description": "Feijoada (, ; from , 'bean') is the name for varieties of bean stew with beef or pork prepared in the Portuguese-speaking world.",
+  "description": "Feijoada (from , 'bean') is the name for varieties of bean stew with beef or pork prepared in the Portuguese-speaking world.",
   "sourceUrl": "https://en.wikipedia.org/?curid=623596",
   "countries": [
    "ID"
@@ -4425,32 +4608,6 @@
   ]
  },
  {
-  "id": "3489856",
-  "name": "Fish head",
-  "description": "thumb|upright=1.3|The skeleton of the head of a perch thumb|right|Parts of a Northern pike|pike including the head. 1: liver, 2: gill arch, 3: palate with sharp teeth, 4: in the middle a heart, 5: fragment of spinal cord, 6: brain, 7: spherical lens, 8: scale Fish heads, either separated or still attached to the rest o…",
-  "sourceUrl": "https://en.wikipedia.org/?curid=3489856",
-  "countries": [
-   "CN"
-  ],
-  "types": [
-   "fish-soup"
-  ],
-  "ingredients": [
-   {
-    "id": "fish",
-    "display": "fish"
-   },
-   {
-    "id": "offal",
-    "display": "liver"
-   },
-   {
-    "id": "broth",
-    "display": "stock"
-   }
-  ]
- },
- {
   "id": "19114936",
   "name": "Fish soup",
   "description": "Fish soup is a food made by combining fish or seafood with vegetables and stock, juice, water, or another liquid. Hot soups are additionally characterized by boiling solid ingredients in liquids in a pot until the flavors are extracted, forming a broth.",
@@ -4469,10 +4626,6 @@
    {
     "id": "broth",
     "display": "stock"
-   },
-   {
-    "id": "water",
-    "display": "water)"
    }
   ],
   "image": {
@@ -4492,6 +4645,7 @@
   "countries": [
    "SG"
   ],
+  "region": "Maritime Southeast Asia",
   "types": [
    "fish-soup"
   ],
@@ -4516,12 +4670,20 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Fish soup bee hoon at Food Junction, May 26, 2013.jpg",
+   "credit": {
+    "author": "Bonkers The Clown.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "24039413",
   "name": "Fish tea",
-  "description": "thumb|A fish tea shack at Winifred Beach in [[Port Antonio, Jamaica]] Fish tea is a spicy soup in Caribbean cuisine and Jamaican cuisine. It is similar to a fish bouillon and can take several hours to prepare. It includes ground yam, pumpkin, cassava, potatoes and green bananas, cooked until very soft.",
+  "description": "Fish tea is a spicy soup in Caribbean cuisine and Jamaican cuisine. It is similar to a fish bouillon and can take several hours to prepare. It includes ground yam, pumpkin, cassava, potatoes and green bananas, cooked until very soft. As much as 15 pounds of fish is added to make five gallons.",
   "sourceUrl": "https://en.wikipedia.org/?curid=24039413",
   "countries": [
    "JM"
@@ -4578,12 +4740,20 @@
     "id": "salt",
     "display": "salt"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Fish soup with reef fish and coconut milk.jpg",
+   "credit": {
+    "author": "Dave O from North Vancouver, CANADA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "47862770",
   "name": "Fisherman's soup",
-  "description": "Fisherman's soup or halászlé () is a hot, spicy paprika-based fish soup. A folk item of Hungarian cuisine, it is a bright-red hot dish prepared with generous amounts of hot paprika and carp or mixed river fish. It is native to the Pannonian Plain, particularly the Danube and Tisza river regions.",
+  "description": "Fisherman's soup or halászlé is a hot, spicy paprika-based fish soup. A folk item of Hungarian cuisine, it is a bright-red hot dish prepared with generous amounts of hot paprika and carp or mixed river fish. It is native to the Pannonian Plain, particularly the Danube and Tisza river regions.",
   "sourceUrl": "https://en.wikipedia.org/?curid=47862770",
   "countries": [
    "HU"
@@ -4616,7 +4786,15 @@
     "id": "paprika",
     "display": "paprika"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Pot of Hungarian Fisherman's Soup (Halászlé, Karpfensuppe).jpg",
+   "credit": {
+    "author": "Wikiuser100",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "8635309",
@@ -4678,7 +4856,7 @@
  {
   "id": "1558075",
   "name": "French onion soup",
-  "description": "French onion soup ( ) is a soup of onions which are sautéed and then cooked in meat stock or water, usually served gratinéed with croutons or a larger piece of bread covered with cheese floating on top.",
+  "description": "French onion soup is a soup of onions which are sautéed and then cooked in meat stock or water, usually served gratinéed with croutons or a larger piece of bread covered with cheese floating on top. Onion soups have been known in France since medieval times, but the version now familiar dates from the mid-19th century.",
   "sourceUrl": "https://en.wikipedia.org/?curid=1558075",
   "countries": [
    "FR"
@@ -4708,7 +4886,7 @@
  {
   "id": "15687480",
   "name": "Fruit soup",
-  "description": "thumb|Chinese fruit soup thumb|Melon soup Fruit soup is a soup prepared using fruit as a primary ingredient, and may be served warm or cold depending on the recipe. Some fruit soups use several varieties of fruit, and alcoholic beverages such as rum, sherry and kirsch (a fruit brandy) may be used.",
+  "description": "Fruit soup is a soup prepared using fruit as a primary ingredient, and may be served warm or cold depending on the recipe. Some fruit soups use several varieties of fruit, and alcoholic beverages such as rum, sherry and kirsch (a fruit brandy) may be used. Fruit soup is sometimes served as a dessert.",
   "sourceUrl": "https://en.wikipedia.org/?curid=15687480",
   "countries": [
    "DE"
@@ -4725,12 +4903,20 @@
     "id": "wine",
     "display": "white wine"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Chinese fruit soup 3.jpg",
+   "credit": {
+    "author": "Brücke-Osteuropa",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  }
  },
  {
   "id": "46955205",
   "name": "Fruktsoppa",
-  "description": "Fruktsoppa (, ) is a fruit soup that is typically prepared using dried fruits, and usually served as a dessert dish. The dish has been described as a \"cold fruit pudding.\" It is a traditional dessert in Sweden and Norway.",
+  "description": "Fruktsoppa is a fruit soup that is typically prepared using dried fruits, and usually served as a dessert dish. The dish has been described as a \"cold fruit pudding.\" It is a traditional dessert in Sweden and Norway.",
   "sourceUrl": "https://en.wikipedia.org/?curid=46955205",
   "countries": [
    "SE"
@@ -4864,7 +5050,7 @@
  {
   "id": "12357",
   "name": "Gazpacho",
-  "description": "Gazpacho () or gaspacho (), also called Andalusian gazpacho (from Spanish gazpacho andaluz), is a cold soup and drink made of raw, blended vegetables. It originated in the southern regions of the Iberian Peninsula and spread into other areas.",
+  "description": "Gazpacho or gaspacho , also called Andalusian gazpacho (from Spanish gazpacho andaluz), is a cold soup and drink made of raw, blended vegetables. It originated in the southern regions of the Iberian Peninsula and spread into other areas.",
   "sourceUrl": "https://en.wikipedia.org/?curid=12357",
   "countries": [
    "ES",
@@ -4912,7 +5098,7 @@
  {
   "id": "29261018",
   "name": "Geng",
-  "description": "Gēng () is a type of thick or clear soup found in Chinese cuisine. Its thickening agent is usually starch, which makes the soup translucent and smooth. Many soups can be cooked in this way, such as shark fin soup, Madame Song's fish soup (宋嫂魚羹), and corn soup.",
+  "description": "Gēng is a type of thick or clear soup found in Chinese cuisine. Its thickening agent is usually starch, which makes the soup translucent and smooth. Many soups can be cooked in this way, such as shark fin soup, Madame Song's fish soup (宋嫂魚羹), and corn soup.",
   "sourceUrl": "https://en.wikipedia.org/?curid=29261018",
   "countries": [
    "CN"
@@ -4943,6 +5129,7 @@
   "countries": [
    "PH"
   ],
+  "region": "The Philippines",
   "types": [
    "fish-soup"
   ],
@@ -4967,7 +5154,15 @@
     "id": "bean",
     "display": "beans"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Ginataang kalabasa at hipon (shrimp, calabaza, green beans, and eggplant in coconut milk) - Philippines.jpg",
+   "credit": {
+    "author": "Yvette Tan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "43804871",
@@ -5020,6 +5215,7 @@
   "countries": [
    "PH"
   ],
+  "region": "Nueva Ecija",
   "types": [
    "stew"
   ],
@@ -5056,12 +5252,20 @@
     "id": "bean",
     "display": "bean"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Sigarilyasjf1338.JPG",
+   "credit": {
+    "author": "Ramon FVelasquez",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "46775413",
   "name": "Goat meat pepper soup",
-  "description": "thumb|Goat meat pepper soup served with bread Goat meat pepper soup, also referred to as nwo-nwo, ngwo-ngwo, and goat pepper soup, is a soup in Nigeria. Goat meat is used as a primary ingredient, and some versions may use crayfish. Boiled yams, potatoes, or plantains may be added in other variations.",
+  "description": "Goat meat pepper soup, also referred to as nwo-nwo, ngwo-ngwo, and goat pepper soup, is a soup in Nigeria. Goat meat is used as a primary ingredient, and some versions may use crayfish. Boiled yams, potatoes, or plantains may be added in other variations.",
   "sourceUrl": "https://en.wikipedia.org/?curid=46775413",
   "countries": [
    "NG"
@@ -5098,7 +5302,15 @@
     "id": "wine",
     "display": "wine"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Goat meat pepper soup served with bread.jpg",
+   "credit": {
+    "author": "Nancy Nwachukwu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "43031007",
@@ -5138,7 +5350,7 @@
  {
   "id": "23199804",
   "name": "Gomguk",
-  "description": "Gomguk (), gomtang (), or beef bone soup refers to a soup in traditional Korean cuisine made with various beef parts such as ribs, oxtail, brisket, ox's head or ox bones by slow simmering on a low flame. The broth tends to have a milky color with a rich and hearty taste.",
+  "description": "Gomguk , gomtang , or beef bone soup refers to a soup in traditional Korean cuisine made with various beef parts such as ribs, oxtail, brisket, ox's head or ox bones by slow simmering on a low flame. The broth tends to have a milky color with a rich and hearty taste.",
   "sourceUrl": "https://en.wikipedia.org/?curid=23199804",
   "countries": [
    "KR"
@@ -5191,7 +5403,7 @@
  {
   "id": "235662",
   "name": "Goulash",
-  "description": "Goulash (, ) is a meal made of meat and vegetables seasoned with paprika and other spices. Originating in Hungary, goulash is a common meal predominantly eaten in Central Europe but also in other parts of Europe. It is one of the national dishes of Hungary and a symbol of the country.",
+  "description": "Goulash is a meal made of meat and vegetables seasoned with paprika and other spices. Originating in Hungary, goulash is a common meal predominantly eaten in Central Europe but also in other parts of Europe. It is one of the national dishes of Hungary and a symbol of the country.",
   "sourceUrl": "https://en.wikipedia.org/?curid=235662",
   "countries": [
    "HU"
@@ -5220,31 +5432,9 @@
   }
  },
  {
-  "id": "1849474",
-  "name": "Green laver",
-  "description": "thumb|Raw parae (green laver) Green laver (), known as aonori (; ) in Japan, sea cabbage () or hutai () in China, and parae () and kim () in Korean, is a type of edible green seaweed, including species from the genera Monostroma and Ulva (Ulva prolifera, Ulva pertusa, Ulva intestinalis).",
-  "sourceUrl": "https://en.wikipedia.org/?curid=1849474",
-  "countries": [
-   "JP"
-  ],
-  "types": [
-   "soup"
-  ],
-  "ingredients": [
-   {
-    "id": "seaweed",
-    "display": "seaweed"
-   },
-   {
-    "id": "cabbage",
-    "display": "cabbage"
-   }
-  ]
- },
- {
   "id": "17637906",
   "name": "Guk",
-  "description": "Guk (), also sometimes known as tang (), is a category of soup dishes in Korean cuisine. Guk and tang are commonly grouped together and used interchangeably. They are regarded as the same type of soup, although tang can sometimes be a little thicker and less thin than guk.",
+  "description": "Guk , also sometimes known as tang , is a category of soup dishes in Korean cuisine. Guk and tang are commonly grouped together and used interchangeably. They are regarded as the same type of soup, although tang can sometimes be a little thicker and less thin than guk.",
   "sourceUrl": "https://en.wikipedia.org/?curid=17637906",
   "countries": [
    "KR"
@@ -5290,7 +5480,7 @@
  {
   "id": "47862625",
   "name": "Gulai",
-  "description": "Gulai () is a type of spiced stew commonly found in the culinary traditions of Malaysia, Indonesia and other parts of Maritime Southeast Asia, including Brunei, Singapore and southern Thailand.",
+  "description": "Gulai is a type of spiced stew commonly found in the culinary traditions of Malaysia, Indonesia and other parts of Maritime Southeast Asia, including Brunei, Singapore and southern Thailand.",
   "sourceUrl": "https://en.wikipedia.org/?curid=47862625",
   "countries": [
    "ID"
@@ -5349,7 +5539,7 @@
  {
   "id": "289767",
   "name": "Gumbo",
-  "description": "Gumbo () is a stew that is popular among the U.S. Gulf Coast community, the New Orleans stew variation being the official state cuisine of the U.S. state of Louisiana.",
+  "description": "Gumbo is a stew that is popular among the U.S. Gulf Coast community, the New Orleans stew variation being the official state cuisine of the U.S. state of Louisiana.",
   "sourceUrl": "https://en.wikipedia.org/?curid=289767",
   "countries": [
    "US"
@@ -5388,7 +5578,7 @@
  {
   "id": "41725770",
   "name": "Guthuk",
-  "description": "thumb|Various dumplings for guthuk that serve as symbols Guthuk (Tibetan: , English: 'Gu= 9, Thuk= stew soup ' or 29 date of Bot calendar celebrate so called Guthuk) is a stew soup in Sherpa or Tibetan cuisine, made with various ingredients like beans, vegetables, meat, or left over harvested grains.",
+  "description": "Guthuk (Tibetan: , English: 'Gu= 9, Thuk= stew soup ' or 29 date of Bot calendar celebrate so called Guthuk) is a stew soup in Sherpa or Tibetan cuisine, made with various ingredients like beans, vegetables, meat, or left over harvested grains.",
   "sourceUrl": "https://en.wikipedia.org/?curid=41725770",
   "countries": [
    "CN"
@@ -5475,6 +5665,7 @@
   "countries": [
    "JP"
   ],
+  "region": "Kansai",
   "types": [
    "soup"
   ],
@@ -5487,12 +5678,20 @@
     "id": "duck",
     "display": "duck"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Harihari-nabe.jpg",
+   "credit": {
+    "author": "kobakou",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "1802458",
   "name": "Harira",
-  "description": "Harira () is a traditional North African soup prepared in Morocco, Tunisia, Algeria, Libya and of Andalusian and Amazigh North African origin, with many variations, the best-known being Moroccan harira. Harira is popular as a starter, and is also eaten on its own as a light snack.",
+  "description": "Harira is a traditional North African soup prepared in Morocco, Tunisia, Algeria, Libya and of Andalusian and Amazigh North African origin, with many variations, the best-known being Moroccan harira. Harira is popular as a starter, and is also eaten on its own as a light snack.",
   "sourceUrl": "https://en.wikipedia.org/?curid=1802458",
   "countries": [
    "MA"
@@ -5529,10 +5728,6 @@
    {
     "id": "lamb",
     "display": "lamb"
-   },
-   {
-    "id": "olive-oil",
-    "display": "olive oil"
    }
   ],
   "image": {
@@ -5547,7 +5742,7 @@
  {
   "id": "82528116",
   "name": "Hergma",
-  "description": "(, (synecdoche); ; ; , ) is a Maghrebi cuisine stew featuring stewed trotters. The dish is largely cooked on Eid al-Adha with the trotters of the sacrificial animal, but also served year-round at souks, and enjoyed during Ramadan.",
+  "description": "((synecdoche); ; ; , ) is a Maghrebi cuisine stew featuring stewed trotters. The dish is largely cooked on Eid al-Adha with the trotters of the sacrificial animal, but also served year-round at souks, and enjoyed during Ramadan.",
   "sourceUrl": "https://en.wikipedia.org/?curid=82528116",
   "countries": [
    "MA"
@@ -5586,6 +5781,7 @@
   "countries": [
    "NL"
   ],
+  "region": "Scotland",
   "types": [
    "stew"
   ],
@@ -5598,7 +5794,15 @@
     "id": "lamb",
     "display": "mutton"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Hodge-Podge.gif",
+   "credit": {
+    "author": "Behnam N",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "148836",
@@ -5634,7 +5838,7 @@
  {
   "id": "47826242",
   "name": "Hot and sour soup",
-  "description": "Hot and sour soup is a variant of or \"pepper hot soup\" () that originated from Henan cuisine. Also popular in Southeast Asia, India, Pakistan, and the United States, it is a flexible soup which allows ingredients to be substituted or added depending on availability.",
+  "description": "Hot and sour soup is a variant of or \"pepper hot soup\" that originated from Henan cuisine. Also popular in Southeast Asia, India, Pakistan, and the United States, it is a flexible soup which allows ingredients to be substituted or added depending on availability.",
   "sourceUrl": "https://en.wikipedia.org/?curid=47826242",
   "countries": [
    "CN"
@@ -5698,40 +5902,6 @@
   }
  },
  {
-  "id": "176565",
-  "name": "Hungarian cuisine",
-  "description": "thumb|Pörkölt thumb|Hortobágyi palacsinta, a savoury crêpe filled with meat thumb|Chicken paprikash (csirkepaprikás) simmered in thick creamy paprika sauce with homemade pasta called [[nokedli]] thumb|Gundel palacsinta filled with nuts and chocolate sauce Hungarian cuisine (Hungarian: magyar konyhaművészet) is the cuis…",
-  "sourceUrl": "https://en.wikipedia.org/?curid=176565",
-  "countries": [
-   "HU"
-  ],
-  "types": [
-   "stew"
-  ],
-  "ingredients": [
-   {
-    "id": "chicken",
-    "display": "chicken"
-   },
-   {
-    "id": "chili-pepper",
-    "display": "chili peppers"
-   },
-   {
-    "id": "bread",
-    "display": "bread"
-   },
-   {
-    "id": "black-pepper",
-    "display": "peppers"
-   },
-   {
-    "id": "paprika",
-    "display": "paprika"
-   }
-  ]
- },
- {
   "id": "11462433",
   "name": "Hōtō",
   "description": "is a noodle soup and popular regional dish originating from Yamanashi, Japan made by stewing flat udon noodles and vegetables in miso soup. Though hōtō is commonly recognized as a variant of udon, locals do not consider it to be an udon dish because the dough is prepared in the style of dumplings rather than noodles.",
@@ -5770,6 +5940,7 @@
   "countries": [
    "JP"
   ],
+  "region": "Tōhoku region",
   "types": [
    "soup"
   ],
@@ -5782,45 +5953,15 @@
     "id": "broth",
     "display": "stock"
    }
-  ]
- },
- {
-  "id": "406363",
-  "name": "Indonesian cuisine",
-  "description": "thumb|right|260px|Example of an Indonesian Sundanese cuisine|Sundanese meal: [[ikan bakar (grilled fish), nasi timbel (rice wrapped in banana leaf), ayam goreng (fried chicken), sambal, fried tempeh and tofu, and sayur asem; the bowl of water with lime is kobokan.",
-  "sourceUrl": "https://en.wikipedia.org/?curid=406363",
-  "countries": [
-   "ID"
   ],
-  "types": [
-   "fish-soup"
-  ],
-  "ingredients": [
-   {
-    "id": "chicken",
-    "display": "chicken"
-   },
-   {
-    "id": "fish",
-    "display": "fish"
-   },
-   {
-    "id": "rice",
-    "display": "rice"
-   },
-   {
-    "id": "tofu",
-    "display": "tofu"
-   },
-   {
-    "id": "lime",
-    "display": "lime"
-   },
-   {
-    "id": "water",
-    "display": "water"
+  "image": {
+   "sourceFile": "File:Imoni.jpg",
+   "credit": {
+    "author": "H-shimo at ja.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
    }
-  ]
+  }
  },
  {
   "id": "30876121",
@@ -5869,6 +6010,7 @@
   "countries": [
    "PH"
   ],
+  "region": "Aklan",
   "types": [
    "stew"
   ],
@@ -5928,7 +6070,7 @@
  {
   "id": "17610427",
   "name": "Jaecheop-guk",
-  "description": "Jaecheop-guk () is a clear guk (soup) made with jaecheop, small freshwater marsh clams native to Korea. The soup is considered a local specialty of Yeongnam and Honam regions, where jaecheop are harvested in the lower reaches of Nakdong River and Seomjin River.",
+  "description": "Jaecheop-guk is a clear guk (soup) made with jaecheop, small freshwater marsh clams native to Korea. The soup is considered a local specialty of Yeongnam and Honam regions, where jaecheop are harvested in the lower reaches of Nakdong River and Seomjin River.",
   "sourceUrl": "https://en.wikipedia.org/?curid=17610427",
   "countries": [
    "KR"
@@ -5967,7 +6109,7 @@
  {
   "id": "1236380",
   "name": "Japanese noodles",
-  "description": "thumb|Ramen thumb|Soba thumb|right|Udon Noodles are a staple of Japanese cuisine. They are often served chilled with dipping sauces, or in soups or hot dishes. Noodles were introduced to Japan from China during the Song Dynasty between the Heian until the early Kamakura period.",
+  "description": "Noodles are a staple of Japanese cuisine. They are often served chilled with dipping sauces, or in soups or hot dishes. Noodles were introduced to Japan from China during the Song Dynasty between the Heian until the early Kamakura period.",
   "sourceUrl": "https://en.wikipedia.org/?curid=1236380",
   "countries": [
    "JP"
@@ -5997,44 +6139,6 @@
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
    }
   }
- },
- {
-  "id": "14443478",
-  "name": "Javanese cuisine",
-  "description": "thumb|260px|Tumpeng cone-shaped rice surrounded with chicken, omelette eggs, sambel goreng ati (beef liver in sambal), potato perkedel, and [[tempeh orek. Tumpeng is one of the most famous Javanese dishes.",
-  "sourceUrl": "https://en.wikipedia.org/?curid=14443478",
-  "countries": [
-   "ID"
-  ],
-  "types": [
-   "soup"
-  ],
-  "ingredients": [
-   {
-    "id": "potato",
-    "display": "potato"
-   },
-   {
-    "id": "chicken",
-    "display": "chicken"
-   },
-   {
-    "id": "beef",
-    "display": "beef"
-   },
-   {
-    "id": "rice",
-    "display": "rice"
-   },
-   {
-    "id": "egg",
-    "display": "eggs"
-   },
-   {
-    "id": "offal",
-    "display": "liver"
-   }
-  ]
  },
  {
   "id": "23308765",
@@ -6360,11 +6464,12 @@
  {
   "id": "81357365",
   "name": "Kapurung",
-  "description": "Kapurung () is a dish from South Sulawesi, especially the Luwu region. This food is made from sago essence or flour. Kapurung is cooked with a mixture of fish or chicken meat and various vegetables.",
+  "description": "Kapurung is a dish from South Sulawesi, especially the Luwu region. This food is made from sago essence or flour. Kapurung is cooked with a mixture of fish or chicken meat and various vegetables.",
   "sourceUrl": "https://en.wikipedia.org/?curid=81357365",
   "countries": [
    "ID"
   ],
+  "region": "South Sulawesi",
   "types": [
    "fish-soup"
   ],
@@ -6409,7 +6514,15 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Kapurung Luwu.jpg",
+   "credit": {
+    "author": "Si Gam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "38272174",
@@ -6456,7 +6569,7 @@
  {
   "id": "52456961",
   "name": "Kawlata",
-  "description": "thumb|right|Kawlata|250px Kawlata is a traditional Maltese vegetable soup, typically made with cabbage and pork, and consumed during the winter months. During World War II, kawlata was a food staple prepared by the Communal Feeding Kitchens. The first Maltese newspaper was called Il-kawlata maltija (\"Maltese Medley\").",
+  "description": "Kawlata is a traditional Maltese vegetable soup, typically made with cabbage and pork, and consumed during the winter months. During World War II, kawlata was a food staple prepared by the Communal Feeding Kitchens. The first Maltese newspaper was called Il-kawlata maltija (\"Maltese Medley\").",
   "sourceUrl": "https://en.wikipedia.org/?curid=52456961",
   "countries": [
    "MT"
@@ -6473,7 +6586,15 @@
     "id": "cabbage",
     "display": "cabbage"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Kawlata with veggies and pork 01.jpg",
+   "credit": {
+    "author": "Continentaleurope",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "53796808",
@@ -6536,7 +6657,7 @@
  {
   "id": "64154072",
   "name": "Kesäkeitto",
-  "description": "thumb|A bowl of kesäkeitto Kesäkeitto (; ) is a traditional vegetable soup in Finnish cuisine cooked in milk with butter, potatoes, carrots, peas, cauliflower and possibly other vegetables of the season.",
+  "description": "Kesäkeitto is a traditional vegetable soup in Finnish cuisine cooked in milk with butter, potatoes, carrots, peas, cauliflower and possibly other vegetables of the season.",
   "sourceUrl": "https://en.wikipedia.org/?curid=64154072",
   "countries": [
    "FI"
@@ -6561,12 +6682,20 @@
     "id": "butter",
     "display": "butter"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Kesäkeitto DSC04420 C.JPG",
+   "credit": {
+    "author": "Anneli Salo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "21449952",
   "name": "Kharcho",
-  "description": "Kharcho, also spelled Harcho (), is a traditional Georgian soup containing beef, rice, cherry plum purée, and chopped walnuts (Juglans regia), but they are not compulsory. The soup is seasoned with Khmeli Suneli and coriander. The soup is usually served with finely chopped fresh coriander.",
+  "description": "Kharcho, also spelled Harcho , is a traditional Georgian soup containing beef, rice, cherry plum purée, and chopped walnuts (Juglans regia), but they are not compulsory. The soup is seasoned with Khmeli Suneli and coriander. The soup is usually served with finely chopped fresh coriander.",
   "sourceUrl": "https://en.wikipedia.org/?curid=21449952",
   "countries": [
    "GE"
@@ -6587,12 +6716,20 @@
     "id": "rice",
     "display": "rice"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Kharcho soup of beef with walnuts and rice, Georgian cuisine (2).jpg",
+   "credit": {
+    "author": "Lesya Dolyk",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "2238207",
   "name": "Khash",
-  "description": "Khash () is a traditional dish made from a boiled cow or sheep parts, which might include the head, feet, and stomach (tripe). It originates from Armenia and is considered one of the oldest Armenian dishes.",
+  "description": "Khash is a traditional dish made from a boiled cow or sheep parts, which might include the head, feet, and stomach (tripe). It originates from Armenia and is considered one of the oldest Armenian dishes.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2238207",
   "countries": [
    "AM",
@@ -6629,7 +6766,7 @@
  {
   "id": "28991642",
   "name": "Khichra",
-  "description": "Khichra or khichda () is a variation of the dish haleem, popular with Muslims of the Indian subcontinent. Khichra is cooked all year and particularly at the Ashura of Muharram. It is made using goat meat, beef, lentils and spices, slowly cooked to a thick paste.",
+  "description": "Khichra or khichda is a variation of the dish haleem, popular with Muslims of the Indian subcontinent. Khichra is cooked all year and particularly at the Ashura of Muharram. It is made using goat meat, beef, lentils and spices, slowly cooked to a thick paste.",
   "sourceUrl": "https://en.wikipedia.org/?curid=28991642",
   "countries": [
    "PK"
@@ -6762,7 +6899,7 @@
  {
   "id": "60631724",
   "name": "Kusksu",
-  "description": "Kusksu () is a traditional Maltese soup made primarily from seasonal broad beans, small pasta beads, and fresh ġbejniet. Although similar in shape, the small pasta beads, known locally as kusksu, look like couscous, but this one tends to be lighter and fluffier in texture.",
+  "description": "Kusksu is a traditional Maltese soup made primarily from seasonal broad beans, small pasta beads, and fresh ġbejniet. Although similar in shape, the small pasta beads, known locally as kusksu, look like couscous, but this one tends to be lighter and fluffier in texture.",
   "sourceUrl": "https://en.wikipedia.org/?curid=60631724",
   "countries": [
    "MT"
@@ -6787,12 +6924,20 @@
     "id": "egg",
     "display": "egg"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Traditional Maltese Kusksu (Fava Bean Soup).jpg",
+   "credit": {
+    "author": "PolluxWorld",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "43482552",
   "name": "Kwati",
-  "description": "Kwātī ( (where (kwā) = 'hot' and (tī) = 'soup'); ) is a mixed soup of nine types of sprouted beans. It is a traditional Newari dish consumed on the festival of Guni Punhi, the full moon day of Gunlā which is the tenth month in the Nepal Era lunar calendar.",
+  "description": "Kwātī ((where (kwā) = 'hot' and (tī) = 'soup'); ) is a mixed soup of nine types of sprouted beans. It is a traditional Newari dish consumed on the festival of Guni Punhi, the full moon day of Gunlā which is the tenth month in the Nepal Era lunar calendar.",
   "sourceUrl": "https://en.wikipedia.org/?curid=43482552",
   "countries": [
    "NP"
@@ -6827,6 +6972,7 @@
   "countries": [
    "ID"
   ],
+  "region": "Nationwide in Indonesia",
   "types": [
    "noodle-soup"
   ],
@@ -6875,12 +7021,20 @@
     "id": "broth",
     "display": "chicken broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Kwetiau Ayam Jamur Pangsit Bakso.jpg",
+   "credit": {
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "8858106",
   "name": "Köttsoppa",
-  "description": "thumb| as eaten in Scandinavia (Norway, Sweden, Finland, Denmark). thumb|180px|Icelandic . (; ; ) is a clear meat and root vegetable soup eaten in Sweden and Finland. The meat, and the bones supplying the broth, is beef (frequently chuck), or sometimes pork, reindeer or moose.",
+  "description": "is a clear meat and root vegetable soup eaten in Sweden and Finland. The meat, and the bones supplying the broth, is beef (frequently chuck), or sometimes pork, reindeer or moose. Vegetables commonly used include carrot, potato, celeriac, parsnip, turnip and rutabaga. Green peas and white cabbage is also common.",
   "sourceUrl": "https://en.wikipedia.org/?curid=8858106",
   "countries": [
    "SE"
@@ -6937,7 +7091,15 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Meat soup.JPG",
+   "credit": {
+    "author": "SeppVei",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+   }
+  }
  },
  {
   "id": "431577",
@@ -7007,6 +7169,7 @@
   "countries": [
    "ID"
   ],
+  "region": "Palembang",
   "types": [
    "noodle-soup"
   ],
@@ -7031,12 +7194,20 @@
     "id": "coconut-milk",
     "display": "coconut milk"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Lakso 2.jpg",
+   "credit": {
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "3969082",
   "name": "Lamian",
-  "description": "Lamian (; 'pulled noodles') is a type of soft wheat flour handmade Chinese noodle that is particularly common in northern China. Lamian is made by twisting, stretching and folding the dough into strands, using the weight of the dough.",
+  "description": "Lamian ('pulled noodles') is a type of soft wheat flour handmade Chinese noodle that is particularly common in northern China. Lamian is made by twisting, stretching and folding the dough into strands, using the weight of the dough.",
   "sourceUrl": "https://en.wikipedia.org/?curid=3969082",
   "countries": [
    "CN"
@@ -7118,7 +7289,7 @@
  {
   "id": "43760257",
   "name": "Lettuce soup",
-  "description": "thumb|290px|Lettuce#Cultivars|Butter lettuce soup with [[croutons]] Lettuce soup is a soup prepared with lettuce as a primary ingredient. It may be prepared with additional ingredients, and some lettuce soups may use several cultivars of lettuce in their preparation. It is a part of French cuisine and Chinese cuisine.",
+  "description": "Lettuce soup is a soup prepared with lettuce as a primary ingredient. It may be prepared with additional ingredients, and some lettuce soups may use several cultivars of lettuce in their preparation. It is a part of French cuisine and Chinese cuisine.",
   "sourceUrl": "https://en.wikipedia.org/?curid=43760257",
   "countries": [
    "CN"
@@ -7139,12 +7310,20 @@
     "id": "butter",
     "display": "butter"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Butter lettuce soup.jpg",
+   "credit": {
+    "author": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "69630513",
   "name": "Linat-an",
-  "description": "Linat-an, also known as nilat-an, is a traditional pork stew from the Visayas and Mindanao islands of the Philippines. Linat-an characteristically uses pork ribs (or other bony cuts of pork) boiled and simmered until very tender, lemongrass (), string beans, and starchy ingredients for a thicker soup (usually taro).",
+  "description": "Linat-an, also known as nilat-an, is a traditional pork stew from the Visayas and Mindanao islands of the Philippines. Linat-an characteristically uses pork ribs (or other bony cuts of pork) boiled and simmered until very tender, lemongrass , string beans, and starchy ingredients for a thicker soup (usually taro).",
   "sourceUrl": "https://en.wikipedia.org/?curid=69630513",
   "countries": [
    "PH"
@@ -7221,48 +7400,6 @@
   ]
  },
  {
-  "id": "10159687",
-  "name": "Liver as food",
-  "description": "thumb|Slice of pig's liver and onions thumb|Mămăligă ([[cornmeal mush) with chicken liver, cuisine of Moldova]] thumb|Canned cod liver (see also: cod liver oil) The liver of mammals, fowl, and fish is commonly eaten as food by humans (see offal).",
-  "sourceUrl": "https://en.wikipedia.org/?curid=10159687",
-  "countries": [
-   "CN"
-  ],
-  "types": [
-   "fish-soup"
-  ],
-  "ingredients": [
-   {
-    "id": "chicken",
-    "display": "chicken"
-   },
-   {
-    "id": "beef",
-    "display": "beef"
-   },
-   {
-    "id": "pork",
-    "display": "pork"
-   },
-   {
-    "id": "lamb",
-    "display": "mutton"
-   },
-   {
-    "id": "fish",
-    "display": "fish"
-   },
-   {
-    "id": "onion",
-    "display": "onions"
-   },
-   {
-    "id": "offal",
-    "display": "offal"
-   }
-  ]
- },
- {
   "id": "30240271",
   "name": "Lobster stew",
   "description": "Lobster stew is found in a variety of cuisines. Two famous versions are Menorcan caldera de llagosta (with European spiny lobster), and Maine lobster stew (with American lobster).",
@@ -7301,7 +7438,7 @@
  {
   "id": "26268444",
   "name": "Lohikeitto",
-  "description": "Salmon chowder ( , ) is a common dish in Finland and other Nordic countries. It consists of salmon fillets, boiled potatoes, carrots and leeks. The dish is served hot, and typically seasoned with fresh dill, allspice, salt and black pepper.",
+  "description": "Salmon chowder is a common dish in Finland and other Nordic countries. It consists of salmon fillets, boiled potatoes, carrots and leeks. The dish is served hot, and typically seasoned with fresh dill, allspice, salt and black pepper.",
   "sourceUrl": "https://en.wikipedia.org/?curid=26268444",
   "countries": [
    "FI"
@@ -7423,7 +7560,7 @@
  {
   "id": "43811140",
   "name": "Maccu",
-  "description": "thumb|Vicia faba|Fava beans (here fresh and in the pod, rather than dried) are a primary ingredient of maccu. thumb|right|Fresh fava beans, shelled and steamed Maccu (also known as maccu di fave and sometimes referred to as macco) is a Sicilian soup with a dense texture and also a foodstuff that is prepared with dried …",
+  "description": "Maccu (also known as maccu di fave and sometimes referred to as macco) is a Sicilian soup with a dense texture and also a foodstuff that is prepared with dried and crushed fava beans (broad beans) and wild fennel as primary ingredients.",
   "sourceUrl": "https://en.wikipedia.org/?curid=43811140",
   "countries": [
    "IT"
@@ -7446,11 +7583,12 @@
  {
   "id": "62101108",
   "name": "Maki mi",
-  "description": "150px|thumbnail|right|Maki in Binondo Maki mi, also known as pork maki or maki soup, is a Filipino thick pork tenderloin soup originating from the Chinese-Filipino community of Binondo, Manila. It is made from lean pork tenderized by a meat mallet.",
+  "description": "Maki mi, also known as pork maki or maki soup, is a Filipino thick pork tenderloin soup originating from the Chinese-Filipino community of Binondo, Manila. It is made from lean pork tenderized by a meat mallet.",
   "sourceUrl": "https://en.wikipedia.org/?curid=62101108",
   "countries": [
    "PH"
   ],
+  "region": "Binondo",
   "types": [
    "noodle-soup"
   ],
@@ -7515,7 +7653,15 @@
     "id": "broth",
     "display": "stock"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Maki Soup Wide.jpg",
+   "credit": {
+    "author": "Raymund Macaalay",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "18721189",
@@ -7525,6 +7671,7 @@
   "countries": [
    "PH"
   ],
+  "region": "Binondo",
   "types": [
    "noodle-soup"
   ],
@@ -7549,7 +7696,15 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Mamijf.JPG",
+   "credit": {
+    "author": "Ramon FVelasquez",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "51118076",
@@ -7576,11 +7731,12 @@
  {
   "id": "58240421",
   "name": "Maraq",
-  "description": "Maraq () is a broth or soup dish commonly eaten in the Greater Somalia region and the Arabian Peninsula. It can also be found in Indonesia. thumb|Fah-fah|Fahfah, a Djiboutian soup dish",
+  "description": "Maraq is a broth or soup dish commonly eaten in the Greater Somalia region and the Arabian Peninsula. It can also be found in Indonesia.",
   "sourceUrl": "https://en.wikipedia.org/?curid=58240421",
   "countries": [
    "ID"
   ],
+  "region": "Arabian Peninsula",
   "types": [
    "broth"
   ],
@@ -7605,7 +7761,15 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Maraq.jpg",
+   "credit": {
+    "author": "Abu Isa",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+   }
+  }
  },
  {
   "id": "65568017",
@@ -7615,7 +7779,7 @@
   "countries": [
    "NG"
   ],
-  "region": "West Africa",
+  "region": "Northeast Nigeria",
   "types": [
    "broth"
   ],
@@ -7668,7 +7832,15 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Cat Fish pepper soup.png",
+   "credit": {
+    "author": "Jostbrain",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "82218846",
@@ -7768,7 +7940,7 @@
  {
   "id": "1520236",
   "name": "Matzah ball",
-  "description": "Matzah balls or matzo balls are Ashkenazi Jewish soup morsels made from a mixture of matzah meal, beaten eggs, water, and a fat, such as oil, margarine, or chicken fat. Known as knaidel in Yiddish ( pl.",
+  "description": "Matzah balls or matzo balls are Ashkenazi Jewish soup morsels made from a mixture of matzah meal, beaten eggs, water, and a fat, such as oil, margarine, or chicken fat. Known as knaidel in Yiddish (pl.",
   "sourceUrl": "https://en.wikipedia.org/?curid=1520236",
   "countries": [
    "DE"
@@ -7799,7 +7971,7 @@
  {
   "id": "68133063",
   "name": "Mee ka tee",
-  "description": "Mee ka tee (), also known as mee ka tee Lao, mee ka tee Vientiane, Laotian pork curry noodle soup, mee kati, mee kathi or mee gati, is a Laotian red curry and coconut milk egg drop noodle soup originating from Vientiane, Laos.",
+  "description": "Mee ka tee , also known as mee ka tee Lao, mee ka tee Vientiane, Laotian pork curry noodle soup, mee kati, mee kathi or mee gati, is a Laotian red curry and coconut milk egg drop noodle soup originating from Vientiane, Laos.",
   "sourceUrl": "https://en.wikipedia.org/?curid=68133063",
   "countries": [
    "LA"
@@ -7868,12 +8040,20 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Mee ka tee (Laotian egg curry noodle soup).jpg",
+   "credit": {
+    "author": "Isan1985",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "4499616",
   "name": "Mee rebus",
-  "description": "Mee rebus ( or , , also known as mie rebus/mi rebus and mie kuah (the latter literally means \"noodle soup\" in Indonesian) is a Maritime Southeast Asian noodle soup dish. Literally translated as \"boiled noodles\", it is popular in Maritime Southeast Asian countries such as Indonesia, Malaysia, and Singapore.",
+  "description": "Mee rebus (or , , also known as mie rebus/mi rebus and mie kuah (the latter literally means \"noodle soup\" in Indonesian) is a Maritime Southeast Asian noodle soup dish. Literally translated as \"boiled noodles\", it is popular in Maritime Southeast Asian countries such as Indonesia, Malaysia, and Singapore.",
   "sourceUrl": "https://en.wikipedia.org/?curid=4499616",
   "countries": [
    "ID"
@@ -7956,6 +8136,7 @@
   "countries": [
    "ID"
   ],
+  "region": "Nationwide in Indonesia",
   "types": [
    "noodle-soup"
   ],
@@ -7984,7 +8165,15 @@
     "id": "bean",
     "display": "bean"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Indonesian bakso, with noodle and bean sprouts, April 2018 (03).jpg",
+   "credit": {
+    "author": "Qaedi Shamsuddin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "56029455",
@@ -7994,6 +8183,7 @@
   "countries": [
    "ID"
   ],
+  "region": "Manado",
   "types": [
    "noodle-soup"
   ],
@@ -8030,12 +8220,20 @@
     "id": "black-pepper",
     "display": "pepper"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Mie Cakalang Tude Rica-rica 2.jpg",
+   "credit": {
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "28746505",
   "name": "Mie celor",
-  "description": "Mie celor ( in Indonesian) is a Southeast Asian noodle soup dish served in a coconut milk and shrimp-based broth, specialty of Palembang city, South Sumatra, Indonesia. Next to pempek, mie celor is widely associated with Palembang city, despite this noodles might be sold in other cities in Sumatra.",
+  "description": "Mie celor (in Indonesian) is a Southeast Asian noodle soup dish served in a coconut milk and shrimp-based broth, specialty of Palembang city, South Sumatra, Indonesia. Next to pempek, mie celor is widely associated with Palembang city, despite this noodles might be sold in other cities in Sumatra.",
   "sourceUrl": "https://en.wikipedia.org/?curid=28746505",
   "countries": [
    "ID"
@@ -8082,7 +8280,7 @@
  {
   "id": "41591621",
   "name": "Mie koclok",
-  "description": "Mie koclok (), is an Indonesian chicken noodle soup, a specialty of the city of Cirebon, West Java. The noodles come with a white-colored extra-thick porridge-like soup, made of chicken broth and coconut milk soup, which is coagulated with corn starch or tapioca.",
+  "description": "Mie koclok , is an Indonesian chicken noodle soup, a specialty of the city of Cirebon, West Java. The noodles come with a white-colored extra-thick porridge-like soup, made of chicken broth and coconut milk soup, which is coagulated with corn starch or tapioca.",
   "sourceUrl": "https://en.wikipedia.org/?curid=41591621",
   "countries": [
    "ID"
@@ -8121,7 +8319,7 @@
  {
   "id": "42814285",
   "name": "Mie kocok",
-  "description": "Mie kocok () is an Indonesian beef noodle soup, a specialty of Bandung City, West Java. The dish consists of noodles served in rich beef consommé soup, (beef tendon or slices of cow's trotters), bean sprouts and bakso (beef meatball), kaffir lime juice, and sprinkled with sliced fresh celery, scallion, and fried shallo…",
+  "description": "Mie kocok is an Indonesian beef noodle soup, a specialty of Bandung City, West Java. The dish consists of noodles served in rich beef consommé soup, (beef tendon or slices of cow's trotters), bean sprouts and bakso (beef meatball), kaffir lime juice, and sprinkled with sliced fresh celery, scallion, and fried shallot.",
   "sourceUrl": "https://en.wikipedia.org/?curid=42814285",
   "countries": [
    "ID"
@@ -8156,7 +8354,7 @@
  {
   "id": "71205033",
   "name": "Mie kopyok",
-  "description": "Mie kopyok (), is an Indonesian noodle soup, a specialty of Semarang City, Central Java. The dish consists of noodles served in garlic soup, slices of fried tofu, lontong, bean sprouts, and crushed crackers, sprinkled with sliced fresh celery, and fried shallot. It is served with kecap manis on top.",
+  "description": "Mie kopyok , is an Indonesian noodle soup, a specialty of Semarang City, Central Java. The dish consists of noodles served in garlic soup, slices of fried tofu, lontong, bean sprouts, and crushed crackers, sprinkled with sliced fresh celery, and fried shallot. It is served with kecap manis on top.",
   "sourceUrl": "https://en.wikipedia.org/?curid=71205033",
   "countries": [
    "ID"
@@ -8207,7 +8405,7 @@
  {
   "id": "49641854",
   "name": "Minestra di ceci",
-  "description": "thumb|Minestra di ceci con Palmazio (, a white wine produced with a grape variety originating from the island of Capraia) Minestra di ceci () is an Italian soup made with chickpeas as a primary ingredient. Dried chickpeas that have been soaked or canned chickpeas may be used.",
+  "description": "Minestra di ceci is an Italian soup made with chickpeas as a primary ingredient. Dried chickpeas that have been soaked or canned chickpeas may be used. Additional ingredients can vary, and may include foods such as salt cod, chestnuts, artichoke, potato, tomato, pasta and cabbage, among others.",
   "sourceUrl": "https://en.wikipedia.org/?curid=49641854",
   "countries": [
    "IT"
@@ -8264,12 +8462,20 @@
     "id": "salt",
     "display": "salt"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Minestra di ceci con palmazio.jpg",
+   "credit": {
+    "author": "Roberto from Milano, Italy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "20242",
   "name": "Minestrone",
-  "description": "thumb|Minestrone Minestrone ( , ) or minestrone di verdure is a thick vegetable soup of Italian origin. It typically includes onions, carrots, celery, potatoes, cabbage, tomatoes, courgettes, often legumes, such as beans, chickpeas or fava beans, and sometimes pasta or rice, and is characterized by the mixture of diffe…",
+  "description": "Minestrone or minestrone di verdure is a thick vegetable soup of Italian origin. It typically includes onions, carrots, celery, potatoes, cabbage, tomatoes, courgettes, often legumes, such as beans, chickpeas or fava beans, and sometimes pasta or rice, and is characterized by the mixture of different vegetables and not…",
   "sourceUrl": "https://en.wikipedia.org/?curid=20242",
   "countries": [
    "IT"
@@ -8373,7 +8579,7 @@
  {
   "id": "7674269",
   "name": "Miyeok-guk",
-  "description": "Miyeok-guk (), also rendered as miyuk guk or seaweed soup, is a non-spicy Korean soup whose main ingredient is miyeok (seaweed). It is traditionally eaten as a birthday dish in honor of one's mother and by women who have given birth for several months postpartum.",
+  "description": "Miyeok-guk , also rendered as miyuk guk or seaweed soup, is a non-spicy Korean soup whose main ingredient is miyeok (seaweed). It is traditionally eaten as a birthday dish in honor of one's mother and by women who have given birth for several months postpartum.",
   "sourceUrl": "https://en.wikipedia.org/?curid=7674269",
   "countries": [
    "KR"
@@ -8411,7 +8617,7 @@
  {
   "id": "2581657",
   "name": "Mohinga",
-  "description": "Mohinga (, ; also spelt mont hin gar) is the national dish of Myanmar. Mohinga is a fish soup made with rice noodles, typically served as a hearty breakfast. It features a rich broth flavored with lemongrass, turmeric, and fish sauce, often garnished with boiled eggs, cilantro, and crispy fritters.",
+  "description": "Mohinga (also spelt mont hin gar) is the national dish of Myanmar. Mohinga is a fish soup made with rice noodles, typically served as a hearty breakfast. It features a rich broth flavored with lemongrass, turmeric, and fish sauce, often garnished with boiled eggs, cilantro, and crispy fritters.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2581657",
   "countries": [
    "MM"
@@ -8523,7 +8729,7 @@
  {
   "id": "2315194",
   "name": "Moqueca",
-  "description": "Moqueca ( or depending on the dialect, also spelled muqueca) is a Brazilian seafood stew. Moqueca is typically made with shrimp or fish in a base of tomatoes, onions, garlic, lime, and coriander. Some recipes include annatto, palm oil, and coconut milk, depending on the regional variation.",
+  "description": "Moqueca (or depending on the dialect, also spelled muqueca) is a Brazilian seafood stew. Moqueca is typically made with shrimp or fish in a base of tomatoes, onions, garlic, lime, and coriander. Some recipes include annatto, palm oil, and coconut milk, depending on the regional variation.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2315194",
   "countries": [
    "BR"
@@ -8584,7 +8790,15 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Moqueca.jpg",
+   "credit": {
+    "author": "BR",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "39938072",
@@ -8618,7 +8832,15 @@
     "id": "yam",
     "display": "yam"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Mote de queso.jpg",
+   "credit": {
+    "author": "Jefferson1441",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "8611818",
@@ -8628,6 +8850,7 @@
   "countries": [
    "JP"
   ],
+  "region": "Fukuoka",
   "types": [
    "noodle-soup"
   ],
@@ -8676,7 +8899,15 @@
     "id": "black-pepper",
     "display": "pepper"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Motsunabe.jpg",
+   "credit": {
+    "author": "w:ja:利用者:Hykw-a4",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+   }
+  }
  },
  {
   "id": "2650274",
@@ -8707,7 +8938,7 @@
  {
   "id": "559495",
   "name": "Mulligatawny",
-  "description": "Mulligatawny () is a soup which originated from in Tamil cuisine, though much transformed during its adoption into Anglo-Indian cuisine. The name originates from the Tamil words ( 'black pepper'), and (, 'water'); literally, \"pepper-water\". Main ingredients commonly include chicken, mutton, and lentils.",
+  "description": "Mulligatawny is a soup which originated from in Tamil cuisine, though much transformed during its adoption into Anglo-Indian cuisine. The name originates from the Tamil words ('black pepper'), and ('water'); literally, \"pepper-water\". Main ingredients commonly include chicken, mutton, and lentils.",
   "sourceUrl": "https://en.wikipedia.org/?curid=559495",
   "countries": [
    "IN"
@@ -8754,7 +8985,7 @@
  {
   "id": "24791406",
   "name": "Naengguk",
-  "description": "Naengguk () or chilled soup refers to all kinds of cold guk (, soups) in Korean cuisine, mainly eaten in summer. It is also called chan'guk (), which literally means \"cold soup\" in pure Korean, while the term naengguk is a combination of a hanja word (, \"cold\") and a pure Korean word (, \"soup\").",
+  "description": "Naengguk or chilled soup refers to all kinds of cold guk (soups) in Korean cuisine, mainly eaten in summer. It is also called chan'guk , which literally means \"cold soup\" in pure Korean, while the term naengguk is a combination of a hanja word (\"cold\") and a pure Korean word (\"soup\").",
   "sourceUrl": "https://en.wikipedia.org/?curid=24791406",
   "countries": [
    "KR"
@@ -8808,7 +9039,7 @@
  {
   "id": "1480901",
   "name": "Naengmyeon",
-  "description": "Naengmyeon (, in South Korea) or raengmyŏn (, in North Korea) is a noodle dish of North Korean origin which consists of long and thin handmade noodles made from the flour and starch of various ingredients, including most commonly buckwheat (메밀, memil) but also potatoes, sweet potatoes, arrowroot starch (darker color an…",
+  "description": "Naengmyeon (in South Korea) or raengmyŏn (in North Korea) is a noodle dish of North Korean origin which consists of long and thin handmade noodles made from the flour and starch of various ingredients, including most commonly buckwheat (메밀, memil) but also potatoes, sweet potatoes, arrowroot starch (darker color and ch…",
   "sourceUrl": "https://en.wikipedia.org/?curid=1480901",
   "countries": [
    "KR"
@@ -8843,7 +9074,7 @@
  {
   "id": "37739784",
   "name": "Nam ngiao",
-  "description": "Nam ngiao (, ) or nam ngio (, ) is a noodle soup or curry of the cuisine of the Tai Yai people who live in the northeast of Burma, the southwest of Yunnan province, China, and in northern Thailand, mainly in Mae Hong Son Province. The dish has become famous in the northern Thai cuisine.",
+  "description": "Nam ngiao or nam ngio is a noodle soup or curry of the cuisine of the Tai Yai people who live in the northeast of Burma, the southwest of Yunnan province, China, and in northern Thailand, mainly in Mae Hong Son Province. The dish has become famous in the northern Thai cuisine.",
   "sourceUrl": "https://en.wikipedia.org/?curid=37739784",
   "countries": [
    "CN"
@@ -8874,7 +9105,7 @@
  {
   "id": "52643761",
   "name": "Nangchang Jar soup",
-  "description": "thumb|Chinese boxthorn, Dried fruit thumb|Chinese ginseng thumb|Nanchang jar soup with chicken and pitaya flower Nangchang Jar soup is a Jiangxi cuisine of China, and it is meat soup which is carried by jar and stored in a big crock.",
+  "description": "Nangchang Jar soup is a Jiangxi cuisine of China, and it is meat soup which is carried by jar and stored in a big crock. Similar to Guangdong soup, the Jiangxi jar soup can be made from various ingredients from pork-bone, chicken and duck to different kinds of Chinese medicinal materials like ginseng, codonopsis and Ch…",
   "sourceUrl": "https://en.wikipedia.org/?curid=52643761",
   "countries": [
    "CN"
@@ -8984,7 +9215,15 @@
     "id": "broth",
     "display": "dashi"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Braised pork and potatoes (3089327692).jpg",
+   "credit": {
+    "author": "Yumi Kimura from Yokohama, JAPAN",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "53077952",
@@ -9110,7 +9349,7 @@
  {
   "id": "88056",
   "name": "Oden",
-  "description": "thumb|Various oden stewing in broth thumb|A man selling oden from a yatai (food cart)|yatai food cart in [[Ueno Park, 2007]] Oden ( or ) is a type of nabemono (Japanese one-pot dishes) consisting of several ingredients such as boiled eggs, daikon or konjac, and processed fish balls stewed in a light, soy-flavored dashi…",
+  "description": "Oden (or ) is a type of nabemono (Japanese one-pot dishes) consisting of several ingredients such as boiled eggs, daikon or konjac, and processed fish balls stewed in a light, soy-flavored dashi broth.",
   "sourceUrl": "https://en.wikipedia.org/?curid=88056",
   "countries": [
    "JP"
@@ -9143,12 +9382,20 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Yataioden.jpg",
+   "credit": {
+    "author": "Hykw-a4",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+   }
+  }
  },
  {
   "id": "2894792",
   "name": "Odong",
-  "description": "Odong, also called pancit odong, is a Visayan noodle soup made with noodles, canned smoked sardines (tinapa) in tomato sauce, bottle gourd (), loofah (), chayote, ginger, garlic, red onions, and various other vegetables.",
+  "description": "Odong, also called pancit odong, is a Visayan noodle soup made with noodles, canned smoked sardines (tinapa) in tomato sauce, bottle gourd , loofah , chayote, ginger, garlic, red onions, and various other vegetables. It is garnished and spiced with black pepper, scallions, toasted garlic, calamansi, or labuyo chilis.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2894792",
   "countries": [
    "PH"
@@ -9245,7 +9492,7 @@
  {
   "id": "81751030",
   "name": "Ofe onugbu",
-  "description": "thumb|150px|right|Ofe onugbu Ofe onugbu, () also known as bitterleaf soup, is a traditional delicacy of the Igbo people in the southeastern region of Nigeria. It is regarded as a native soup.",
+  "description": "Ofe onugbu, also known as bitterleaf soup, is a traditional delicacy of the Igbo people in the southeastern region of Nigeria. It is regarded as a native soup.",
   "sourceUrl": "https://en.wikipedia.org/?curid=81751030",
   "countries": [
    "NG"
@@ -9305,7 +9552,15 @@
     "id": "broth",
     "display": "stock"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Ainu ohaw.jpg",
+   "credit": {
+    "author": "jetalone",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "3968571",
@@ -9345,7 +9600,7 @@
  {
   "id": "45416841",
   "name": "Okra soup",
-  "description": "thumb|260px|Indonesian List of Indonesian soups#Sayur (vegetable soups)|sayur oyong (okra soup) in clear light broth Okra or Okro is a soup made from the pods of the Okra plant, cooked in a wide variety of ways across several cultures and continents.",
+  "description": "Okra or Okro is a soup made from the pods of the Okra plant, cooked in a wide variety of ways across several cultures and continents.",
   "sourceUrl": "https://en.wikipedia.org/?curid=45416841",
   "countries": [
    "ID"
@@ -9371,7 +9626,7 @@
  {
   "id": "2161922",
   "name": "Okroshka",
-  "description": "Okróshka ( ) is a cold soup of Russian origin, which probably originated in the Volga region. The classic soup is a mix of mostly raw vegetables (like cucumbers, radishes and spring onions), boiled potatoes, eggs, cooked meat such as beef, veal, sausages or ham, and kvass, which is a low-alcoholic (1.",
+  "description": "Okróshka is a cold soup of Russian origin, which probably originated in the Volga region. The classic soup is a mix of mostly raw vegetables (like cucumbers, radishes and spring onions), boiled potatoes, eggs, cooked meat such as beef, veal, sausages or ham, and kvass, which is a low-alcoholic (1.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2161922",
   "countries": [
    "RU",
@@ -9407,11 +9662,12 @@
  {
   "id": "25952119",
   "name": "Opor ayam",
-  "description": "Opor ayam () is an Indonesian dish from Central Java consisting of chicken cooked in coconut milk. The spice mixture (bumbu) includes galangal, lemongrass, cinnamon, tamarind juice, palm sugar, coriander, cumin, candlenut, garlic, shallot, and pepper.",
+  "description": "Opor ayam is an Indonesian dish from Central Java consisting of chicken cooked in coconut milk. The spice mixture (bumbu) includes galangal, lemongrass, cinnamon, tamarind juice, palm sugar, coriander, cumin, candlenut, garlic, shallot, and pepper.",
   "sourceUrl": "https://en.wikipedia.org/?curid=25952119",
   "countries": [
    "ID"
   ],
+  "region": "Central Java",
   "types": [
    "soup"
   ],
@@ -9472,12 +9728,20 @@
     "id": "sugar",
     "display": "palm sugar"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Opor Ayam Telur Pindang.JPG",
+   "credit": {
+    "author": "Sakurai Midori",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+   }
+  }
  },
  {
   "id": "10960882",
   "name": "Oxtail soup",
-  "description": "thumb|Southern oxtail soup Oxtail soup is made with oxtail, a cheap cut of beef. In English usage the term \"ox\" reflects the social divide in England after the Norman Conquest: beef () referred to the superior cuts served to the Anglo-Norman ruling class; the less favoured parts of the animal were referred to with the …",
+  "description": "Oxtail soup is made with oxtail, a cheap cut of beef. In English usage the term \"ox\" reflects the social divide in England after the Norman Conquest: beef referred to the superior cuts served to the Anglo-Norman ruling class; the less favoured parts of the animal were referred to with the Saxon prefix \"ox\".",
   "sourceUrl": "https://en.wikipedia.org/?curid=10960882",
   "countries": [
    "FR"
@@ -9513,6 +9777,7 @@
   "countries": [
    "CL"
   ],
+  "region": "Zona Central",
   "types": [
    "fish-soup"
   ],
@@ -9537,37 +9802,15 @@
     "id": "broth",
     "display": "stock"
    }
-  ]
- },
- {
-  "id": "38272316",
-  "name": "Pakistani meat dishes",
-  "description": "thumb|Chicken karahi in a Pakistani restaurant Meat plays a much more dominant role in Pakistani cuisine as compared to other South Asian cuisines. The most popular are chicken, lamb, beef, goat, and fish. Beef is particularly sought after for kebab dishes or the classic beef shank dish nihari.",
-  "sourceUrl": "https://en.wikipedia.org/?curid=38272316",
-  "countries": [
-   "PK"
   ],
-  "types": [
-   "fish-soup"
-  ],
-  "ingredients": [
-   {
-    "id": "chicken",
-    "display": "chicken"
-   },
-   {
-    "id": "beef",
-    "display": "beef shank"
-   },
-   {
-    "id": "lamb",
-    "display": "mutton"
-   },
-   {
-    "id": "fish",
-    "display": "fish"
+  "image": {
+   "sourceFile": "File:Paila marina.jpg",
+   "credit": {
+    "author": "Astroguato",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
    }
-  ]
+  }
  },
  {
   "id": "35204776",
@@ -9623,7 +9866,7 @@
  {
   "id": "45400664",
   "name": "Palm nut soup",
-  "description": "thumb|200px|A close-up view of palm nut soup Palm nut soup or banga is a soup made from palm fruit common in Cameroon, Sierra Leone, Ghana, Nigeria, Democratic Republic of Congo and Ivory Coast. The soup is made from a palm cream or palm nut base with stewed marinated meats, smoked dried fish, and aromatics.",
+  "description": "Palm nut soup or banga is a soup made from palm fruit common in Cameroon, Sierra Leone, Ghana, Nigeria, Democratic Republic of Congo and Ivory Coast. The soup is made from a palm cream or palm nut base with stewed marinated meats, smoked dried fish, and aromatics.",
   "sourceUrl": "https://en.wikipedia.org/?curid=45400664",
   "countries": [
    "CM"
@@ -9641,7 +9884,15 @@
     "id": "cream",
     "display": "cream"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Palm nut soup close up 02.jpg",
+   "credit": {
+    "author": "Nkansahrexford",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "47083051",
@@ -9671,7 +9922,15 @@
     "id": "parsley",
     "display": "parsley"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Palócleves - Gundel.jpg",
+   "credit": {
+    "author": "dpotera",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "24591951",
@@ -9831,7 +10090,7 @@
  {
   "id": "42176863",
   "name": "Pappa al pomodoro",
-  "description": "thumb|A common method of cooking the dish (; translating to 'tomato mush') is a thick Tuscan bread soup typically prepared with fresh tomatoes, bread, olive oil, garlic, basil, and various other fresh ingredients. The bread is usually stale or leftover.",
+  "description": "(translating to 'tomato mush') is a thick Tuscan bread soup typically prepared with fresh tomatoes, bread, olive oil, garlic, basil, and various other fresh ingredients. The bread is usually stale or leftover.",
   "sourceUrl": "https://en.wikipedia.org/?curid=42176863",
   "countries": [
    "IT"
@@ -9874,7 +10133,7 @@
  {
   "id": "4275382",
   "name": "Pasta e fagioli",
-  "description": "Pasta e fagioli (; ) is an Italian pasta soup of which there are several regional variants. Once a dish eaten by the poor, pasta e fagioli is now eaten across social classes, and considered nostalgic and healthy.",
+  "description": "Pasta e fagioli is an Italian pasta soup of which there are several regional variants. Once a dish eaten by the poor, pasta e fagioli is now eaten across social classes, and considered nostalgic and healthy.",
   "sourceUrl": "https://en.wikipedia.org/?curid=4275382",
   "countries": [
    "IT"
@@ -9904,7 +10163,7 @@
  {
   "id": "14826809",
   "name": "Pasulj",
-  "description": "Pasulj (from phaseolus; ), grah () or grav () is a bean stew or soup made of usually white, cranberry, pinto or kidney beans, which is a popular dish in Balkan cuisine.",
+  "description": "Pasulj (from phaseolus; ), grah or grav is a bean stew or soup made of usually white, cranberry, pinto or kidney beans, which is a popular dish in Balkan cuisine.",
   "sourceUrl": "https://en.wikipedia.org/?curid=14826809",
   "countries": [
    "FR"
@@ -9967,7 +10226,7 @@
  {
   "id": "54586260",
   "name": "Patriotic soup",
-  "description": "Patriotic soup (, Teochew: hu gog chai) is a vegetable soup originated by Teochew people. It was developed during the final year of China's Song dynasty as an improvisational dish.",
+  "description": "Patriotic soup (Teochew: hu gog chai) is a vegetable soup originated by Teochew people. It was developed during the final year of China's Song dynasty as an improvisational dish.",
   "sourceUrl": "https://en.wikipedia.org/?curid=54586260",
   "countries": [
    "CN"
@@ -10192,7 +10451,7 @@
  {
   "id": "45568272",
   "name": "Peppersoup",
-  "description": "thumb|A bowl of peppersoup with different meats Peppersoup (or pepper soup) is a soup eaten by Cameroonians and Nigerians. This soup is made using various meats or fish, chili peppers, salt, scent leaves and calabash nutmeg as its primary ingredients. It is a spicy soup that has a light, watery texture.",
+  "description": "Peppersoup (or pepper soup) is a soup eaten by Cameroonians and Nigerians. This soup is made using various meats or fish, chili peppers, salt, scent leaves and calabash nutmeg as its primary ingredients. It is a spicy soup that has a light, watery texture.",
   "sourceUrl": "https://en.wikipedia.org/?curid=45568272",
   "countries": [
    "NG"
@@ -10217,12 +10476,20 @@
     "id": "salt",
     "display": "salt"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Assorted meat pepper soup at Lagos Island.jpg",
+   "credit": {
+    "author": "bob walker",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "625565",
   "name": "Pho",
-  "description": "Pho ( ) is a Vietnamese soup dish consisting of broth, rice noodles (), herbs, and meat – usually beef (), and sometimes chicken (). Pho is a popular food in Vietnam where it is served in households, street-stalls, and restaurants nationwide.",
+  "description": "Pho is a Vietnamese soup dish consisting of broth, rice noodles , herbs, and meat – usually beef , and sometimes chicken . Pho is a popular food in Vietnam where it is served in households, street-stalls, and restaurants nationwide. Residents of the city of Nam Định were the first to create Vietnamese traditional pho.",
   "sourceUrl": "https://en.wikipedia.org/?curid=625565",
   "countries": [
    "VN"
@@ -10257,7 +10524,7 @@
  {
   "id": "43767478",
   "name": "Pickle soup",
-  "description": "thumb|Rassolnik thumb|Pickled Mustard plant|mustard and fish filet soup Pickle soup is a style of soup prepared with various types of pickled vegetables. Dill pickle soup is a variety of pickle soup prepared with pickled cucumber. Some versions use grated dill pickle in their preparation.",
+  "description": "Pickle soup is a style of soup prepared with various types of pickled vegetables. Dill pickle soup is a variety of pickle soup prepared with pickled cucumber. Some versions use grated dill pickle in their preparation.",
   "sourceUrl": "https://en.wikipedia.org/?curid=43767478",
   "countries": [
    "PL"
@@ -10278,12 +10545,20 @@
     "id": "dill",
     "display": "dill"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Рассольник по-ленинградски.JPG",
+   "credit": {
+    "author": "Шнапс",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "4257015",
   "name": "Pig's organ soup",
-  "description": "Pig's organ soup () or chheng-thng (), is a Malaysian and Singaporean soup that is made from pork offal. The dish is a clear soup, served with other optional side dishes as well as rice. It is mainly popular in Malaysia and Singapore.",
+  "description": "Pig's organ soup or chheng-thng , is a Malaysian and Singaporean soup that is made from pork offal. The dish is a clear soup, served with other optional side dishes as well as rice. It is mainly popular in Malaysia and Singapore.",
   "sourceUrl": "https://en.wikipedia.org/?curid=4257015",
   "countries": [
    "MY",
@@ -10418,39 +10693,9 @@
   }
  },
  {
-  "id": "20609697",
-  "name": "Pork",
-  "description": "thumb|Pork belly cut, showing layers of muscle and fat thumb|A pig being slow-roasted on a rotisserie Pork is the culinary name for the meat of the pig (Sus domesticus). It is the second most commonly consumed type of meat worldwide, following poultry, with evidence of pig husbandry dating back to 8000–9000&nbsp;.",
-  "sourceUrl": "https://en.wikipedia.org/?curid=20609697",
-  "countries": [
-   "ID"
-  ],
-  "types": [
-   "fish-soup"
-  ],
-  "ingredients": [
-   {
-    "id": "chicken",
-    "display": "chicken"
-   },
-   {
-    "id": "pork",
-    "display": "pork belly"
-   },
-   {
-    "id": "sausage",
-    "display": "sausage"
-   },
-   {
-    "id": "ham",
-    "display": "bacon"
-   }
-  ]
- },
- {
   "id": "43767849",
   "name": "Pork blood soup",
-  "description": "thumb|Nam tok (food)|Kuaitiao nam tok is a Thai noodle soup; one of its main ingredients is raw blood. Pork blood soup is a soup that uses pork blood as its primary ingredient. Additional ingredients may include barley and herbs such as marjoram, as well as other foods and seasonings.",
+  "description": "Pork blood soup is a soup that uses pork blood as its primary ingredient. Additional ingredients may include barley and herbs such as marjoram, as well as other foods and seasonings. Some versions are prepared with coagulated pork blood and other coagulated pork offal, such as intestine, liver and heart.",
   "sourceUrl": "https://en.wikipedia.org/?curid=43767849",
   "countries": [
    "TH"
@@ -10475,7 +10720,15 @@
     "id": "offal",
     "display": "organ meat"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Namtok-noodles102.jpg",
+   "credit": {
+    "author": "Xufanc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "51555160",
@@ -10507,7 +10760,7 @@
  {
   "id": "882004",
   "name": "Pozole",
-  "description": "Pozole (; from ) is a traditional soup or stew from Mexican cuisine. It is made from hominy with meat (typically chicken or pork), and can be seasoned and garnished with shredded lettuce or cabbage, chili peppers, onion, garlic, radishes, avocado, salsa or limes.",
+  "description": "Pozole is a traditional soup or stew from Mexican cuisine. It is made from hominy with meat (typically chicken or pork), and can be seasoned and garnished with shredded lettuce or cabbage, chili peppers, onion, garlic, radishes, avocado, salsa or limes.",
   "sourceUrl": "https://en.wikipedia.org/?curid=882004",
   "countries": [
    "MX"
@@ -10525,7 +10778,15 @@
     "id": "chicken",
     "display": "chicken"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Green pozole, dressed (29161841908) (cropped).jpg",
+   "credit": {
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "22358999",
@@ -10564,7 +10825,7 @@
  {
   "id": "19396733",
   "name": "Psarosoupa",
-  "description": "Psarosoupa () is the Greek word for a fish soup, traditional to Greek cuisine. There are several variations on the soup. All include fish and vegetables. The types of fish used vary: carp, cod, hake, mackerel, salmon, skate, trout, turbot, perch, haddock, and swordfish are all possibilities.",
+  "description": "Psarosoupa is the Greek word for a fish soup, traditional to Greek cuisine. There are several variations on the soup. All include fish and vegetables. The types of fish used vary: carp, cod, hake, mackerel, salmon, skate, trout, turbot, perch, haddock, and swordfish are all possibilities.",
   "sourceUrl": "https://en.wikipedia.org/?curid=19396733",
   "countries": [
    "GR"
@@ -10708,7 +10969,7 @@
  {
   "id": "16191337",
   "name": "Rassolnik",
-  "description": "Rassolnik ( ) is a traditional Russian soup made from pickled cucumbers, pearl barley, and pork or beef kidneys. A vegetarian variant of rassolnik also exists, usually made during Lent. The dish is known to have existed as far back as the 15th century, when it was called kalya.",
+  "description": "Rassolnik is a traditional Russian soup made from pickled cucumbers, pearl barley, and pork or beef kidneys. A vegetarian variant of rassolnik also exists, usually made during Lent. The dish is known to have existed as far back as the 15th century, when it was called kalya.",
   "sourceUrl": "https://en.wikipedia.org/?curid=16191337",
   "countries": [
    "RU"
@@ -10793,7 +11054,7 @@
  {
   "id": "16184333",
   "name": "Ribollita",
-  "description": "Ribollita () is a Tuscan panade (a variety of bread soup) made with bread and vegetables, often from leftovers. There are many variations, but it usually contains cannellini beans, lacinato kale, cabbage and inexpensive vegetables such as carrot, beans, chard, celery, potatoes and onion.",
+  "description": "Ribollita is a Tuscan panade (a variety of bread soup) made with bread and vegetables, often from leftovers. There are many variations, but it usually contains cannellini beans, lacinato kale, cabbage and inexpensive vegetables such as carrot, beans, chard, celery, potatoes and onion. It is often baked in a clay pot.",
   "sourceUrl": "https://en.wikipedia.org/?curid=16184333",
   "countries": [
    "IT"
@@ -10848,7 +11109,7 @@
  {
   "id": "14570292",
   "name": "Rose hip soup",
-  "description": "thumb|Rose hips Rose hip soup () is a Swedish soup made from rose hips. It is served as a beverage or as a dessert with milk, cream or vanilla ice cream along with small almond biscuits. Rose hip soup may be eaten for breakfast.",
+  "description": "Rose hip soup is a Swedish soup made from rose hips. It is served as a beverage or as a dessert with milk, cream or vanilla ice cream along with small almond biscuits. Rose hip soup may be eaten for breakfast.",
   "sourceUrl": "https://en.wikipedia.org/?curid=14570292",
   "countries": [
    "SE"
@@ -10914,6 +11175,7 @@
   "countries": [
    "CN"
   ],
+  "region": "Guangzhou",
   "types": [
    "soup"
   ],
@@ -10930,7 +11192,15 @@
     "id": "taro",
     "display": "taro"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Sago Soup.jpg",
+   "credit": {
+    "author": "mccheng from (optional)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "699550",
@@ -10966,36 +11236,6 @@
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
    }
   }
- },
- {
-  "id": "16344596",
-  "name": "Sake kasu",
-  "description": "thumb|right|Sake kasu or sake lees are the pressed lees left from the production of sake (Japanese rice wine). It is a white paste used in cooking. Its taste is fruity and similar to sake.",
-  "sourceUrl": "https://en.wikipedia.org/?curid=16344596",
-  "countries": [
-   "JP"
-  ],
-  "types": [
-   "fish-soup"
-  ],
-  "ingredients": [
-   {
-    "id": "fish",
-    "display": "fish"
-   },
-   {
-    "id": "rice",
-    "display": "rice"
-   },
-   {
-    "id": "sausage",
-    "display": "sausages"
-   },
-   {
-    "id": "wine",
-    "display": "wine"
-   }
-  ]
  },
  {
   "id": "31548587",
@@ -11113,7 +11353,15 @@
     "id": "salt",
     "display": "salt"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Salmorejo cordouan.JPG",
+   "credit": {
+    "author": "P.Lechien",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  }
  },
  {
   "id": "7189585",
@@ -11184,7 +11432,7 @@
  {
   "id": "2353922",
   "name": "Samgye-tang",
-  "description": "Samgye-tang (), or \"ginseng chicken soup\" is a tang (Korean soup) that consists primarily of a whole young chicken (poussin) or quail filled with garlic, rice, jujube, mung bean, and ginseng. It is traditionally considered to be a health food. Samgye-tang is a representative summer health food.",
+  "description": "Samgye-tang , or \"ginseng chicken soup\" is a tang (Korean soup) that consists primarily of a whole young chicken (poussin) or quail filled with garlic, rice, jujube, mung bean, and ginseng. It is traditionally considered to be a health food. Samgye-tang is a representative summer health food.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2353922",
   "countries": [
    "KR"
@@ -11309,6 +11557,7 @@
   "countries": [
    "ID"
   ],
+  "region": "Central and east part of Java",
   "types": [
    "bean-soup"
   ],
@@ -11337,7 +11586,15 @@
     "id": "broth",
     "display": "chicken stock"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Lodeh.jpg",
+   "credit": {
+    "author": "iNews",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "64579851",
@@ -11381,7 +11638,7 @@
  {
   "id": "50577328",
   "name": "Sciusceddu",
-  "description": "Sciusceddu () is a Sicilian soup prepared using meatballs and broken eggs as primary ingredients, served as a traditional Easter dish in the city of Messina. Additional ingredients used include broth, caciocavallo and ricotta cheeses, parsley, salt and pepper. It can be prepared in a similar style to egg drop soup.",
+  "description": "Sciusceddu is a Sicilian soup prepared using meatballs and broken eggs as primary ingredients, served as a traditional Easter dish in the city of Messina. Additional ingredients used include broth, caciocavallo and ricotta cheeses, parsley, salt and pepper. It can be prepared in a similar style to egg drop soup.",
   "sourceUrl": "https://en.wikipedia.org/?curid=50577328",
   "countries": [
    "IT"
@@ -11438,6 +11695,10 @@
     "display": "Barley"
    },
    {
+    "id": "lamb",
+    "display": "Lamb"
+   },
+   {
     "id": "carrot",
     "display": "carrot"
    }
@@ -11452,56 +11713,6 @@
   }
  },
  {
-  "id": "26866",
-  "name": "Seafood",
-  "description": "thumb||alt=A seafood platter composed of shrimp, oyster, snail and crab. Seafood is any form of sea life regarded as food by humans, prominently including fish and shellfish. Shellfish include various species of molluscs (e.g.",
-  "sourceUrl": "https://en.wikipedia.org/?curid=26866",
-  "countries": [
-   "ID"
-  ],
-  "types": [
-   "fish-soup"
-  ],
-  "ingredients": [
-   {
-    "id": "fish",
-    "display": "fish"
-   },
-   {
-    "id": "shrimp",
-    "display": "shrimp"
-   },
-   {
-    "id": "crab",
-    "display": "crab"
-   },
-   {
-    "id": "clam",
-    "display": "clam"
-   },
-   {
-    "id": "mussel",
-    "display": "mussel"
-   },
-   {
-    "id": "oyster",
-    "display": "oyster"
-   },
-   {
-    "id": "squid",
-    "display": "squid"
-   },
-   {
-    "id": "seaweed",
-    "display": "seaweed"
-   },
-   {
-    "id": "cucumber",
-    "display": "cucumbers"
-   }
-  ]
- },
- {
   "id": "51781529",
   "name": "Sekba",
   "description": "Sekba or sometimes called bektim is a Chinese Indonesian pork offal stewed in a mild soy sauce-based soup. The stew tastes mildly sweet and salty, made from soy sauce, garlic, and Chinese herbs. It is a popular fare street food in Indonesian Chinatowns, such as Gloria alley, Glodok Chinatown in Jakarta, Indonesia.",
@@ -11509,6 +11720,7 @@
   "countries": [
    "ID"
   ],
+  "region": "Chinatowns in Indonesia",
   "types": [
    "stew"
   ],
@@ -11529,12 +11741,20 @@
     "id": "soy-sauce",
     "display": "soy sauce"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Sekba 3.jpg",
+   "credit": {
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "31383119",
   "name": "Semur (Indonesian stew)",
-  "description": "Semur () is an Indonesian meat stew (mainly beef) braised in thick brown gravy. It is commonly found in Indonesian cuisine. The main ingredients in the gravy are sweet soy sauce, shallots, onions, garlic, ginger, candlenut, nutmeg, and cloves (and sometimes with black pepper, coriander, cumin, and cinnamon).",
+  "description": "Semur is an Indonesian meat stew (mainly beef) braised in thick brown gravy. It is commonly found in Indonesian cuisine. The main ingredients in the gravy are sweet soy sauce, shallots, onions, garlic, ginger, candlenut, nutmeg, and cloves (and sometimes with black pepper, coriander, cumin, and cinnamon).",
   "sourceUrl": "https://en.wikipedia.org/?curid=31383119",
   "countries": [
    "ID"
@@ -11569,7 +11789,7 @@
  {
   "id": "928333",
   "name": "Shabu-shabu",
-  "description": "Shabu-shabu () is a Japanese nabemono hotpot dish of thinly sliced meat and vegetables boiled in water and served with dipping sauces. The term is onomatopoeic, derived from the sound – \"swish swish\" – emitted when the ingredients are stirred in the cooking pot.",
+  "description": "Shabu-shabu is a Japanese nabemono hotpot dish of thinly sliced meat and vegetables boiled in water and served with dipping sauces. The term is onomatopoeic, derived from the sound – \"swish swish\" – emitted when the ingredients are stirred in the cooking pot. The food is cooked piece by piece by the diner at the table.",
   "sourceUrl": "https://en.wikipedia.org/?curid=928333",
   "countries": [
    "JP"
@@ -11634,7 +11854,7 @@
  {
   "id": "863787",
   "name": "Shchi",
-  "description": "Shchi (, sometimes transliterated as šči) is a Russian-style cabbage soup. When sauerkraut is used instead, the soup is called sour shchi, while soups based on sorrel, spinach, nettle, and similar plants are called green shchi ().",
+  "description": "Shchi (sometimes transliterated as šči) is a Russian-style cabbage soup. When sauerkraut is used instead, the soup is called sour shchi, while soups based on sorrel, spinach, nettle, and similar plants are called green shchi .",
   "sourceUrl": "https://en.wikipedia.org/?curid=863787",
   "countries": [
    "RU"
@@ -11759,32 +11979,6 @@
   ]
  },
  {
-  "id": "430984",
-  "name": "Silkie (chicken breed)",
-  "description": "{{infobox poultry breed | name = Silkie | image = Silky bantam.jpg | image_size = | alt = | image_caption = The white | status = | altname = | country = China | distribution = | standard = | use = | apa = Asiatic | aba = | ee = yes | pcgb = soft feather: light | maleweight = | femaleweight = | skincolor = black, brown …",
-  "sourceUrl": "https://en.wikipedia.org/?curid=430984",
-  "countries": [
-   "CN"
-  ],
-  "types": [
-   "soup"
-  ],
-  "ingredients": [
-   {
-    "id": "chicken",
-    "display": "chicken"
-   },
-   {
-    "id": "egg",
-    "display": "eggs"
-   },
-   {
-    "id": "cream",
-    "display": "cream"
-   }
-  ]
- },
- {
   "id": "36210238",
   "name": "Sinabawang gulay",
   "description": "Sinabawang gulay, usually anglicized as Filipino vegetable soup, is a Filipino vegetable soup made with leafy vegetables (usually moringa leaves) and various other vegetables in a broth seasoned with seafood stock or patis (fish sauce). The ingredients of the dish can vary widely.",
@@ -11898,7 +12092,7 @@
  {
   "id": "1755254",
   "name": "Solyanka",
-  "description": "Solyanka (; initially selyanka; , ) is a thick and sour soup of Russian origin. It is a common dish in Russia, Ukraine, Belarus, the Baltic states, and other post-Soviet states and other parts of the former Eastern Bloc. It was one of the most reliably available dishes in East Germany ().",
+  "description": "Solyanka (initially selyanka; , ) is a thick and sour soup of Russian origin. It is a common dish in Russia, Ukraine, Belarus, the Baltic states, and other post-Soviet states and other parts of the former Eastern Bloc. It was one of the most reliably available dishes in East Germany .",
   "sourceUrl": "https://en.wikipedia.org/?curid=1755254",
   "countries": [
    "RU"
@@ -11951,7 +12145,15 @@
     "id": "lime",
     "display": "lemon"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Soljanka food 05.jpg",
+   "credit": {
+    "author": "Pannet",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+   }
+  }
  },
  {
   "id": "50451770",
@@ -11998,12 +12200,20 @@
     "id": "lime",
     "display": "lime"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Sop Saudara 1.JPG",
+   "credit": {
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "54163303",
   "name": "Sopa de fideo",
-  "description": "thumb|Sopa de fideo from California with corn and chicken, garnished with avocado and a lime wedge thumb|Sopa de fideo from Spain Sopa de fideo (Spanish for \"noodle soup\"), also referred to as sopita de fideo, is a stock-based noodle soup that is a part of the cuisines of Spain, Mexico, and Cavite, a province in the Ph…",
+  "description": "Sopa de fideo (Spanish for \"noodle soup\"), also referred to as sopita de fideo, is a stock-based noodle soup that is a part of the cuisines of Spain, Mexico, and Cavite, a province in the Philippines.",
   "sourceUrl": "https://en.wikipedia.org/?curid=54163303",
   "countries": [
    "ES",
@@ -12038,7 +12248,15 @@
     "id": "broth",
     "display": "stock"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Sopita de fideo (regular), chicken, avocado, corn.jpg",
+   "credit": {
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "41783720",
@@ -12103,7 +12321,15 @@
     "id": "lime",
     "display": "lime juice"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Sopa de lima.jpg",
+   "credit": {
+    "author": "Aome7937",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "59407816",
@@ -12161,7 +12387,15 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:8475Photos taken 2020 coronavirus pandemic Baliuag, Bulacan 17.jpg",
+   "credit": {
+    "author": "Judgefloro",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  }
  },
  {
   "id": "6014680",
@@ -12437,7 +12671,7 @@
  {
   "id": "12847718",
   "name": "Soup joumou",
-  "description": "thumb|Soup joumou Soup Joumou (; , lit. ‘pumpkin soup’) is a soup native to Haitian cuisine. In 2021, soup joumou was added to the UNESCO Intangible Cultural Heritage List.",
+  "description": "Soup Joumou (lit. ‘pumpkin soup’) is a soup native to Haitian cuisine. In 2021, soup joumou was added to the UNESCO Intangible Cultural Heritage List.",
   "sourceUrl": "https://en.wikipedia.org/?curid=12847718",
   "countries": [
    "HT"
@@ -12722,11 +12956,12 @@
  {
   "id": "47270313",
   "name": "Stracciatella",
-  "description": "Stracciatella (; in Italian, a diminutive derived from the verb ('to shred')), also known as stracciatella alla romana, is an Italian soup consisting of meat broth and small shreds of an egg-based mixture, prepared by drizzling the mixture into boiling broth and stirring.",
+  "description": "Stracciatella (in Italian, a diminutive derived from the verb ('to shred')), also known as stracciatella alla romana, is an Italian soup consisting of meat broth and small shreds of an egg-based mixture, prepared by drizzling the mixture into boiling broth and stirring. It is popular around the city of Rome, in Lazio.",
   "sourceUrl": "https://en.wikipedia.org/?curid=47270313",
   "countries": [
    "IT"
   ],
+  "region": "Lazio",
   "types": [
    "broth"
   ],
@@ -12757,6 +12992,7 @@
   "countries": [
    "PH"
   ],
+  "region": "Pampanga",
   "types": [
    "fish-soup"
   ],
@@ -12797,16 +13033,25 @@
     "id": "salt",
     "display": "salt"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:3182Corn and malunggay soup with shrimps Suam na Mais 02.jpg",
+   "credit": {
+    "author": "Judgefloro",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  }
  },
  {
   "id": "294936",
   "name": "Sukiyaki",
-  "description": "thumb|Sukiyaki beef in raw egg thumb|Sliced cuts of beef in soy sauce-based hotpot thumb|Ingredients of sukiyaki is a Japanese dish that is prepared and served in the nabemono (Japanese hot pot) style.",
+  "description": "is a Japanese dish that is prepared and served in the nabemono (Japanese hot pot) style. It consists of meat (usually thinly sliced beef) which is slowly cooked or simmered at the table, alongside vegetables and other ingredients, in a shallow iron pot in a mixture of soy sauce, sugar, and mirin.",
   "sourceUrl": "https://en.wikipedia.org/?curid=294936",
   "countries": [
    "JP"
   ],
+  "region": "East Asia",
   "types": [
    "soup"
   ],
@@ -12827,12 +13072,20 @@
     "id": "sugar",
     "display": "sugar"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Sukiyaki 01.jpg",
+   "credit": {
+    "author": "ajari",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "40075242",
   "name": "Sulu köfte",
-  "description": "thumb|Eksili Kofte with \"terbiye\" Sulu köfte is a Turkish stew or thick soup (çorba) with köfte. It consists of meatballs usually made with minced beef, mixed with rice or bulgur, onion and spices and boiled in their own gravy, with tomato sauce, olive oil and Turkish red pepper paste.",
+  "description": "Sulu köfte is a Turkish stew or thick soup (çorba) with köfte. It consists of meatballs usually made with minced beef, mixed with rice or bulgur, onion and spices and boiled in their own gravy, with tomato sauce, olive oil and Turkish red pepper paste.",
   "sourceUrl": "https://en.wikipedia.org/?curid=40075242",
   "countries": [
    "TR"
@@ -12850,7 +13103,15 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Sulu koftes.jpg",
+   "credit": {
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "5776659",
@@ -12900,7 +13161,15 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Sup kepala kambing.jpg",
+   "credit": {
+    "author": "Edwin Maolana from Depok | Jakarta | Batam, Indonesia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "89251",
@@ -12956,12 +13225,20 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Sweet patatoes soup in home.jpg",
+   "credit": {
+    "author": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "68109339",
   "name": "Taiwanese beef noodle soup",
-  "description": "Taiwanese beef noodle soup () is a beef noodle soup dish that originated in Taiwan. It is sometimes referred to as \"Sichuanese beef noodle soup\" () in Taiwan, although this usage can create confusion as Sichuan has its own versions of beef noodle soups, which may be sold at Sichuanese restaurants under the same name.",
+  "description": "Taiwanese beef noodle soup is a beef noodle soup dish that originated in Taiwan. It is sometimes referred to as \"Sichuanese beef noodle soup\" in Taiwan, although this usage can create confusion as Sichuan has its own versions of beef noodle soups, which may be sold at Sichuanese restaurants under the same name.",
   "sourceUrl": "https://en.wikipedia.org/?curid=68109339",
   "countries": [
    "TW"
@@ -12992,7 +13269,7 @@
  {
   "id": "72576408",
   "name": "Talabaw",
-  "description": "Talabaw (, , ; also transliterated as talapaw, in Karen), is a soup that originated in Karen cuisine. It is typically prepared with bamboo shoots, snakehead fish and basil leaves. A small amount of rice and some shreds of meat or seafood may also be added.",
+  "description": "Talabaw (also transliterated as talapaw, in Karen), is a soup that originated in Karen cuisine. It is typically prepared with bamboo shoots, snakehead fish and basil leaves. A small amount of rice and some shreds of meat or seafood may also be added.",
   "sourceUrl": "https://en.wikipedia.org/?curid=72576408",
   "countries": [
    "MM"
@@ -13137,7 +13414,15 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Two kinds of tarhana.JPG",
+   "credit": {
+    "author": "Badseed",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "28746500",
@@ -13188,7 +13473,15 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Tekwan.JPG",
+   "credit": {
+    "author": "Midori",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+   }
+  }
  },
  {
   "id": "37078542",
@@ -13219,7 +13512,7 @@
  {
   "id": "41806877",
   "name": "Tiger penis soup",
-  "description": "Tiger penis soup () is a Chinese soup prepared with tiger penis. It is typically an expensive dish, due to the rarity of tiger penis. In some cultures and countries, people believe that this dish can treat male sexual dysfunction—a notion that has not been supported by scientific evidences.",
+  "description": "Tiger penis soup is a Chinese soup prepared with tiger penis. It is typically an expensive dish, due to the rarity of tiger penis. In some cultures and countries, people believe that this dish can treat male sexual dysfunction—a notion that has not been supported by scientific evidences.",
   "sourceUrl": "https://en.wikipedia.org/?curid=41806877",
   "countries": [
    "CN"
@@ -13285,7 +13578,7 @@
   "countries": [
    "PH"
   ],
-  "region": "[[Sulu Archipelago|Sulu",
+  "region": "Sulu Archipelago|Sulu",
   "types": [
    "stew"
   ],
@@ -13331,7 +13624,7 @@
  {
   "id": "47770304",
   "name": "Tom yum",
-  "description": "Tom yum or tom yam (, ; , ) is a family of hot and sour Thai soups. The name tom yam is composed of two words in the Thai language: tom refers to the boiling process, while yam means \"mixed\".",
+  "description": "Tom yum or tom yam is a family of hot and sour Thai soups. The name tom yam is composed of two words in the Thai language: tom refers to the boiling process, while yam means \"mixed\".",
   "sourceUrl": "https://en.wikipedia.org/?curid=47770304",
   "countries": [
    "TH"
@@ -13378,7 +13671,7 @@
  {
   "id": "33148505",
   "name": "Tomato and egg soup",
-  "description": "Tomato and egg soup ( or ) is a dish from China consisting mainly of tomato and egg. It is a relatively easy soup to make, and as such is one of the most popular soups in households. Normally, the soup is made from coarsely chopped tomatoes, and green onions chopped to pieces of about of 0.5&nbsp;cm.",
+  "description": "Tomato and egg soup (or ) is a dish from China consisting mainly of tomato and egg. It is a relatively easy soup to make, and as such is one of the most popular soups in households. Normally, the soup is made from coarsely chopped tomatoes, and green onions chopped to pieces of about of 0.5&nbsp;cm.",
   "sourceUrl": "https://en.wikipedia.org/?curid=33148505",
   "countries": [
    "CN"
@@ -13416,7 +13709,7 @@
  {
   "id": "3671251",
   "name": "Tomato soup",
-  "description": "thumb|Tomato soup with meatballs, [[vermicelli and carrot slices]] Tomato soup is a soup with tomatoes as the primary ingredient. It can be served hot or cold, and may be made in a variety of ways.",
+  "description": "Tomato soup is a soup with tomatoes as the primary ingredient. It can be served hot or cold, and may be made in a variety of ways. It may be smooth in texture, and there are also recipes that include chunks of tomato, cream, chicken or vegetable stock, vermicelli, chunks of other vegetables and meatballs.",
   "sourceUrl": "https://en.wikipedia.org/?curid=3671251",
   "countries": [
    "IE"
@@ -13453,12 +13746,20 @@
     "id": "broth",
     "display": "stock"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Tomato soup, plant-based (44040252791).jpg",
+   "credit": {
+    "author": "Ella Olsson from Stockholm, Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "2431991",
   "name": "Tong sui",
-  "description": "thumb|Black sesame soup thumb|Egg tong sui thumb|Mung bean soup with extra kelp thumb|Double skin milk Tong sui (; ) or tim tong is a general term for any sweet soup served as a dessert typically at the end of a meal in Chinese cuisine.",
+  "description": "Tong sui or tim tong is a general term for any sweet soup served as a dessert typically at the end of a meal in Chinese cuisine. Tong sui originated in the Lingnan region of China, including Guangdong, Guangxi, Hainan, Hong Kong, Macau, and some parts of other provinces in China.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2431991",
   "countries": [
    "CN"
@@ -13578,6 +13879,7 @@
   "countries": [
    "JP"
   ],
+  "region": "Fukuoka",
   "types": [
    "noodle-soup"
   ],
@@ -13638,12 +13940,20 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Tonkotsu ramen.JPG",
+   "credit": {
+    "author": "No machine-readable author provided. Schellack assumed (based on copyright claims).",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+   }
+  }
  },
  {
   "id": "44212669",
   "name": "Tortilla soup",
-  "description": "thumb|A bowl of tortilla soup, garnished with cheese, avocado, and chicharrón thumb|Tortilla soup in situ thumb|right|250px|Sopa de tortilla Tortilla soup () is a traditional Mexican soup containing fried corn tortilla.",
+  "description": "Tortilla soup is a traditional Mexican soup containing fried corn tortilla. Although the exact origin of tortilla soup is unknown, it is particularly common in the Mexico City area in Mexico.",
   "sourceUrl": "https://en.wikipedia.org/?curid=44212669",
   "countries": [
    "MX"
@@ -13692,34 +14002,20 @@
     "id": "broth",
     "display": "chicken broth"
    }
-  ]
- },
- {
-  "id": "178943",
-  "name": "Tripe",
-  "description": "thumb|Tripe () in an Italian market Tripe is the digestive system of ruminants prepared as edible offal. Most tripe is from cattle and sheep, but may come from other ruminants as well.",
-  "sourceUrl": "https://en.wikipedia.org/?curid=178943",
-  "countries": [
-   "ID"
   ],
-  "types": [
-   "soup"
-  ],
-  "ingredients": [
-   {
-    "id": "tripe",
-    "display": "tripe"
-   },
-   {
-    "id": "offal",
-    "display": "offal"
+  "image": {
+   "sourceFile": "File:Sopa de tortilla con chicharron de real del monte.jpg",
+   "credit": {
+    "author": "Elizabethcasasola",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
    }
-  ]
+  }
  },
  {
   "id": "44828047",
   "name": "Tsukemen",
-  "description": "thumb|Hiyashi chūka Tsukemen Tsukemen (, English: \"dipping noodles\") is a ramen dish in Japanese cuisine consisting of noodles that are eaten after being dipped in a separate bowl of soup or broth. The dish was invented in 1961 by Kazuo Yamagishi, a restaurateur in Tokyo, Japan.",
+  "description": "Tsukemen (English: \"dipping noodles\") is a ramen dish in Japanese cuisine consisting of noodles that are eaten after being dipped in a separate bowl of soup or broth. The dish was invented in 1961 by Kazuo Yamagishi, a restaurateur in Tokyo, Japan.",
   "sourceUrl": "https://en.wikipedia.org/?curid=44828047",
   "countries": [
    "JP"
@@ -13766,7 +14062,7 @@
  {
   "id": "2487817",
   "name": "Tteokguk",
-  "description": "Tteokguk () or sliced rice cake soup is a traditional Korean dish eaten during the celebration of the Korean New Year. The dish consists of broth/soup (guk) with thinly sliced rice cakes (tteok).",
+  "description": "Tteokguk or sliced rice cake soup is a traditional Korean dish eaten during the celebration of the Korean New Year. The dish consists of broth/soup (guk) with thinly sliced rice cakes (tteok). Eating tteokguk on New Year's Day is traditionally believed to grant good luck for the year and confer one sal (a year of age).",
   "sourceUrl": "https://en.wikipedia.org/?curid=2487817",
   "countries": [
    "KR"
@@ -13837,7 +14133,7 @@
  {
   "id": "67157",
   "name": "Tzatziki",
-  "description": "Tzatziki ( ), also known as cacık () or tarator, is a class of dip, soup, or sauce found in the cuisines of Southeastern Europe and West Asia.",
+  "description": "Tzatziki , also known as cacık or tarator, is a class of dip, soup, or sauce found in the cuisines of Southeastern Europe and West Asia.",
   "sourceUrl": "https://en.wikipedia.org/?curid=67157",
   "countries": [
    "GR"
@@ -13888,7 +14184,7 @@
  {
   "id": "156520",
   "name": "Udon",
-  "description": "Udon ( or ) is a thick noodle made from wheat flour, used in Japanese cuisine. There are a variety of ways it is prepared and served. Its simplest form is in a soup as with a mild broth called made from dashi, soy sauce, and mirin. It is usually topped with thinly chopped scallions.",
+  "description": "Udon (or ) is a thick noodle made from wheat flour, used in Japanese cuisine. There are a variety of ways it is prepared and served. Its simplest form is in a soup as with a mild broth called made from dashi, soy sauce, and mirin. It is usually topped with thinly chopped scallions.",
   "sourceUrl": "https://en.wikipedia.org/?curid=156520",
   "countries": [
    "JP"
@@ -13943,6 +14239,7 @@
   "countries": [
    "KE"
   ],
+  "region": "Southern Africa",
   "types": [
    "soup"
   ],
@@ -13968,7 +14265,7 @@
  {
   "id": "4216014",
   "name": "Ukha",
-  "description": "Ukha ( ) is a clear Russian soup, made from various types of fish such as bream, wels catfish, northern pike, or even ruffe. It usually contains root vegetables, parsley root, leek, potato, bay leaf, dill, tarragon, and green parsley, and is spiced with black pepper, saffron, nutmeg, and fennel seed.",
+  "description": "Ukha is a clear Russian soup, made from various types of fish such as bream, wels catfish, northern pike, or even ruffe. It usually contains root vegetables, parsley root, leek, potato, bay leaf, dill, tarragon, and green parsley, and is spiced with black pepper, saffron, nutmeg, and fennel seed.",
   "sourceUrl": "https://en.wikipedia.org/?curid=4216014",
   "countries": [
    "RU",
@@ -13999,7 +14296,7 @@
  {
   "id": "2441042",
   "name": "Vichyssoise",
-  "description": "Vichyssoise ( , ) is a soup made of cooked and puréed leeks, potatoes, onions and cream, chilled and garnished with chopped chives. It was invented in the first quarter of the 20th century by Louis Diat, a French-born cook working as head chef of the Ritz-Carlton Hotel in New York.",
+  "description": "Vichyssoise is a soup made of cooked and puréed leeks, potatoes, onions and cream, chilled and garnished with chopped chives. It was invented in the first quarter of the 20th century by Louis Diat, a French-born cook working as head chef of the Ritz-Carlton Hotel in New York.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2441042",
   "countries": [
    "FR",
@@ -14039,6 +14336,7 @@
   "countries": [
    "PY"
   ],
+  "region": "Asunción",
   "types": [
    "broth"
   ],
@@ -14063,12 +14361,20 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Vorí vorí paraguay.jpg",
+   "credit": {
+    "author": "Overkill53",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
  },
  {
   "id": "54162366",
   "name": "Walnut soup",
-  "description": "thumb|upright=1.1|A walnut soup with bread Walnut soup is a broth-based or cream-based soup prepared using walnuts as a main ingredient. It is sometimes prepared in combinations using other ingredients, such as pumpkin and walnut soup. Walnut soup is a part of the cuisines of China, Italy and Mexico.",
+  "description": "Walnut soup is a broth-based or cream-based soup prepared using walnuts as a main ingredient. It is sometimes prepared in combinations using other ingredients, such as pumpkin and walnut soup. Walnut soup is a part of the cuisines of China, Italy and Mexico.",
   "sourceUrl": "https://en.wikipedia.org/?curid=54162366",
   "countries": [
    "CN",
@@ -14095,12 +14401,20 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Walnut soup with bread.jpg",
+   "credit": {
+    "author": "infowidget",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "51255058",
   "name": "Watercress soup",
-  "description": "thumb|A simple watercress soup Watercress soup is a soup prepared using the leaf vegetable watercress as a primary ingredient.",
+  "description": "Watercress soup is a soup prepared using the leaf vegetable watercress as a primary ingredient.",
   "sourceUrl": "https://en.wikipedia.org/?curid=51255058",
   "countries": [
    "CN",
@@ -14118,17 +14432,27 @@
     "id": "pork",
     "display": "pork bones"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:A simple watercress soup.jpg",
+   "credit": {
+    "author": "Walter Lim from Singapore, Singapore",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+   }
+  }
  },
  {
   "id": "704562",
   "name": "Waterzooi",
-  "description": "Waterzooi () is a soup from Belgium and originating in Flanders. The second part of the name derives from the Middle Dutch terms sode, zo(o)de and soot, words referring to the act of boiling or the ingredients being boiled.",
+  "description": "Waterzooi is a soup from Belgium and originating in Flanders. The second part of the name derives from the Middle Dutch terms sode, zo(o)de and soot, words referring to the act of boiling or the ingredients being boiled.",
   "sourceUrl": "https://en.wikipedia.org/?curid=704562",
   "countries": [
    "BE"
   ],
+  "region": "Flanders",
   "types": [
+   "stew",
    "fish-soup"
   ],
   "ingredients": [
@@ -14156,12 +14480,20 @@
     "id": "salt",
     "display": "salt"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:(waterzooi) (79743868).jpg",
+   "credit": {
+    "author": "ayustety from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+   }
+  }
  },
  {
   "id": "52448391",
   "name": "Wenzhou pig intestine rice noodle soup",
-  "description": "Wenzhou pig intestines rice noodle soup () is a noodle soup dish made with rice noodles, pig intestine and duck or pig blood. It comes from Wenzhou, in Zhejiang, China. It can be eaten at breakfast or throughout the day.",
+  "description": "Wenzhou pig intestines rice noodle soup is a noodle soup dish made with rice noodles, pig intestine and duck or pig blood. It comes from Wenzhou, in Zhejiang, China. It can be eaten at breakfast or throughout the day.",
   "sourceUrl": "https://en.wikipedia.org/?curid=52448391",
   "countries": [
    "CN"
@@ -14242,7 +14574,7 @@
  {
   "id": "47840548",
   "name": "Wonton noodles",
-  "description": "Wonton noodles (, also called wantan mee or wantan mein) is a noodle dish of Cantonese origin. Wonton noodles were given their name, húntún (), in the Tang Dynasty (618-907 CE). The dish is popular in Southern China, Hong Kong, Indonesia, Malaysia, Singapore, Vietnam and Thailand.",
+  "description": "Wonton noodles (also called wantan mee or wantan mein) is a noodle dish of Cantonese origin. Wonton noodles were given their name, húntún , in the Tang Dynasty (618-907 CE). The dish is popular in Southern China, Hong Kong, Indonesia, Malaysia, Singapore, Vietnam and Thailand.",
   "sourceUrl": "https://en.wikipedia.org/?curid=47840548",
   "countries": [
    "CN"
@@ -14327,7 +14659,7 @@
  {
   "id": "2049608",
   "name": "Yong tau foo",
-  "description": "Yong tau foo (; also spelled yong tao foo, yong tau fu, yong tau hu or yong tofu; ก๋วยเตี๋ยวแคะ in Thailand) is a Hakka Chinese dish consisting primarily of tofu filled with ground meat mixture or fish paste.",
+  "description": "Yong tau foo (also spelled yong tao foo, yong tau fu, yong tau hu or yong tofu; ก๋วยเตี๋ยวแคะ in Thailand) is a Hakka Chinese dish consisting primarily of tofu filled with ground meat mixture or fish paste.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2049608",
   "countries": [
    "CN"
@@ -14357,7 +14689,7 @@
  {
   "id": "59017628",
   "name": "Zalewajka",
-  "description": "thumb|Zalewajka from Piła Zalewajka is a traditional rustic soup made of diced and boiled potatoes and overflowed with sour rye made from sourdough bread. It also often contains Polish sausage and dried mushrooms.",
+  "description": "Zalewajka is a traditional rustic soup made of diced and boiled potatoes and overflowed with sour rye made from sourdough bread. It also often contains Polish sausage and dried mushrooms.",
   "sourceUrl": "https://en.wikipedia.org/?curid=59017628",
   "countries": [
    "PL"
@@ -14382,7 +14714,15 @@
     "id": "sausage",
     "display": "sausage"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Zalewajka pomorska from Pila.JPG",
+   "credit": {
+    "author": "MOs810",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "7004741",
@@ -14424,7 +14764,15 @@
     "id": "water",
     "display": "water"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Kinoko Zosui, at Restaurant Gusto (2012.02.26).jpg",
+   "credit": {
+    "author": "Lombroso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  }
  },
  {
   "id": "28532",
@@ -14525,7 +14873,7 @@
  {
   "id": "41175427",
   "name": "Zuppa toscana",
-  "description": "(), also known in Italy as (), is a soup from the region of Tuscany, northern Italy. While there are many variations, its most common ingredients are cannellini beans, potatoes, and kale.",
+  "description": ", also known in Italy as , is a soup from the region of Tuscany, northern Italy. While there are many variations, its most common ingredients are cannellini beans, potatoes, and kale.",
   "sourceUrl": "https://en.wikipedia.org/?curid=41175427",
   "countries": [
    "IT"
@@ -14596,7 +14944,7 @@
  {
   "id": "2441482",
   "name": "Zōni",
-  "description": "thumb|right|Eating grilled mochi from zōni thumb|right|zōni and osechi thumbnail|Hakata zōni , often with the honorific \"o-\" as o-zōni, is a Japanese soup containing mochi rice cakes. The dish is strongly associated with the Japanese New Year and its tradition of osechi ceremonial foods.",
+  "description": ", often with the honorific \"o-\" as o-zōni, is a Japanese soup containing mochi rice cakes. The dish is strongly associated with the Japanese New Year and its tradition of osechi ceremonial foods. The preparation of zōni varies both by household and region.",
   "sourceUrl": "https://en.wikipedia.org/?curid=2441482",
   "countries": [
    "JP"
@@ -14630,7 +14978,7 @@
  {
   "id": "55561007",
   "name": "Česnečka",
-  "description": "thumb|Česnečka at a restaurant in Hrádek nad Nisou, Czech Republic Česnečka is a garlic soup in Czech cuisine and Slovak cuisine consisting of a thin broth, garlic, sliced potatoes and spices such as caraway, marjoram and cumin.",
+  "description": "Česnečka is a garlic soup in Czech cuisine and Slovak cuisine consisting of a thin broth, garlic, sliced potatoes and spices such as caraway, marjoram and cumin. A significant amount of garlic is typically used, and it is typically served with fried bread cubes.",
   "sourceUrl": "https://en.wikipedia.org/?curid=55561007",
   "countries": [
    "CZ",
@@ -14668,6 +15016,14 @@
     "id": "broth",
     "display": "broth"
    }
-  ]
+  ],
+  "image": {
+   "sourceFile": "File:Česnečka.jpg",
+   "credit": {
+    "author": "Nillerdk",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+   }
+  }
  }
 ]
