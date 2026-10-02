@@ -126,9 +126,21 @@ def reencode(source: Path, dest: Path, width: int, quality: int):
         img.save(dest, 'JPEG', quality=quality, optimize=True)
 
 
+def vetoed_ids():
+    """Items excluded or photo-vetoed in overrides — their assets must not bundle."""
+    path = Path(__file__).parent / 'overrides.csv'
+    if not path.exists():
+        return set()
+    import csv
+    with open(path, encoding='utf-8') as f:
+        return {row['id'] for row in csv.DictReader(f)
+                if row.get('include', '').strip() == 'no' or row.get('image', '').strip() == 'no'}
+
+
 def main():
     data = json.loads((BUILD / 'normalized_items.json').read_text())
-    imaged = [i for i in data['items'] if i['image']]
+    vetoed = vetoed_ids()
+    imaged = [i for i in data['items'] if i['image'] and str(i['pageid']) not in vetoed]
     CACHE.mkdir(parents=True, exist_ok=True)
 
     meta_cache_path = CACHE / 'metadata.json'
@@ -164,6 +176,11 @@ def main():
 
     ASSETS.mkdir(parents=True, exist_ok=True)
     (ASSETS / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
+
+    # drop assets whose items lost their image (review veto) so pairing stays exact
+    stale = [f for f in ASSETS.glob('*.jpg') if f.stem not in manifest]
+    for f in stale:
+        f.unlink()
 
     # generated images.ts (imported by the app's reveal card)
     lines = '\n'.join(

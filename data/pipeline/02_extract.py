@@ -28,13 +28,20 @@ def strip_wikitext(text: str) -> str:
     text = re.sub(r'<!--.*?-->', '', text, flags=re.S)
     for _ in range(3):  # nested templates
         text = re.sub(r'\{\{[^{}]*\}\}', '', text)
+    # Links: file links go whole (their "thumb|…caption" pipe content is not prose),
+    # other links reduce to their display text. Looped — captions may nest links.
+    for _ in range(3):
+        text = re.sub(r'\[\[(?:File|Image):[^\[\]]*\]\]', '', text, flags=re.I)
+        text = re.sub(r'\[\[([^\[\]]+)\]\]', lambda m: m.group(1).rsplit('|', 1)[-1], text)
+    text = re.sub(r'\[\[|\]\]', '', text)  # strays from unbalanced markup
     text = re.sub(r'<ref[^>]*/>', '', text)
     text = re.sub(r'<ref.*?</ref>', '', text, flags=re.S)
-    text = re.sub(r'\[\[[^\]|]+\|([^\]]+)\]\]', r'\1', text)
-    text = re.sub(r'\[\[([^\]]+)\]\]', r'\1', text)
     text = re.sub(r"''+", '', text)
     text = re.sub(r'<br\s*/?>', ', ', text)
     text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r'\(\s*[,;.\s]+', '(', text)  # leading junk inside parens
+    text = re.sub(r'\(\s*(?:from|literally|lit)\s*\)', '', text)  # function-word husks
+    text = re.sub(r'\(\s*[;,.\s]*\)', '', text)  # husks around removed IPA/lang templates
     return re.sub(r'\s+', ' ', text).strip()
 
 
@@ -57,14 +64,42 @@ def template_span(text: str, start: int) -> int:
     return min(start + 3500, len(text))
 
 
+def split_params(box: str) -> list[str]:
+    """Top-level template parameters: split on '|' outside {{…}} and [[…]] nesting.
+
+    `box` starts with the template's own '{{', which is skipped: parameters live one
+    level inside it.
+    """
+    params, depth, start = [], 0, 0
+    i = 2
+    while i < len(box):
+        two = box[i:i + 2]
+        if two in ('{{', '[['):
+            depth += 1
+            i += 2
+            continue
+        if two in ('}}', ']]'):
+            depth -= 1
+            i += 2
+            continue
+        if box[i] == '|' and depth == 0:
+            params.append(box[start:i])
+            start = i + 1
+        i += 1
+    params.append(box[start:])
+    return params
+
+
 def parse_infobox(lead: str):
-    m = re.search(r'\{\{[Ii]nfobox food', lead)
+    # same template family, two invocation names ({{Infobox prepared food}} redirects there)
+    m = re.search(r'\{\{[Ii]nfobox (?:[Pp]repared )?[Ff]ood', lead)
     if not m:
         return None
     box = lead[m.start():template_span(lead, m.start())]
     fields = {}
-    for line in box.split('\n'):
-        fm = re.match(r'\|\s*([A-Za-z_ ]+?)\s*=\s*(.*)', line)
+    # parameters come both as one-per-line and single-line pipe runs — split at depth 0
+    for chunk in split_params(box):
+        fm = re.match(r'\s*([A-Za-z0-9_ ]+?)\s*=\s*(.*)', chunk, re.S)
         if fm:
             fields[fm.group(1).strip()] = fm.group(2).strip()
     return fields
@@ -135,6 +170,15 @@ def list_entries():
     return entries
 
 
+FILE_LINK = re.compile(r'\[\[(?:File|Image):([^\]|]+)', re.I)
+
+
+def lead_photo(lead: str) -> str:
+    """First bare file link in the lead — image fallback for infobox-less articles."""
+    m = FILE_LINK.search(lead)
+    return m.group(1).strip() if m else ''
+
+
 def lead_sentence(lead: str, after: int) -> str:
     tail = lead[after:].lstrip()
     tail = re.sub(r"''+", '', tail)
@@ -179,6 +223,7 @@ def main():
             'type_raw': split_list_value(fields.get('type', '')) + entry.get('type', []),
             'ingredients_raw': split_list_value(fields.get('main_ingredient', '')),
             'image_raw': fields.get('image', '').strip(),
+            'lead_image_raw': lead_photo(lead),
             'lead_desc': lead_sentence(lead, ib_end),
             'list_desc': entry.get('desc', ''),
         })

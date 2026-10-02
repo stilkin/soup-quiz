@@ -101,8 +101,11 @@ def main():
                 errors.append(f'{item["name"]}: type {t!r} not in vocabulary')
 
         entry = manifest.get(soup_id)
+        # image=no override vetoes a review-flagged photo (typically a lead fallback
+        # that turns out to be an ingredient or a person, not the dish)
         image = None
-        if item['image'] and entry and entry.get('credit', {}).get('author') \
+        if item['image'] and o.get('image') != 'no' and entry \
+                and entry.get('credit', {}).get('author') \
                 and entry['credit'].get('license') and entry['credit'].get('licenseUrl'):
             image = {
                 'sourceFile': item['image'],

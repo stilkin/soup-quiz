@@ -113,16 +113,24 @@ def normalize_ingredients(item):
 
 
 def normalize_image(item):
-    raw = item['image_raw']
+    """Canonical Commons title for the item's image, or None.
+
+    Infobox image first; otherwise the first bare lead file (lead photos are occasionally
+    ingredients or people rather than the dish, so the caller flags those for review).
+    Titles are canonicalized to spaces — the Commons API normalizes underscored titles in
+    its response, which breaks cache lookups (design D7).
+    """
+    raw = item['image_raw'] or item.get('lead_image_raw') or ''
     if not raw:
         return None
     filename = LINK_IN_FILE.search(raw)
     name = filename.group(1) if filename else raw.split('|')[0].strip()
+    name = re.sub(r'[_\s]+', ' ', name).strip()
     if not name.lower().endswith(('.jpg', '.jpeg', '.png', '.gif', '.webp', '.tif', '.tiff')):
         return None  # e.g. {{multiple image}} templates — flagged by absence later
     if not name.startswith('File:'):
         name = f'File:{name}'
-    return name
+    return {'file': name, 'from_lead': not item['image_raw']}
 
 LINK_IN_FILE = re.compile(r'(?:File:|Image:)([^\]|]+)')
 
@@ -135,8 +143,13 @@ def main():
         types, type_flags = normalize_types(item)
         ingredients, ingredient_flags = normalize_ingredients(item)
         image = normalize_image(item)
+        image_flags = (
+            [{'field': 'image', 'raw': image['file'],
+              'reason': 'lead photo — confirm it shows the dish', 'kind': 'review'}]
+            if image and image['from_lead'] else []
+        )
 
-        flags = country_flags + type_flags + ingredient_flags
+        flags = country_flags + type_flags + ingredient_flags + image_flags
         description = item['lead_desc'] or item['list_desc']
         if not description:
             flags.append({'field': 'description', 'raw': '',
@@ -151,7 +164,7 @@ def main():
             'region': region,
             'types': types,
             'ingredients': ingredients,
-            'image': image,
+            'image': image['file'] if image else None,
             'description': description,
             'flags': flags,
         })
