@@ -30,7 +30,7 @@ CANONICAL_FAMILIES = {
     'onion': ['onion', 'onions', 'yellow onion', 'white onion', 'red onion'],
     'scallion': ['scallion', 'scallions', 'green onion', 'green onions', 'spring onion'],
     'shallot': ['shallot', 'shallots'],
-    'ginger': ['ginger', 'galangal is not ginger'],
+    'ginger': ['ginger'],
     'galangal': ['galangal', 'lengkuas', 'blue ginger'],
     'lemongrass': ['lemongrass', 'lemon grass', 'serai'],
     'kaffir-lime': ['kaffir lime', 'kaffir lime leaves', 'lime leaves', 'makrut lime leaves'],
@@ -117,3 +117,36 @@ def canonical_ingredient(display: str) -> str | None:
     """Canonical id for a display spelling, or None when unknown (flag, don't invent)."""
     cleaned = display.strip().strip('.,;()').lower()
     return DISPLAY_TO_ID.get(cleaned)
+
+# Grown by the 2026-10-02 review pass: canonicals first assigned in overrides.
+CANONICAL_FAMILIES.update({
+    'okra': ['okra', 'okra soup', 'lady finger'],
+    'papaya': ['papaya', 'pawpaw'],
+    'lobster': ['lobster', 'lobster meat'],
+    'turtle': ['turtle', 'turtle meat'],
+    'watercress': ['watercress'],
+    'mochi': ['mochi', 'rice cake'],
+    'millet': ['millet', 'finger millet', 'ragi'],
+    'broad-bean': ['broad bean', 'broad beans', 'fava bean', 'fava beans', 'vicia faba'],
+    'asparagus': ['asparagus'],
+    'artichoke': ['artichoke', 'artichokes', 'globe artichoke'],
+    'pasta': ['pasta', 'small pasta', 'kusksu'],
+    'almond': ['almond', 'almonds'],
+    'milk': ['milk', 'cow milk'],
+    'pork': ['pork bones'],
+    'pufferfish': ['fugu', 'pufferfish', 'puffer fish'],
+    'napa-cabbage': ['napa cabbage', 'chinese cabbage leaves'],
+    'burdock': ['burdock', 'gobo'],
+    'loach': ['loach', 'dojo loach'],
+    'keluak': ['keluak', 'keluak nuts', 'keluwek'],
+    'ant-egg': ['ant egg', 'ant eggs', 'weaver ant eggs'],
+    'editan-leaf': ['editan', 'editan leaves'],
+    'dried-fruit': ['dried fruit', 'dried fruits'],
+    'raisin': ['raisin', 'raisins'],
+    'apple': ['apple', 'apples'],
+})
+DISPLAY_TO_ID.update({
+    display: canonical
+    for canonical, displays in CANONICAL_FAMILIES.items()
+    for display in displays
+})

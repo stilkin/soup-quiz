@@ -131,3 +131,38 @@ if __name__ == '__main__':
         print(f'  ok: {raw!r} -> {got["codes"]} region={got["region"]!r} review={got["needs_review"]}')
     assert lookup_country('Scotland')['region'] == 'Scotland'
     print('aliases self-check passed')
+
+# Cuisine/language adjectives -> ISO (for "in Peruvian cuisine", "(Swedish ...)").
+# Ambiguous language names (English, Spanish...) are omitted on purpose.
+ADJECTIVE_TO_ISO = {
+    'Peruvian': 'PE', 'Colombian': 'CO', 'Mexican': 'MX', 'Brazilian': 'BR',
+    'Chilean': 'CL', 'Argentine': 'AR', 'Bolivian': 'BO', 'Ecuadorian': 'EC',
+    'Venezuelan': 'VE', 'Cuban': 'CU', 'Jamaican': 'JM', 'Haitian': 'HT',
+    'Chinese': 'CN', 'Taiwanese': 'TW', 'Japanese': 'JP', 'Korean': 'KR',
+    'Mongolian': 'MN', 'Vietnamese': 'VN', 'Thai': 'TH', 'Lao': 'LA',
+    'Cambodian': 'KH', 'Burmese': 'MM', 'Malaysian': 'MY', 'Singaporean': 'SG',
+    'Indonesian': 'ID', 'Filipino': 'PH', 'Indian': 'IN', 'Pakistani': 'PK',
+    'Bangladeshi': 'BD', 'Sri Lankan': 'LK', 'Nepalese': 'NP', 'Tibetan': 'CN',
+    'Afghan': 'AF', 'Persian': 'IR', 'Iranian': 'IR', 'Azerbaijani': 'AZ',
+    'Armenian': 'AM', 'Georgian': 'GE', 'Kazakh': 'KZ', 'Uzbek': 'UZ',
+    'Turkish': 'TR', 'Lebanese': 'LB', 'Syrian': 'SY', 'Israeli': 'IL',
+    'Jordanian': 'JO', 'Iraqi': 'IQ', 'Saudi': 'SA', 'Yemeni': 'YE',
+    'Omani': 'OM', 'Egyptian': 'EG', 'Moroccan': 'MA', 'Tunisian': 'TN',
+    'Algerian': 'DZ', 'Libyan': 'LY', 'Sudanese': 'SD', 'Ethiopian': 'ET',
+    'Eritrean': 'ER', 'Somali': 'SO', 'Kenyan': 'KE', 'Tanzanian': 'TZ',
+    'Ugandan': 'UG', 'Nigerian': 'NG', 'Ghanaian': 'GH', 'Senegalese': 'SN',
+    'Malian': 'ML', 'Ivorian': 'CI', 'Cameroonian': 'CM', 'Congolese': 'CD',
+    'Italian': 'IT', 'French': 'FR', 'Spanish': 'ES', 'Portuguese': 'PT',
+    'German': 'DE', 'Austrian': 'AT', 'Swiss': 'CH', 'Dutch': 'NL',
+    'Belgian': 'BE', 'Luxembourgish': 'LU', 'British': 'GB', 'Irish': 'IE',
+    'Scottish': 'GB', 'Welsh': 'GB', 'English': 'GB',
+    'Danish': 'DK', 'Swedish': 'SE', 'Norwegian': 'NO', 'Finnish': 'FI',
+    'Icelandic': 'IS', 'Estonian': 'EE', 'Latvian': 'LV', 'Lithuanian': 'LT',
+    'Polish': 'PL', 'Czech': 'CZ', 'Slovak': 'SK', 'Hungarian': 'HU',
+    'Romanian': 'RO', 'Bulgarian': 'BG', 'Serbian': 'RS', 'Croatian': 'HR',
+    'Bosnian': 'BA', 'Slovenian': 'SI', 'Albanian': 'AL', 'Macedonian': 'MK',
+    'Greek': 'GR', 'Cypriot': 'CY', 'Maltese': 'MT', 'Ukrainian': 'UA',
+    'Belarusian': 'BY', 'Russian': 'RU', 'Armenian ': 'AM',
+    'American': 'US', 'Canadian': 'CA', 'Hawaiian': 'US', 'Cajun': 'US',
+    'Australian': 'AU', 'New Zealand': 'NZ',
+}

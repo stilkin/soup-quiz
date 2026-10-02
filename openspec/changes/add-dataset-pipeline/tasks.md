@@ -24,7 +24,7 @@
 
 ## 5. Review pass (the manual/agent workload)
 
-- [ ] 5.1 Work through `build/review.csv` in-session: propose countries/regions/types/ingredients/descriptions from lead prose, write approved answers to `data/pipeline/overrides.csv`; verify a full compile runs with zero unresolved flags and the shipped count meets the ≥ 300 target (or the report explains the shortfall)
+- [x] 5.1 Work through `build/review.csv` in-session: propose countries/regions/types/ingredients/descriptions from lead prose, write approved answers to `data/pipeline/overrides.csv`; verify a full compile runs with zero unresolved flags and the shipped count meets the ≥ 300 target (or the report explains the shortfall)
 
 ## 6. Integration checks
 

@@ -24,7 +24,7 @@ OUT = ROOT / 'packages/data/src/soups.v1.json'
 
 VOCAB = {
     'broth', 'potage', 'cream-soup', 'bisque', 'chowder', 'noodle-soup', 'stew',
-    'cold-soup', 'fruit-soup', 'dessert-soup', 'fish-soup', 'bread-soup', 'bean-soup',
+    'cold-soup', 'fruit-soup', 'dessert-soup', 'fish-soup', 'bread-soup', 'bean-soup', 'soup',
 }
 
 ISO = set()  # filled lazily from pycountry below

@@ -21,6 +21,7 @@ export const SOUP_TYPES = [
   'fish-soup',
   'bread-soup',
   'bean-soup',
+  'soup',
 ] as const
 
 export type SoupType = (typeof SOUP_TYPES)[number]
