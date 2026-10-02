@@ -17,3 +17,6 @@ __pycache__/
 
 # OS / editor noise
 .DS_Store
+
+# Pipeline build artifacts (regenerable; caches are committed)
+data/build/

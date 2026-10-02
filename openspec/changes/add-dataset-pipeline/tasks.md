@@ -7,9 +7,9 @@
 
 ## 2. Extraction + normalization
 
-- [ ] 2.1 Write `02_extract.py`: parse cached lead sections (infobox fields; species/place infobox detection for the relevance flag) and source-list entries into `build/raw_items.json`; verify against cached data: infobox match count ≈ 239, species/place flags catch the known noise examples
-- [ ] 2.2 Write `03_normalize.py` with `type_map.py` (60→10) and `ingredient_lexicon.py` (seeded from exploration frequencies); verify every raw type maps or flags, ingredient canonicalization collapses the known spelling families, and no value is invented silently
-- [ ] 2.3 Write `04_review.py`: emit `build/review.csv` (one row per flag: id, field, raw value, reason) and `report.json` (corpus, filtered, flagged, per-field coverage); verify the report numbers match the cached corpus
+- [x] 2.1 Write `02_extract.py`: parse cached lead sections (infobox fields; species/place infobox detection for the relevance flag) and source-list entries into `build/raw_items.json`; verify against cached data: infobox match count ≈ 239, species/place flags catch the known noise examples
+- [x] 2.2 Write `03_normalize.py` with `type_map.py` (60→10) and `ingredient_lexicon.py` (seeded from exploration frequencies); verify every raw type maps or flags, ingredient canonicalization collapses the known spelling families, and no value is invented silently
+- [x] 2.3 Write `04_review.py`: emit `build/review.csv` (one row per flag: id, field, raw value, reason) and `report.json` (corpus, filtered, flagged, per-field coverage); verify the report numbers match the cached corpus
 
 ## 3. Compile + dataset swap
 
