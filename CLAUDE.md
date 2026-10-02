@@ -8,9 +8,9 @@ Soup Quiz: quiz/training apps generated from curated list datasets (first app: w
 from Wikipedia list articles). Local-first, offline, no backend. See `README.md` for the
 full concept and the present-vs-planned table.
 
-**Status: planning phase — no application code exists yet.** The repo contains OpenSpec
-planning artifacts, raw source data, and docs. The roadmap (README + `openspec/changes/`)
-starts with `bootstrap-monorepo` (proposed, ready to apply).
+**Status: playable app on real data.** Skeleton, local stats, and the dataset pipeline
+(362 soups, 197 credited images) are shipped; roadmap next: SRS scheduling, daily
+challenge. README carries the present-vs-planned table.
 
 ## How work happens: OpenSpec, always
 
@@ -47,8 +47,8 @@ pnpm start                                      # expo start — scan the QR wit
 pnpm exec expo export --platform android        # bundle smoke check, no device needed
 ```
 
-Editing `packages/data/src/soups.v0.json`? Its tests are the gate — a corrupted
-dataset fails `pnpm test`.
+The dataset (`packages/data/src/soups.v1.json`) is pipeline-generated — never edit it
+by hand; its tests gate conformance and image pairing.
 
 OpenSpec:
 
@@ -79,8 +79,8 @@ Package manager is pnpm; do not use npm/yarn.
   `PRAGMA user_version` migrations) mapping rows to `@soup-quiz/stats` types
 
 Internal-package pattern (design D2): packages export raw TS source (`main: ./src/index.ts`),
-no build step — Metro and Vitest consume them directly. Soup images will bundle as
-`apps/soup-quiz/assets/soups/<id>.jpg`, mapped in `src/images.ts` (change 2).
+no build step — Metro and Vitest consume them directly. Soup images bundle as
+`apps/soup-quiz/assets/soups/<id>.jpg`, mapped in the generated `src/images.ts`.
 `data/pipeline/` (Python, stdlib + pycountry + Pillow — no pandas) compiles the dataset
 from `data/raw/wikipedia/` + caches in `data/cache/`; run stages in numeric order (see
 `data/pipeline/README.md`). Overrides (`overrides.csv`) always win at compile; the
@@ -92,7 +92,7 @@ contract.
 - `data/raw/wikipedia/` holds CC BY-SA wikitext snapshots. They are pipeline **inputs**:
   never shipped as app content, never edited in place (downstream processing copies).
 - Dataset scope decisions: porridge lists excluded; redirect-target lists (cheese soups,
-  ramen types) included. Measured corpus: ~583 unique soup titles.
+  ramen types) included. Corpus: 413 unique pageids; 362 ship after filtering and review.
 - Shipped data keeps facts + our own descriptions + per-item attribution (source URL,
   image credit). Images bundle as app assets with mandatory credit — no external hosting.
 - Countries and soup types are normalized 1..n lists (ISO alpha-2; controlled vocabulary

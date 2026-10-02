@@ -10,7 +10,8 @@
       "**",
       "!packages/data/src/soups.v1.json",
       "!apps/soup-quiz/src/images.ts",
-      "!apps/soup-quiz/assets/soups/manifest.json"
+      "!apps/soup-quiz/assets/soups/manifest.json",
+      "!data/cache/**"
     ]
   },
   "formatter": {

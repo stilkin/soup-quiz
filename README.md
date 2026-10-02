@@ -27,26 +27,23 @@ The concept, in priorities:
 
 | Present in this repo | Planned (decided in OpenSpec changes) |
 |---|---|
-| pnpm monorepo: `packages/{schema,data,engine,stats}` + `apps/soup-quiz` (Expo, iOS + Android) | Python/pandas dataset pipeline validating against the exported JSON Schema |
-| Zod item contract with JSON Schema export; 249-country registry; flag emoji | SRS scheduling (serving weak soups more often) |
-| Seed-deterministic engine: mode-as-data, `generateRound`, scoring | SRS scheduling (serving weak soups more often) |
+| pnpm monorepo: `packages/{schema,data,engine,stats}` + `apps/soup-quiz` (Expo, iOS + Android) | SRS scheduling (serving weak soups more often) |
+| Zod item contract with JSON Schema export; 249-country registry; flag emoji | UTC daily challenge; share texts |
+| Seed-deterministic engine: mode-as-data, `generateRound`, scoring | Share-card page, notifications, store submission |
 | Real dataset: 362 soups via the Python pipeline, review pass + overrides; one playable mode | More game modes over the same data (declarative configs) |
-| Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, mastery | UTC daily challenge; share texts |
-| 197 credited Commons images bundled as ~200px JPEG (2.7 MB) | Share-card page, notifications, store submission |
+| Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, mastery | |
+| 197 credited Commons images bundled as ~200px JPEG (2.7 MB) | |
 | Raw wikitext snapshots + cached article leads feeding the pipeline (`data/`) | |
 
 ## Technology
 
 **In the repo today:** TypeScript (strict) across `packages/` and the Expo app
-(SDK 57, React Native 0.86, expo-router, Reanimated, expo-image, Fraunces via
-@expo-google-fonts), zod 4 (with native JSON Schema export), Vitest, Biome; raw
-wikitext data for the future pipeline.
+(SDK 57, React Native 0.86, expo-router, Reanimated, expo-image, expo-sqlite,
+Fraunces via @expo-google-fonts), zod 4 (with native JSON Schema export), Vitest,
+Biome; Python pipeline (stdlib + pycountry + Pillow) under `data/pipeline/`.
 
-**Planned additions** (adjusted only via OpenSpec changes):
-
-- **Python 3 + pandas** dataset pipeline (change 2), validating against the JSON Schema
-  exported from `packages/schema`
-- **expo-sqlite** for on-device stats, streaks, and spaced repetition (change 4)
+**Planned additions** (adjusted only via OpenSpec changes): an SRS scheduler and the
+daily challenge on top of the existing SQLite stats.
 
 ## Repository layout
 
@@ -80,8 +77,8 @@ To play:
 pnpm start          # expo start — scan the QR code with Expo Go (works from root or apps/soup-quiz)
 ```
 
-The dataset pipeline (change 2) adds a Python side under `data/` with its own
-virtualenv instructions at that point.
+The dataset pipeline lives under `data/pipeline/` — see its README for the venv
+setup and the stage order.
 
 ## Development workflow
 
@@ -117,9 +114,9 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
   pipeline *inputs*, never shipped app content.
 - The shipped dataset keeps facts (country, ingredients, types), uses our own short
   descriptions, and carries per-item source attribution + learn-more links.
-- Item images (planned, change 2): Commons originals re-encoded to ~200px JPEG thumbs and
-  **bundled as app assets** (~6 MB for ~583 soups) with mandatory per-image credit
-  (author, license, deed link). No external image hosting.
+- Item images: Commons originals re-encoded to ~200px JPEG thumbs and bundled as app
+  assets (2.7 MB for 197 images) with mandatory per-image credit (author, license,
+  deed link). No external image hosting; incomplete credit means no image.
 - Scope decisions: porridge lists excluded; the two redirect-target lists (cheese soups,
   ramen types) included.
 
@@ -127,6 +124,8 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 
 - **REST API: none.** The app is local-first and offline; no backend is planned. (A tiny
   share-card web renderer is a possible later addition and would be documented then.)
-- **Database: none yet.** On-device SQLite (stats/streaks/SRS) arrives with change 4;
-  a Mermaid ER diagram plus per-table column reference will live in `docs/database.md`
-  at that point.
+- **Database: on-device only.** `apps/soup-quiz/src/storage/` holds two append-only
+  SQLite tables (`rounds`, `answers`) via expo-sqlite; every stat is derived from them
+  in `packages/stats`. Schema: `rounds(id, kind, mode_id, seed, length, correct,
+  finished_at)`, `answers(id, round_id→rounds, item_id, correct, answered_at)` —
+  timestamps are Unix ms UTC.
