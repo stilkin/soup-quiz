@@ -69,10 +69,10 @@ pnpm lint           # Biome lint + format check
 pnpm test           # Vitest: schema, engine, dataset validation
 ```
 
-To play (from `apps/soup-quiz`):
+To play:
 
 ```bash
-pnpm start          # expo start — scan the QR code with Expo Go
+pnpm start          # expo start — scan the QR code with Expo Go (works from root or apps/soup-quiz)
 ```
 
 The dataset pipeline (change 2) adds a Python side under `data/` with its own

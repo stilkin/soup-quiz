@@ -40,7 +40,7 @@ pnpm format      # Biome format --write
 pnpm test        # Vitest in schema, data, engine (52 tests)
 ```
 
-From `apps/soup-quiz`:
+From `apps/soup-quiz` (or the root, which delegates `pnpm start`):
 
 ```bash
 pnpm start                                      # expo start — scan the QR with Expo Go
