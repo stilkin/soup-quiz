@@ -9,8 +9,8 @@
 
 ## 2. App storage (`apps/soup-quiz/src/storage`)
 
-- [ ] 2.1 Add `expo-sqlite` and `@soup-quiz/stats` workspace dep to the app; write `db.ts` (open + run the v1 migration creating `rounds`/`answers` per design D2) and verify the bundle export still compiles
-- [ ] 2.2 Write `repo.ts`: typed `recordRound(round, answers)` (single transaction) and `fetchAll()` returning rows for the pure package, plus `clearAll()`; verify typecheck passes and record/fetch round-trip is exercised in group 3's screen wiring
+- [x] 2.1 Add `expo-sqlite` and `@soup-quiz/stats` workspace dep to the app; write `db.ts` (open + run the v1 migration creating `rounds`/`answers` per design D2) and verify the bundle export still compiles
+- [x] 2.2 Write `repo.ts`: typed `recordRound(round, answers)` (single transaction) and `fetchAll()` returning rows for the pure package, plus `clearAll()`; verify typecheck passes and record/fetch round-trip is exercised in group 3's screen wiring
 
 ## 3. Record hook + stats screen
 
