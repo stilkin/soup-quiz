@@ -9,7 +9,7 @@ from Wikipedia list articles). Local-first, offline, no backend. See `README.md`
 full concept and the present-vs-planned table.
 
 **Status: playable app on real data.** Skeleton, local stats, and the dataset pipeline
-(362 soups, 197 credited images) are shipped; roadmap next: SRS scheduling, daily
+(347 soups, 295 credited images) are shipped; roadmap next: SRS scheduling, daily
 challenge. README carries the present-vs-planned table.
 
 ## How work happens: OpenSpec, always
@@ -68,7 +68,7 @@ Package manager is pnpm; do not use npm/yarn.
 
 - `packages/schema` — zod item contract (single source of truth), registries
   (SOUP_TYPES, 249-entry COUNTRIES, flagEmoji), `validateDataset`, exported JSON Schema
-- `packages/data` — `soups.v1.json` (362 real soups, compiled) + validation/pairing tests
+- `packages/data` — `soups.v1.json` (347 real soups, compiled) + validation/pairing tests
 - `packages/engine` — pure, seed-deterministic: mode-as-data configs, `generateRound`,
   `isCorrect`, `scoreRound`; no framework imports
 - `packages/stats` — pure progress computations: `aggregateStats`, UTC `dayStreaks`,
@@ -92,7 +92,7 @@ contract.
 - `data/raw/wikipedia/` holds CC BY-SA wikitext snapshots. They are pipeline **inputs**:
   never shipped as app content, never edited in place (downstream processing copies).
 - Dataset scope decisions: porridge lists excluded; redirect-target lists (cheese soups,
-  ramen types) included. Corpus: 413 unique pageids; 362 ship after filtering and review.
+  ramen types) included. Corpus: 413 unique pageids; 347 ship after filtering and review.
 - Shipped data keeps facts + our own descriptions + per-item attribution (source URL,
   image credit). Images bundle as app assets with mandatory credit — no external hosting.
 - Countries and soup types are normalized 1..n lists (ISO alpha-2; controlled vocabulary

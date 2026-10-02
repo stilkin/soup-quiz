@@ -1,7 +1,7 @@
 # Soup Quiz
 
-> **Status: real dataset shipped.** 362 soups compiled from Wikipedia with the
-> dataset pipeline (change `add-dataset-pipeline`), 197 with credited bundled images;
+> **Status: real dataset shipped.** 347 soups compiled from Wikipedia with the
+> dataset pipeline (change `add-dataset-pipeline`), 295 with credited bundled images;
 > local stats record every round. Next up: SRS scheduling and the daily challenge (see
 > [Roadmap](#roadmap)). Everything below marked *planned* is decided but not yet built.
 
@@ -30,9 +30,9 @@ The concept, in priorities:
 | pnpm monorepo: `packages/{schema,data,engine,stats}` + `apps/soup-quiz` (Expo, iOS + Android) | SRS scheduling (serving weak soups more often) |
 | Zod item contract with JSON Schema export; 249-country registry; flag emoji | UTC daily challenge; share texts |
 | Seed-deterministic engine: mode-as-data, `generateRound`, scoring | Share-card page, notifications, store submission |
-| Real dataset: 362 soups via the Python pipeline, review pass + overrides; one playable mode | More game modes over the same data (declarative configs) |
+| Real dataset: 347 soups via the Python pipeline, review pass + overrides; one playable mode | More game modes over the same data (declarative configs) |
 | Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, mastery | |
-| 197 credited Commons images bundled as ~200px JPEG (2.7 MB) | |
+| 295 credited Commons images bundled as ~200px JPEG (3.8 MB) | |
 | Raw wikitext snapshots + cached article leads feeding the pipeline (`data/`) | |
 
 ## Technology
@@ -50,7 +50,7 @@ daily challenge on top of the existing SQLite stats.
 ```
 apps/soup-quiz/        Expo app (UI only): expo-router screens, theme tokens, feedback
 packages/schema/       zod item contract, registries, validateDataset, JSON Schema
-packages/data/         dataset v1 (362 soups) + validation and pairing tests
+packages/data/         dataset v1 (347 soups) + validation and pairing tests
 packages/engine/       pure, seed-deterministic quiz logic (no framework imports)
 packages/stats/        pure progress computations: aggregation, UTC streaks, mastery
 data/pipeline/         Python pipeline: identity, extract, normalize, review, images, compile
@@ -115,7 +115,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 - The shipped dataset keeps facts (country, ingredients, types), uses our own short
   descriptions, and carries per-item source attribution + learn-more links.
 - Item images: Commons originals re-encoded to ~200px JPEG thumbs and bundled as app
-  assets (2.7 MB for 197 images) with mandatory per-image credit (author, license,
+  assets (3.8 MB for 295 images) with mandatory per-image credit (author, license,
   deed link). No external image hosting; incomplete credit means no image.
 - Scope decisions: porridge lists excluded; the two redirect-target lists (cheese soups,
   ramen types) included.

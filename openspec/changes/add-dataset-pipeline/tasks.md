@@ -32,7 +32,7 @@
 
 ## 7. Image-coverage fixes (2026-10-02 device feedback)
 
-- [ ] 7.1 Parse `{{Infobox prepared food}}` in `02_extract.py` (template-family match); verify the previously-missed 74 articles now yield image/country/region/ingredient fields
-- [ ] 7.2 Canonicalize Commons file titles (underscores → spaces) in `03_normalize.py`; verify the 7 false "incomplete credit" drops now bundle (Bisque/Corn crab stay out — credit genuinely incomplete)
-- [ ] 7.3 Lead-photo fallback: for items with no infobox image, take the first `[[File:]]` in the cached lead, flag as lead-photo for review; add an `image=no` override so a non-dish photo can be vetoed per item
-- [ ] 7.4 Re-run stages 02–06; review the delta with the mining assist (newly-qualifying soups admitted, lead photos vetted, upgraded infobox fields where no override exists); verify shipped count, image coverage, and `pnpm test`/typecheck/lint/bundle all green
+- [x] 7.1 Parse `{{Infobox prepared food}}` in `02_extract.py` (template-family match); verify the previously-missed 74 articles now yield image/country/region/ingredient fields
+- [x] 7.2 Canonicalize Commons file titles (underscores → spaces) in `03_normalize.py`; verify the 7 false "incomplete credit" drops now bundle (Bisque/Corn crab stay out — credit genuinely incomplete)
+- [x] 7.3 Lead-photo fallback: for items with no infobox image, take the first `[[File:]]` in the cached lead, flag as lead-photo for review; add an `image=no` override so a non-dish photo can be vetoed per item
+- [x] 7.4 Re-run stages 02–06; review the delta with the mining assist (newly-qualifying soups admitted, lead photos vetted, upgraded infobox fields where no override exists); verify shipped count, image coverage, and `pnpm test`/typecheck/lint/bundle all green
