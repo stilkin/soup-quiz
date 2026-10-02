@@ -24,7 +24,15 @@
         "id": "olive-oil",
         "display": "olive oil"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Ajo blanco.jpg",
+      "credit": {
+        "author": "Popo le Chien",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
   },
   {
     "id": "47175174",
@@ -39,7 +47,15 @@
         "id": "yogurt",
         "display": "Yogurt"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Āsh e doogh.JPG",
+      "credit": {
+        "author": "MRG90",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "640174",
@@ -87,7 +103,15 @@
         "id": "coriander",
         "display": "cilantro"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Acorda09 (cropped).jpg",
+      "credit": {
+        "author": "Ramessos",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "8641932",
@@ -114,7 +138,15 @@
         "id": "beef",
         "display": "beef"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Batchoy of Iloilo.jpg",
+      "credit": {
+        "author": "Mhlayson",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "34922374",
@@ -132,7 +164,15 @@
         "id": "broth",
         "display": "stock"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Bermuda Fish Chowder (3825239570).jpg",
+      "credit": {
+        "author": "kansasphoto",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    }
   },
   {
     "id": "21621563",
@@ -159,7 +199,15 @@
         "id": "sweet-potato",
         "display": "sweet potato"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Binignit (Philippines).jpg",
+      "credit": {
+        "author": "Obsidian Soul",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
   },
   {
     "id": "2212333",
@@ -195,7 +243,15 @@
         "id": "sugar",
         "display": "sugar"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Black sesame paste.jpg",
+      "credit": {
+        "author": "bryan... from Taipei, Taiwan",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    }
   },
   {
     "id": "3858135",
@@ -217,7 +273,15 @@
         "id": "carrot",
         "display": "carrots"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Bean soup with tomatoes and red peppers.jpeg",
+      "credit": {
+        "author": "Gillgaramond",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "767584",
@@ -232,7 +296,15 @@
         "id": "fish",
         "display": "Fish"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Bullabessa.jpg",
+      "credit": {
+        "author": "Slastic",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    }
   },
   {
     "id": "33034484",
@@ -255,7 +327,15 @@
         "id": "onion",
         "display": "onions"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Fränkische Brotsuppe-1.jpg",
+      "credit": {
+        "author": "--Xocolatl 16:41, 11 May 2008 (UTC)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+      }
+    }
   },
   {
     "id": "50448417",
@@ -278,7 +358,15 @@
         "id": "shallot",
         "display": "shallots"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Brenebon 1.JPG",
+      "credit": {
+        "author": "Gunawan Kartapranata",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "43837745",
@@ -309,7 +397,15 @@
         "id": "garlic",
         "display": "garlic"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Buridda di seppie 01.jpg",
+      "credit": {
+        "author": "Alessio Sbarbaro User_talk:Yoggysot",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   },
   {
     "id": "1043218",
@@ -324,7 +420,15 @@
         "id": "noodle",
         "display": "ramen noodles"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Shikairo Nagasaki Japan05s.jpg",
+      "credit": {
+        "author": "663highland",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      }
+    }
   },
   {
     "id": "5940610",
@@ -343,7 +447,15 @@
         "id": "bean",
         "display": "beans"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Bean soup with tomatoes and red peppers.jpeg",
+      "credit": {
+        "author": "Gillgaramond",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "2089671",
@@ -382,7 +494,15 @@
         "id": "wine",
         "display": "wine"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Cioppino.jpg",
+      "credit": {
+        "author": "Kelly Sue DeConnick",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    }
   },
   {
     "id": "726379",
@@ -401,7 +521,15 @@
         "id": "potato",
         "display": "potatoes"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Quail 07 bg 041506.jpg",
+      "credit": {
+        "author": "Jon SullivanThe original uploader was Y6y6y6 at English Wikipedia.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+      }
+    }
   },
   {
     "id": "725256",
@@ -423,7 +551,15 @@
         "id": "tomato",
         "display": "tomatoes"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Consomme de volaille.jpg",
+      "credit": {
+        "author": "Kui-Doraku",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "4574804",
@@ -450,7 +586,15 @@
         "id": "celery",
         "display": "celery"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Vegan Garden Corn Chowder with Chives (cropped).jpg",
+      "credit": {
+        "author": "tomatoes and friends",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    }
   },
   {
     "id": "29941002",
@@ -469,7 +613,15 @@
         "id": "broth",
         "display": "broth"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Coto Makassar dish.JPG",
+      "credit": {
+        "author": "(Lofor)",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    }
   },
   {
     "id": "12273688",
@@ -487,7 +639,15 @@
         "id": "lime",
         "display": "lemon"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Cremeninon.JPG",
+      "credit": {
+        "author": "kattenhilbert",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+      }
+    }
   },
   {
     "id": "173821",
@@ -502,7 +662,15 @@
         "id": "cucumber",
         "display": "Cucumber"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Cucumber soup.jpg",
+      "credit": {
+        "author": "No machine-readable author provided. Mohylek assumed (based on copyright claims).",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+      }
+    }
   },
   {
     "id": "2977173",
@@ -521,7 +689,15 @@
         "id": "coconut-milk",
         "display": "coconut milk"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Malaysian noodles-Curry Mee-01.jpg",
+      "credit": {
+        "author": "chee.hong",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    }
   },
   {
     "id": "5809149",
@@ -565,7 +741,15 @@
         "id": "tofu",
         "display": "tofu"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:5-Minute Egg Drop Soup-5 (32079790121).jpg",
+      "credit": {
+        "author": "Sharon Chen from Austin, United States",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    }
   },
   {
     "id": "2074010",
@@ -583,7 +767,15 @@
         "id": "bean",
         "display": "bean"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:SEMANA SANTA QUITEÑA (33852581341).jpg",
+      "credit": {
+        "author": "Agencia de Noticias ANDES",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    }
   },
   {
     "id": "623596",
@@ -605,7 +797,15 @@
         "id": "pork",
         "display": "pork"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Feijoada à transmontada.jpg",
+      "credit": {
+        "author": "Adrião",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    }
   },
   {
     "id": "1558075",
@@ -623,7 +823,15 @@
         "id": "bread",
         "display": "croutons"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Soupe à l'oignon.jpg",
+      "credit": {
+        "author": "Ludovic Péron",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   },
   {
     "id": "12357",
@@ -658,7 +866,15 @@
         "id": "cucumber",
         "display": "cucumber"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Gazpacho Malagueño con su “picaíto” - Moreno, Playa Burriana (cropped).jpg",
+      "credit": {
+        "author": "Haydn Blackey",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    }
   },
   {
     "id": "289767",
@@ -681,7 +897,15 @@
         "id": "onion",
         "display": "onions"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Gumbo.JPG",
+      "credit": {
+        "author": "Amadscientist",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   },
   {
     "id": "28991642",
@@ -696,7 +920,15 @@
         "id": "lentil",
         "display": "lentils"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Khichra.JPG",
+      "credit": {
+        "author": "Miansari66",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
   },
   {
     "id": "26268444",
@@ -710,7 +942,15 @@
         "id": "potato",
         "display": "potatoes"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Finland salmonsoup 01.jpg",
+      "credit": {
+        "author": "aiko99ann",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "4499616",
@@ -729,7 +969,15 @@
         "id": "egg",
         "display": "eggs"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Mee Rebus by Banej, Singapore October 2017.jpg",
+      "credit": {
+        "author": "Banej",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   },
   {
     "id": "41591621",
@@ -756,7 +1004,15 @@
         "id": "cabbage",
         "display": "cabbage"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Mie koclok.JPG",
+      "credit": {
+        "author": "Yesica Oliver Berliana",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   },
   {
     "id": "71205033",
@@ -771,7 +1027,15 @@
         "id": "noodle",
         "display": "noodle"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Mie Kopyok Semarang.jpg",
+      "credit": {
+        "author": "M.akbar.raf",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "2581657",
@@ -785,7 +1049,15 @@
         "id": "rice-vermicelli",
         "display": "Rice vermicelli"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Mohnga.jpg",
+      "credit": {
+        "author": "Charles Haynes",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    }
   },
   {
     "id": "2650274",
@@ -799,7 +1071,15 @@
         "id": "potato",
         "display": "potato"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Hotel de Gink - preparing Mulligan stew LCCN2014698227.jpg",
+      "credit": {
+        "author": "Bain News Service, publisher",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+      }
+    }
   },
   {
     "id": "1480901",
@@ -822,7 +1102,15 @@
         "id": "sweet-potato",
         "display": "sweet potatoes)"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Naengmyeon (cold noodles).jpg",
+      "credit": {
+        "author": "wjlee4284",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      }
+    }
   },
   {
     "id": "37739784",
@@ -841,7 +1129,15 @@
         "id": "tomato",
         "display": "tomatoes"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Khanom chin nam ngiao supoe.jpg",
+      "credit": {
+        "author": "Takeaway",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   },
   {
     "id": "5190223",
@@ -878,7 +1174,15 @@
         "id": "cream",
         "display": "sour cream"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Готовая окрошка.jpg",
+      "credit": {
+        "author": "Pannet",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "35204776",
@@ -893,7 +1197,15 @@
         "id": "broth",
         "display": "broth"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Pallubasa.jpg",
+      "credit": {
+        "author": "Cahyo Ramadhani",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   },
   {
     "id": "24591951",
@@ -939,7 +1251,15 @@
         "id": "basil",
         "display": "basil"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:PappaPomodoro.png",
+      "credit": {
+        "author": "Ɱ",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   },
   {
     "id": "6278708",
@@ -966,7 +1286,15 @@
         "id": "garlic",
         "display": "garlic"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Paya Curry.JPG",
+      "credit": {
+        "author": "Miansari66",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+      }
+    }
   },
   {
     "id": "3274852",
@@ -985,7 +1313,15 @@
         "id": "black-pepper",
         "display": "pepper"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:John Lewis Krimmel - A Scene in the Philadelphia Market (1811).jpg",
+      "credit": {
+        "author": "John Lewis Krimmel",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+      }
+    }
   },
   {
     "id": "625565",
@@ -1008,7 +1344,15 @@
         "id": "chicken",
         "display": "chicken"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Bowl of Meatball pho.jpg",
+      "credit": {
+        "author": "SerraKnightz",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    }
   },
   {
     "id": "54553953",
@@ -1047,7 +1391,15 @@
         "id": "chili-pepper",
         "display": "chili pepper"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Pindang Patin Palembang 2.jpg",
+      "credit": {
+        "author": "Gunawan Kartapranata",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "2390546",
@@ -1070,7 +1422,15 @@
         "id": "lentil",
         "display": "lentil"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Rasam.JPG",
+      "credit": {
+        "author": "Miansari66",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Public_domain"
+      }
+    }
   },
   {
     "id": "16184333",
@@ -1085,7 +1445,15 @@
         "id": "bread",
         "display": "Bread"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Ribollita Siena.jpg",
+      "credit": {
+        "author": "Ta4e Negodue",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "2351584",
@@ -1104,7 +1472,15 @@
         "id": "potato",
         "display": "potatoes"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Rumfordsuppe.jpg",
+      "credit": {
+        "author": "Gestumblindi",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
   },
   {
     "id": "699550",
@@ -1127,7 +1503,15 @@
         "id": "scallion",
         "display": "green onions"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Classic Saimin.jpg",
+      "credit": {
+        "author": "Honolulu Noodz",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "1404496",
@@ -1177,7 +1561,15 @@
         "id": "garlic",
         "display": "garlic"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Saltah.jpg",
+      "credit": {
+        "author": "Rania al-Bahara",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "7782659",
@@ -1196,7 +1588,15 @@
         "id": "cream",
         "display": "heavy cream"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:She-Crab Soup.jpg",
+      "credit": {
+        "author": "Jo Anna Barber from Hillsborough, NC, USA",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    }
   },
   {
     "id": "1994379",
@@ -1210,7 +1610,15 @@
         "id": "fish",
         "display": "Fish"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Sliced fish soup, Pek Kio Market & Food Centre (25065937730).jpg",
+      "credit": {
+        "author": "Kars Alfrink from Utrecht, Netherlands",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    }
   },
   {
     "id": "2117582",
@@ -1229,7 +1637,15 @@
         "id": "turmeric",
         "display": "turmeric"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Soto ayam.JPG",
+      "credit": {
+        "author": "Sakurai Midori",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    }
   },
   {
     "id": "47862761",
@@ -1247,7 +1663,15 @@
         "id": "sugar",
         "display": "sugar"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Cherry soup.jpg",
+      "credit": {
+        "author": "Brücke-Osteuropa",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
   },
   {
     "id": "47862723",
@@ -1286,7 +1710,15 @@
         "id": "broth",
         "display": "stock"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Lamb-stew.jpg",
+      "credit": {
+        "author": "FiveRings (talk)",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    }
   },
   {
     "id": "47270313",
@@ -1300,7 +1732,15 @@
         "id": "egg",
         "display": "beaten egg"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Straciatella - bowl.JPG",
+      "credit": {
+        "author": "Mike.lifeguard",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   },
   {
     "id": "68109339",
@@ -1318,7 +1758,15 @@
         "id": "soy-sauce",
         "display": "soy sauce"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Taiwanese Beef Noodle Soup.jpg",
+      "credit": {
+        "author": "Jjj84206",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "72576408",
@@ -1332,7 +1780,15 @@
         "id": "bamboo-shoot",
         "display": "bamboo shoot"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Talabaw (cropped).jpg",
+      "credit": {
+        "author": "Taung Tan",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "58863247",
@@ -1359,7 +1815,15 @@
         "id": "plantain",
         "display": "plantain"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Tapado.jpg",
+      "credit": {
+        "author": "Keryy13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "2214417",
@@ -1386,7 +1850,15 @@
         "id": "fish-sauce",
         "display": "fish sauce"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Chicken tinola.jpg",
+      "credit": {
+        "author": "Anne Molina",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
   },
   {
     "id": "47770304",
@@ -1421,7 +1893,15 @@
         "id": "fish-sauce",
         "display": "fish sauce"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Tom yam kung maenam.jpg",
+      "credit": {
+        "author": "Takeaway",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   },
   {
     "id": "44828047",
@@ -1436,7 +1916,15 @@
         "id": "broth",
         "display": "broth"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Tsukemen at a Tokyo restaurant.jpg",
+      "credit": {
+        "author": "City Foodsters",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    }
   },
   {
     "id": "4216014",
@@ -1454,7 +1942,15 @@
         "id": "potato",
         "display": "potatoes"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Uha 013.jpg",
+      "credit": {
+        "author": "Kagor",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    }
   },
   {
     "id": "2441042",
@@ -1476,7 +1972,15 @@
         "id": "cream",
         "display": "cream"
       }
-    ]
+    ],
+    "image": {
+      "sourceFile": "File:Vichyssoise.jpg",
+      "credit": {
+        "author": "BocaDorada",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    }
   },
   {
     "id": "28535",

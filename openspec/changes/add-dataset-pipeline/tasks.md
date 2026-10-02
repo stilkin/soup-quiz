@@ -18,9 +18,9 @@
 
 ## 4. Images
 
-- [ ] 4.1 Write `05_images.py`: Commons `imageinfo`+`extmetadata` cached; 400px thumbs fetched politely, Pillow-re-encoded to the measured target size/q90 into `apps/soup-quiz/assets/soups/<pageid>.jpg`; write `images.manifest.json` and regenerate `src/images.ts`; verify per-image credit completeness (incomplete → no image, flag)
-- [ ] 4.2 Measure real re-encoded sizes at 200px and 320px, pick per the design open question, and record the decision in the run report; verify total bundle addition stays under ~20 MB
-- [ ] 4.3 Add the pairing test in `packages/data` (dataset ↔ assets ↔ manifest agreement); verify it fails when any asset lacks a dataset item or a dataset image lacks credit
+- [x] 4.1 Write `05_images.py`: Commons `imageinfo`+`extmetadata` cached; 400px thumbs fetched politely, Pillow-re-encoded to the measured target size/q90 into `apps/soup-quiz/assets/soups/<pageid>.jpg`; write `images.manifest.json` and regenerate `src/images.ts`; verify per-image credit completeness (incomplete → no image, flag)
+- [x] 4.2 Measure real re-encoded sizes at 200px and 320px, pick per the design open question, and record the decision in the run report; verify total bundle addition stays under ~20 MB
+- [x] 4.3 Add the pairing test in `packages/data` (dataset ↔ assets ↔ manifest agreement); verify it fails when any asset lacks a dataset item or a dataset image lacks credit
 
 ## 5. Review pass (the manual/agent workload)
 
