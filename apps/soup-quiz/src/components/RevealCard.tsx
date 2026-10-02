@@ -1,8 +1,7 @@
 import type { SoupItem } from '@soup-quiz/schema'
 import { countryName, flagEmoji } from '@soup-quiz/schema'
 import { Image } from 'expo-image'
-import * as WebBrowser from 'expo-web-browser'
-import { Pressable, StyleSheet, Text, View } from 'react-native'
+import { Linking, Pressable, StyleSheet, Text, View } from 'react-native'
 import Animated, { FadeInDown } from 'react-native-reanimated'
 import { soupImages } from '../images'
 import { colors, font, radius, spacing, type } from '../theme'
@@ -30,10 +29,7 @@ export function RevealCard({ item }: { item: SoupItem }) {
       {image !== undefined && credit !== undefined && (
         <View style={styles.imageBlock}>
           <Image style={styles.image} source={image} contentFit="cover" />
-          <Pressable
-            accessibilityRole="link"
-            onPress={() => WebBrowser.openBrowserAsync(credit.licenseUrl)}
-          >
+          <Pressable accessibilityRole="link" onPress={() => Linking.openURL(credit.licenseUrl)}>
             <Text style={styles.credit}>
               {credit.author} · {credit.license}
             </Text>
@@ -43,7 +39,7 @@ export function RevealCard({ item }: { item: SoupItem }) {
 
       <Pressable
         accessibilityRole="link"
-        onPress={() => WebBrowser.openBrowserAsync(item.sourceUrl)}
+        onPress={() => Linking.openURL(item.sourceUrl)}
         style={({ pressed }) => [styles.linkWrap, pressed && { opacity: 0.7 }]}
       >
         <Text style={styles.link}>Read more on Wikipedia</Text>
