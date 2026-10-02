@@ -38,6 +38,13 @@ export default function StartScreen() {
           >
             <Text style={styles.playText}>Play</Text>
           </Pressable>
+          <Pressable
+            accessibilityRole="button"
+            onPress={() => router.push('/stats')}
+            style={({ pressed }) => [styles.statsLink, pressed && { opacity: 0.7 }]}
+          >
+            <Text style={styles.statsLinkText}>Your stats</Text>
+          </Pressable>
         </View>
 
         <Text style={styles.footer}>Data from Wikipedia, credited per soup</Text>
@@ -111,6 +118,16 @@ const styles = StyleSheet.create({
     color: colors.onTomato,
     fontSize: 18,
     fontWeight: '700',
+  },
+  statsLink: {
+    alignSelf: 'flex-start',
+    paddingVertical: spacing.sm,
+  },
+  statsLinkText: {
+    ...type.body,
+    color: colors.inkSoft,
+    fontWeight: '600',
+    textDecorationLine: 'underline',
   },
   footer: {
     ...type.caption,

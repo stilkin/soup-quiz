@@ -1,5 +1,4 @@
 import type { AnswerRow, RoundRow } from '@soup-quiz/stats'
-import type { SQLiteDatabase } from 'expo-sqlite'
 import { getStatsDb } from './db'
 
 export interface RecordedAnswer {

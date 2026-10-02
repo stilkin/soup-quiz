@@ -14,9 +14,9 @@
 
 ## 3. Record hook + stats screen
 
-- [ ] 3.1 Hook recording into the play flow (`Finished` step: fire-and-forget `recordRound`, `.catch`-logged) per spec "recording failure does not break play"; verify a played round writes rows (adb/Expo Go console or on-device follow-up in 4.1)
-- [ ] 3.2 Build `StatSummary` and `SoupMasteryRow` components (theme tokens, Fraunces numerals, flat hairline cards) and the `/stats` route: summary + streaks + weakest-first list + inviting empty state; verify rendering against tokens with no hardcoded colors
-- [ ] 3.3 Add the Clear-stats action (confirmation alert → `clearAll()` → empty state) and the "Your stats" link on the start screen; verify clear returns exactly to the empty state
+- [x] 3.1 Hook recording into the play flow (`Finished` step: fire-and-forget `recordRound`, `.catch`-logged) per spec "recording failure does not break play"; verify a played round writes rows (adb/Expo Go console or on-device follow-up in 4.1)
+- [x] 3.2 Build `StatSummary` and `SoupMasteryRow` components (theme tokens, Fraunces numerals, flat hairline cards) and the `/stats` route: summary + streaks + weakest-first list + inviting empty state; verify rendering against tokens with no hardcoded colors
+- [x] 3.3 Add the Clear-stats action (confirmation alert → `clearAll()` → empty state) and the "Your stats" link on the start screen; verify clear returns exactly to the empty state
 
 ## 4. Integration checks
 

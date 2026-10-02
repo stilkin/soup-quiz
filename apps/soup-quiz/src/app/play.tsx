@@ -1,5 +1,5 @@
 import { soupsV0 } from '@soup-quiz/data'
-import { generateRound, ingredientsToCountry, scoreRound } from '@soup-quiz/engine'
+import { generateRound, ingredientsToCountry, isCorrect, scoreRound } from '@soup-quiz/engine'
 import { router } from 'expo-router'
 import React, { useMemo, useReducer } from 'react'
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native'
@@ -7,14 +7,20 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { OptionButton, type OptionState } from '../components/OptionButton'
 import { QuestionCard } from '../components/QuestionCard'
 import { RevealCard } from '../components/RevealCard'
+import { type RecordedRound, recordRound } from '../storage/repo'
 import { colors, radius, spacing, type } from '../theme'
 
 const ROUND_LENGTH = Math.min(8, soupsV0.length)
 
+interface RoundAnswer {
+  value: string
+  answeredAt: number
+}
+
 interface PlayState {
   index: number
   /** One answer per question slot — the array shape is the one-answer rule. */
-  answers: (string | undefined)[]
+  answers: (RoundAnswer | undefined)[]
 }
 
 type PlayAction = { type: 'answer'; value: string } | { type: 'next' }
@@ -24,7 +30,7 @@ function reducer(state: PlayState, action: PlayAction): PlayState {
     case 'answer': {
       if (state.answers[state.index] !== undefined) return state
       const answers = [...state.answers]
-      answers[state.index] = action.value
+      answers[state.index] = { value: action.value, answeredAt: Date.now() }
       return { ...state, answers }
     }
     case 'next':
@@ -45,10 +51,12 @@ export default function PlayScreen() {
   const isLast = state.index === round.questions.length - 1
 
   if (question === undefined) {
-    // All questions answered — hand the score to the result screen.
-    const { correct, total } = scoreRound(round, state.answers)
-    // schedule navigation outside of render
-    return <Finished correct={correct} total={total} />
+    // All questions answered — record the round, then hand the score to the result screen.
+    const { correct, total } = scoreRound(
+      round,
+      state.answers.map((answer) => answer?.value),
+    )
+    return <Finished round={round} answers={state.answers} correct={correct} total={total} />
   }
 
   const selected = state.answers[state.index]
@@ -57,7 +65,7 @@ export default function PlayScreen() {
   const optionState = (code: string): OptionState => {
     if (!answered) return 'idle'
     if (code === question.answer) return 'correct'
-    if (code === selected) return 'wrong'
+    if (code === selected.value) return 'wrong'
     return 'dimmed'
   }
 
@@ -100,14 +108,47 @@ export default function PlayScreen() {
   )
 }
 
-/** Shown for one frame when the round ends; redirects to the result screen. */
-function Finished({ correct, total }: { correct: number; total: number }) {
+/** Shown for one frame when the round ends; records it, then redirects to the result. */
+function Finished({
+  round,
+  answers,
+  correct,
+  total,
+}: {
+  round: ReturnType<typeof generateRound>
+  answers: (RoundAnswer | undefined)[]
+  correct: number
+  total: number
+}) {
   React.useEffect(() => {
+    const finishedAt = Date.now()
+    const recorded: RecordedRound = {
+      kind: 'free',
+      modeId: round.mode.id,
+      seed: round.seed,
+      length: round.questions.length,
+      correct,
+      finishedAt,
+      answers: round.questions.map((question, index) => {
+        const answer = answers[index]
+        return {
+          itemId: question.item.id,
+          correct:
+            answer !== undefined && isCorrect(question.item, round.mode.answerField, answer.value),
+          answeredAt: answer?.answeredAt ?? finishedAt,
+        }
+      }),
+    }
+    // fire-and-forget: stats must never block or break play (spec)
+    recordRound(recorded).catch((error) => {
+      console.warn('[soup-quiz] failed to record round', error)
+    })
+
     router.replace({
       pathname: '/result',
       params: { correct: String(correct), total: String(total) },
     })
-  }, [correct, total])
+  }, [round, answers, correct, total])
   return <SafeAreaView style={styles.safe} />
 }
 
