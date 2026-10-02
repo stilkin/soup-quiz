@@ -18,11 +18,19 @@ The pipeline SHALL build the soup corpus from the list snapshots in `data/raw/wi
 - **THEN** it appears in the run report as unresolved
 
 ### Requirement: Field extraction uses a fallback chain
-For each soup, each field (countries, region, types, ingredients, image, description) SHALL be filled from the first source that provides it: detail-article infobox, then the source-list entry, then nothing (flagged for review). Extracted values SHALL be raw until normalization.
+For each soup, each field (countries, region, types, ingredients, image, description) SHALL be filled from the first source that provides it: detail-article food infobox (`{{Infobox food}}` or `{{Infobox prepared food}}`), then the source-list entry, then nothing (flagged for review). For the image field, a bare lead `[[File:…]]` photo SHALL be a last-resort fallback, and such soups SHALL be flagged for review. Extracted values SHALL be raw until normalization.
 
 #### Scenario: Infobox wins when present
 - **WHEN** a soup's article has a food infobox with main_ingredient
 - **THEN** that value is used for ingredients and the fallback is not consulted
+
+#### Scenario: Prepared-food infoboxes are parsed
+- **WHEN** a soup's article uses `{{Infobox prepared food}}` with an image and main_ingredient
+- **THEN** those fields are extracted exactly as from `{{Infobox food}}`
+
+#### Scenario: Lead-photo fallback is reviewable
+- **WHEN** a soup has no infobox image but its lead section shows a file
+- **THEN** that photo becomes the image candidate and the soup is flagged as lead-photo sourced
 
 #### Scenario: Missing infobox falls back to the list
 - **WHEN** a soup has no food infobox but its source list describes it
@@ -58,7 +66,11 @@ List links that resolve to non-dish articles (species, places, techniques) SHALL
 - **THEN** it is excluded from the dataset and listed in the run report
 
 ### Requirement: Images are mirrored, credited, and paired
-For each soup with an image, the pipeline SHALL fetch the Commons file's credit metadata and a thumbnail, re-encode it to the target size/quality, and write it to the app's asset directory with a manifest entry. The dataset, asset directory, and manifest SHALL agree exactly; a mismatch SHALL fail validation.
+For each soup with an image, the pipeline SHALL fetch the Commons file's credit metadata and a thumbnail, re-encode it to the target size/quality, and write it to the app's asset directory with a manifest entry. Commons file titles SHALL be canonicalized (underscores to spaces) before metadata lookup. The dataset, asset directory, and manifest SHALL agree exactly; a mismatch SHALL fail validation.
+
+#### Scenario: Underscored filenames still resolve
+- **WHEN** wikitext names an image as `Avgolemono_soup.jpg`
+- **THEN** the Commons lookup uses the canonical title and the credit is found
 
 #### Scenario: Pairing holds
 - **WHEN** the dataset references an image

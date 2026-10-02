@@ -8,6 +8,10 @@ sections cached in `data/cache/articles/`, structured infobox coverage 57% (main
 the main table with ~91 rows needing aliases/regions/manual, and a small amount of non-soup
 noise in the lists. Schema and app are unchanged — this change produces data, not contracts.
 
+*(Correction, 2026-10-02: the 57% infobox-coverage figure was measured with a regex that
+missed `{{Infobox prepared food}}` — 74 articles. True structured coverage is ~73%; fixed
+in task 7.1.)*
+
 ## Goals / Non-Goals
 
 **Goals:**
@@ -45,6 +49,10 @@ for the ~43% infobox-less tail happens as an in-session pass over `review.csv` (
 reads lead prose, proposes values, user approves) — the pipeline itself stays deterministic.
 *Alternative rejected:* LLM calls inside the pipeline — nondeterministic builds, and the
 in-session loop is strictly more controllable.
+*Amendment (2026-10-02, device feedback):* the infobox family is `{{Infobox food}}` **and**
+`{{Infobox prepared food}}` (74 articles sat on the latter); for the image field only, a
+last-resort fallback takes the first bare lead `[[File:]]` photo, review-flagged and
+vetoable per item via an `image=no` override.
 
 ### D4: Relevance filter before extraction
 Heuristic flags for linked articles that are species (taxobox), places (settlement
@@ -73,6 +81,9 @@ requested at 400px, Pillow-re-encoded to 200px q90 into `apps/soup-quiz/assets/s
 committed). Pairing test in `packages/data` asserts dataset ↔ assets ↔ manifest agreement
 and rejects any image without complete credit. Soups whose Commons credit is incomplete
 ship without an image (flagged), per the dataset-schema spec.
+*Amendment (2026-10-02):* Commons titles are canonicalized (underscores → spaces) before
+lookup — the API normalizes titles in its response, which once silently broke credit
+lookups for every underscored filename.
 
 ### D8: Dataset swap keeps stats valid
 `soups.v1.json` replaces the stub export; ids are pageids in both datasets so existing
