@@ -1,8 +1,8 @@
 # Soup Quiz
 
-> **Status: change 1 (`bootstrap-monorepo`) shipped and archived** — monorepo, schema,
-> engine, stub dataset, and a playable quiz round (verified on Android). The real
-> dataset pipeline, stats, and the daily challenge are the next changes (see
+> **Status: playable skeleton + local stats.** Change 1 (`bootstrap-monorepo`) is
+> archived; the stats page (change `add-stats-page`) records every round on-device and
+> shows streaks, accuracy, and mastery. Next up: the real dataset pipeline (see
 > [Roadmap](#roadmap)). Everything below marked *planned* is decided but not yet built.
 
 ## What is this project?
@@ -27,10 +27,11 @@ The concept, in priorities:
 
 | Present in this repo | Planned (decided in OpenSpec changes) |
 |---|---|
-| pnpm monorepo: `packages/{schema,data,engine}` + `apps/soup-quiz` (Expo, iOS + Android) | Python/pandas dataset pipeline validating against the exported JSON Schema |
+| pnpm monorepo: `packages/{schema,data,engine,stats}` + `apps/soup-quiz` (Expo, iOS + Android) | Python/pandas dataset pipeline validating against the exported JSON Schema |
 | Zod item contract with JSON Schema export; 249-country registry; flag emoji | Real dataset (~583 soups), credited bundled images |
-| Seed-deterministic engine: mode-as-data, `generateRound`, scoring (52 tests) | More game modes over the same data (declarative configs) |
-| Stub dataset: 10 adversarial soups; one playable mode (ingredients → country) | On-device stats, streaks, SRS; UTC daily challenge; share texts |
+| Seed-deterministic engine: mode-as-data, `generateRound`, scoring | SRS scheduling (serving weak soups more often) |
+| Stub dataset: 10 adversarial soups; one playable mode (ingredients → country) | More game modes over the same data (declarative configs) |
+| Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, mastery | UTC daily challenge; share texts |
 | Raw wikitext snapshots of 16 Wikipedia list articles (`data/raw/wikipedia/`) | Share-card page, notifications, photo mode, store submission |
 
 ## Technology
@@ -99,11 +100,12 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | # | Change | Status |
 |---|---|---|
 | 1 | `bootstrap-monorepo` — monorepo, schema, stub data, one playable mode | **archived 2026-10-02** (18/18 tasks) |
-| 2 | `add-dataset-pipeline` — scrape/enrich/review/compile, image bundling + attribution | planned |
+| 2 | `add-dataset-pipeline` — scrape/enrich/review/compile, image bundling + attribution | next up |
 | 3 | `add-quiz-modes` — declarative mode configs over the real dataset | planned |
-| 4 | `add-stats-streaks-srs` — SQLite stats, streaks, spaced repetition | planned |
-| 5 | `add-daily-challenge` — UTC daily + emoji share texts | planned |
-| 6 | later — share-card page, notifications, photo mode, store submission | backlog |
+| 4 | `add-stats-page` — local recording, streaks, mastery, stats screen | **implemented 2026-10-02** (on-device check pending) |
+| 5 | `add-srs-scheduling` — spaced-repetition serving from recorded data | planned |
+| 6 | `add-daily-challenge` — UTC daily + emoji share texts | planned |
+| 7 | later — share-card page, notifications, photo mode, store submission | backlog |
 
 ## Data sources and licensing
 

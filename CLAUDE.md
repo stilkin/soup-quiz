@@ -37,7 +37,7 @@ From the repo root:
 pnpm typecheck   # tsc --noEmit in every workspace package (incl. the Expo app)
 pnpm lint        # Biome check across the workspace
 pnpm format      # Biome format --write
-pnpm test        # Vitest in schema, data, engine (52 tests)
+pnpm test        # Vitest in schema, data, engine, stats
 ```
 
 From `apps/soup-quiz` (or the root, which delegates `pnpm start`):
@@ -71,8 +71,12 @@ Package manager is pnpm; do not use npm/yarn.
 - `packages/data` — `soups.v0.json` stub dataset (adversarial by design, D7)
 - `packages/engine` — pure, seed-deterministic: mode-as-data configs, `generateRound`,
   `isCorrect`, `scoreRound`; no framework imports
+- `packages/stats` — pure progress computations: `aggregateStats`, UTC `dayStreaks`,
+  mastery. Every stat definition lives here exactly once; storage never computes
 - `apps/soup-quiz` — Expo app, UI only: theme tokens (`src/theme.ts`, "menu card"
-  direction), expo-router screens, Reanimated feedback; no quiz logic lives here
+  direction), expo-router screens, Reanimated feedback; no quiz logic lives here.
+  `src/storage/` is the native edge: expo-sqlite (append-only `rounds`/`answers`,
+  `PRAGMA user_version` migrations) mapping rows to `@soup-quiz/stats` types
 
 Internal-package pattern (design D2): packages export raw TS source (`main: ./src/index.ts`),
 no build step — Metro and Vitest consume them directly. Soup images will bundle as
