@@ -29,9 +29,9 @@ describe('generateRound — spec scenarios', () => {
   })
 
   it('Scenario: Item skipped when distractors are insufficient', () => {
-    // the triple-origin fixture item sees only {PT} as possible distractors
+    // the triple-origin fixture item sees only {PT, NG} as possible distractors
     const round = generateRound(starvedDataset, ingredientsToCountry, { seed: 3, length: 5 })
-    expect(round.questions).toHaveLength(4)
+    expect(round.questions).toHaveLength(5)
     expect(round.questions.map((q) => q.item.id)).not.toContain('5')
   })
 

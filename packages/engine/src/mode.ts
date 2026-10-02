@@ -24,5 +24,5 @@ export const ingredientsToCountry: ModeConfig = {
   title: 'Ingredients → Country',
   promptField: 'ingredients',
   answerField: 'countries',
-  optionCount: 4,
+  optionCount: 5,
 }

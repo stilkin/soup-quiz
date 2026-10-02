@@ -48,7 +48,7 @@ describe('stub dataset v0 is adversarial by design (D7)', () => {
     expect(soupsV0.some((item) => item.types.length > 1)).toBe(true)
   })
 
-  it('has enough distinct countries for four-option questions', () => {
+  it('has enough distinct countries for five-option questions', () => {
     const distinct = new Set(soupsV0.flatMap((item) => item.countries))
     expect(distinct.size).toBeGreaterThanOrEqual(8)
   })

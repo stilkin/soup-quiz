@@ -29,14 +29,15 @@ export const mainDataset: SoupItem[] = [
 ]
 
 /**
- * Starvation fixture: only 4 distinct countries total, so the triple-origin item
- * (own = IT+FR+ES) sees just {PT} left as distractors — below the 3 needed — and
- * must be skipped, while the single-country items all build.
+ * Starvation fixture: 5 distinct countries total, so each single-country item sees
+ * exactly the 4 distractors it needs, while the triple-origin item
+ * (own = IT+FR+ES) sees only {PT, NG} — below the 4 needed — and must be skipped.
  */
 export const starvedDataset: SoupItem[] = [
   soup('1', ['IT'], 'Acquacotta'),
   soup('2', ['FR'], 'Bisque'),
   soup('3', ['ES'], 'Gazpacho'),
   soup('4', ['PT'], 'Açorda'),
+  soup('6', ['NG'], 'Pepper soup'),
   soup('5', ['IT', 'FR', 'ES'], 'Pan-European stew'),
 ]
