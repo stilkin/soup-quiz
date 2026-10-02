@@ -156,14 +156,14 @@ def main():
     entries = list_entries()
 
     items, not_dish = [], []
-    for original, info in corpus.items():
+    for info in corpus:
         cached = CACHE / f"{info['pageid']}.json"
         lead = json.loads(cached.read_text())['lead'] or '' if cached.exists() else ''
         relevance = 'not_dish' if any(m in lead for m in NOT_DISH_MARKERS) else 'ok'
 
         fields = parse_infobox(lead) or {}
         ib_end = template_span(lead, lead.find('{{')) if lead.startswith('{{') else 0
-        entry = entries.get(original) or entries.get(info['title']) or {}
+        entry = entries.get(info.get('original', '')) or entries.get(info['title']) or {}
 
         if relevance != 'ok':
             not_dish.append({'title': info['title'], 'pageid': info['pageid']})

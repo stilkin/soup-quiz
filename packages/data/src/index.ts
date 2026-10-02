@@ -1,12 +1,12 @@
 import type { SoupItem } from '@soup-quiz/schema'
-import soups from './soups.v0.json'
+import soups from './soups.v1.json'
 
 /**
- * Stub dataset v0 — adversarial by design (design D7): multi-country, region-not-country,
- * multi-type, and canonical ingredients shared under different display spellings.
- * Replaced by the real pipeline output in the dataset-pipeline change; conformance is
- * enforced by this package's test suite.
+ * Dataset v1 — compiled by data/pipeline (change: add-dataset-pipeline) from Wikipedia
+ * snapshots with manual overrides. Conformance is enforced by this package's tests;
+ * item ids are Wikipedia pageids (stable, and shared with the stub dataset v0 so
+ * recorded stats stay valid).
  */
-export const soupsV0 = soups as SoupItem[]
+export const soupsV1 = soups as SoupItem[]
 
-export const datasetId = 'soups.v0'
+export const datasetId = 'soups.v1'

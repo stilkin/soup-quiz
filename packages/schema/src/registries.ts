@@ -3,8 +3,9 @@
 // than hand-edit.
 
 /**
- * Controlled vocabulary for soup types (design D3). Starter set; extended with real
- * data in the dataset-pipeline change. Adding values is non-breaking.
+ * Controlled vocabulary for soup types (design D3). Extended by the dataset-pipeline
+ * change with values observed in real data (fish-soup, bread-soup, bean-soup).
+ * Adding values is non-breaking.
  */
 export const SOUP_TYPES = [
   'broth',
@@ -17,6 +18,9 @@ export const SOUP_TYPES = [
   'cold-soup',
   'fruit-soup',
   'dessert-soup',
+  'fish-soup',
+  'bread-soup',
+  'bean-soup',
 ] as const
 
 export type SoupType = (typeof SOUP_TYPES)[number]

@@ -1,4 +1,4 @@
-import { soupsV0 } from '@soup-quiz/data'
+import { soupsV1 } from '@soup-quiz/data'
 import { generateRound, ingredientsToCountry, isCorrect, scoreRound } from '@soup-quiz/engine'
 import { router } from 'expo-router'
 import React, { useMemo, useReducer } from 'react'
@@ -10,7 +10,7 @@ import { RevealCard } from '../components/RevealCard'
 import { type RecordedRound, recordRound } from '../storage/repo'
 import { colors, radius, spacing, type } from '../theme'
 
-const ROUND_LENGTH = Math.min(8, soupsV0.length)
+const ROUND_LENGTH = Math.min(8, soupsV1.length)
 
 interface RoundAnswer {
   value: string
@@ -42,7 +42,7 @@ export default function PlayScreen() {
   // New seed per mount: replaying from the result screen remounts with a fresh round.
   const seed = useMemo(() => Math.floor(Math.random() * 2 ** 31), [])
   const round = useMemo(
-    () => generateRound(soupsV0, ingredientsToCountry, { seed, length: ROUND_LENGTH }),
+    () => generateRound(soupsV1, ingredientsToCountry, { seed, length: ROUND_LENGTH }),
     [seed],
   )
   const [state, dispatch] = useReducer(reducer, { index: 0, answers: [] })

@@ -66,15 +66,18 @@ def resolve(names):
     if scan.exists():
         data = json.loads(scan.read_text())
         sources = data.get('sources', {})
-        corpus = {
-            original: {
-                'pageid': entry['pageid'],
-                'title': entry['title'],
-                'sources': sources.get(original, [entry['title']]),
-            }
-            for original, entry in data['corpus'].items()
-            if original in names
-        }
+        by_pageid = {}
+        for original, entry in data['corpus'].items():
+            if original not in names:
+                continue
+            merged = by_pageid.setdefault(entry['pageid'], {
+                'pageid': entry['pageid'], 'title': entry['title'],
+                'original': entry['title'], 'sources': set(),
+            })
+            merged['sources'].update(sources.get(original, []))
+        corpus = sorted(by_pageid.values(), key=lambda e: e['title'].casefold())
+        for entry in corpus:
+            entry['sources'] = sorted(entry['sources'])
         unresolved = [u for u in data.get('unresolved', []) if u in names]
         return corpus, unresolved, True
 
@@ -97,10 +100,16 @@ def resolve(names):
                 continue
             original = norm.get(page['title'], page['title'])
             if original in names:
-                corpus[original] = {'pageid': page['pageid'], 'title': page['title'],
-                                    'sources': sorted(names[original])}
+                entry = corpus.setdefault(page['pageid'], {
+                    'pageid': page['pageid'], 'title': page['title'],
+                    'original': original, 'sources': set(),
+                })
+                entry['sources'].update(names[original])
         time.sleep(3)
-    return corpus, unresolved, False
+    resolved = sorted(corpus.values(), key=lambda e: e['title'].casefold())
+    for entry in resolved:
+        entry['sources'] = sorted(entry['sources'])
+    return resolved, unresolved, False
 
 
 def _api(body):

@@ -13,8 +13,8 @@
 
 ## 3. Compile + dataset swap
 
-- [ ] 3.1 Write `06_compile.py` (runs after review resolution): merge `overrides.csv` (winning source), drop unresolved-flag soups, emit `packages/data/src/soups.v1.json`; verify compilation fails loudly on schema violations (item id + field) and that the emitted file passes `validateDataset` via the packages/data test suite
-- [ ] 3.2 Swap `packages/data` to v1 (delete `soups.v0.json`, export the real dataset), extend its tests: dataset validates, ids unique, every country ISO-valid, types within vocabulary, stats-compat spot check (stub pageids that survive appear); verify `pnpm test` green and the app typecheck/bundle export pass with the real dataset wired in
+- [x] 3.1 Write `06_compile.py` (runs after review resolution): merge `overrides.csv` (winning source), drop unresolved-flag soups, emit `packages/data/src/soups.v1.json`; verify compilation fails loudly on schema violations (item id + field) and that the emitted file passes `validateDataset` via the packages/data test suite
+- [x] 3.2 Swap `packages/data` to v1 (delete `soups.v0.json`, export the real dataset), extend its tests: dataset validates, ids unique, every country ISO-valid, types within vocabulary, stats-compat spot check (stub pageids that survive appear); verify `pnpm test` green and the app typecheck/bundle export pass with the real dataset wired in
 
 ## 4. Images
 

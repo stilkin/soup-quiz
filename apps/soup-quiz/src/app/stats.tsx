@@ -1,4 +1,4 @@
-import { soupsV0 } from '@soup-quiz/data'
+import { soupsV1 } from '@soup-quiz/data'
 import { aggregateStats, type StatsView } from '@soup-quiz/stats'
 import { router, useFocusEffect } from 'expo-router'
 import { useCallback, useState } from 'react'
@@ -9,7 +9,7 @@ import { StatSummary } from '../components/StatSummary'
 import { clearAllStats, fetchAnswers, fetchRounds } from '../storage/repo'
 import { colors, spacing, type } from '../theme'
 
-const byId = new Map(soupsV0.map((soup) => [soup.id, soup]))
+const byId = new Map(soupsV1.map((soup) => [soup.id, soup]))
 
 export default function StatsScreen() {
   const [view, setView] = useState<StatsView | undefined>()
@@ -17,10 +17,10 @@ export default function StatsScreen() {
   const load = useCallback(async () => {
     try {
       const [rounds, answers] = await Promise.all([fetchRounds(), fetchAnswers()])
-      setView(aggregateStats(rounds, answers, soupsV0.length))
+      setView(aggregateStats(rounds, answers, soupsV1.length))
     } catch (error) {
       console.warn('[soup-quiz] failed to load stats', error)
-      setView(aggregateStats([], [], soupsV0.length))
+      setView(aggregateStats([], [], soupsV1.length))
     }
   }, [])
 

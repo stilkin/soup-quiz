@@ -1,4 +1,4 @@
-import { soupsV0 } from '@soup-quiz/data'
+import { soupsV1 } from '@soup-quiz/data'
 import { ingredientsToCountry } from '@soup-quiz/engine'
 import { router } from 'expo-router'
 import { useEffect } from 'react'
@@ -7,7 +7,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { colors, radius, spacing, type } from '../theme'
 
 // Task 5.2 gate: proves the monorepo packages resolve through Metro.
-console.log(`[soup-quiz] stub dataset loaded via workspace packages: ${soupsV0.length} items`)
+console.log(`[soup-quiz] dataset loaded via workspace packages: ${soupsV1.length} items`)
 
 export default function StartScreen() {
   useEffect(() => {
@@ -22,7 +22,7 @@ export default function StartScreen() {
           <Text style={styles.title}>Soup Quiz</Text>
           <DoubleRule />
           <Text style={styles.menuLine}>
-            {soupsV0.length} soups on the menu, from {distinctCountryCount()} kitchens
+            {soupsV1.length} soups on the menu, from {distinctCountryCount()} kitchens
           </Text>
         </View>
 
@@ -54,7 +54,7 @@ export default function StartScreen() {
 }
 
 function distinctCountryCount(): number {
-  return new Set(soupsV0.flatMap((item) => item.countries)).size
+  return new Set(soupsV1.flatMap((item) => item.countries)).size
 }
 
 /** Menu-style double rule under the title. */

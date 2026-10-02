@@ -1,3127 +1,2172 @@
 {
- "corpus": {
-  "Abula (soup)": {
-   "pageid": 58434256,
-   "title": "Abula (soup)"
-  },
-  "Acquacotta": {
-   "pageid": 43805440,
-   "title": "Acquacotta"
-  },
-  "Ajiaco": {
-   "pageid": 3160140,
-   "title": "Ajiaco"
-  },
-  "Ajoblanco": {
-   "pageid": 6109964,
-   "title": "Ajoblanco"
-  },
-  "Aloo tama": {
-   "pageid": 53673578,
-   "title": "Aloo tama"
-  },
-  "Amish preaching soup": {
-   "pageid": 33309838,
-   "title": "Amish preaching soup"
-  },
-  "Analı kızlı soup": {
-   "pageid": 40064866,
-   "title": "Analı kızlı soup"
-  },
-  "Ant egg soup": {
-   "pageid": 74194133,
-   "title": "Ant egg soup"
-  },
-  "Apple soup": {
-   "pageid": 25980154,
-   "title": "Apple soup"
-  },
-  "Asam pedas": {
-   "pageid": 47849884,
-   "title": "Asam pedas"
-  },
-  "Ash-e doogh": {
-   "pageid": 47175174,
-   "title": "Ash-e doogh"
-  },
-  "Atama soup": {
-   "pageid": 53255330,
-   "title": "Atama soup"
-  },
-  "Aush": {
-   "pageid": 5781423,
-   "title": "Aush"
-  },
-  "Avgolemono": {
-   "pageid": 640174,
-   "title": "Avgolemono"
-  },
-  "Avocado soup": {
-   "pageid": 53823862,
-   "title": "Avocado soup"
-  },
-  "Açorda": {
-   "pageid": 11555461,
-   "title": "Açorda"
-  },
-  "BBC": {
-   "pageid": 19344654,
-   "title": "BBC"
-  },
-  "Bacon soup": {
-   "pageid": 30308242,
-   "title": "Bacon soup"
-  },
-  "Bagnun": {
-   "pageid": 23993440,
-   "title": "Bagnun"
-  },
-  "Bak kut teh": {
-   "pageid": 1175370,
-   "title": "Bak kut teh"
-  },
-  "Bakso": {
-   "pageid": 10446962,
-   "title": "Bakso"
-  },
-  "Banmian": {
-   "pageid": 2723248,
-   "title": "Banmian"
-  },
-  "Aguadito": {
-   "pageid": 55553820,
-   "title": "Aguadito de pollo"
-  },
-  "Aonori": {
-   "pageid": 1849474,
-   "title": "Green laver"
-  },
-  "Asian soup": {
-   "pageid": 5305267,
-   "title": "Soups in East Asian culture"
-  },
-  "Barley": {
-   "pageid": 19541428,
-   "title": "Barley"
-  },
-  "Batam": {
-   "pageid": 716783,
-   "title": "Batam"
-  },
-  "Batchoy": {
-   "pageid": 8641932,
-   "title": "Batchoy"
-  },
-  "Beef kway teow": {
-   "pageid": 49210246,
-   "title": "Beef kway teow"
-  },
-  "Beef noodle soup": {
-   "pageid": 593120,
-   "title": "Beef noodle soup"
-  },
-  "Beer soup": {
-   "pageid": 2455937,
-   "title": "Beer soup"
-  },
-  "Bermuda fish chowder": {
-   "pageid": 34922374,
-   "title": "Bermuda fish chowder"
-  },
-  "Bilo-bilo": {
-   "pageid": 51088548,
-   "title": "Bilo-bilo"
-  },
-  "Binakol": {
-   "pageid": 60539561,
-   "title": "Binakol"
-  },
-  "Binignit": {
-   "pageid": 21621563,
-   "title": "Binignit"
-  },
-  "Binte biluhuta": {
-   "pageid": 74318408,
-   "title": "Binte biluhuta"
-  },
-  "Bisque (food)": {
-   "pageid": 2212333,
-   "title": "Bisque (food)"
-  },
-  "Black sesame soup": {
-   "pageid": 9090116,
-   "title": "Black sesame soup"
-  },
-  "Blåbärssoppa": {
-   "pageid": 16899275,
-   "title": "Blåbärssoppa"
-  },
-  "Bob chorba": {
-   "pageid": 3858135,
-   "title": "Bob chorba"
-  },
-  "Borscht": {
-   "pageid": 216990,
-   "title": "Borscht"
-  },
-  "Bouillabaisse": {
-   "pageid": 767584,
-   "title": "Bouillabaisse"
-  },
-  "Bouillon (soup)": {
-   "pageid": 999601,
-   "title": "Bouillon (soup)"
-  },
-  "Bouneschlupp": {
-   "pageid": 25124819,
-   "title": "Bouneschlupp"
-  },
-  "Brassica juncea": {
-   "pageid": 2033735,
-   "title": "Brassica juncea"
-  },
-  "Bread soup": {
-   "pageid": 33034484,
-   "title": "Bread soup"
-  },
-  "Brain (food)": {
-   "pageid": 19446188,
-   "title": "Brain as food"
-  },
-  "Bird's nest soup": {
-   "pageid": 47839149,
-   "title": "Edible bird's nest"
-  },
-  "Brenebon": {
-   "pageid": 50448417,
-   "title": "Brenebon"
-  },
-  "Brongkos": {
-   "pageid": 64247976,
-   "title": "Brongkos"
-  },
-  "Buddha Jumps Over the Wall": {
-   "pageid": 1889306,
-   "title": "Buddha Jumps Over the Wall"
-  },
-  "Buridda": {
-   "pageid": 43837745,
-   "title": "Buridda"
-  },
-  "Buttermilk": {
-   "pageid": 235923,
-   "title": "Buttermilk"
-  },
-  "Cabbage soup": {
-   "pageid": 40933402,
-   "title": "Cabbage soup"
-  },
-  "Cacciucco": {
-   "pageid": 5374966,
-   "title": "Cacciucco"
-  },
-  "Caldillo de congrio": {
-   "pageid": 31539563,
-   "title": "Caldillo de congrio"
-  },
-  "Caldillo de perro": {
-   "pageid": 41783762,
-   "title": "Caldillo de perro"
-  },
-  "Caldo de pollo": {
-   "pageid": 9217993,
-   "title": "Caldo de pollo"
-  },
-  "Caldo de queso": {
-   "pageid": 45566858,
-   "title": "Caldo de queso"
-  },
-  "Caldo galego": {
-   "pageid": 39360096,
-   "title": "Caldo galego"
-  },
-  "Caldo tlalpeño": {
-   "pageid": 38795334,
-   "title": "Caldo tlalpeño"
-  },
-  "Caldo verde": {
-   "pageid": 2849631,
-   "title": "Caldo verde"
-  },
-  "Callaloo": {
-   "pageid": 2006866,
-   "title": "Callaloo"
-  },
-  "Canh chua": {
-   "pageid": 12244945,
-   "title": "Canh chua"
-  },
-  "Cantonese seafood soup": {
-   "pageid": 16267026,
-   "title": "Cantonese seafood soup"
-  },
-  "Carp#As food": {
-   "pageid": 60900,
-   "title": "Carp"
-  },
-  "Carrot soup": {
-   "pageid": 48744803,
-   "title": "Carrot soup"
-  },
-  "Cazuela": {
-   "pageid": 6250637,
-   "title": "Cazuela"
-  },
-  "Bun bo Hue": {
-   "pageid": 4750535,
-   "title": "Bún bò Huế"
-  },
-  "Canja de Galinha": {
-   "pageid": 27830438,
-   "title": "Canja de galinha"
-  },
-  "Butajiru": {
-   "pageid": 1724138,
-   "title": "Tonjiru"
-  },
-  "Brown Windsor soup": {
-   "pageid": 4885967,
-   "title": "Windsor soup"
-  },
-  "Chakna": {
-   "pageid": 3887348,
-   "title": "Chakna"
-  },
-  "Champon": {
-   "pageid": 1043218,
-   "title": "Champon"
-  },
-  "Chankonabe": {
-   "pageid": 3515347,
-   "title": "Chankonabe"
-  },
-  "Cheese soup": {
-   "pageid": 26438398,
-   "title": "Cheese soup"
-  },
-  "Chicken and duck blood soup": {
-   "pageid": 39770602,
-   "title": "Chicken and duck blood soup"
-  },
-  "Chicken noodle soup": {
-   "pageid": 46461,
-   "title": "Chicken soup"
-  },
-  "Chinese spoon": {
-   "pageid": 32605036,
-   "title": "Chinese spoon"
-  },
-  "Chorba": {
-   "pageid": 5940610,
-   "title": "Chorba"
-  },
-  "Chowder": {
-   "pageid": 46316,
-   "title": "Chowder"
-  },
-  "Chupe": {
-   "pageid": 2296284,
-   "title": "Chupe"
-  },
-  "Cioppino": {
-   "pageid": 2089671,
-   "title": "Cioppino"
-  },
-  "Clam chowder": {
-   "pageid": 726379,
-   "title": "Clam chowder"
-  },
-  "Clam soup": {
-   "pageid": 46459,
-   "title": "Clam soup"
-  },
-  "Cock-a-leekie": {
-   "pageid": 2932457,
-   "title": "Cock-a-leekie"
-  },
-  "Cockchafer soup": {
-   "pageid": 57323119,
-   "title": "Cockchafer soup"
-  },
-  "Coconut soup": {
-   "pageid": 54176978,
-   "title": "Coconut soup"
-  },
-  "Consommé": {
-   "pageid": 725256,
-   "title": "Consommé"
-  },
-  "Corn chowder": {
-   "pageid": 4574804,
-   "title": "Corn chowder"
-  },
-  "Corn crab soup": {
-   "pageid": 47826163,
-   "title": "Corn crab soup"
-  },
-  "Coto makassar": {
-   "pageid": 29941002,
-   "title": "Coto makassar"
-  },
-  "Country Living": {
-   "pageid": 2203702,
-   "title": "Country Living"
-  },
-  "Cold borscht": {
-   "pageid": 216990,
-   "title": "Borscht"
-  },
-  "Chicken (food)": {
-   "pageid": 5741239,
-   "title": "Chicken as food"
-  },
-  "Chupe Andino": {
-   "pageid": 49168404,
-   "title": "Chupe andino"
-  },
-  "Crab meat": {
-   "pageid": 14107236,
-   "title": "Crab meat"
-  },
-  "Cream of crab soup": {
-   "pageid": 82216707,
-   "title": "Cream of crab soup"
-  },
-  "Cream of mushroom soup": {
-   "pageid": 15959961,
-   "title": "Cream of mushroom soup"
-  },
-  "Cream soup#List of cream soups": {
-   "pageid": 61322568,
-   "title": "Cream soup"
-  },
-  "Cream stew": {
-   "pageid": 3974288,
-   "title": "Cream stew"
-  },
-  "Crème Ninon": {
-   "pageid": 12273688,
-   "title": "Crème Ninon"
-  },
-  "Cucumber soup": {
-   "pageid": 173821,
-   "title": "Cucumber soup"
-  },
-  "Cullen skink": {
-   "pageid": 1794966,
-   "title": "Cullen skink"
-  },
-  "Dalithoy": {
-   "pageid": 23678942,
-   "title": "Dalithoy"
-  },
-  "Dashi": {
-   "pageid": 167082,
-   "title": "Dashi"
-  },
-  "Dillegrout": {
-   "pageid": 63133991,
-   "title": "Dillegrout"
-  },
-  "Dinengdeng": {
-   "pageid": 5305736,
-   "title": "Dinengdeng"
-  },
-  "Doghramaj": {
-   "pageid": 79358082,
-   "title": "Doghramaj"
-  },
-  "Dojō nabe": {
-   "pageid": 40382513,
-   "title": "Dojō nabe"
-  },
-  "Duck blood and vermicelli soup": {
-   "pageid": 33655052,
-   "title": "Duck blood and vermicelli soup"
-  },
-  "Duck soup noodles": {
-   "pageid": 5809149,
-   "title": "Duck soup noodles"
-  },
-  "Edible bird's nest": {
-   "pageid": 47839149,
-   "title": "Edible bird's nest"
-  },
-  "Crawfish": {
-   "pageid": 43600,
-   "title": "Crayfish"
-  },
-  "Cream of asparagus": {
-   "pageid": 43779728,
-   "title": "Cream of asparagus soup"
-  },
-  "Cream of broccoli": {
-   "pageid": 43777933,
-   "title": "Cream of broccoli soup"
-  },
-  "Crossing the bridge noodles": {
-   "pageid": 18629609,
-   "title": "Crossing-the-bridge noodles"
-  },
-  "Cup noodles": {
-   "pageid": 51112496,
-   "title": "Cup noodle"
-  },
-  "Curry Mee": {
-   "pageid": 2977173,
-   "title": "Curry mee"
-  },
-  "Cuisine of Indonesia": {
-   "pageid": 406363,
-   "title": "Indonesian cuisine"
-  },
-  "Edikang ikong": {
-   "pageid": 51525715,
-   "title": "Edikang ikong"
-  },
-  "Editan (soup)": {
-   "pageid": 53278267,
-   "title": "Editan (soup)"
-  },
-  "Egg drop soup": {
-   "pageid": 47826135,
-   "title": "Egg drop soup"
-  },
-  "Egg tong sui": {
-   "pageid": 12137607,
-   "title": "Egg tong sui"
-  },
-  "Egusi sauce": {
-   "pageid": 43746358,
-   "title": "Egusi sauce"
-  },
-  "Empal gentong": {
-   "pageid": 32315715,
-   "title": "Empal gentong"
-  },
-  "Eru (soup)": {
-   "pageid": 51884580,
-   "title": "Eru (soup)"
-  },
-  "Ezogelin soup": {
-   "pageid": 47863702,
-   "title": "Ezogelin soup"
-  },
-  "Fanesca": {
-   "pageid": 2074010,
-   "title": "Fanesca"
-  },
-  "Feijoada": {
-   "pageid": 623596,
-   "title": "Feijoada"
-  },
-  "Fish ball#Indonesia": {
-   "pageid": 2150142,
-   "title": "Fish ball"
-  },
-  "Fish head": {
-   "pageid": 3489856,
-   "title": "Fish head"
-  },
-  "Fish soup#List of fish soups": {
-   "pageid": 19114936,
-   "title": "Fish soup"
-  },
-  "Fish soup bee hoon": {
-   "pageid": 39466761,
-   "title": "Fish soup bee hoon"
-  },
-  "Fish tea": {
-   "pageid": 24039413,
-   "title": "Fish tea"
-  },
-  "Fisherman's Soup": {
-   "pageid": 47862770,
-   "title": "Fisherman's soup"
-  },
-  "Flädle": {
-   "pageid": 8635309,
-   "title": "Flädle"
-  },
-  "Food & Wine": {
-   "pageid": 4395653,
-   "title": "Food & Wine"
-  },
-  "Fish chowder": {
-   "pageid": 46316,
-   "title": "Chowder"
-  },
-  "Escudella i carn d'olla": {
-   "pageid": 2599189,
-   "title": "Escudella"
-  },
-  "Fabada Asturiana": {
-   "pageid": 569036,
-   "title": "Fabada asturiana"
-  },
-  "Eintopf": {
-   "pageid": 47862723,
-   "title": "Stew"
-  },
-  "Fish stock (food)": {
-   "pageid": 657129,
-   "title": "Stock (food)"
-  },
-  "French onion soup": {
-   "pageid": 1558075,
-   "title": "French onion soup"
-  },
-  "Fruit soup": {
-   "pageid": 15687480,
-   "title": "Fruit soup"
-  },
-  "Fruktsoppa": {
-   "pageid": 46955205,
-   "title": "Fruktsoppa"
-  },
-  "Fufu": {
-   "pageid": 844568,
-   "title": "Fufu"
-  },
-  "Fugu chiri": {
-   "pageid": 41736894,
-   "title": "Fugu chiri"
-  },
-  "Garmugia": {
-   "pageid": 43854111,
-   "title": "Garmugia"
-  },
-  "Gazpacho": {
-   "pageid": 12357,
-   "title": "Gazpacho"
-  },
-  "Geng (dish)": {
-   "pageid": 29261018,
-   "title": "Geng (dish)"
-  },
-  "Georgia (country)": {
-   "pageid": 48768,
-   "title": "Georgia (country)"
-  },
-  "Ginataan": {
-   "pageid": 8660143,
-   "title": "Ginataan"
-  },
-  "Ginestrata": {
-   "pageid": 43804871,
-   "title": "Ginestrata"
-  },
-  "Gising-gising": {
-   "pageid": 58548859,
-   "title": "Gising-gising"
-  },
-  "Goat meat pepper soup": {
-   "pageid": 46775413,
-   "title": "Goat meat pepper soup"
-  },
-  "Gomguk": {
-   "pageid": 23199804,
-   "title": "Gomguk"
-  },
-  "Gorontalese cuisine": {
-   "pageid": 74271176,
-   "title": "Gorontalese cuisine"
-  },
-  "Goulash": {
-   "pageid": 235662,
-   "title": "Goulash"
-  },
-  "Guk": {
-   "pageid": 17637906,
-   "title": "Guk"
-  },
-  "Gulai": {
-   "pageid": 47862625,
-   "title": "Gulai"
-  },
-  "Gumbo": {
-   "pageid": 289767,
-   "title": "Gumbo"
-  },
-  "Guthuk": {
-   "pageid": 41725770,
-   "title": "Guthuk"
-  },
-  "Haleem": {
-   "pageid": 1154037,
-   "title": "Haleem"
-  },
-  "Harihari-nabe": {
-   "pageid": 24602024,
-   "title": "Harihari-nabe"
-  },
-  "Gogi guksu": {
-   "pageid": 43031007,
-   "title": "Gogi-guksu"
-  },
-  "Ground nut soup": {
-   "pageid": 39298866,
-   "title": "Peanut soup"
-  },
-  "Harira": {
-   "pageid": 1802458,
-   "title": "Harira"
-  },
-  "Herring soup": {
-   "pageid": 46330,
-   "title": "Herring soup"
-  },
-  "Hodge-Podge (soup)": {
-   "pageid": 13244031,
-   "title": "Hodge-Podge (soup)"
-  },
-  "Hot and sour soup": {
-   "pageid": 47826242,
-   "title": "Hot and sour soup"
-  },
-  "Hulatang": {
-   "pageid": 21629922,
-   "title": "Hulatang"
-  },
-  "Hōtō": {
-   "pageid": 11462433,
-   "title": "Hōtō"
-  },
-  "Imoni": {
-   "pageid": 7692754,
-   "title": "Imoni"
-  },
-  "Inubaran": {
-   "pageid": 60972024,
-   "title": "Inubaran"
-  },
-  "Japanese noodles": {
-   "pageid": 1236380,
-   "title": "Japanese noodles"
-  },
-  "Javanese cuisine": {
-   "pageid": 14443478,
-   "title": "Javanese cuisine"
-  },
-  "Jiuniang": {
-   "pageid": 23308765,
-   "title": "Jiuniang"
-  },
-  "Joshpara": {
-   "pageid": 56389461,
-   "title": "Joshpara"
-  },
-  "Jusselle": {
-   "pageid": 50577476,
-   "title": "Jusselle"
-  },
-  "Kadhi": {
-   "pageid": 5376627,
-   "title": "Kadhi"
-  },
-  "Kadyos, baboy, kag langka": {
-   "pageid": 66669444,
-   "title": "Kadyos, baboy, kag langka"
-  },
-  "Kadyos, manok, kag ubad": {
-   "pageid": 66669502,
-   "title": "Kadyos, manok, kag ubad"
-  },
-  "Kaledo (soup)": {
-   "pageid": 41655409,
-   "title": "Kaledo (soup)"
-  },
-  "Kapurung": {
-   "pageid": 81357365,
-   "title": "Kapurung"
-  },
-  "Katemak": {
-   "pageid": 38272174,
-   "title": "Katemak"
-  },
-  "Harqma": {
-   "pageid": 82528116,
-   "title": "Hergma"
-  },
-  "Instant noodle": {
-   "pageid": 30876121,
-   "title": "Instant noodles"
-  },
-  "Jaecheopguk": {
-   "pageid": 17610427,
-   "title": "Jaecheop-guk"
-  },
-  "Kartoffelsuppe": {
-   "pageid": 20457399,
-   "title": "List of German dishes"
-  },
-  "Kasujiru": {
-   "pageid": 16344596,
-   "title": "Sake kasu"
-  },
-  "Kawlata": {
-   "pageid": 52456961,
-   "title": "Kawlata"
-  },
-  "Kenchin jiru": {
-   "pageid": 53796808,
-   "title": "Kenchin-jiru"
-  },
-  "Kesäkeitto": {
-   "pageid": 64154072,
-   "title": "Kesäkeitto"
-  },
-  "Kharcho": {
-   "pageid": 21449952,
-   "title": "Kharcho"
-  },
-  "Khash (dish)": {
-   "pageid": 2238207,
-   "title": "Khash (dish)"
-  },
-  "Khichra": {
-   "pageid": 28991642,
-   "title": "Khichra"
-  },
-  "Kiritanpo": {
-   "pageid": 11916258,
-   "title": "Kiritanpo"
-  },
-  "Konro": {
-   "pageid": 31637187,
-   "title": "Konro"
-  },
-  "Kusksu": {
-   "pageid": 60631724,
-   "title": "Kusksu"
-  },
-  "Kwati (soup)": {
-   "pageid": 43482552,
-   "title": "Kwati (soup)"
-  },
-  "Kwetiau ayam": {
-   "pageid": 63850931,
-   "title": "Kwetiau ayam"
-  },
-  "Laksa": {
-   "pageid": 431577,
-   "title": "Laksa"
-  },
-  "Lakso": {
-   "pageid": 59347341,
-   "title": "Lakso"
-  },
-  "Lamb and mutton": {
-   "pageid": 229275,
-   "title": "Lamb and mutton"
-  },
-  "Leek soup": {
-   "pageid": 10509170,
-   "title": "Leek soup"
-  },
-  "Lentil soup": {
-   "pageid": 47863695,
-   "title": "Lentil soup"
-  },
-  "Lettuce soup": {
-   "pageid": 43760257,
-   "title": "Lettuce soup"
-  },
-  "Linat-an": {
-   "pageid": 69630513,
-   "title": "Linat-an"
-  },
-  "Lobster": {
-   "pageid": 46310,
-   "title": "Lobster"
-  },
-  "Lobster stew": {
-   "pageid": 30240271,
-   "title": "Lobster stew"
-  },
-  "Lohikeitto": {
-   "pageid": 26268444,
-   "title": "Lohikeitto"
-  },
-  "Lotus seed#Chinese medicinal foods": {
-   "pageid": 5013985,
-   "title": "Lotus seed"
-  },
-  "La mian": {
-   "pageid": 3969082,
-   "title": "Lamian"
-  },
-  "Liver soup": {
-   "pageid": 10159687,
-   "title": "Liver as food"
-  },
-  "Lung fung soup": {
-   "pageid": 3066898,
-   "title": "Lung fung soup"
-  },
-  "Macaroni soup": {
-   "pageid": 18742754,
-   "title": "Macaroni soup"
-  },
-  "Maccu": {
-   "pageid": 43811140,
-   "title": "Maccu"
-  },
-  "Magelang": {
-   "pageid": 2166019,
-   "title": "Magelang"
-  },
-  "Maki mi": {
-   "pageid": 62101108,
-   "title": "Maki mi"
-  },
-  "Mami soup": {
-   "pageid": 18721189,
-   "title": "Mami soup"
-  },
-  "Mandia peja": {
-   "pageid": 51118076,
-   "title": "Mandia peja"
-  },
-  "Maraq (dish)": {
-   "pageid": 58240421,
-   "title": "Maraq (dish)"
-  },
-  "Marghi special": {
-   "pageid": 65568017,
-   "title": "Marghi special"
-  },
-  "Maryland crab soup": {
-   "pageid": 82218846,
-   "title": "Maryland crab soup"
-  },
-  "Mee ka tee": {
-   "pageid": 68133063,
-   "title": "Mee ka tee"
-  },
-  "Melon soup#Winter melon soup": {
-   "pageid": 48195554,
-   "title": "Melon soup"
-  },
-  "Mie ayam": {
-   "pageid": 35882566,
-   "title": "Mie ayam"
-  },
-  "Mie bakso": {
-   "pageid": 64505143,
-   "title": "Mie bakso"
-  },
-  "Mie cakalang": {
-   "pageid": 56029455,
-   "title": "Mie cakalang"
-  },
-  "Mie celor": {
-   "pageid": 28746505,
-   "title": "Mie celor"
-  },
-  "Mie koclok": {
-   "pageid": 41591621,
-   "title": "Mie koclok"
-  },
-  "Mie kocok": {
-   "pageid": 42814285,
-   "title": "Mie kocok"
-  },
-  "Mie kopyok": {
-   "pageid": 71205033,
-   "title": "Mie kopyok"
-  },
-  "Manhattan clam chowder": {
-   "pageid": 726379,
-   "title": "Clam chowder"
-  },
-  "Matzah ball soup": {
-   "pageid": 1520236,
-   "title": "Matzah ball"
-  },
-  "Mie rebus": {
-   "pageid": 4499616,
-   "title": "Mee rebus"
-  },
-  "Milk": {
-   "pageid": 19714,
-   "title": "Milk"
-  },
-  "Minestra di ceci": {
-   "pageid": 49641854,
-   "title": "Minestra di ceci"
-  },
-  "Minestrone": {
-   "pageid": 20242,
-   "title": "Minestrone"
-  },
-  "Miso soup": {
-   "pageid": 147723,
-   "title": "Miso soup"
-  },
-  "Mohinga": {
-   "pageid": 2581657,
-   "title": "Mohinga"
-  },
-  "Mole de olla": {
-   "pageid": 47432183,
-   "title": "Mole de olla"
-  },
-  "Moqueca": {
-   "pageid": 2315194,
-   "title": "Moqueca"
-  },
-  "Mote de queso": {
-   "pageid": 39938072,
-   "title": "Mote de queso"
-  },
-  "Motsunabe": {
-   "pageid": 8611818,
-   "title": "Motsunabe"
-  },
-  "Mulligatawny": {
-   "pageid": 559495,
-   "title": "Mulligatawny"
-  },
-  "Mung bean": {
-   "pageid": 465839,
-   "title": "Mung bean"
-  },
-  "Naengguk": {
-   "pageid": 24791406,
-   "title": "Naengguk"
-  },
-  "Naengmyeon": {
-   "pageid": 1480901,
-   "title": "Naengmyeon"
-  },
-  "Nam ngiao": {
-   "pageid": 37739784,
-   "title": "Nam ngiao"
-  },
-  "Nangchang Jar soup": {
-   "pageid": 52643761,
-   "title": "Nangchang Jar soup"
-  },
-  "Nettle soup": {
-   "pageid": 28394550,
-   "title": "Nettle soup"
-  },
-  "Nihari": {
-   "pageid": 2182219,
-   "title": "Nihari"
-  },
-  "Nikujaga": {
-   "pageid": 2824813,
-   "title": "Nikujaga"
-  },
-  "Nilaga": {
-   "pageid": 53077952,
-   "title": "Nilaga"
-  },
-  "Noodle soup": {
-   "pageid": 2939242,
-   "title": "Noodle soup"
-  },
-  "Noppe": {
-   "pageid": 5190223,
-   "title": "Noppe"
-  },
-  "New England clam chowder": {
-   "pageid": 726379,
-   "title": "Clam chowder"
-  },
-  "Miyeok guk": {
-   "pageid": 7674269,
-   "title": "Miyeok-guk"
-  },
-  "Mulligan stew (food)": {
-   "pageid": 2650274,
-   "title": "Mulligan stew"
-  },
-  "Nsala soup": {
-   "pageid": 49248790,
-   "title": "Ofe Nsala"
-  },
-  "Oden": {
-   "pageid": 88056,
-   "title": "Oden"
-  },
-  "Odong": {
-   "pageid": 2894792,
-   "title": "Odong"
-  },
-  "Ohaw": {
-   "pageid": 31597260,
-   "title": "Ohaw"
-  },
-  "Okinawa soba": {
-   "pageid": 3968571,
-   "title": "Okinawa soba"
-  },
-  "Okra soup": {
-   "pageid": 45416841,
-   "title": "Okra soup"
-  },
-  "Okroshka": {
-   "pageid": 2161922,
-   "title": "Okroshka"
-  },
-  "Opor ayam": {
-   "pageid": 25952119,
-   "title": "Opor ayam"
-  },
-  "Oxtail soup": {
-   "pageid": 10960882,
-   "title": "Oxtail soup"
-  },
-  "Paila marina": {
-   "pageid": 15894666,
-   "title": "Paila marina"
-  },
-  "Pakistani meat dishes": {
-   "pageid": 38272316,
-   "title": "Pakistani meat dishes"
-  },
-  "Pallubasa": {
-   "pageid": 35204776,
-   "title": "Pallubasa"
-  },
-  "Palm nut soup": {
-   "pageid": 45400664,
-   "title": "Palm nut soup"
-  },
-  "Palóc soup": {
-   "pageid": 47083051,
-   "title": "Palóc soup"
-  },
-  "Panada": {
-   "pageid": 24591951,
-   "title": "Panada"
-  },
-  "Pancit buko": {
-   "pageid": 60964194,
-   "title": "Pancit buko"
-  },
-  "Pancotto": {
-   "pageid": 69179569,
-   "title": "Pancotto"
-  },
-  "Papeda (food)": {
-   "pageid": 31621988,
-   "title": "Papeda (food)"
-  },
-  "Pappa al pomodoro": {
-   "pageid": 42176863,
-   "title": "Pappa al pomodoro"
-  },
-  "Pasulj": {
-   "pageid": 14826809,
-   "title": "Pasulj"
-  },
-  "Patriotic soup": {
-   "pageid": 54586260,
-   "title": "Patriotic soup"
-  },
-  "Pawpaw soup": {
-   "pageid": 71120585,
-   "title": "Pawpaw soup"
-  },
-  "Ofe onugbo": {
-   "pageid": 81751030,
-   "title": "Ofe onugbu"
-  },
-  "Pangium edule": {
-   "pageid": 24698745,
-   "title": "Pangium"
-  },
-  "Pasta fagioli": {
-   "pageid": 4275382,
-   "title": "Pasta e fagioli"
-  },
-  "Paya (food)": {
-   "pageid": 6278708,
-   "title": "Paya (food)"
-  },
-  "Pea soup": {
-   "pageid": 47863592,
-   "title": "Pea soup"
-  },
-  "Peanut soup": {
-   "pageid": 39298866,
-   "title": "Peanut soup"
-  },
-  "Peppersoup": {
-   "pageid": 45568272,
-   "title": "Peppersoup"
-  },
-  "Pickle soup": {
-   "pageid": 43767478,
-   "title": "Pickle soup"
-  },
-  "Pig's organ soup": {
-   "pageid": 4257015,
-   "title": "Pig's organ soup"
-  },
-  "Pindang": {
-   "pageid": 54553953,
-   "title": "Pindang"
-  },
-  "Piti (food)": {
-   "pageid": 20049763,
-   "title": "Piti (food)"
-  },
-  "Prdelačka": {
-   "pageid": 43767849,
-   "title": "Pork blood soup"
-  },
-  "Potato": {
-   "pageid": 23501,
-   "title": "Potato"
-  },
-  "Powsowdie": {
-   "pageid": 51555160,
-   "title": "Powsowdie"
-  },
-  "Pozole": {
-   "pageid": 882004,
-   "title": "Pozole"
-  },
-  "Prawn soup": {
-   "pageid": 22358999,
-   "title": "Prawn soup"
-  },
-  "Psarosoupa": {
-   "pageid": 19396733,
-   "title": "Psarosoupa"
-  },
-  "Pumpkin": {
-   "pageid": 21208368,
-   "title": "Pumpkin"
-  },
-  "Purée Mongole": {
-   "pageid": 360677,
-   "title": "Purée Mongole"
-  },
-  "Ramen": {
-   "pageid": 37969,
-   "title": "Ramen"
-  },
-  "Rasam (dish)": {
-   "pageid": 2390546,
-   "title": "Rasam (dish)"
-  },
-  "Rassolnik": {
-   "pageid": 16191337,
-   "title": "Rassolnik"
-  },
-  "Rawon": {
-   "pageid": 25241404,
-   "title": "Rawon"
-  },
-  "Pigeon": {
-   "pageid": 63355,
-   "title": "Columbidae"
-  },
-  "Red bean soup": {
-   "pageid": 148836,
-   "title": "Hong dou tang"
-  },
-  "Philadelphia Pepper Pot": {
-   "pageid": 3274852,
-   "title": "Pepper pot soup"
-  },
-  "Phở": {
-   "pageid": 625565,
-   "title": "Pho"
-  },
-  "Ribollita": {
-   "pageid": 16184333,
-   "title": "Ribollita"
-  },
-  "Rose hip soup": {
-   "pageid": 14570292,
-   "title": "Rose hip soup"
-  },
-  "Rumford's Soup": {
-   "pageid": 2351584,
-   "title": "Rumford's Soup"
-  },
-  "Sago soup": {
-   "pageid": 42335493,
-   "title": "Sago soup"
-  },
-  "Saimin": {
-   "pageid": 699550,
-   "title": "Saimin"
-  },
-  "Saksang": {
-   "pageid": 31548587,
-   "title": "Saksang"
-  },
-  "Salmorejo": {
-   "pageid": 1404496,
-   "title": "Salmorejo"
-  },
-  "Saltah": {
-   "pageid": 7189585,
-   "title": "Saltah"
-  },
-  "Sambar (dish)": {
-   "pageid": 589702,
-   "title": "Sambar (dish)"
-  },
-  "Sayur Asem": {
-   "pageid": 6524902,
-   "title": "Sayur asem"
-  },
-  "Sayur bayam": {
-   "pageid": 64579947,
-   "title": "Sayur bayam"
-  },
-  "Sayur Lodeh": {
-   "pageid": 29585730,
-   "title": "Sayur lodeh"
-  },
-  "Sayur sop": {
-   "pageid": 64579851,
-   "title": "Sayur sop"
-  },
-  "Sciusceddu": {
-   "pageid": 50577328,
-   "title": "Sciusceddu"
-  },
-  "Sekba": {
-   "pageid": 51781529,
-   "title": "Sekba"
-  },
-  "Semur (Indonesian stew)": {
-   "pageid": 31383119,
-   "title": "Semur (Indonesian stew)"
-  },
-  "Shabu-shabu": {
-   "pageid": 928333,
-   "title": "Shabu-shabu"
-  },
-  "Shark fin soup": {
-   "pageid": 879354,
-   "title": "Shark fin soup"
-  },
-  "Red bean soup#Japan": {
-   "pageid": 148836,
-   "title": "Hong dou tang"
-  },
-  "Sayur oyong": {
-   "pageid": 45416841,
-   "title": "Okra soup"
-  },
-  "Samgyetang": {
-   "pageid": 2353922,
-   "title": "Samgye-tang"
-  },
-  "Scotch Broth": {
-   "pageid": 46447,
-   "title": "Scotch broth"
-  },
-  "Shchi": {
-   "pageid": 863787,
-   "title": "Shchi"
-  },
-  "She-crab soup": {
-   "pageid": 7782659,
-   "title": "She-crab soup"
-  },
-  "Silkie (chicken breed)#In cuisine": {
-   "pageid": 430984,
-   "title": "Silkie (chicken breed)"
-  },
-  "Sinabawang gulay": {
-   "pageid": 36210238,
-   "title": "Sinabawang gulay"
-  },
-  "Sinigang": {
-   "pageid": 2211090,
-   "title": "Sinigang"
-  },
-  "Skipjack tuna": {
-   "pageid": 2038497,
-   "title": "Skipjack tuna"
-  },
-  "Slavs": {
-   "pageid": 29440,
-   "title": "Slavs"
-  },
-  "Sliced fish soup": {
-   "pageid": 1994379,
-   "title": "Sliced fish soup"
-  },
-  "Solyanka": {
-   "pageid": 1755254,
-   "title": "Solyanka"
-  },
-  "Sop saudara": {
-   "pageid": 50451770,
-   "title": "Sop saudara"
-  },
-  "Sopa de fideo": {
-   "pageid": 54163303,
-   "title": "Sopa de fideo"
-  },
-  "Sopa de lima": {
-   "pageid": 52021650,
-   "title": "Sopa de lima"
-  },
-  "Sopas": {
-   "pageid": 59407816,
-   "title": "Sopas"
-  },
-  "Shchav": {
-   "pageid": 6014680,
-   "title": "Sorrel soup"
-  },
-  "Soto Betawi": {
-   "pageid": 47862438,
-   "title": "Soto (food)"
-  },
-  "Soto ayam": {
-   "pageid": 2117582,
-   "title": "Soto ayam"
-  },
-  "Soto padang": {
-   "pageid": 55513895,
-   "title": "Soto padang"
-  },
-  "Snert": {
-   "pageid": 47863592,
-   "title": "Pea soup"
-  },
-  "Snail as food": {
-   "pageid": 60550218,
-   "title": "Snails as food"
-  },
-  "Sopa de Gato": {
-   "pageid": 41783720,
-   "title": "Sopa de gato"
-  },
-  "Soto mie": {
-   "pageid": 32493090,
-   "title": "Soto mi"
-  },
-  "Soup joumou": {
-   "pageid": 12847718,
-   "title": "Soup joumou"
-  },
-  "Sour cherry soup": {
-   "pageid": 47862761,
-   "title": "Sour cherry soup"
-  },
-  "Spinach soup": {
-   "pageid": 53543247,
-   "title": "Spinach soup"
-  },
-  "Spring soup": {
-   "pageid": 17966625,
-   "title": "Spring soup"
-  },
-  "Stracciatella (soup)": {
-   "pageid": 47270313,
-   "title": "Stracciatella (soup)"
-  },
-  "Suam na mais": {
-   "pageid": 67316869,
-   "title": "Suam na mais"
-  },
-  "Sukiyaki": {
-   "pageid": 294936,
-   "title": "Sukiyaki"
-  },
-  "Sulu köfte": {
-   "pageid": 40075242,
-   "title": "Sulu köfte"
-  },
-  "Sup Kambing": {
-   "pageid": 5776659,
-   "title": "Sup kambing"
-  },
-  "Sweet corn": {
-   "pageid": 89251,
-   "title": "Sweet corn"
-  },
-  "Sweet potato soup": {
-   "pageid": 15269342,
-   "title": "Sweet potato soup"
-  },
-  "Taiwanese beef noodle soup": {
-   "pageid": 68109339,
-   "title": "Taiwanese beef noodle soup"
-  },
-  "Talabaw": {
-   "pageid": 72576408,
-   "title": "Talabaw"
-  },
-  "Talbina": {
-   "pageid": 29688929,
-   "title": "Talbina"
-  },
-  "Tapado": {
-   "pageid": 58863247,
-   "title": "Tapado"
-  },
-  "Tarhana": {
-   "pageid": 4579515,
-   "title": "Tarhana"
-  },
-  "Swedish fruit soup": {
-   "pageid": 46955205,
-   "title": "Fruktsoppa"
-  },
-  "Sour soup": {
-   "pageid": 17972814,
-   "title": "List of sour soups"
-  },
-  "Soup Number Five": {
-   "pageid": 82001882,
-   "title": "Penis as food"
-  },
-  "Sroto": {
-   "pageid": 47862438,
-   "title": "Soto (food)"
-  },
-  "Sour rye soup": {
-   "pageid": 10287083,
-   "title": "Sour cereal soup"
-  },
-  "Stone soup": {
-   "pageid": 46335,
-   "title": "Stone Soup"
-  },
-  "Taco soup": {
-   "pageid": 44212669,
-   "title": "Tortilla soup"
-  },
-  "Tarator": {
-   "pageid": 67157,
-   "title": "Tzatziki"
-  },
-  "Tekwan": {
-   "pageid": 28746500,
-   "title": "Tekwan"
-  },
-  "Tharida": {
-   "pageid": 50580426,
-   "title": "Tharida"
-  },
-  "Tian mo": {
-   "pageid": 37078542,
-   "title": "Tian mo"
-  },
-  "Tiger penis soup": {
-   "pageid": 41806877,
-   "title": "Tiger penis soup"
-  },
-  "Tinola": {
-   "pageid": 2214417,
-   "title": "Tinola"
-  },
-  "Tiyula itum": {
-   "pageid": 40966702,
-   "title": "Tiyula itum"
-  },
-  "Tom Yum": {
-   "pageid": 47770304,
-   "title": "Tom yum"
-  },
-  "Tomato and egg soup": {
-   "pageid": 33148505,
-   "title": "Tomato and egg soup"
-  },
-  "Tomato soup": {
-   "pageid": 3671251,
-   "title": "Tomato soup"
-  },
-  "Tong sui": {
-   "pageid": 2431991,
-   "title": "Tong sui"
-  },
-  "Tongseng": {
-   "pageid": 32531129,
-   "title": "Tongseng"
-  },
-  "Tortilla soup": {
-   "pageid": 44212669,
-   "title": "Tortilla soup"
-  },
-  "Tsukemen": {
-   "pageid": 44828047,
-   "title": "Tsukemen"
-  },
-  "Tteokguk": {
-   "pageid": 2487817,
-   "title": "Tteokguk"
-  },
-  "Turtle soup": {
-   "pageid": 4332959,
-   "title": "Turtle soup"
-  },
-  "Udon": {
-   "pageid": 156520,
-   "title": "Udon"
-  },
-  "Ugali#Ghana": {
-   "pageid": 2059704,
-   "title": "Ugali"
-  },
-  "Ukha": {
-   "pageid": 4216014,
-   "title": "Ukha"
-  },
-  "Vegetable soup": {
-   "pageid": 53699164,
-   "title": "Vegetable soup"
-  },
-  "Vichyssoise": {
-   "pageid": 2441042,
-   "title": "Vichyssoise"
-  },
-  "Tonkotsu": {
-   "pageid": 30675130,
-   "title": "Tonkotsu ramen"
-  },
-  "apple soup": {
-   "pageid": 25980154,
-   "title": "Apple soup"
-  },
-  "bakso": {
-   "pageid": 10446962,
-   "title": "Bakso"
-  },
-  "beef noodle soup": {
-   "pageid": 593120,
-   "title": "Beef noodle soup"
-  },
-  "bozbash": {
-   "pageid": 54921384,
-   "title": "Bozbash"
-  },
-  "celery": {
-   "pageid": 6535,
-   "title": "Celery"
-  },
-  "Vori vori": {
-   "pageid": 15383030,
-   "title": "Vori vori"
-  },
-  "Walnut soup#By country": {
-   "pageid": 54162366,
-   "title": "Walnut soup"
-  },
-  "Watercress soup": {
-   "pageid": 51255058,
-   "title": "Watercress soup"
-  },
-  "Waterzooi": {
-   "pageid": 704562,
-   "title": "Waterzooi"
-  },
-  "Wenzhou pig intestine rice noodle soup": {
-   "pageid": 52448391,
-   "title": "Wenzhou pig intestine rice noodle soup"
-  },
-  "Wonton noodles": {
-   "pageid": 47840548,
-   "title": "Wonton noodles"
-  },
-  "Xidoufen": {
-   "pageid": 50554088,
-   "title": "Xidoufen"
-  },
-  "Zalewajka": {
-   "pageid": 59017628,
-   "title": "Zalewajka"
-  },
-  "Zosui": {
-   "pageid": 7004741,
-   "title": "Zosui"
-  },
-  "Zuppa alla modenese": {
-   "pageid": 28532,
-   "title": "Zuppa alla modenese"
-  },
-  "Zuppa del canavese": {
-   "pageid": 28535,
-   "title": "Zuppa del canavese"
-  },
-  "Zuppa pavese": {
-   "pageid": 43271089,
-   "title": "Zuppa pavese"
-  },
-  "Zuppa toscana": {
-   "pageid": 41175427,
-   "title": "Zuppa toscana"
-  },
-  "Zōni": {
-   "pageid": 2441482,
-   "title": "Zōni"
-  },
-  "mackerel tuna": {
-   "pageid": 24592121,
-   "title": "Euthynnus affinis"
-  },
-  "Wine soup": {
-   "pageid": 176565,
-   "title": "Hungarian cuisine"
-  },
-  "Wedding soup": {
-   "pageid": 531674,
-   "title": "Italian wedding soup"
-  },
-  "Winter melon": {
-   "pageid": 465792,
-   "title": "Wax gourd"
-  },
-  "Yong Tau Foo": {
-   "pageid": 2049608,
-   "title": "Yong tau foo"
-  },
-  "pork": {
-   "pageid": 20609697,
-   "title": "Pork"
-  },
-  "potato": {
-   "pageid": 23501,
-   "title": "Potato"
-  },
-  "seafood": {
-   "pageid": 26866,
-   "title": "Seafood"
-  },
-  "shrimp": {
-   "pageid": 36762240,
-   "title": "Shrimp"
-  },
-  "tomato": {
-   "pageid": 9940234,
-   "title": "Tomato"
-  },
-  "tripe": {
-   "pageid": 178943,
-   "title": "Tripe"
-  },
-  "Česnečka": {
-   "pageid": 55561007,
-   "title": "Česnečka"
-  },
-  "Íslensk Kjötsúpa": {
-   "pageid": 8858106,
-   "title": "Köttsoppa"
-  }
- },
- "sources": {
-  "Abula (soup)": [
-   "main"
-  ],
-  "Aguadito": [
-   "main"
-  ],
-  "Ajiaco": [
-   "main"
-  ],
-  "Açorda": [
-   "main"
-  ],
-  "Acquacotta": [
-   "List_of_Italian_soups",
-   "main"
-  ],
-  "Aloo tama": [
-   "main"
-  ],
-  "Amish preaching soup": [
-   "main"
-  ],
-  "Analı kızlı soup": [
-   "main"
-  ],
-  "Ant egg soup": [
-   "main"
-  ],
-  "Apple soup": [
-   "main"
-  ],
-  "Ash-e doogh": [
-   "main"
-  ],
-  "Aush": [
-   "main"
-  ],
-  "Avgolemono": [
-   "main"
-  ],
-  "Avocado soup": [
-   "List_of_cold_soups",
-   "main"
-  ],
-  "Bacon soup": [
-   "main"
-  ],
-  "Bak kut teh": [
-   "List_of_Chinese_soups",
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Bakso": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Barley": [
-   "main"
-  ],
-  "Batchoy": [
-   "main"
-  ],
-  "Beef noodle soup": [
-   "List_of_Chinese_soups",
-   "main"
-  ],
-  "Beer soup": [
-   "List_of_German_soups",
-   "main"
-  ],
-  "Bermuda fish chowder": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Bilo-bilo": [
-   "main"
-  ],
-  "Binakol": [
-   "main"
-  ],
-  "Binignit": [
-   "main"
-  ],
-  "Bird's nest soup": [
-   "main"
-  ],
-  "Black sesame soup": [
-   "List_of_Chinese_soups",
-   "main"
-  ],
-  "Blåbärssoppa": [
-   "main"
-  ],
-  "Bob chorba": [
-   "main"
-  ],
-  "Borscht": [
-   "main"
-  ],
-  "Bouillabaisse": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Bouillon (soup)": [
-   "main"
-  ],
-  "Bouneschlupp": [
-   "main"
-  ],
-  "Bread soup": [
-   "List_of_German_soups",
-   "main"
-  ],
-  "Brenebon": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Brown Windsor soup": [
-   "main"
-  ],
-  "Bun bo Hue": [
-   "main"
-  ],
-  "Buridda": [
-   "List_of_Italian_soups",
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Butajiru": [
-   "List_of_Japanese_soups_and_stews",
-   "main"
-  ],
-  "Cabbage soup": [
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Cacciucco": [
-   "main"
-  ],
-  "Caldillo de congrio": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Caldillo de perro": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Caldo de pollo": [
-   "main"
-  ],
-  "Caldo de queso": [
-   "main"
-  ],
-  "Caldo galego": [
-   "main"
-  ],
-  "Caldo tlalpeño": [
-   "main"
-  ],
-  "Caldo verde": [
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Callaloo": [
-   "main"
-  ],
-  "Canh chua": [
-   "main"
-  ],
-  "Canja de Galinha": [
-   "main"
-  ],
-  "Carrot soup": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Cazuela": [
-   "main"
-  ],
-  "Česnečka": [
-   "main"
-  ],
-  "Chicken noodle soup": [
-   "main"
-  ],
-  "Chorba": [
-   "List_of_Pakistani_soups_and_stews",
-   "main"
-  ],
-  "Chupe": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Chupe Andino": [
-   "main"
-  ],
-  "Cioppino": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Clam chowder": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Cockchafer soup": [
-   "main"
-  ],
-  "Cock-a-leekie": [
-   "main"
-  ],
-  "Coconut soup": [
-   "main"
-  ],
-  "Cold borscht": [
-   "List_of_cold_soups",
-   "main"
-  ],
-  "Consommé": [
-   "main"
-  ],
-  "Corn chowder": [
-   "main"
-  ],
-  "Crab meat": [
-   "main"
-  ],
-  "apple soup": [
-   "main"
-  ],
-  "Cream of asparagus": [
-   "main"
-  ],
-  "Cream of broccoli": [
-   "main"
-  ],
-  "celery": [
-   "main"
-  ],
-  "Chicken (food)": [
-   "main"
-  ],
-  "potato": [
-   "main"
-  ],
-  "tomato": [
-   "main"
-  ],
-  "Cream of crab soup": [
-   "main"
-  ],
-  "Cream of mushroom soup": [
-   "main"
-  ],
-  "Crème Ninon": [
-   "main"
-  ],
-  "Cucumber soup": [
-   "main"
-  ],
-  "Cullen skink": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Curry Mee": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Dalithoy": [
-   "main"
-  ],
-  "Dashi": [
-   "List_of_Japanese_soups_and_stews",
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Dillegrout": [
-   "main"
-  ],
-  "Dinengdeng": [
-   "main"
-  ],
-  "Duck soup noodles": [
-   "main"
-  ],
-  "Edikang ikong": [
-   "main"
-  ],
-  "Egg drop soup": [
-   "List_of_Chinese_soups",
-   "main"
-  ],
-  "Egusi sauce": [
-   "main"
-  ],
-  "Ezogelin soup": [
-   "main"
-  ],
-  "Escudella i carn d'olla": [
-   "main"
-  ],
-  "Fabada Asturiana": [
-   "main"
-  ],
-  "Fanesca": [
-   "main"
-  ],
-  "Fish soup bee hoon": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Fisherman's Soup": [
-   "main"
-  ],
-  "French onion soup": [
-   "List_of_German_soups",
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Flädle": [
-   "main"
-  ],
-  "Fruktsoppa": [
-   "main"
-  ],
-  "Fufu": [
-   "main"
-  ],
-  "Fish stock (food)": [
-   "main"
-  ],
-  "Garmugia": [
-   "List_of_Italian_soups",
-   "main"
-  ],
-  "Gazpacho": [
-   "List_of_cold_soups",
-   "main"
-  ],
-  "Ginataan": [
-   "main"
-  ],
-  "Ginestrata": [
-   "List_of_Italian_soups",
-   "main"
-  ],
-  "Gising-gising": [
-   "main"
-  ],
-  "Goat meat pepper soup": [
-   "main"
-  ],
-  "Gogi guksu": [
-   "main"
-  ],
-  "Gomguk": [
-   "main"
-  ],
-  "Goulash": [
-   "List_of_German_soups",
-   "main"
-  ],
-  "Ground nut soup": [
-   "main"
-  ],
-  "Guk": [
-   "main"
-  ],
-  "Gumbo": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Guthuk": [
-   "main"
-  ],
-  "Harira": [
-   "main"
-  ],
-  "Harqma": [
-   "main"
-  ],
-  "Hot and sour soup": [
-   "List_of_Chinese_soups",
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Inubaran": [
-   "main"
-  ],
-  "Íslensk Kjötsúpa": [
-   "main"
-  ],
-  "Soup joumou": [
-   "main"
-  ],
-  "Jusselle": [
-   "main"
-  ],
-  "Kadyos, baboy, kag langka": [
-   "main"
-  ],
-  "Kadyos, manok, kag ubad": [
-   "main"
-  ],
-  "Kawlata": [
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Kesäkeitto": [
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Kharcho": [
-   "main"
-  ],
-  "Kusksu": [
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Kwati (soup)": [
-   "main"
-  ],
-  "Laksa": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "La mian": [
-   "main"
-  ],
-  "Leek soup": [
-   "main"
-  ],
-  "Lettuce soup": [
-   "List_of_Chinese_soups",
-   "main"
-  ],
-  "Lentil soup": [
-   "List_of_German_soups",
-   "main"
-  ],
-  "Linat-an": [
-   "main"
-  ],
-  "Lobster stew": [
-   "main"
-  ],
-  "Lobster": [
-   "main"
-  ],
-  "Lohikeitto": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Lung fung soup": [
-   "List_of_Chinese_soups",
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Maccu": [
-   "List_of_Italian_soups",
-   "main"
-  ],
-  "Maki mi": [
-   "main"
-  ],
-  "Mami soup": [
-   "main"
-  ],
-  "Mandia peja": [
-   "main"
-  ],
-  "Manhattan clam chowder": [
-   "main"
-  ],
-  "Marghi special": [
-   "main"
-  ],
-  "Maryland crab soup": [
-   "main"
-  ],
-  "Matzah ball soup": [
-   "main"
-  ],
-  "Mee ka tee": [
-   "main"
-  ],
-  "Minestrone": [
-   "List_of_Italian_soups",
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Miso soup": [
-   "List_of_Japanese_soups_and_stews",
-   "main"
-  ],
-  "Miyeok guk": [
-   "main"
-  ],
-  "Mohinga": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Mote de queso": [
-   "main"
-  ],
-  "Mole de olla": [
-   "main"
-  ],
-  "Mulligan stew (food)": [
-   "main"
-  ],
-  "Mulligatawny": [
-   "main"
-  ],
-  "Naengmyeon": [
-   "List_of_cold_soups",
-   "main"
-  ],
-  "Nettle soup": [
-   "main"
-  ],
-  "New England clam chowder": [
-   "main"
-  ],
-  "Nikujaga": [
-   "List_of_Japanese_soups_and_stews",
-   "main"
-  ],
-  "Nilaga": [
-   "main"
-  ],
-  "Nsala soup": [
-   "main"
-  ],
-  "Odong": [
-   "main"
-  ],
-  "Ofe onugbo": [
-   "main"
-  ],
-  "Okra soup": [
-   "main"
-  ],
-  "Okroshka": [
-   "main"
-  ],
-  "Oxtail soup": [
-   "List_of_Chinese_soups",
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Palm nut soup": [
-   "main"
-  ],
-  "Palóc soup": [
-   "main"
-  ],
-  "Panada": [
-   "List_of_Italian_soups",
-   "main"
-  ],
-  "Pancit buko": [
-   "main"
-  ],
-  "Pancotto": [
-   "main"
-  ],
-  "Pappa al pomodoro": [
-   "List_of_Italian_soups",
-   "main"
-  ],
-  "Pasta fagioli": [
-   "main"
-  ],
-  "Pasulj": [
-   "main"
-  ],
-  "Pawpaw soup": [
-   "main"
-  ],
-  "Pea soup": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Peanut soup": [
-   "main"
-  ],
-  "Peppersoup": [
-   "main"
-  ],
-  "Philadelphia Pepper Pot": [
-   "main"
-  ],
-  "Phở": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Pickle soup": [
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Powsowdie": [
-   "main"
-  ],
-  "Pozole": [
-   "main"
-  ],
-  "Prawn soup": [
-   "main"
-  ],
-  "Prdelačka": [
-   "main"
-  ],
-  "Psarosoupa": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Pumpkin": [
-   "main"
-  ],
-  "Purée Mongole": [
-   "main"
-  ],
-  "Ramen": [
-   "List_of_Japanese_soups_and_stews",
-   "main"
-  ],
-  "Rasam (dish)": [
-   "main"
-  ],
-  "Rassolnik": [
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Rawon": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Ribollita": [
-   "List_of_Italian_soups",
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Rose hip soup": [
-   "main"
-  ],
-  "Rumford's Soup": [
-   "List_of_German_soups",
-   "main"
-  ],
-  "Saimin": [
-   "main"
-  ],
-  "Salmorejo": [
-   "List_of_cold_soups",
-   "main"
-  ],
-  "Sambar (dish)": [
-   "main"
-  ],
-  "Samgyetang": [
-   "main"
-  ],
-  "Sayur Asem": [
-   "main"
-  ],
-  "Sayur Lodeh": [
-   "main"
-  ],
-  "Scotch Broth": [
-   "main"
-  ],
-  "Shark fin soup": [
-   "List_of_Chinese_soups",
-   "main"
-  ],
-  "Shchav": [
-   "main"
-  ],
-  "Shchi": [
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "She-crab soup": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Sinabawang gulay": [
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Sinigang": [
-   "main"
-  ],
-  "Sliced fish soup": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Snert": [
-   "main"
-  ],
-  "Solyanka": [
-   "main"
-  ],
-  "Sop saudara": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Sopa de fideo": [
-   "main"
-  ],
-  "Sopa de Gato": [
-   "main"
-  ],
-  "Sopa de lima": [
-   "main"
-  ],
-  "Sopas": [
-   "main"
-  ],
-  "Soto ayam": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Soup Number Five": [
-   "main"
-  ],
-  "Sour cherry soup": [
-   "main"
-  ],
-  "Sour rye soup": [
-   "main"
-  ],
-  "Sour soup": [
-   "main"
-  ],
-  "Spinach soup": [
-   "main"
-  ],
-  "Stone soup": [
-   "main"
-  ],
-  "Stracciatella (soup)": [
-   "List_of_Italian_soups",
-   "main"
-  ],
-  "Sulu köfte": [
-   "main"
-  ],
-  "Sup Kambing": [
-   "main"
-  ],
-  "Suam na mais": [
-   "main"
-  ],
-  "Taco soup": [
-   "main"
-  ],
-  "Taiwanese beef noodle soup": [
-   "main"
-  ],
-  "Talabaw": [
-   "main"
-  ],
-  "Talbina": [
-   "main"
-  ],
-  "Tapado": [
-   "main"
-  ],
-  "Tarator": [
-   "List_of_cold_soups",
-   "main"
-  ],
-  "Tarhana": [
-   "main"
-  ],
-  "Tekwan": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Tharida": [
-   "main"
-  ],
-  "Tiger penis soup": [
-   "main"
-  ],
-  "Tinola": [
-   "main"
-  ],
-  "Tiyula itum": [
-   "main"
-  ],
-  "Tomato soup": [
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Tongseng": [
-   "List_of_Indonesian_soups",
-   "main"
-  ],
-  "Tortilla soup": [
-   "main"
-  ],
-  "Tteokguk": [
-   "main"
-  ],
-  "Ugali#Ghana": [
-   "main"
-  ],
-  "Ukha": [
-   "List_of_fish_and_seafood_soups",
-   "main"
-  ],
-  "Vegetable soup": [
-   "main"
-  ],
-  "Vichyssoise": [
-   "List_of_cold_soups",
-   "List_of_vegetable_soups",
-   "main"
-  ],
-  "Vori vori": [
-   "main"
-  ],
-  "Watercress soup": [
-   "main"
-  ],
-  "Waterzooi": [
-   "main"
-  ],
-  "Wedding soup": [
-   "List_of_Italian_soups",
-   "main"
-  ],
-  "Wine soup": [
-   "main"
-  ],
-  "Winter melon": [
-   "main"
-  ],
-  "Zalewajka": [
-   "main"
-  ],
-  "Zuppa del canavese": [
-   "List_of_Italian_soups",
-   "main"
-  ],
-  "Zuppa pavese": [
-   "main"
-  ],
-  "Zuppa toscana": [
-   "List_of_Italian_soups",
-   "main"
-  ],
-  "Georgia (country)": [
-   "List_of_Azerbaijani_soups_and_stews"
-  ],
-  "Joshpara": [
-   "List_of_Azerbaijani_soups_and_stews"
-  ],
-  "Khash (dish)": [
-   "List_of_Azerbaijani_soups_and_stews"
-  ],
-  "bozbash": [
-   "List_of_Azerbaijani_soups_and_stews"
-  ],
-  "Doghramaj": [
-   "List_of_Azerbaijani_soups_and_stews"
-  ],
-  "Piti (food)": [
-   "List_of_Azerbaijani_soups_and_stews"
-  ],
-  "Banmian": [
-   "List_of_Chinese_soups"
-  ],
-  "Buddha Jumps Over the Wall": [
-   "List_of_Chinese_soups"
-  ],
-  "Cantonese seafood soup": [
-   "List_of_Chinese_soups",
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Carp#As food": [
-   "List_of_Chinese_soups"
-  ],
-  "Chicken and duck blood soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Corn crab soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Crossing the bridge noodles": [
-   "List_of_Chinese_soups"
-  ],
-  "Duck blood and vermicelli soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Brassica juncea": [
-   "List_of_Chinese_soups"
-  ],
-  "Fish head": [
-   "List_of_Chinese_soups"
-  ],
-  "Geng (dish)": [
-   "List_of_Chinese_soups"
-  ],
-  "Hulatang": [
-   "List_of_Chinese_soups"
-  ],
-  "Liver soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Lotus seed#Chinese medicinal foods": [
-   "List_of_Chinese_soups"
-  ],
-  "Mung bean": [
-   "List_of_Chinese_soups"
-  ],
-  "Noodle soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Nam ngiao": [
-   "List_of_Chinese_soups"
-  ],
-  "Nangchang Jar soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Patriotic soup": [
-   "List_of_Chinese_soups",
-   "List_of_vegetable_soups"
-  ],
-  "Pig's organ soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Pigeon": [
-   "List_of_Chinese_soups"
-  ],
-  "Silkie (chicken breed)#In cuisine": [
-   "List_of_Chinese_soups"
-  ],
-  "Tian mo": [
-   "List_of_Chinese_soups"
-  ],
-  "Tomato and egg soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Turtle soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Wenzhou pig intestine rice noodle soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Melon soup#Winter melon soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Wonton noodles": [
-   "List_of_Chinese_soups"
-  ],
-  "Xidoufen": [
-   "List_of_Chinese_soups"
-  ],
-  "Yong Tau Foo": [
-   "List_of_Chinese_soups"
-  ],
-  "Edible bird's nest": [
-   "List_of_Chinese_soups"
-  ],
-  "Egg tong sui": [
-   "List_of_Chinese_soups"
-  ],
-  "Walnut soup#By country": [
-   "List_of_Chinese_soups"
-  ],
-  "Jiuniang": [
-   "List_of_Chinese_soups"
-  ],
-  "Red bean soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Sago soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Sweet potato soup": [
-   "List_of_Chinese_soups"
-  ],
-  "Asian soup": [
-   "List_of_Chinese_soups",
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Chinese spoon": [
-   "List_of_Chinese_soups"
-  ],
-  "Tong sui": [
-   "List_of_Chinese_soups"
-  ],
-  "Brain (food)": [
-   "List_of_German_soups"
-  ],
-  "Buttermilk": [
-   "List_of_German_soups"
-  ],
-  "Cheese soup": [
-   "List_of_German_soups"
-  ],
-  "Crawfish": [
-   "List_of_German_soups"
-  ],
-  "Eintopf": [
-   "List_of_German_soups"
-  ],
-  "Fruit soup": [
-   "List_of_German_soups",
-   "List_of_cold_soups"
-  ],
-  "Kartoffelsuppe": [
-   "List_of_German_soups"
-  ],
-  "Milk": [
-   "List_of_German_soups"
-  ],
-  "Potato": [
-   "List_of_German_soups"
-  ],
-  "Snail as food": [
-   "List_of_German_soups"
-  ],
-  "tripe": [
-   "List_of_Indonesian_soups"
-  ],
-  "pork": [
-   "List_of_Indonesian_soups"
-  ],
-  "Soto padang": [
-   "List_of_Indonesian_soups"
-  ],
-  "Sroto": [
-   "List_of_Indonesian_soups"
-  ],
-  "Soto Betawi": [
-   "List_of_Indonesian_soups"
-  ],
-  "Coto makassar": [
-   "List_of_Indonesian_soups"
-  ],
-  "Binte biluhuta": [
-   "List_of_Indonesian_soups"
-  ],
-  "Sayur bayam": [
-   "List_of_Indonesian_soups"
-  ],
-  "Sayur sop": [
-   "List_of_Indonesian_soups"
-  ],
-  "Sayur oyong": [
-   "List_of_Indonesian_soups"
-  ],
-  "Pangium edule": [
-   "List_of_Indonesian_soups"
-  ],
-  "Opor ayam": [
-   "List_of_Indonesian_soups"
-  ],
-  "Asam pedas": [
-   "List_of_Indonesian_soups"
-  ],
-  "Fish ball#Indonesia": [
-   "List_of_Indonesian_soups"
-  ],
-  "Papeda (food)": [
-   "List_of_Indonesian_soups"
-  ],
-  "Kapurung": [
-   "List_of_Indonesian_soups"
-  ],
-  "Pindang": [
-   "List_of_Indonesian_soups",
-   "List_of_fish_and_seafood_soups"
-  ],
-  "seafood": [
-   "List_of_Indonesian_soups"
-  ],
-  "mackerel tuna": [
-   "List_of_Indonesian_soups"
-  ],
-  "Skipjack tuna": [
-   "List_of_Indonesian_soups"
-  ],
-  "Batam": [
-   "List_of_Indonesian_soups"
-  ],
-  "Gorontalese cuisine": [
-   "List_of_Indonesian_soups"
-  ],
-  "shrimp": [
-   "List_of_Indonesian_soups"
-  ],
-  "bakso": [
-   "List_of_Indonesian_soups"
-  ],
-  "Brongkos": [
-   "List_of_Indonesian_soups"
-  ],
-  "Empal gentong": [
-   "List_of_Indonesian_soups"
-  ],
-  "Feijoada": [
-   "List_of_Indonesian_soups"
-  ],
-  "Gulai": [
-   "List_of_Indonesian_soups"
-  ],
-  "Kaledo (soup)": [
-   "List_of_Indonesian_soups"
-  ],
-  "Katemak": [
-   "List_of_Indonesian_soups"
-  ],
-  "Konro": [
-   "List_of_Indonesian_soups"
-  ],
-  "Maraq (dish)": [
-   "List_of_Indonesian_soups"
-  ],
-  "Pallubasa": [
-   "List_of_Indonesian_soups"
-  ],
-  "Saksang": [
-   "List_of_Indonesian_soups"
-  ],
-  "Saltah": [
-   "List_of_Indonesian_soups"
-  ],
-  "Semur (Indonesian stew)": [
-   "List_of_Indonesian_soups"
-  ],
-  "Sekba": [
-   "List_of_Indonesian_soups"
-  ],
-  "Magelang": [
-   "List_of_Indonesian_soups"
-  ],
-  "beef noodle soup": [
-   "List_of_Indonesian_soups"
-  ],
-  "Kwetiau ayam": [
-   "List_of_Indonesian_soups"
-  ],
-  "Beef kway teow": [
-   "List_of_Indonesian_soups"
-  ],
-  "Lakso": [
-   "List_of_Indonesian_soups"
-  ],
-  "Mie ayam": [
-   "List_of_Indonesian_soups"
-  ],
-  "Mie bakso": [
-   "List_of_Indonesian_soups"
-  ],
-  "Mie cakalang": [
-   "List_of_Indonesian_soups"
-  ],
-  "Mie celor": [
-   "List_of_Indonesian_soups"
-  ],
-  "Mie koclok": [
-   "List_of_Indonesian_soups"
-  ],
-  "Mie kocok": [
-   "List_of_Indonesian_soups"
-  ],
-  "Mie kopyok": [
-   "List_of_Indonesian_soups"
-  ],
-  "Mie rebus": [
-   "List_of_Indonesian_soups"
-  ],
-  "Soto mie": [
-   "List_of_Indonesian_soups"
-  ],
-  "Macaroni soup": [
-   "List_of_Indonesian_soups",
-   "List_of_Italian_soups"
-  ],
-  "Cuisine of Indonesia": [
-   "List_of_Indonesian_soups"
-  ],
-  "Javanese cuisine": [
-   "List_of_Indonesian_soups"
-  ],
-  "Bagnun": [
-   "List_of_Italian_soups"
-  ],
-  "Minestra di ceci": [
-   "List_of_Italian_soups"
-  ],
-  "Sciusceddu": [
-   "List_of_Italian_soups"
-  ],
-  "Zuppa alla modenese": [
-   "List_of_Italian_soups"
-  ],
-  "Food & Wine": [
-   "List_of_Italian_soups"
-  ],
-  "Country Living": [
-   "List_of_Italian_soups"
-  ],
-  "Sweet corn": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Kasujiru": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Kenchin jiru": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Noppe": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Ohaw": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Red bean soup#Japan": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Zōni": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Champon": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Hōtō": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Instant noodle": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Cup noodles": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Okinawa soba": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Tonkotsu": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Udon": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Cream stew": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Zosui": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Chankonabe": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Dojō nabe": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Fugu chiri": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Harihari-nabe": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Imoni": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Kiritanpo": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Motsunabe": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Oden": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Shabu-shabu": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Sukiyaki": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Aonori": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Japanese noodles": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Tsukemen": [
-   "List_of_Japanese_soups_and_stews"
-  ],
-  "Lamb and mutton": [
-   "List_of_Pakistani_soups_and_stews"
-  ],
-  "Chakna": [
-   "List_of_Pakistani_soups_and_stews"
-  ],
-  "Haleem": [
-   "List_of_Pakistani_soups_and_stews"
-  ],
-  "Kadhi": [
-   "List_of_Pakistani_soups_and_stews"
-  ],
-  "Khichra": [
-   "List_of_Pakistani_soups_and_stews"
-  ],
-  "Nihari": [
-   "List_of_Pakistani_soups_and_stews"
-  ],
-  "Paya (food)": [
-   "List_of_Pakistani_soups_and_stews"
-  ],
-  "Pakistani meat dishes": [
-   "List_of_Pakistani_soups_and_stews"
-  ],
-  "Ajoblanco": [
-   "List_of_cold_soups"
-  ],
-  "Slavs": [
-   "List_of_cold_soups"
-  ],
-  "Naengguk": [
-   "List_of_cold_soups"
-  ],
-  "Swedish fruit soup": [
-   "List_of_cold_soups"
-  ],
-  "Bisque (food)": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Chowder": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Fish chowder": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "BBC": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Clam soup": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Fish tea": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Herring soup": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Jaecheopguk": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Moqueca": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Paila marina": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Tom Yum": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Cream soup#List of cream soups": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Fish soup#List of fish soups": [
-   "List_of_fish_and_seafood_soups"
-  ],
-  "Atama soup": [
-   "List_of_vegetable_soups"
-  ],
-  "Editan (soup)": [
-   "List_of_vegetable_soups"
-  ],
-  "Eru (soup)": [
-   "List_of_vegetable_soups"
-  ],
-  "Hodge-Podge (soup)": [
-   "List_of_vegetable_soups"
-  ],
-  "Spring soup": [
-   "List_of_vegetable_soups"
+  "corpus": {
+    "Abula (soup)": {
+      "pageid": 58434256,
+      "title": "Abula (soup)"
+    },
+    "Acquacotta": {
+      "pageid": 43805440,
+      "title": "Acquacotta"
+    },
+    "Ajiaco": {
+      "pageid": 3160140,
+      "title": "Ajiaco"
+    },
+    "Ajoblanco": {
+      "pageid": 6109964,
+      "title": "Ajoblanco"
+    },
+    "Aloo tama": {
+      "pageid": 53673578,
+      "title": "Aloo tama"
+    },
+    "Amish preaching soup": {
+      "pageid": 33309838,
+      "title": "Amish preaching soup"
+    },
+    "Analı kızlı soup": {
+      "pageid": 40064866,
+      "title": "Analı kızlı soup"
+    },
+    "Ant egg soup": {
+      "pageid": 74194133,
+      "title": "Ant egg soup"
+    },
+    "Apple soup": {
+      "pageid": 25980154,
+      "title": "Apple soup"
+    },
+    "Asam pedas": {
+      "pageid": 47849884,
+      "title": "Asam pedas"
+    },
+    "Ash-e doogh": {
+      "pageid": 47175174,
+      "title": "Ash-e doogh"
+    },
+    "Atama soup": {
+      "pageid": 53255330,
+      "title": "Atama soup"
+    },
+    "Aush": {
+      "pageid": 5781423,
+      "title": "Aush"
+    },
+    "Avgolemono": {
+      "pageid": 640174,
+      "title": "Avgolemono"
+    },
+    "Avocado soup": {
+      "pageid": 53823862,
+      "title": "Avocado soup"
+    },
+    "Açorda": {
+      "pageid": 11555461,
+      "title": "Açorda"
+    },
+    "BBC": {
+      "pageid": 19344654,
+      "title": "BBC"
+    },
+    "Bacon soup": {
+      "pageid": 30308242,
+      "title": "Bacon soup"
+    },
+    "Bagnun": {
+      "pageid": 23993440,
+      "title": "Bagnun"
+    },
+    "Bak kut teh": {
+      "pageid": 1175370,
+      "title": "Bak kut teh"
+    },
+    "Bakso": {
+      "pageid": 10446962,
+      "title": "Bakso"
+    },
+    "Banmian": {
+      "pageid": 2723248,
+      "title": "Banmian"
+    },
+    "Aguadito": {
+      "pageid": 55553820,
+      "title": "Aguadito de pollo"
+    },
+    "Aonori": {
+      "pageid": 1849474,
+      "title": "Green laver"
+    },
+    "Asian soup": {
+      "pageid": 5305267,
+      "title": "Soups in East Asian culture"
+    },
+    "Barley": {
+      "pageid": 19541428,
+      "title": "Barley"
+    },
+    "Batam": {
+      "pageid": 716783,
+      "title": "Batam"
+    },
+    "Batchoy": {
+      "pageid": 8641932,
+      "title": "Batchoy"
+    },
+    "Beef kway teow": {
+      "pageid": 49210246,
+      "title": "Beef kway teow"
+    },
+    "Beef noodle soup": {
+      "pageid": 593120,
+      "title": "Beef noodle soup"
+    },
+    "Beer soup": {
+      "pageid": 2455937,
+      "title": "Beer soup"
+    },
+    "Bermuda fish chowder": {
+      "pageid": 34922374,
+      "title": "Bermuda fish chowder"
+    },
+    "Bilo-bilo": {
+      "pageid": 51088548,
+      "title": "Bilo-bilo"
+    },
+    "Binakol": {
+      "pageid": 60539561,
+      "title": "Binakol"
+    },
+    "Binignit": {
+      "pageid": 21621563,
+      "title": "Binignit"
+    },
+    "Binte biluhuta": {
+      "pageid": 74318408,
+      "title": "Binte biluhuta"
+    },
+    "Bisque (food)": {
+      "pageid": 2212333,
+      "title": "Bisque (food)"
+    },
+    "Black sesame soup": {
+      "pageid": 9090116,
+      "title": "Black sesame soup"
+    },
+    "Blåbärssoppa": {
+      "pageid": 16899275,
+      "title": "Blåbärssoppa"
+    },
+    "Bob chorba": {
+      "pageid": 3858135,
+      "title": "Bob chorba"
+    },
+    "Borscht": {
+      "pageid": 216990,
+      "title": "Borscht"
+    },
+    "Bouillabaisse": {
+      "pageid": 767584,
+      "title": "Bouillabaisse"
+    },
+    "Bouillon (soup)": {
+      "pageid": 999601,
+      "title": "Bouillon (soup)"
+    },
+    "Bouneschlupp": {
+      "pageid": 25124819,
+      "title": "Bouneschlupp"
+    },
+    "Brassica juncea": {
+      "pageid": 2033735,
+      "title": "Brassica juncea"
+    },
+    "Bread soup": {
+      "pageid": 33034484,
+      "title": "Bread soup"
+    },
+    "Brain (food)": {
+      "pageid": 19446188,
+      "title": "Brain as food"
+    },
+    "Bird's nest soup": {
+      "pageid": 47839149,
+      "title": "Edible bird's nest"
+    },
+    "Brenebon": {
+      "pageid": 50448417,
+      "title": "Brenebon"
+    },
+    "Brongkos": {
+      "pageid": 64247976,
+      "title": "Brongkos"
+    },
+    "Buddha Jumps Over the Wall": {
+      "pageid": 1889306,
+      "title": "Buddha Jumps Over the Wall"
+    },
+    "Buridda": {
+      "pageid": 43837745,
+      "title": "Buridda"
+    },
+    "Buttermilk": {
+      "pageid": 235923,
+      "title": "Buttermilk"
+    },
+    "Cabbage soup": {
+      "pageid": 40933402,
+      "title": "Cabbage soup"
+    },
+    "Cacciucco": {
+      "pageid": 5374966,
+      "title": "Cacciucco"
+    },
+    "Caldillo de congrio": {
+      "pageid": 31539563,
+      "title": "Caldillo de congrio"
+    },
+    "Caldillo de perro": {
+      "pageid": 41783762,
+      "title": "Caldillo de perro"
+    },
+    "Caldo de pollo": {
+      "pageid": 9217993,
+      "title": "Caldo de pollo"
+    },
+    "Caldo de queso": {
+      "pageid": 45566858,
+      "title": "Caldo de queso"
+    },
+    "Caldo galego": {
+      "pageid": 39360096,
+      "title": "Caldo galego"
+    },
+    "Caldo tlalpeño": {
+      "pageid": 38795334,
+      "title": "Caldo tlalpeño"
+    },
+    "Caldo verde": {
+      "pageid": 2849631,
+      "title": "Caldo verde"
+    },
+    "Callaloo": {
+      "pageid": 2006866,
+      "title": "Callaloo"
+    },
+    "Canh chua": {
+      "pageid": 12244945,
+      "title": "Canh chua"
+    },
+    "Cantonese seafood soup": {
+      "pageid": 16267026,
+      "title": "Cantonese seafood soup"
+    },
+    "Carp#As food": {
+      "pageid": 60900,
+      "title": "Carp"
+    },
+    "Carrot soup": {
+      "pageid": 48744803,
+      "title": "Carrot soup"
+    },
+    "Cazuela": {
+      "pageid": 6250637,
+      "title": "Cazuela"
+    },
+    "Bun bo Hue": {
+      "pageid": 4750535,
+      "title": "Bún bò Huế"
+    },
+    "Canja de Galinha": {
+      "pageid": 27830438,
+      "title": "Canja de galinha"
+    },
+    "Butajiru": {
+      "pageid": 1724138,
+      "title": "Tonjiru"
+    },
+    "Brown Windsor soup": {
+      "pageid": 4885967,
+      "title": "Windsor soup"
+    },
+    "Chakna": {
+      "pageid": 3887348,
+      "title": "Chakna"
+    },
+    "Champon": {
+      "pageid": 1043218,
+      "title": "Champon"
+    },
+    "Chankonabe": {
+      "pageid": 3515347,
+      "title": "Chankonabe"
+    },
+    "Cheese soup": {
+      "pageid": 26438398,
+      "title": "Cheese soup"
+    },
+    "Chicken and duck blood soup": {
+      "pageid": 39770602,
+      "title": "Chicken and duck blood soup"
+    },
+    "Chicken noodle soup": {
+      "pageid": 46461,
+      "title": "Chicken soup"
+    },
+    "Chinese spoon": {
+      "pageid": 32605036,
+      "title": "Chinese spoon"
+    },
+    "Chorba": {
+      "pageid": 5940610,
+      "title": "Chorba"
+    },
+    "Chowder": {
+      "pageid": 46316,
+      "title": "Chowder"
+    },
+    "Chupe": {
+      "pageid": 2296284,
+      "title": "Chupe"
+    },
+    "Cioppino": {
+      "pageid": 2089671,
+      "title": "Cioppino"
+    },
+    "Clam chowder": {
+      "pageid": 726379,
+      "title": "Clam chowder"
+    },
+    "Clam soup": {
+      "pageid": 46459,
+      "title": "Clam soup"
+    },
+    "Cock-a-leekie": {
+      "pageid": 2932457,
+      "title": "Cock-a-leekie"
+    },
+    "Cockchafer soup": {
+      "pageid": 57323119,
+      "title": "Cockchafer soup"
+    },
+    "Coconut soup": {
+      "pageid": 54176978,
+      "title": "Coconut soup"
+    },
+    "Consommé": {
+      "pageid": 725256,
+      "title": "Consommé"
+    },
+    "Corn chowder": {
+      "pageid": 4574804,
+      "title": "Corn chowder"
+    },
+    "Corn crab soup": {
+      "pageid": 47826163,
+      "title": "Corn crab soup"
+    },
+    "Coto makassar": {
+      "pageid": 29941002,
+      "title": "Coto makassar"
+    },
+    "Country Living": {
+      "pageid": 2203702,
+      "title": "Country Living"
+    },
+    "Cold borscht": {
+      "pageid": 216990,
+      "title": "Borscht"
+    },
+    "Chicken (food)": {
+      "pageid": 5741239,
+      "title": "Chicken as food"
+    },
+    "Chupe Andino": {
+      "pageid": 49168404,
+      "title": "Chupe andino"
+    },
+    "Crab meat": {
+      "pageid": 14107236,
+      "title": "Crab meat"
+    },
+    "Cream of crab soup": {
+      "pageid": 82216707,
+      "title": "Cream of crab soup"
+    },
+    "Cream of mushroom soup": {
+      "pageid": 15959961,
+      "title": "Cream of mushroom soup"
+    },
+    "Cream soup#List of cream soups": {
+      "pageid": 61322568,
+      "title": "Cream soup"
+    },
+    "Cream stew": {
+      "pageid": 3974288,
+      "title": "Cream stew"
+    },
+    "Crème Ninon": {
+      "pageid": 12273688,
+      "title": "Crème Ninon"
+    },
+    "Cucumber soup": {
+      "pageid": 173821,
+      "title": "Cucumber soup"
+    },
+    "Cullen skink": {
+      "pageid": 1794966,
+      "title": "Cullen skink"
+    },
+    "Dalithoy": {
+      "pageid": 23678942,
+      "title": "Dalithoy"
+    },
+    "Dashi": {
+      "pageid": 167082,
+      "title": "Dashi"
+    },
+    "Dillegrout": {
+      "pageid": 63133991,
+      "title": "Dillegrout"
+    },
+    "Dinengdeng": {
+      "pageid": 5305736,
+      "title": "Dinengdeng"
+    },
+    "Doghramaj": {
+      "pageid": 79358082,
+      "title": "Doghramaj"
+    },
+    "Dojō nabe": {
+      "pageid": 40382513,
+      "title": "Dojō nabe"
+    },
+    "Duck blood and vermicelli soup": {
+      "pageid": 33655052,
+      "title": "Duck blood and vermicelli soup"
+    },
+    "Duck soup noodles": {
+      "pageid": 5809149,
+      "title": "Duck soup noodles"
+    },
+    "Edible bird's nest": {
+      "pageid": 47839149,
+      "title": "Edible bird's nest"
+    },
+    "Crawfish": {
+      "pageid": 43600,
+      "title": "Crayfish"
+    },
+    "Cream of asparagus": {
+      "pageid": 43779728,
+      "title": "Cream of asparagus soup"
+    },
+    "Cream of broccoli": {
+      "pageid": 43777933,
+      "title": "Cream of broccoli soup"
+    },
+    "Crossing the bridge noodles": {
+      "pageid": 18629609,
+      "title": "Crossing-the-bridge noodles"
+    },
+    "Cup noodles": {
+      "pageid": 51112496,
+      "title": "Cup noodle"
+    },
+    "Curry Mee": {
+      "pageid": 2977173,
+      "title": "Curry mee"
+    },
+    "Cuisine of Indonesia": {
+      "pageid": 406363,
+      "title": "Indonesian cuisine"
+    },
+    "Edikang ikong": {
+      "pageid": 51525715,
+      "title": "Edikang ikong"
+    },
+    "Editan (soup)": {
+      "pageid": 53278267,
+      "title": "Editan (soup)"
+    },
+    "Egg drop soup": {
+      "pageid": 47826135,
+      "title": "Egg drop soup"
+    },
+    "Egg tong sui": {
+      "pageid": 12137607,
+      "title": "Egg tong sui"
+    },
+    "Egusi sauce": {
+      "pageid": 43746358,
+      "title": "Egusi sauce"
+    },
+    "Empal gentong": {
+      "pageid": 32315715,
+      "title": "Empal gentong"
+    },
+    "Eru (soup)": {
+      "pageid": 51884580,
+      "title": "Eru (soup)"
+    },
+    "Ezogelin soup": {
+      "pageid": 47863702,
+      "title": "Ezogelin soup"
+    },
+    "Fanesca": {
+      "pageid": 2074010,
+      "title": "Fanesca"
+    },
+    "Feijoada": {
+      "pageid": 623596,
+      "title": "Feijoada"
+    },
+    "Fish ball#Indonesia": {
+      "pageid": 2150142,
+      "title": "Fish ball"
+    },
+    "Fish head": {
+      "pageid": 3489856,
+      "title": "Fish head"
+    },
+    "Fish soup#List of fish soups": {
+      "pageid": 19114936,
+      "title": "Fish soup"
+    },
+    "Fish soup bee hoon": {
+      "pageid": 39466761,
+      "title": "Fish soup bee hoon"
+    },
+    "Fish tea": {
+      "pageid": 24039413,
+      "title": "Fish tea"
+    },
+    "Fisherman's Soup": {
+      "pageid": 47862770,
+      "title": "Fisherman's soup"
+    },
+    "Flädle": {
+      "pageid": 8635309,
+      "title": "Flädle"
+    },
+    "Food & Wine": {
+      "pageid": 4395653,
+      "title": "Food & Wine"
+    },
+    "Fish chowder": {
+      "pageid": 46316,
+      "title": "Chowder"
+    },
+    "Escudella i carn d'olla": {
+      "pageid": 2599189,
+      "title": "Escudella"
+    },
+    "Fabada Asturiana": {
+      "pageid": 569036,
+      "title": "Fabada asturiana"
+    },
+    "Eintopf": {
+      "pageid": 47862723,
+      "title": "Stew"
+    },
+    "Fish stock (food)": {
+      "pageid": 657129,
+      "title": "Stock (food)"
+    },
+    "French onion soup": {
+      "pageid": 1558075,
+      "title": "French onion soup"
+    },
+    "Fruit soup": {
+      "pageid": 15687480,
+      "title": "Fruit soup"
+    },
+    "Fruktsoppa": {
+      "pageid": 46955205,
+      "title": "Fruktsoppa"
+    },
+    "Fufu": {
+      "pageid": 844568,
+      "title": "Fufu"
+    },
+    "Fugu chiri": {
+      "pageid": 41736894,
+      "title": "Fugu chiri"
+    },
+    "Garmugia": {
+      "pageid": 43854111,
+      "title": "Garmugia"
+    },
+    "Gazpacho": {
+      "pageid": 12357,
+      "title": "Gazpacho"
+    },
+    "Geng (dish)": {
+      "pageid": 29261018,
+      "title": "Geng (dish)"
+    },
+    "Georgia (country)": {
+      "pageid": 48768,
+      "title": "Georgia (country)"
+    },
+    "Ginataan": {
+      "pageid": 8660143,
+      "title": "Ginataan"
+    },
+    "Ginestrata": {
+      "pageid": 43804871,
+      "title": "Ginestrata"
+    },
+    "Gising-gising": {
+      "pageid": 58548859,
+      "title": "Gising-gising"
+    },
+    "Goat meat pepper soup": {
+      "pageid": 46775413,
+      "title": "Goat meat pepper soup"
+    },
+    "Gomguk": {
+      "pageid": 23199804,
+      "title": "Gomguk"
+    },
+    "Gorontalese cuisine": {
+      "pageid": 74271176,
+      "title": "Gorontalese cuisine"
+    },
+    "Goulash": {
+      "pageid": 235662,
+      "title": "Goulash"
+    },
+    "Guk": {
+      "pageid": 17637906,
+      "title": "Guk"
+    },
+    "Gulai": {
+      "pageid": 47862625,
+      "title": "Gulai"
+    },
+    "Gumbo": {
+      "pageid": 289767,
+      "title": "Gumbo"
+    },
+    "Guthuk": {
+      "pageid": 41725770,
+      "title": "Guthuk"
+    },
+    "Haleem": {
+      "pageid": 1154037,
+      "title": "Haleem"
+    },
+    "Harihari-nabe": {
+      "pageid": 24602024,
+      "title": "Harihari-nabe"
+    },
+    "Gogi guksu": {
+      "pageid": 43031007,
+      "title": "Gogi-guksu"
+    },
+    "Ground nut soup": {
+      "pageid": 39298866,
+      "title": "Peanut soup"
+    },
+    "Harira": {
+      "pageid": 1802458,
+      "title": "Harira"
+    },
+    "Herring soup": {
+      "pageid": 46330,
+      "title": "Herring soup"
+    },
+    "Hodge-Podge (soup)": {
+      "pageid": 13244031,
+      "title": "Hodge-Podge (soup)"
+    },
+    "Hot and sour soup": {
+      "pageid": 47826242,
+      "title": "Hot and sour soup"
+    },
+    "Hulatang": {
+      "pageid": 21629922,
+      "title": "Hulatang"
+    },
+    "Hōtō": {
+      "pageid": 11462433,
+      "title": "Hōtō"
+    },
+    "Imoni": {
+      "pageid": 7692754,
+      "title": "Imoni"
+    },
+    "Inubaran": {
+      "pageid": 60972024,
+      "title": "Inubaran"
+    },
+    "Japanese noodles": {
+      "pageid": 1236380,
+      "title": "Japanese noodles"
+    },
+    "Javanese cuisine": {
+      "pageid": 14443478,
+      "title": "Javanese cuisine"
+    },
+    "Jiuniang": {
+      "pageid": 23308765,
+      "title": "Jiuniang"
+    },
+    "Joshpara": {
+      "pageid": 56389461,
+      "title": "Joshpara"
+    },
+    "Jusselle": {
+      "pageid": 50577476,
+      "title": "Jusselle"
+    },
+    "Kadhi": {
+      "pageid": 5376627,
+      "title": "Kadhi"
+    },
+    "Kadyos, baboy, kag langka": {
+      "pageid": 66669444,
+      "title": "Kadyos, baboy, kag langka"
+    },
+    "Kadyos, manok, kag ubad": {
+      "pageid": 66669502,
+      "title": "Kadyos, manok, kag ubad"
+    },
+    "Kaledo (soup)": {
+      "pageid": 41655409,
+      "title": "Kaledo (soup)"
+    },
+    "Kapurung": {
+      "pageid": 81357365,
+      "title": "Kapurung"
+    },
+    "Katemak": {
+      "pageid": 38272174,
+      "title": "Katemak"
+    },
+    "Harqma": {
+      "pageid": 82528116,
+      "title": "Hergma"
+    },
+    "Instant noodle": {
+      "pageid": 30876121,
+      "title": "Instant noodles"
+    },
+    "Jaecheopguk": {
+      "pageid": 17610427,
+      "title": "Jaecheop-guk"
+    },
+    "Kartoffelsuppe": {
+      "pageid": 20457399,
+      "title": "List of German dishes"
+    },
+    "Kasujiru": {
+      "pageid": 16344596,
+      "title": "Sake kasu"
+    },
+    "Kawlata": {
+      "pageid": 52456961,
+      "title": "Kawlata"
+    },
+    "Kenchin jiru": {
+      "pageid": 53796808,
+      "title": "Kenchin-jiru"
+    },
+    "Kesäkeitto": {
+      "pageid": 64154072,
+      "title": "Kesäkeitto"
+    },
+    "Kharcho": {
+      "pageid": 21449952,
+      "title": "Kharcho"
+    },
+    "Khash (dish)": {
+      "pageid": 2238207,
+      "title": "Khash (dish)"
+    },
+    "Khichra": {
+      "pageid": 28991642,
+      "title": "Khichra"
+    },
+    "Kiritanpo": {
+      "pageid": 11916258,
+      "title": "Kiritanpo"
+    },
+    "Konro": {
+      "pageid": 31637187,
+      "title": "Konro"
+    },
+    "Kusksu": {
+      "pageid": 60631724,
+      "title": "Kusksu"
+    },
+    "Kwati (soup)": {
+      "pageid": 43482552,
+      "title": "Kwati (soup)"
+    },
+    "Kwetiau ayam": {
+      "pageid": 63850931,
+      "title": "Kwetiau ayam"
+    },
+    "Laksa": {
+      "pageid": 431577,
+      "title": "Laksa"
+    },
+    "Lakso": {
+      "pageid": 59347341,
+      "title": "Lakso"
+    },
+    "Lamb and mutton": {
+      "pageid": 229275,
+      "title": "Lamb and mutton"
+    },
+    "Leek soup": {
+      "pageid": 10509170,
+      "title": "Leek soup"
+    },
+    "Lentil soup": {
+      "pageid": 47863695,
+      "title": "Lentil soup"
+    },
+    "Lettuce soup": {
+      "pageid": 43760257,
+      "title": "Lettuce soup"
+    },
+    "Linat-an": {
+      "pageid": 69630513,
+      "title": "Linat-an"
+    },
+    "Lobster": {
+      "pageid": 46310,
+      "title": "Lobster"
+    },
+    "Lobster stew": {
+      "pageid": 30240271,
+      "title": "Lobster stew"
+    },
+    "Lohikeitto": {
+      "pageid": 26268444,
+      "title": "Lohikeitto"
+    },
+    "Lotus seed#Chinese medicinal foods": {
+      "pageid": 5013985,
+      "title": "Lotus seed"
+    },
+    "La mian": {
+      "pageid": 3969082,
+      "title": "Lamian"
+    },
+    "Liver soup": {
+      "pageid": 10159687,
+      "title": "Liver as food"
+    },
+    "Lung fung soup": {
+      "pageid": 3066898,
+      "title": "Lung fung soup"
+    },
+    "Macaroni soup": {
+      "pageid": 18742754,
+      "title": "Macaroni soup"
+    },
+    "Maccu": {
+      "pageid": 43811140,
+      "title": "Maccu"
+    },
+    "Magelang": {
+      "pageid": 2166019,
+      "title": "Magelang"
+    },
+    "Maki mi": {
+      "pageid": 62101108,
+      "title": "Maki mi"
+    },
+    "Mami soup": {
+      "pageid": 18721189,
+      "title": "Mami soup"
+    },
+    "Mandia peja": {
+      "pageid": 51118076,
+      "title": "Mandia peja"
+    },
+    "Maraq (dish)": {
+      "pageid": 58240421,
+      "title": "Maraq (dish)"
+    },
+    "Marghi special": {
+      "pageid": 65568017,
+      "title": "Marghi special"
+    },
+    "Maryland crab soup": {
+      "pageid": 82218846,
+      "title": "Maryland crab soup"
+    },
+    "Mee ka tee": {
+      "pageid": 68133063,
+      "title": "Mee ka tee"
+    },
+    "Melon soup#Winter melon soup": {
+      "pageid": 48195554,
+      "title": "Melon soup"
+    },
+    "Mie ayam": {
+      "pageid": 35882566,
+      "title": "Mie ayam"
+    },
+    "Mie bakso": {
+      "pageid": 64505143,
+      "title": "Mie bakso"
+    },
+    "Mie cakalang": {
+      "pageid": 56029455,
+      "title": "Mie cakalang"
+    },
+    "Mie celor": {
+      "pageid": 28746505,
+      "title": "Mie celor"
+    },
+    "Mie koclok": {
+      "pageid": 41591621,
+      "title": "Mie koclok"
+    },
+    "Mie kocok": {
+      "pageid": 42814285,
+      "title": "Mie kocok"
+    },
+    "Mie kopyok": {
+      "pageid": 71205033,
+      "title": "Mie kopyok"
+    },
+    "Manhattan clam chowder": {
+      "pageid": 726379,
+      "title": "Clam chowder"
+    },
+    "Matzah ball soup": {
+      "pageid": 1520236,
+      "title": "Matzah ball"
+    },
+    "Mie rebus": {
+      "pageid": 4499616,
+      "title": "Mee rebus"
+    },
+    "Milk": {
+      "pageid": 19714,
+      "title": "Milk"
+    },
+    "Minestra di ceci": {
+      "pageid": 49641854,
+      "title": "Minestra di ceci"
+    },
+    "Minestrone": {
+      "pageid": 20242,
+      "title": "Minestrone"
+    },
+    "Miso soup": {
+      "pageid": 147723,
+      "title": "Miso soup"
+    },
+    "Mohinga": {
+      "pageid": 2581657,
+      "title": "Mohinga"
+    },
+    "Mole de olla": {
+      "pageid": 47432183,
+      "title": "Mole de olla"
+    },
+    "Moqueca": {
+      "pageid": 2315194,
+      "title": "Moqueca"
+    },
+    "Mote de queso": {
+      "pageid": 39938072,
+      "title": "Mote de queso"
+    },
+    "Motsunabe": {
+      "pageid": 8611818,
+      "title": "Motsunabe"
+    },
+    "Mulligatawny": {
+      "pageid": 559495,
+      "title": "Mulligatawny"
+    },
+    "Mung bean": {
+      "pageid": 465839,
+      "title": "Mung bean"
+    },
+    "Naengguk": {
+      "pageid": 24791406,
+      "title": "Naengguk"
+    },
+    "Naengmyeon": {
+      "pageid": 1480901,
+      "title": "Naengmyeon"
+    },
+    "Nam ngiao": {
+      "pageid": 37739784,
+      "title": "Nam ngiao"
+    },
+    "Nangchang Jar soup": {
+      "pageid": 52643761,
+      "title": "Nangchang Jar soup"
+    },
+    "Nettle soup": {
+      "pageid": 28394550,
+      "title": "Nettle soup"
+    },
+    "Nihari": {
+      "pageid": 2182219,
+      "title": "Nihari"
+    },
+    "Nikujaga": {
+      "pageid": 2824813,
+      "title": "Nikujaga"
+    },
+    "Nilaga": {
+      "pageid": 53077952,
+      "title": "Nilaga"
+    },
+    "Noodle soup": {
+      "pageid": 2939242,
+      "title": "Noodle soup"
+    },
+    "Noppe": {
+      "pageid": 5190223,
+      "title": "Noppe"
+    },
+    "New England clam chowder": {
+      "pageid": 726379,
+      "title": "Clam chowder"
+    },
+    "Miyeok guk": {
+      "pageid": 7674269,
+      "title": "Miyeok-guk"
+    },
+    "Mulligan stew (food)": {
+      "pageid": 2650274,
+      "title": "Mulligan stew"
+    },
+    "Nsala soup": {
+      "pageid": 49248790,
+      "title": "Ofe Nsala"
+    },
+    "Oden": {
+      "pageid": 88056,
+      "title": "Oden"
+    },
+    "Odong": {
+      "pageid": 2894792,
+      "title": "Odong"
+    },
+    "Ohaw": {
+      "pageid": 31597260,
+      "title": "Ohaw"
+    },
+    "Okinawa soba": {
+      "pageid": 3968571,
+      "title": "Okinawa soba"
+    },
+    "Okra soup": {
+      "pageid": 45416841,
+      "title": "Okra soup"
+    },
+    "Okroshka": {
+      "pageid": 2161922,
+      "title": "Okroshka"
+    },
+    "Opor ayam": {
+      "pageid": 25952119,
+      "title": "Opor ayam"
+    },
+    "Oxtail soup": {
+      "pageid": 10960882,
+      "title": "Oxtail soup"
+    },
+    "Paila marina": {
+      "pageid": 15894666,
+      "title": "Paila marina"
+    },
+    "Pakistani meat dishes": {
+      "pageid": 38272316,
+      "title": "Pakistani meat dishes"
+    },
+    "Pallubasa": {
+      "pageid": 35204776,
+      "title": "Pallubasa"
+    },
+    "Palm nut soup": {
+      "pageid": 45400664,
+      "title": "Palm nut soup"
+    },
+    "Palóc soup": {
+      "pageid": 47083051,
+      "title": "Palóc soup"
+    },
+    "Panada": {
+      "pageid": 24591951,
+      "title": "Panada"
+    },
+    "Pancit buko": {
+      "pageid": 60964194,
+      "title": "Pancit buko"
+    },
+    "Pancotto": {
+      "pageid": 69179569,
+      "title": "Pancotto"
+    },
+    "Papeda (food)": {
+      "pageid": 31621988,
+      "title": "Papeda (food)"
+    },
+    "Pappa al pomodoro": {
+      "pageid": 42176863,
+      "title": "Pappa al pomodoro"
+    },
+    "Pasulj": {
+      "pageid": 14826809,
+      "title": "Pasulj"
+    },
+    "Patriotic soup": {
+      "pageid": 54586260,
+      "title": "Patriotic soup"
+    },
+    "Pawpaw soup": {
+      "pageid": 71120585,
+      "title": "Pawpaw soup"
+    },
+    "Ofe onugbo": {
+      "pageid": 81751030,
+      "title": "Ofe onugbu"
+    },
+    "Pangium edule": {
+      "pageid": 24698745,
+      "title": "Pangium"
+    },
+    "Pasta fagioli": {
+      "pageid": 4275382,
+      "title": "Pasta e fagioli"
+    },
+    "Paya (food)": {
+      "pageid": 6278708,
+      "title": "Paya (food)"
+    },
+    "Pea soup": {
+      "pageid": 47863592,
+      "title": "Pea soup"
+    },
+    "Peanut soup": {
+      "pageid": 39298866,
+      "title": "Peanut soup"
+    },
+    "Peppersoup": {
+      "pageid": 45568272,
+      "title": "Peppersoup"
+    },
+    "Pickle soup": {
+      "pageid": 43767478,
+      "title": "Pickle soup"
+    },
+    "Pig's organ soup": {
+      "pageid": 4257015,
+      "title": "Pig's organ soup"
+    },
+    "Pindang": {
+      "pageid": 54553953,
+      "title": "Pindang"
+    },
+    "Piti (food)": {
+      "pageid": 20049763,
+      "title": "Piti (food)"
+    },
+    "Prdelačka": {
+      "pageid": 43767849,
+      "title": "Pork blood soup"
+    },
+    "Potato": {
+      "pageid": 23501,
+      "title": "Potato"
+    },
+    "Powsowdie": {
+      "pageid": 51555160,
+      "title": "Powsowdie"
+    },
+    "Pozole": {
+      "pageid": 882004,
+      "title": "Pozole"
+    },
+    "Prawn soup": {
+      "pageid": 22358999,
+      "title": "Prawn soup"
+    },
+    "Psarosoupa": {
+      "pageid": 19396733,
+      "title": "Psarosoupa"
+    },
+    "Pumpkin": {
+      "pageid": 21208368,
+      "title": "Pumpkin"
+    },
+    "Purée Mongole": {
+      "pageid": 360677,
+      "title": "Purée Mongole"
+    },
+    "Ramen": {
+      "pageid": 37969,
+      "title": "Ramen"
+    },
+    "Rasam (dish)": {
+      "pageid": 2390546,
+      "title": "Rasam (dish)"
+    },
+    "Rassolnik": {
+      "pageid": 16191337,
+      "title": "Rassolnik"
+    },
+    "Rawon": {
+      "pageid": 25241404,
+      "title": "Rawon"
+    },
+    "Pigeon": {
+      "pageid": 63355,
+      "title": "Columbidae"
+    },
+    "Red bean soup": {
+      "pageid": 148836,
+      "title": "Hong dou tang"
+    },
+    "Philadelphia Pepper Pot": {
+      "pageid": 3274852,
+      "title": "Pepper pot soup"
+    },
+    "Phở": {
+      "pageid": 625565,
+      "title": "Pho"
+    },
+    "Ribollita": {
+      "pageid": 16184333,
+      "title": "Ribollita"
+    },
+    "Rose hip soup": {
+      "pageid": 14570292,
+      "title": "Rose hip soup"
+    },
+    "Rumford's Soup": {
+      "pageid": 2351584,
+      "title": "Rumford's Soup"
+    },
+    "Sago soup": {
+      "pageid": 42335493,
+      "title": "Sago soup"
+    },
+    "Saimin": {
+      "pageid": 699550,
+      "title": "Saimin"
+    },
+    "Saksang": {
+      "pageid": 31548587,
+      "title": "Saksang"
+    },
+    "Salmorejo": {
+      "pageid": 1404496,
+      "title": "Salmorejo"
+    },
+    "Saltah": {
+      "pageid": 7189585,
+      "title": "Saltah"
+    },
+    "Sambar (dish)": {
+      "pageid": 589702,
+      "title": "Sambar (dish)"
+    },
+    "Sayur Asem": {
+      "pageid": 6524902,
+      "title": "Sayur asem"
+    },
+    "Sayur bayam": {
+      "pageid": 64579947,
+      "title": "Sayur bayam"
+    },
+    "Sayur Lodeh": {
+      "pageid": 29585730,
+      "title": "Sayur lodeh"
+    },
+    "Sayur sop": {
+      "pageid": 64579851,
+      "title": "Sayur sop"
+    },
+    "Sciusceddu": {
+      "pageid": 50577328,
+      "title": "Sciusceddu"
+    },
+    "Sekba": {
+      "pageid": 51781529,
+      "title": "Sekba"
+    },
+    "Semur (Indonesian stew)": {
+      "pageid": 31383119,
+      "title": "Semur (Indonesian stew)"
+    },
+    "Shabu-shabu": {
+      "pageid": 928333,
+      "title": "Shabu-shabu"
+    },
+    "Shark fin soup": {
+      "pageid": 879354,
+      "title": "Shark fin soup"
+    },
+    "Red bean soup#Japan": {
+      "pageid": 148836,
+      "title": "Hong dou tang"
+    },
+    "Sayur oyong": {
+      "pageid": 45416841,
+      "title": "Okra soup"
+    },
+    "Samgyetang": {
+      "pageid": 2353922,
+      "title": "Samgye-tang"
+    },
+    "Scotch Broth": {
+      "pageid": 46447,
+      "title": "Scotch broth"
+    },
+    "Shchi": {
+      "pageid": 863787,
+      "title": "Shchi"
+    },
+    "She-crab soup": {
+      "pageid": 7782659,
+      "title": "She-crab soup"
+    },
+    "Silkie (chicken breed)#In cuisine": {
+      "pageid": 430984,
+      "title": "Silkie (chicken breed)"
+    },
+    "Sinabawang gulay": {
+      "pageid": 36210238,
+      "title": "Sinabawang gulay"
+    },
+    "Sinigang": {
+      "pageid": 2211090,
+      "title": "Sinigang"
+    },
+    "Skipjack tuna": {
+      "pageid": 2038497,
+      "title": "Skipjack tuna"
+    },
+    "Slavs": {
+      "pageid": 29440,
+      "title": "Slavs"
+    },
+    "Sliced fish soup": {
+      "pageid": 1994379,
+      "title": "Sliced fish soup"
+    },
+    "Solyanka": {
+      "pageid": 1755254,
+      "title": "Solyanka"
+    },
+    "Sop saudara": {
+      "pageid": 50451770,
+      "title": "Sop saudara"
+    },
+    "Sopa de fideo": {
+      "pageid": 54163303,
+      "title": "Sopa de fideo"
+    },
+    "Sopa de lima": {
+      "pageid": 52021650,
+      "title": "Sopa de lima"
+    },
+    "Sopas": {
+      "pageid": 59407816,
+      "title": "Sopas"
+    },
+    "Shchav": {
+      "pageid": 6014680,
+      "title": "Sorrel soup"
+    },
+    "Soto Betawi": {
+      "pageid": 47862438,
+      "title": "Soto (food)"
+    },
+    "Soto ayam": {
+      "pageid": 2117582,
+      "title": "Soto ayam"
+    },
+    "Soto padang": {
+      "pageid": 55513895,
+      "title": "Soto padang"
+    },
+    "Snert": {
+      "pageid": 47863592,
+      "title": "Pea soup"
+    },
+    "Snail as food": {
+      "pageid": 60550218,
+      "title": "Snails as food"
+    },
+    "Sopa de Gato": {
+      "pageid": 41783720,
+      "title": "Sopa de gato"
+    },
+    "Soto mie": {
+      "pageid": 32493090,
+      "title": "Soto mi"
+    },
+    "Soup joumou": {
+      "pageid": 12847718,
+      "title": "Soup joumou"
+    },
+    "Sour cherry soup": {
+      "pageid": 47862761,
+      "title": "Sour cherry soup"
+    },
+    "Spinach soup": {
+      "pageid": 53543247,
+      "title": "Spinach soup"
+    },
+    "Spring soup": {
+      "pageid": 17966625,
+      "title": "Spring soup"
+    },
+    "Stracciatella (soup)": {
+      "pageid": 47270313,
+      "title": "Stracciatella (soup)"
+    },
+    "Suam na mais": {
+      "pageid": 67316869,
+      "title": "Suam na mais"
+    },
+    "Sukiyaki": {
+      "pageid": 294936,
+      "title": "Sukiyaki"
+    },
+    "Sulu köfte": {
+      "pageid": 40075242,
+      "title": "Sulu köfte"
+    },
+    "Sup Kambing": {
+      "pageid": 5776659,
+      "title": "Sup kambing"
+    },
+    "Sweet corn": {
+      "pageid": 89251,
+      "title": "Sweet corn"
+    },
+    "Sweet potato soup": {
+      "pageid": 15269342,
+      "title": "Sweet potato soup"
+    },
+    "Taiwanese beef noodle soup": {
+      "pageid": 68109339,
+      "title": "Taiwanese beef noodle soup"
+    },
+    "Talabaw": {
+      "pageid": 72576408,
+      "title": "Talabaw"
+    },
+    "Talbina": {
+      "pageid": 29688929,
+      "title": "Talbina"
+    },
+    "Tapado": {
+      "pageid": 58863247,
+      "title": "Tapado"
+    },
+    "Tarhana": {
+      "pageid": 4579515,
+      "title": "Tarhana"
+    },
+    "Swedish fruit soup": {
+      "pageid": 46955205,
+      "title": "Fruktsoppa"
+    },
+    "Sour soup": {
+      "pageid": 17972814,
+      "title": "List of sour soups"
+    },
+    "Soup Number Five": {
+      "pageid": 82001882,
+      "title": "Penis as food"
+    },
+    "Sroto": {
+      "pageid": 47862438,
+      "title": "Soto (food)"
+    },
+    "Sour rye soup": {
+      "pageid": 10287083,
+      "title": "Sour cereal soup"
+    },
+    "Stone soup": {
+      "pageid": 46335,
+      "title": "Stone Soup"
+    },
+    "Taco soup": {
+      "pageid": 44212669,
+      "title": "Tortilla soup"
+    },
+    "Tarator": {
+      "pageid": 67157,
+      "title": "Tzatziki"
+    },
+    "Tekwan": {
+      "pageid": 28746500,
+      "title": "Tekwan"
+    },
+    "Tharida": {
+      "pageid": 50580426,
+      "title": "Tharida"
+    },
+    "Tian mo": {
+      "pageid": 37078542,
+      "title": "Tian mo"
+    },
+    "Tiger penis soup": {
+      "pageid": 41806877,
+      "title": "Tiger penis soup"
+    },
+    "Tinola": {
+      "pageid": 2214417,
+      "title": "Tinola"
+    },
+    "Tiyula itum": {
+      "pageid": 40966702,
+      "title": "Tiyula itum"
+    },
+    "Tom Yum": {
+      "pageid": 47770304,
+      "title": "Tom yum"
+    },
+    "Tomato and egg soup": {
+      "pageid": 33148505,
+      "title": "Tomato and egg soup"
+    },
+    "Tomato soup": {
+      "pageid": 3671251,
+      "title": "Tomato soup"
+    },
+    "Tong sui": {
+      "pageid": 2431991,
+      "title": "Tong sui"
+    },
+    "Tongseng": {
+      "pageid": 32531129,
+      "title": "Tongseng"
+    },
+    "Tortilla soup": {
+      "pageid": 44212669,
+      "title": "Tortilla soup"
+    },
+    "Tsukemen": {
+      "pageid": 44828047,
+      "title": "Tsukemen"
+    },
+    "Tteokguk": {
+      "pageid": 2487817,
+      "title": "Tteokguk"
+    },
+    "Turtle soup": {
+      "pageid": 4332959,
+      "title": "Turtle soup"
+    },
+    "Udon": {
+      "pageid": 156520,
+      "title": "Udon"
+    },
+    "Ugali#Ghana": {
+      "pageid": 2059704,
+      "title": "Ugali"
+    },
+    "Ukha": {
+      "pageid": 4216014,
+      "title": "Ukha"
+    },
+    "Vegetable soup": {
+      "pageid": 53699164,
+      "title": "Vegetable soup"
+    },
+    "Vichyssoise": {
+      "pageid": 2441042,
+      "title": "Vichyssoise"
+    },
+    "Tonkotsu": {
+      "pageid": 30675130,
+      "title": "Tonkotsu ramen"
+    },
+    "apple soup": {
+      "pageid": 25980154,
+      "title": "Apple soup"
+    },
+    "bakso": {
+      "pageid": 10446962,
+      "title": "Bakso"
+    },
+    "beef noodle soup": {
+      "pageid": 593120,
+      "title": "Beef noodle soup"
+    },
+    "bozbash": {
+      "pageid": 54921384,
+      "title": "Bozbash"
+    },
+    "celery": {
+      "pageid": 6535,
+      "title": "Celery"
+    },
+    "Vori vori": {
+      "pageid": 15383030,
+      "title": "Vori vori"
+    },
+    "Walnut soup#By country": {
+      "pageid": 54162366,
+      "title": "Walnut soup"
+    },
+    "Watercress soup": {
+      "pageid": 51255058,
+      "title": "Watercress soup"
+    },
+    "Waterzooi": {
+      "pageid": 704562,
+      "title": "Waterzooi"
+    },
+    "Wenzhou pig intestine rice noodle soup": {
+      "pageid": 52448391,
+      "title": "Wenzhou pig intestine rice noodle soup"
+    },
+    "Wonton noodles": {
+      "pageid": 47840548,
+      "title": "Wonton noodles"
+    },
+    "Xidoufen": {
+      "pageid": 50554088,
+      "title": "Xidoufen"
+    },
+    "Zalewajka": {
+      "pageid": 59017628,
+      "title": "Zalewajka"
+    },
+    "Zosui": {
+      "pageid": 7004741,
+      "title": "Zosui"
+    },
+    "Zuppa alla modenese": {
+      "pageid": 28532,
+      "title": "Zuppa alla modenese"
+    },
+    "Zuppa del canavese": {
+      "pageid": 28535,
+      "title": "Zuppa del canavese"
+    },
+    "Zuppa pavese": {
+      "pageid": 43271089,
+      "title": "Zuppa pavese"
+    },
+    "Zuppa toscana": {
+      "pageid": 41175427,
+      "title": "Zuppa toscana"
+    },
+    "Zōni": {
+      "pageid": 2441482,
+      "title": "Zōni"
+    },
+    "mackerel tuna": {
+      "pageid": 24592121,
+      "title": "Euthynnus affinis"
+    },
+    "Wine soup": {
+      "pageid": 176565,
+      "title": "Hungarian cuisine"
+    },
+    "Wedding soup": {
+      "pageid": 531674,
+      "title": "Italian wedding soup"
+    },
+    "Winter melon": {
+      "pageid": 465792,
+      "title": "Wax gourd"
+    },
+    "Yong Tau Foo": {
+      "pageid": 2049608,
+      "title": "Yong tau foo"
+    },
+    "pork": {
+      "pageid": 20609697,
+      "title": "Pork"
+    },
+    "potato": {
+      "pageid": 23501,
+      "title": "Potato"
+    },
+    "seafood": {
+      "pageid": 26866,
+      "title": "Seafood"
+    },
+    "shrimp": {
+      "pageid": 36762240,
+      "title": "Shrimp"
+    },
+    "tomato": {
+      "pageid": 9940234,
+      "title": "Tomato"
+    },
+    "tripe": {
+      "pageid": 178943,
+      "title": "Tripe"
+    },
+    "Česnečka": {
+      "pageid": 55561007,
+      "title": "Česnečka"
+    },
+    "Íslensk Kjötsúpa": {
+      "pageid": 8858106,
+      "title": "Köttsoppa"
+    }
+  },
+  "sources": {
+    "Abula (soup)": ["main"],
+    "Aguadito": ["main"],
+    "Ajiaco": ["main"],
+    "Açorda": ["main"],
+    "Acquacotta": ["List_of_Italian_soups", "main"],
+    "Aloo tama": ["main"],
+    "Amish preaching soup": ["main"],
+    "Analı kızlı soup": ["main"],
+    "Ant egg soup": ["main"],
+    "Apple soup": ["main"],
+    "Ash-e doogh": ["main"],
+    "Aush": ["main"],
+    "Avgolemono": ["main"],
+    "Avocado soup": ["List_of_cold_soups", "main"],
+    "Bacon soup": ["main"],
+    "Bak kut teh": ["List_of_Chinese_soups", "List_of_Indonesian_soups", "main"],
+    "Bakso": ["List_of_Indonesian_soups", "main"],
+    "Barley": ["main"],
+    "Batchoy": ["main"],
+    "Beef noodle soup": ["List_of_Chinese_soups", "main"],
+    "Beer soup": ["List_of_German_soups", "main"],
+    "Bermuda fish chowder": ["List_of_fish_and_seafood_soups", "main"],
+    "Bilo-bilo": ["main"],
+    "Binakol": ["main"],
+    "Binignit": ["main"],
+    "Bird's nest soup": ["main"],
+    "Black sesame soup": ["List_of_Chinese_soups", "main"],
+    "Blåbärssoppa": ["main"],
+    "Bob chorba": ["main"],
+    "Borscht": ["main"],
+    "Bouillabaisse": ["List_of_fish_and_seafood_soups", "main"],
+    "Bouillon (soup)": ["main"],
+    "Bouneschlupp": ["main"],
+    "Bread soup": ["List_of_German_soups", "main"],
+    "Brenebon": ["List_of_Indonesian_soups", "main"],
+    "Brown Windsor soup": ["main"],
+    "Bun bo Hue": ["main"],
+    "Buridda": ["List_of_Italian_soups", "List_of_fish_and_seafood_soups", "main"],
+    "Butajiru": ["List_of_Japanese_soups_and_stews", "main"],
+    "Cabbage soup": ["List_of_vegetable_soups", "main"],
+    "Cacciucco": ["main"],
+    "Caldillo de congrio": ["List_of_fish_and_seafood_soups", "main"],
+    "Caldillo de perro": ["List_of_fish_and_seafood_soups", "main"],
+    "Caldo de pollo": ["main"],
+    "Caldo de queso": ["main"],
+    "Caldo galego": ["main"],
+    "Caldo tlalpeño": ["main"],
+    "Caldo verde": ["List_of_vegetable_soups", "main"],
+    "Callaloo": ["main"],
+    "Canh chua": ["main"],
+    "Canja de Galinha": ["main"],
+    "Carrot soup": ["List_of_Indonesian_soups", "main"],
+    "Cazuela": ["main"],
+    "Česnečka": ["main"],
+    "Chicken noodle soup": ["main"],
+    "Chorba": ["List_of_Pakistani_soups_and_stews", "main"],
+    "Chupe": ["List_of_fish_and_seafood_soups", "main"],
+    "Chupe Andino": ["main"],
+    "Cioppino": ["List_of_fish_and_seafood_soups", "main"],
+    "Clam chowder": ["List_of_fish_and_seafood_soups", "main"],
+    "Cockchafer soup": ["main"],
+    "Cock-a-leekie": ["main"],
+    "Coconut soup": ["main"],
+    "Cold borscht": ["List_of_cold_soups", "main"],
+    "Consommé": ["main"],
+    "Corn chowder": ["main"],
+    "Crab meat": ["main"],
+    "apple soup": ["main"],
+    "Cream of asparagus": ["main"],
+    "Cream of broccoli": ["main"],
+    "celery": ["main"],
+    "Chicken (food)": ["main"],
+    "potato": ["main"],
+    "tomato": ["main"],
+    "Cream of crab soup": ["main"],
+    "Cream of mushroom soup": ["main"],
+    "Crème Ninon": ["main"],
+    "Cucumber soup": ["main"],
+    "Cullen skink": ["List_of_fish_and_seafood_soups", "main"],
+    "Curry Mee": ["List_of_Indonesian_soups", "main"],
+    "Dalithoy": ["main"],
+    "Dashi": ["List_of_Japanese_soups_and_stews", "List_of_fish_and_seafood_soups", "main"],
+    "Dillegrout": ["main"],
+    "Dinengdeng": ["main"],
+    "Duck soup noodles": ["main"],
+    "Edikang ikong": ["main"],
+    "Egg drop soup": ["List_of_Chinese_soups", "main"],
+    "Egusi sauce": ["main"],
+    "Ezogelin soup": ["main"],
+    "Escudella i carn d'olla": ["main"],
+    "Fabada Asturiana": ["main"],
+    "Fanesca": ["main"],
+    "Fish soup bee hoon": ["List_of_fish_and_seafood_soups", "main"],
+    "Fisherman's Soup": ["main"],
+    "French onion soup": ["List_of_German_soups", "List_of_vegetable_soups", "main"],
+    "Flädle": ["main"],
+    "Fruktsoppa": ["main"],
+    "Fufu": ["main"],
+    "Fish stock (food)": ["main"],
+    "Garmugia": ["List_of_Italian_soups", "main"],
+    "Gazpacho": ["List_of_cold_soups", "main"],
+    "Ginataan": ["main"],
+    "Ginestrata": ["List_of_Italian_soups", "main"],
+    "Gising-gising": ["main"],
+    "Goat meat pepper soup": ["main"],
+    "Gogi guksu": ["main"],
+    "Gomguk": ["main"],
+    "Goulash": ["List_of_German_soups", "main"],
+    "Ground nut soup": ["main"],
+    "Guk": ["main"],
+    "Gumbo": ["List_of_fish_and_seafood_soups", "main"],
+    "Guthuk": ["main"],
+    "Harira": ["main"],
+    "Harqma": ["main"],
+    "Hot and sour soup": ["List_of_Chinese_soups", "List_of_vegetable_soups", "main"],
+    "Inubaran": ["main"],
+    "Íslensk Kjötsúpa": ["main"],
+    "Soup joumou": ["main"],
+    "Jusselle": ["main"],
+    "Kadyos, baboy, kag langka": ["main"],
+    "Kadyos, manok, kag ubad": ["main"],
+    "Kawlata": ["List_of_vegetable_soups", "main"],
+    "Kesäkeitto": ["List_of_vegetable_soups", "main"],
+    "Kharcho": ["main"],
+    "Kusksu": ["List_of_vegetable_soups", "main"],
+    "Kwati (soup)": ["main"],
+    "Laksa": ["List_of_Indonesian_soups", "main"],
+    "La mian": ["main"],
+    "Leek soup": ["main"],
+    "Lettuce soup": ["List_of_Chinese_soups", "main"],
+    "Lentil soup": ["List_of_German_soups", "main"],
+    "Linat-an": ["main"],
+    "Lobster stew": ["main"],
+    "Lobster": ["main"],
+    "Lohikeitto": ["List_of_fish_and_seafood_soups", "main"],
+    "Lung fung soup": ["List_of_Chinese_soups", "List_of_fish_and_seafood_soups", "main"],
+    "Maccu": ["List_of_Italian_soups", "main"],
+    "Maki mi": ["main"],
+    "Mami soup": ["main"],
+    "Mandia peja": ["main"],
+    "Manhattan clam chowder": ["main"],
+    "Marghi special": ["main"],
+    "Maryland crab soup": ["main"],
+    "Matzah ball soup": ["main"],
+    "Mee ka tee": ["main"],
+    "Minestrone": ["List_of_Italian_soups", "List_of_vegetable_soups", "main"],
+    "Miso soup": ["List_of_Japanese_soups_and_stews", "main"],
+    "Miyeok guk": ["main"],
+    "Mohinga": ["List_of_fish_and_seafood_soups", "main"],
+    "Mote de queso": ["main"],
+    "Mole de olla": ["main"],
+    "Mulligan stew (food)": ["main"],
+    "Mulligatawny": ["main"],
+    "Naengmyeon": ["List_of_cold_soups", "main"],
+    "Nettle soup": ["main"],
+    "New England clam chowder": ["main"],
+    "Nikujaga": ["List_of_Japanese_soups_and_stews", "main"],
+    "Nilaga": ["main"],
+    "Nsala soup": ["main"],
+    "Odong": ["main"],
+    "Ofe onugbo": ["main"],
+    "Okra soup": ["main"],
+    "Okroshka": ["main"],
+    "Oxtail soup": ["List_of_Chinese_soups", "List_of_Indonesian_soups", "main"],
+    "Palm nut soup": ["main"],
+    "Palóc soup": ["main"],
+    "Panada": ["List_of_Italian_soups", "main"],
+    "Pancit buko": ["main"],
+    "Pancotto": ["main"],
+    "Pappa al pomodoro": ["List_of_Italian_soups", "main"],
+    "Pasta fagioli": ["main"],
+    "Pasulj": ["main"],
+    "Pawpaw soup": ["main"],
+    "Pea soup": ["List_of_Indonesian_soups", "main"],
+    "Peanut soup": ["main"],
+    "Peppersoup": ["main"],
+    "Philadelphia Pepper Pot": ["main"],
+    "Phở": ["List_of_fish_and_seafood_soups", "main"],
+    "Pickle soup": ["List_of_vegetable_soups", "main"],
+    "Powsowdie": ["main"],
+    "Pozole": ["main"],
+    "Prawn soup": ["main"],
+    "Prdelačka": ["main"],
+    "Psarosoupa": ["List_of_fish_and_seafood_soups", "main"],
+    "Pumpkin": ["main"],
+    "Purée Mongole": ["main"],
+    "Ramen": ["List_of_Japanese_soups_and_stews", "main"],
+    "Rasam (dish)": ["main"],
+    "Rassolnik": ["List_of_vegetable_soups", "main"],
+    "Rawon": ["List_of_Indonesian_soups", "main"],
+    "Ribollita": ["List_of_Italian_soups", "List_of_vegetable_soups", "main"],
+    "Rose hip soup": ["main"],
+    "Rumford's Soup": ["List_of_German_soups", "main"],
+    "Saimin": ["main"],
+    "Salmorejo": ["List_of_cold_soups", "main"],
+    "Sambar (dish)": ["main"],
+    "Samgyetang": ["main"],
+    "Sayur Asem": ["main"],
+    "Sayur Lodeh": ["main"],
+    "Scotch Broth": ["main"],
+    "Shark fin soup": ["List_of_Chinese_soups", "main"],
+    "Shchav": ["main"],
+    "Shchi": ["List_of_vegetable_soups", "main"],
+    "She-crab soup": ["List_of_fish_and_seafood_soups", "main"],
+    "Sinabawang gulay": ["List_of_vegetable_soups", "main"],
+    "Sinigang": ["main"],
+    "Sliced fish soup": ["List_of_fish_and_seafood_soups", "main"],
+    "Snert": ["main"],
+    "Solyanka": ["main"],
+    "Sop saudara": ["List_of_Indonesian_soups", "main"],
+    "Sopa de fideo": ["main"],
+    "Sopa de Gato": ["main"],
+    "Sopa de lima": ["main"],
+    "Sopas": ["main"],
+    "Soto ayam": ["List_of_Indonesian_soups", "main"],
+    "Soup Number Five": ["main"],
+    "Sour cherry soup": ["main"],
+    "Sour rye soup": ["main"],
+    "Sour soup": ["main"],
+    "Spinach soup": ["main"],
+    "Stone soup": ["main"],
+    "Stracciatella (soup)": ["List_of_Italian_soups", "main"],
+    "Sulu köfte": ["main"],
+    "Sup Kambing": ["main"],
+    "Suam na mais": ["main"],
+    "Taco soup": ["main"],
+    "Taiwanese beef noodle soup": ["main"],
+    "Talabaw": ["main"],
+    "Talbina": ["main"],
+    "Tapado": ["main"],
+    "Tarator": ["List_of_cold_soups", "main"],
+    "Tarhana": ["main"],
+    "Tekwan": ["List_of_Indonesian_soups", "main"],
+    "Tharida": ["main"],
+    "Tiger penis soup": ["main"],
+    "Tinola": ["main"],
+    "Tiyula itum": ["main"],
+    "Tomato soup": ["List_of_vegetable_soups", "main"],
+    "Tongseng": ["List_of_Indonesian_soups", "main"],
+    "Tortilla soup": ["main"],
+    "Tteokguk": ["main"],
+    "Ugali#Ghana": ["main"],
+    "Ukha": ["List_of_fish_and_seafood_soups", "main"],
+    "Vegetable soup": ["main"],
+    "Vichyssoise": ["List_of_cold_soups", "List_of_vegetable_soups", "main"],
+    "Vori vori": ["main"],
+    "Watercress soup": ["main"],
+    "Waterzooi": ["main"],
+    "Wedding soup": ["List_of_Italian_soups", "main"],
+    "Wine soup": ["main"],
+    "Winter melon": ["main"],
+    "Zalewajka": ["main"],
+    "Zuppa del canavese": ["List_of_Italian_soups", "main"],
+    "Zuppa pavese": ["main"],
+    "Zuppa toscana": ["List_of_Italian_soups", "main"],
+    "Georgia (country)": ["List_of_Azerbaijani_soups_and_stews"],
+    "Joshpara": ["List_of_Azerbaijani_soups_and_stews"],
+    "Khash (dish)": ["List_of_Azerbaijani_soups_and_stews"],
+    "bozbash": ["List_of_Azerbaijani_soups_and_stews"],
+    "Doghramaj": ["List_of_Azerbaijani_soups_and_stews"],
+    "Piti (food)": ["List_of_Azerbaijani_soups_and_stews"],
+    "Banmian": ["List_of_Chinese_soups"],
+    "Buddha Jumps Over the Wall": ["List_of_Chinese_soups"],
+    "Cantonese seafood soup": ["List_of_Chinese_soups", "List_of_fish_and_seafood_soups"],
+    "Carp#As food": ["List_of_Chinese_soups"],
+    "Chicken and duck blood soup": ["List_of_Chinese_soups"],
+    "Corn crab soup": ["List_of_Chinese_soups"],
+    "Crossing the bridge noodles": ["List_of_Chinese_soups"],
+    "Duck blood and vermicelli soup": ["List_of_Chinese_soups"],
+    "Brassica juncea": ["List_of_Chinese_soups"],
+    "Fish head": ["List_of_Chinese_soups"],
+    "Geng (dish)": ["List_of_Chinese_soups"],
+    "Hulatang": ["List_of_Chinese_soups"],
+    "Liver soup": ["List_of_Chinese_soups"],
+    "Lotus seed#Chinese medicinal foods": ["List_of_Chinese_soups"],
+    "Mung bean": ["List_of_Chinese_soups"],
+    "Noodle soup": ["List_of_Chinese_soups"],
+    "Nam ngiao": ["List_of_Chinese_soups"],
+    "Nangchang Jar soup": ["List_of_Chinese_soups"],
+    "Patriotic soup": ["List_of_Chinese_soups", "List_of_vegetable_soups"],
+    "Pig's organ soup": ["List_of_Chinese_soups"],
+    "Pigeon": ["List_of_Chinese_soups"],
+    "Silkie (chicken breed)#In cuisine": ["List_of_Chinese_soups"],
+    "Tian mo": ["List_of_Chinese_soups"],
+    "Tomato and egg soup": ["List_of_Chinese_soups"],
+    "Turtle soup": ["List_of_Chinese_soups"],
+    "Wenzhou pig intestine rice noodle soup": ["List_of_Chinese_soups"],
+    "Melon soup#Winter melon soup": ["List_of_Chinese_soups"],
+    "Wonton noodles": ["List_of_Chinese_soups"],
+    "Xidoufen": ["List_of_Chinese_soups"],
+    "Yong Tau Foo": ["List_of_Chinese_soups"],
+    "Edible bird's nest": ["List_of_Chinese_soups"],
+    "Egg tong sui": ["List_of_Chinese_soups"],
+    "Walnut soup#By country": ["List_of_Chinese_soups"],
+    "Jiuniang": ["List_of_Chinese_soups"],
+    "Red bean soup": ["List_of_Chinese_soups"],
+    "Sago soup": ["List_of_Chinese_soups"],
+    "Sweet potato soup": ["List_of_Chinese_soups"],
+    "Asian soup": ["List_of_Chinese_soups", "List_of_Japanese_soups_and_stews"],
+    "Chinese spoon": ["List_of_Chinese_soups"],
+    "Tong sui": ["List_of_Chinese_soups"],
+    "Brain (food)": ["List_of_German_soups"],
+    "Buttermilk": ["List_of_German_soups"],
+    "Cheese soup": ["List_of_German_soups"],
+    "Crawfish": ["List_of_German_soups"],
+    "Eintopf": ["List_of_German_soups"],
+    "Fruit soup": ["List_of_German_soups", "List_of_cold_soups"],
+    "Kartoffelsuppe": ["List_of_German_soups"],
+    "Milk": ["List_of_German_soups"],
+    "Potato": ["List_of_German_soups"],
+    "Snail as food": ["List_of_German_soups"],
+    "tripe": ["List_of_Indonesian_soups"],
+    "pork": ["List_of_Indonesian_soups"],
+    "Soto padang": ["List_of_Indonesian_soups"],
+    "Sroto": ["List_of_Indonesian_soups"],
+    "Soto Betawi": ["List_of_Indonesian_soups"],
+    "Coto makassar": ["List_of_Indonesian_soups"],
+    "Binte biluhuta": ["List_of_Indonesian_soups"],
+    "Sayur bayam": ["List_of_Indonesian_soups"],
+    "Sayur sop": ["List_of_Indonesian_soups"],
+    "Sayur oyong": ["List_of_Indonesian_soups"],
+    "Pangium edule": ["List_of_Indonesian_soups"],
+    "Opor ayam": ["List_of_Indonesian_soups"],
+    "Asam pedas": ["List_of_Indonesian_soups"],
+    "Fish ball#Indonesia": ["List_of_Indonesian_soups"],
+    "Papeda (food)": ["List_of_Indonesian_soups"],
+    "Kapurung": ["List_of_Indonesian_soups"],
+    "Pindang": ["List_of_Indonesian_soups", "List_of_fish_and_seafood_soups"],
+    "seafood": ["List_of_Indonesian_soups"],
+    "mackerel tuna": ["List_of_Indonesian_soups"],
+    "Skipjack tuna": ["List_of_Indonesian_soups"],
+    "Batam": ["List_of_Indonesian_soups"],
+    "Gorontalese cuisine": ["List_of_Indonesian_soups"],
+    "shrimp": ["List_of_Indonesian_soups"],
+    "bakso": ["List_of_Indonesian_soups"],
+    "Brongkos": ["List_of_Indonesian_soups"],
+    "Empal gentong": ["List_of_Indonesian_soups"],
+    "Feijoada": ["List_of_Indonesian_soups"],
+    "Gulai": ["List_of_Indonesian_soups"],
+    "Kaledo (soup)": ["List_of_Indonesian_soups"],
+    "Katemak": ["List_of_Indonesian_soups"],
+    "Konro": ["List_of_Indonesian_soups"],
+    "Maraq (dish)": ["List_of_Indonesian_soups"],
+    "Pallubasa": ["List_of_Indonesian_soups"],
+    "Saksang": ["List_of_Indonesian_soups"],
+    "Saltah": ["List_of_Indonesian_soups"],
+    "Semur (Indonesian stew)": ["List_of_Indonesian_soups"],
+    "Sekba": ["List_of_Indonesian_soups"],
+    "Magelang": ["List_of_Indonesian_soups"],
+    "beef noodle soup": ["List_of_Indonesian_soups"],
+    "Kwetiau ayam": ["List_of_Indonesian_soups"],
+    "Beef kway teow": ["List_of_Indonesian_soups"],
+    "Lakso": ["List_of_Indonesian_soups"],
+    "Mie ayam": ["List_of_Indonesian_soups"],
+    "Mie bakso": ["List_of_Indonesian_soups"],
+    "Mie cakalang": ["List_of_Indonesian_soups"],
+    "Mie celor": ["List_of_Indonesian_soups"],
+    "Mie koclok": ["List_of_Indonesian_soups"],
+    "Mie kocok": ["List_of_Indonesian_soups"],
+    "Mie kopyok": ["List_of_Indonesian_soups"],
+    "Mie rebus": ["List_of_Indonesian_soups"],
+    "Soto mie": ["List_of_Indonesian_soups"],
+    "Macaroni soup": ["List_of_Indonesian_soups", "List_of_Italian_soups"],
+    "Cuisine of Indonesia": ["List_of_Indonesian_soups"],
+    "Javanese cuisine": ["List_of_Indonesian_soups"],
+    "Bagnun": ["List_of_Italian_soups"],
+    "Minestra di ceci": ["List_of_Italian_soups"],
+    "Sciusceddu": ["List_of_Italian_soups"],
+    "Zuppa alla modenese": ["List_of_Italian_soups"],
+    "Food & Wine": ["List_of_Italian_soups"],
+    "Country Living": ["List_of_Italian_soups"],
+    "Sweet corn": ["List_of_Japanese_soups_and_stews"],
+    "Kasujiru": ["List_of_Japanese_soups_and_stews"],
+    "Kenchin jiru": ["List_of_Japanese_soups_and_stews"],
+    "Noppe": ["List_of_Japanese_soups_and_stews"],
+    "Ohaw": ["List_of_Japanese_soups_and_stews"],
+    "Red bean soup#Japan": ["List_of_Japanese_soups_and_stews"],
+    "Zōni": ["List_of_Japanese_soups_and_stews"],
+    "Champon": ["List_of_Japanese_soups_and_stews"],
+    "Hōtō": ["List_of_Japanese_soups_and_stews"],
+    "Instant noodle": ["List_of_Japanese_soups_and_stews"],
+    "Cup noodles": ["List_of_Japanese_soups_and_stews"],
+    "Okinawa soba": ["List_of_Japanese_soups_and_stews"],
+    "Tonkotsu": ["List_of_Japanese_soups_and_stews"],
+    "Udon": ["List_of_Japanese_soups_and_stews"],
+    "Cream stew": ["List_of_Japanese_soups_and_stews"],
+    "Zosui": ["List_of_Japanese_soups_and_stews"],
+    "Chankonabe": ["List_of_Japanese_soups_and_stews"],
+    "Dojō nabe": ["List_of_Japanese_soups_and_stews"],
+    "Fugu chiri": ["List_of_Japanese_soups_and_stews"],
+    "Harihari-nabe": ["List_of_Japanese_soups_and_stews"],
+    "Imoni": ["List_of_Japanese_soups_and_stews"],
+    "Kiritanpo": ["List_of_Japanese_soups_and_stews"],
+    "Motsunabe": ["List_of_Japanese_soups_and_stews"],
+    "Oden": ["List_of_Japanese_soups_and_stews"],
+    "Shabu-shabu": ["List_of_Japanese_soups_and_stews"],
+    "Sukiyaki": ["List_of_Japanese_soups_and_stews"],
+    "Aonori": ["List_of_Japanese_soups_and_stews"],
+    "Japanese noodles": ["List_of_Japanese_soups_and_stews"],
+    "Tsukemen": ["List_of_Japanese_soups_and_stews"],
+    "Lamb and mutton": ["List_of_Pakistani_soups_and_stews"],
+    "Chakna": ["List_of_Pakistani_soups_and_stews"],
+    "Haleem": ["List_of_Pakistani_soups_and_stews"],
+    "Kadhi": ["List_of_Pakistani_soups_and_stews"],
+    "Khichra": ["List_of_Pakistani_soups_and_stews"],
+    "Nihari": ["List_of_Pakistani_soups_and_stews"],
+    "Paya (food)": ["List_of_Pakistani_soups_and_stews"],
+    "Pakistani meat dishes": ["List_of_Pakistani_soups_and_stews"],
+    "Ajoblanco": ["List_of_cold_soups"],
+    "Slavs": ["List_of_cold_soups"],
+    "Naengguk": ["List_of_cold_soups"],
+    "Swedish fruit soup": ["List_of_cold_soups"],
+    "Bisque (food)": ["List_of_fish_and_seafood_soups"],
+    "Chowder": ["List_of_fish_and_seafood_soups"],
+    "Fish chowder": ["List_of_fish_and_seafood_soups"],
+    "BBC": ["List_of_fish_and_seafood_soups"],
+    "Clam soup": ["List_of_fish_and_seafood_soups"],
+    "Fish tea": ["List_of_fish_and_seafood_soups"],
+    "Herring soup": ["List_of_fish_and_seafood_soups"],
+    "Jaecheopguk": ["List_of_fish_and_seafood_soups"],
+    "Moqueca": ["List_of_fish_and_seafood_soups"],
+    "Paila marina": ["List_of_fish_and_seafood_soups"],
+    "Tom Yum": ["List_of_fish_and_seafood_soups"],
+    "Cream soup#List of cream soups": ["List_of_fish_and_seafood_soups"],
+    "Fish soup#List of fish soups": ["List_of_fish_and_seafood_soups"],
+    "Atama soup": ["List_of_vegetable_soups"],
+    "Editan (soup)": ["List_of_vegetable_soups"],
+    "Eru (soup)": ["List_of_vegetable_soups"],
+    "Hodge-Podge (soup)": ["List_of_vegetable_soups"],
+    "Spring soup": ["List_of_vegetable_soups"]
+  },
+  "unresolved": [
+    "Bergen fish soup",
+    "Bourou-Bourou",
+    "Butternut soup",
+    "Ginger soup",
+    "Ikan kuah kuning",
+    "Lyvzha",
+    "Maeutang",
+    "Panadelsuppe",
+    "Seafood chowder",
+    "Sishen soup",
+    "Sopa marinera",
+    "Torijiru",
+    "Tāng Fěn",
+    "Tāng miǎn"
   ]
- },
- "unresolved": [
-  "Bergen fish soup",
-  "Bourou-Bourou",
-  "Butternut soup",
-  "Ginger soup",
-  "Ikan kuah kuning",
-  "Lyvzha",
-  "Maeutang",
-  "Panadelsuppe",
-  "Seafood chowder",
-  "Sishen soup",
-  "Sopa marinera",
-  "Torijiru",
-  "Tāng Fěn",
-  "Tāng miǎn"
- ]
 }
