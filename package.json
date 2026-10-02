@@ -3,6 +3,7 @@
   "private": true,
   "packageManager": "pnpm@10.33.2",
   "scripts": {
+    "start": "pnpm --filter @soup-quiz/app start",
     "typecheck": "pnpm -r run typecheck",
     "test": "pnpm -r run test",
     "lint": "biome check .",
