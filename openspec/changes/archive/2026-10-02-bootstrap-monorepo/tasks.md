@@ -34,4 +34,4 @@
 
 ## 6. Integration checks
 
-- [ ] 6.1 Verify from repo root: `pnpm typecheck`, `pnpm lint`, `pnpm test` all green; run one manual round end-to-end on Android and iOS emulators and confirm feedback, reveal, learn-more link, and result screen behave per spec
+- [x] 6.1 Verify from repo root: `pnpm typecheck`, `pnpm lint`, `pnpm test` all green; run one manual round end-to-end on Android and iOS emulators and confirm feedback, reveal, learn-more link, and result screen behave per spec

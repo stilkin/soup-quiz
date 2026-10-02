@@ -1,9 +1,9 @@
 # Soup Quiz
 
-> **Status: change 1 (`bootstrap-monorepo`) implemented** — monorepo, schema, engine,
-> stub dataset, and a playable quiz round. The real dataset pipeline, stats, and the
-> daily challenge are the next changes (see [Roadmap](#roadmap)). Everything below
-> marked *planned* is decided but not yet built.
+> **Status: change 1 (`bootstrap-monorepo`) shipped and archived** — monorepo, schema,
+> engine, stub dataset, and a playable quiz round (verified on Android). The real
+> dataset pipeline, stats, and the daily challenge are the next changes (see
+> [Roadmap](#roadmap)). Everything below marked *planned* is decided but not yet built.
 
 ## What is this project?
 
@@ -98,7 +98,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 
 | # | Change | Status |
 |---|---|---|
-| 1 | `bootstrap-monorepo` — monorepo, schema, stub data, one playable mode | **implemented** (17/18 tasks; on-device round pending) |
+| 1 | `bootstrap-monorepo` — monorepo, schema, stub data, one playable mode | **archived 2026-10-02** (18/18 tasks) |
 | 2 | `add-dataset-pipeline` — scrape/enrich/review/compile, image bundling + attribution | planned |
 | 3 | `add-quiz-modes` — declarative mode configs over the real dataset | planned |
 | 4 | `add-stats-streaks-srs` — SQLite stats, streaks, spaced repetition | planned |
