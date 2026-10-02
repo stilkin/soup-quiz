@@ -20,4 +20,4 @@
 
 ## 4. Integration checks
 
-- [ ] 4.1 Verify from repo root: `pnpm typecheck`, `pnpm lint`, `pnpm test` all green (incl. new stats suite) and `expo export --platform android` compiles; on-device: play a round, open stats — summary, streak, weakest-first list and mastery reflect it; clear works. User confirms before archive.
+- [x] 4.1 Verify from repo root: `pnpm typecheck`, `pnpm lint`, `pnpm test` all green (incl. new stats suite) and `expo export --platform android` compiles; on-device: play a round, open stats — summary, streak, weakest-first list and mastery reflect it; clear works. User confirms before archive.
