@@ -28,7 +28,7 @@
 
 ## 6. Integration checks
 
-- [ ] 6.1 Full pipeline run end-to-end twice; verify the second run makes no network calls (cache check), the report is stable, `pnpm typecheck`/`lint`/`test` all green, bundle export compiles with images, and an on-device round plays with the real dataset (user confirms: images render, credits visible via the reveal, stats still show history)
+- [x] 6.1 Full pipeline run end-to-end twice; verify the second run makes no network calls (cache check), the report is stable, `pnpm typecheck`/`lint`/`test` all green, bundle export compiles with images, and an on-device round plays with the real dataset (user confirms: images render, credits visible via the reveal, stats still show history)
 
 ## 7. Image-coverage fixes (2026-10-02 device feedback)
 

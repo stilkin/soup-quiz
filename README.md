@@ -101,7 +101,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | # | Change | Status |
 |---|---|---|
 | 1 | `bootstrap-monorepo` — monorepo, schema, stub data, one playable mode | **archived 2026-10-02** (18/18 tasks) |
-| 2 | `add-dataset-pipeline` — scrape/enrich/review/compile, image bundling + attribution | **implemented 2026-10-02** (device check pending) |
+| 2 | `add-dataset-pipeline` — scrape/enrich/review/compile, image bundling + attribution | **archived 2026-10-03** (16/16 tasks) |
 | 3 | `add-quiz-modes` — declarative mode configs over the real dataset | planned |
 | 4 | `add-stats-page` — local recording, streaks, mastery, stats screen | **archived 2026-10-02** (10/10 tasks) |
 | 5 | `add-srs-scheduling` — spaced-repetition serving from recorded data | planned |
