@@ -3,8 +3,10 @@ import { generateRound, ingredientsToCountry, isCorrect, scoreRound } from '@sou
 import { router } from 'expo-router'
 import React, { useMemo, useReducer } from 'react'
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native'
+import Animated, { FadeIn, FadeOut } from 'react-native-reanimated'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { OptionButton, type OptionState } from '../components/OptionButton'
+import { OptionStrip } from '../components/OptionStrip'
 import { QuestionCard } from '../components/QuestionCard'
 import { RevealCard } from '../components/RevealCard'
 import { type RecordedRound, recordRound } from '../storage/repo'
@@ -79,17 +81,23 @@ export default function PlayScreen() {
 
         <QuestionCard item={question.item} />
 
-        <View style={styles.options}>
-          {question.options.map((code) => (
-            <OptionButton
-              key={code}
-              code={code}
-              state={optionState(code)}
-              disabled={answered}
-              onPress={() => dispatch({ type: 'answer', value: code })}
-            />
-          ))}
-        </View>
+        {answered ? (
+          <Animated.View entering={FadeIn.duration(180)}>
+            <OptionStrip options={question.options} stateOf={optionState} />
+          </Animated.View>
+        ) : (
+          <Animated.View exiting={FadeOut.duration(140)} style={styles.options}>
+            {question.options.map((code) => (
+              <OptionButton
+                key={code}
+                code={code}
+                state={optionState(code)}
+                disabled={answered}
+                onPress={() => dispatch({ type: 'answer', value: code })}
+              />
+            ))}
+          </Animated.View>
+        )}
 
         {answered && (
           <View style={styles.revealBlock}>
