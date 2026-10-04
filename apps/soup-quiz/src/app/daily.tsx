@@ -17,7 +17,12 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { RevealCard } from '../components/RevealCard'
 import { SearchSelect } from '../components/SearchSelect'
 import { soupImages } from '../images'
-import { disableReminder, enableReminder, reminderEnabled } from '../notifications'
+import {
+  disableReminder,
+  enableReminder,
+  notificationsAvailable,
+  reminderEnabled,
+} from '../notifications'
 import { fetchDailyRound, fetchRounds, type RecordedAnswer, recordRound } from '../storage/repo'
 import { colors, radius, spacing, type } from '../theme'
 
@@ -35,6 +40,7 @@ export default function DailyScreen() {
   const [heat, setHeat] = useState<string | undefined>()
   const [streak, setStreak] = useState({ current: 0, best: 0 })
   const [nudge, setNudge] = useState({ on: false, hour: 9 })
+  const [nudgeSupported, setNudgeSupported] = useState(true)
   const guesses = useRef<RecordedAnswer[]>([])
 
   useEffect(() => {
@@ -66,6 +72,7 @@ export default function DailyScreen() {
       setStreak(dailyStreaks(rounds, Date.now()))
       const reminderOn = await reminderEnabled()
       setNudge((state) => ({ ...state, on: reminderOn }))
+      setNudgeSupported(await notificationsAvailable())
     } catch (error) {
       console.warn('[soup-quiz] failed to load the daily', error)
     }
@@ -187,12 +194,21 @@ export default function DailyScreen() {
             <View style={styles.nudgeRow}>
               <Pressable
                 accessibilityRole="switch"
-                accessibilityState={{ checked: nudge.on }}
+                accessibilityState={{ checked: nudge.on, disabled: !nudgeSupported }}
+                disabled={!nudgeSupported}
                 onPress={() => void toggleNudge()}
-                style={({ pressed }) => [styles.nudgeToggle, pressed && { opacity: 0.7 }]}
+                style={({ pressed }) => [
+                  styles.nudgeToggle,
+                  !nudgeSupported && styles.nudgeDisabled,
+                  pressed && { opacity: 0.7 },
+                ]}
               >
                 <Text style={styles.nudgeText}>
-                  {nudge.on ? '🔔 Daily reminder on' : '🔕 Remind me daily'}
+                  {nudge.on
+                    ? '🔔 Daily reminder on'
+                    : nudgeSupported
+                      ? '🔕 Remind me daily'
+                      : '🔕 Reminders need a dev build'}
                 </Text>
               </Pressable>
               {nudge.on && (
@@ -338,6 +354,9 @@ const styles = StyleSheet.create({
   },
   nudgeToggle: {
     paddingVertical: spacing.xs,
+  },
+  nudgeDisabled: {
+    opacity: 0.45,
   },
   nudgeHour: {
     paddingVertical: spacing.xs,
