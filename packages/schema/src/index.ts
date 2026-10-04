@@ -1,3 +1,5 @@
+export { CENTROIDS, type Centroid } from './centroids'
+export { distanceKm, type HeatBand, heatBand } from './geo'
 export {
   creditSchema,
   type Ingredient,
@@ -16,8 +18,6 @@ export {
   type SoupType,
   soupTypeLabel,
 } from './registries'
-export { CENTROIDS, type Centroid } from './centroids'
-export { distanceKm, type HeatBand, heatBand } from './geo'
 export {
   type DatasetIssue,
   type DatasetValidation,
