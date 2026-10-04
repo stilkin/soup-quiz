@@ -18,6 +18,9 @@ from pathlib import Path
 
 from PIL import Image
 
+sys.path.insert(0, str(Path(__file__).parent))
+import treatment  # noqa: E402  sun-faded profile (change polish-reveal-ui, design D2)
+
 ROOT = Path(__file__).resolve().parents[2]
 BUILD = ROOT / 'data/build'
 CACHE = ROOT / 'data/cache/commons'
@@ -123,6 +126,7 @@ def reencode(source: Path, dest: Path, width: int, quality: int):
         if img.width > width:
             height = round(img.height * width / img.width)
             img = img.resize((width, height), Image.LANCZOS)
+        img = treatment.apply(img)
         img.save(dest, 'JPEG', quality=quality, optimize=True)
 
 
