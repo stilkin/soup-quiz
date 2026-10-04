@@ -7,8 +7,8 @@
 
 ## 2. Daily derivation (engine, pure)
 
-- [ ] 2.1 `daily.ts`: candidate pool (image + ≥2 ingredients, id-sorted), `dayIndex` arithmetic, cycle reshuffle via the existing RNG, `soupForDay(dataset, dayIndex)`; tests: same-day determinism, no repeat within a cycle, reshuffle at cycle boundary, pool exclusion rules
-- [ ] 2.2 Tier derivation: deterministic ingredient halves from `daySeed`, tier content accessor (1 photo, 2 first half, 3 second half, 4 name); tests pin split stability and odd-count handling
+- [x] 2.1 `daily.ts`: candidate pool (image + ≥2 ingredients, id-sorted), `dayIndex` arithmetic, cycle reshuffle via the existing RNG, `soupForDay(dataset, dayIndex)`; tests: same-day determinism, no repeat within a cycle, reshuffle at cycle boundary, pool exclusion rules
+- [x] 2.2 Tier derivation: deterministic ingredient halves from `daySeed`, tier content accessor (1 photo, 2 first half, 3 second half, 4 name); tests pin split stability and odd-count handling
 
 ## 3. Daily streak (stats, pure)
 

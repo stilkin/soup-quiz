@@ -41,3 +41,29 @@ export const starvedDataset: SoupItem[] = [
   soup('6', ['NG'], 'Pepper soup'),
   soup('5', ['IT', 'FR', 'ES'], 'Pan-European stew'),
 ]
+
+/** Daily fixture factory: an image plus a chosen number of ingredients. */
+function dailySoup(id: string, countries: string[], ingredientCount: number): SoupItem {
+  return {
+    ...soup(id, countries),
+    image: {
+      sourceFile: `File:${id}.jpg`,
+      credit: { author: 'Fixture Author', license: 'CC BY-SA 4.0', licenseUrl: 'https://x' },
+    },
+    ingredients: Array.from({ length: ingredientCount }, (_, i) => ({
+      id: `${id}-i${i}`,
+      display: `${id} ingredient ${i}`,
+    })),
+  } as SoupItem
+}
+
+/** Five eligible items (d1–d5) plus two ineligible: no image (d6), one ingredient (d7). */
+export const dailyDataset: SoupItem[] = [
+  dailySoup('d1', ['IT'], 3),
+  dailySoup('d2', ['FR'], 4),
+  dailySoup('d3', ['ES'], 2),
+  dailySoup('d4', ['NG'], 5),
+  dailySoup('d5', ['PE'], 3),
+  soup('d6', ['PT'], 'No photo'),
+  dailySoup('d7', ['UA'], 1),
+]
