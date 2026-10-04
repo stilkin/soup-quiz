@@ -45,7 +45,11 @@ From `apps/soup-quiz` (or the root, which delegates `pnpm start`):
 ```bash
 pnpm start                                      # expo start — scan the QR with Expo Go
 pnpm exec expo export --platform android        # bundle smoke check, no device needed
+eas build --profile preview --platform android  # tester APK (from apps/soup-quiz; EAS cloud)
 ```
+
+The tester build's `.easignore` lives at the **repo root** — eas-cli resolves it from
+the git root, not the app directory, and it replaces `.gitignore` for uploads.
 
 The dataset (`packages/data/src/soups.v1.json`) is pipeline-generated — never edit it
 by hand; its tests gate conformance and image pairing.
