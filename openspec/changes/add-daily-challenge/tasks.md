@@ -12,7 +12,7 @@
 
 ## 3. Daily streak (stats, pure)
 
-- [ ] 3.1 `dailyStreaks(rounds)` — current + best, consecutive UTC days with a solved (`correct ≥ 1`) daily round; tests: solved-run, failed-day break, missed-day break, independence from any-round streak
+- [x] 3.1 `dailyStreaks(rounds)` — current + best, consecutive UTC days with a solved (`correct ≥ 1`) daily round; tests: solved-run, failed-day break, missed-day break, independence from any-round streak
 
 ## 4. Daily screen + input + share (app)
 
