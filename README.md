@@ -108,7 +108,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | 5 | `add-srs-scheduling` — spaced-repetition serving from recorded data | planned |
 | 6 | `add-daily-challenge` — UTC daily + emoji share texts | planned |
 | 7 | later — share-card page, notifications, photo mode, store submission | backlog |
-| 8 | `polish-reveal-ui` — post-answer option strip + sun-faded images | applying 2026-10-04 |
+| 8 | `polish-reveal-ui` — post-answer option strip + sun-faded images | **archived 2026-10-04** (8/8 tasks) |
 
 ## Data sources and licensing
 

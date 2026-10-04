@@ -4,7 +4,7 @@
 
 - [x] 1.1 Add `OptionStrip` (five flag tiles: basil ring + check on correct, chili ring on wrong pick, dimmed others) with per-tile accessibility labels (name + state); reuse the existing state mapping in `play.tsx`
 - [x] 1.2 Wire the swap in `play.tsx`: full rows pre-answer, strip post-answer, one animated moment (rows out, strip + reveal in); fall back to a plain swap if layout animation janks on Android
-- [ ] 1.3 On-device: answer a round — reveal reachable without scrolling past options; wrong answers still show the red ring; screen-reader labels spot-checked (user confirms)
+- [x] 1.3 On-device: answer a round — reveal reachable without scrolling past options; wrong answers still show the red ring; screen-reader labels spot-checked (user confirms)
 
 ## 2. Sun-faded treatment
 
@@ -15,4 +15,4 @@
 ## 3. Docs + integration
 
 - [x] 3.1 README + CLAUDE.md: images are "re-encoded and color-adjusted" (CC BY-SA adaptation marking); present-vs-planned row for the strip
-- [ ] 3.2 `pnpm typecheck`/`lint`/`test` green, bundle export passes; on-device round confirms strip + treated photos (user confirms before archive)
+- [x] 3.2 `pnpm typecheck`/`lint`/`test` green, bundle export passes; on-device round confirms strip + treated photos (user confirms before archive)
