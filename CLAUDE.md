@@ -9,8 +9,8 @@ from Wikipedia list articles). Local-first, offline, no backend. See `README.md`
 full concept and the present-vs-planned table.
 
 **Status: playable app on real data.** Skeleton, local stats, and the dataset pipeline
-(347 soups, 295 credited images) are shipped; roadmap next: SRS scheduling, daily
-challenge. README carries the present-vs-planned table.
+(347 soups, 295 credited images) and the daily challenge are shipped; roadmap next:
+more game modes, SRS scheduling. README carries the present-vs-planned table.
 
 ## How work happens: OpenSpec, always
 

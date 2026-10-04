@@ -17,6 +17,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { RevealCard } from '../components/RevealCard'
 import { SearchSelect } from '../components/SearchSelect'
 import { soupImages } from '../images'
+import { disableReminder, enableReminder, reminderEnabled } from '../notifications'
 import { fetchDailyRound, fetchRounds, type RecordedAnswer, recordRound } from '../storage/repo'
 import { colors, radius, spacing, type } from '../theme'
 
@@ -33,6 +34,7 @@ export default function DailyScreen() {
   const [tier, setTier] = useState(1)
   const [heat, setHeat] = useState<string | undefined>()
   const [streak, setStreak] = useState({ current: 0, best: 0 })
+  const [nudge, setNudge] = useState({ on: false, hour: 9 })
   const guesses = useRef<RecordedAnswer[]>([])
 
   useEffect(() => {
@@ -62,6 +64,8 @@ export default function DailyScreen() {
         setOutcome({ status: 'unplayed' })
       }
       setStreak(dailyStreaks(rounds, Date.now()))
+      const reminderOn = await reminderEnabled()
+      setNudge((state) => ({ ...state, on: reminderOn }))
     } catch (error) {
       console.warn('[soup-quiz] failed to load the daily', error)
     }
@@ -119,6 +123,20 @@ export default function DailyScreen() {
     })
   }
 
+  const toggleNudge = async () => {
+    if (nudge.on) {
+      await disableReminder()
+      setNudge({ ...nudge, on: false })
+      return
+    }
+    setNudge({ ...nudge, on: await enableReminder(nudge.hour) })
+  }
+
+  const stepHour = async () => {
+    const hour = (nudge.hour + 1) % 24
+    setNudge({ hour, on: await enableReminder(hour) })
+  }
+
   const played = outcome.status !== 'unplayed'
   const msToRollover = (dayIndex + 1) * 86_400_000 - now
   const hours = Math.floor(msToRollover / 3_600_000)
@@ -166,6 +184,28 @@ export default function DailyScreen() {
             >
               <Text style={styles.shareText}>Share result</Text>
             </Pressable>
+            <View style={styles.nudgeRow}>
+              <Pressable
+                accessibilityRole="switch"
+                accessibilityState={{ checked: nudge.on }}
+                onPress={() => void toggleNudge()}
+                style={({ pressed }) => [styles.nudgeToggle, pressed && { opacity: 0.7 }]}
+              >
+                <Text style={styles.nudgeText}>
+                  {nudge.on ? '🔔 Daily reminder on' : '🔕 Remind me daily'}
+                </Text>
+              </Pressable>
+              {nudge.on && (
+                <Pressable
+                  accessibilityLabel={`Reminder hour, currently ${nudge.hour}`}
+                  accessibilityRole="button"
+                  onPress={() => void stepHour()}
+                  style={({ pressed }) => [styles.nudgeHour, pressed && { opacity: 0.7 }]}
+                >
+                  <Text style={styles.nudgeText}>at {String(nudge.hour).padStart(2, '0')}:00</Text>
+                </Pressable>
+              )}
+            </View>
           </View>
         )}
 
@@ -290,6 +330,21 @@ const styles = StyleSheet.create({
     ...type.body,
     color: colors.onTomato,
     fontWeight: '700',
+  },
+  nudgeRow: {
+    flexDirection: 'row',
+    gap: spacing.md,
+    marginTop: spacing.sm,
+  },
+  nudgeToggle: {
+    paddingVertical: spacing.xs,
+  },
+  nudgeHour: {
+    paddingVertical: spacing.xs,
+  },
+  nudgeText: {
+    ...type.bodySoft,
+    textDecorationLine: 'underline',
   },
   backLink: {
     paddingVertical: spacing.sm,

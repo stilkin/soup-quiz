@@ -2,7 +2,8 @@
 
 > **Status: real dataset shipped.** 347 soups compiled from Wikipedia with the
 > dataset pipeline (change `add-dataset-pipeline`), 295 with credited bundled images;
-> local stats record every round. Next up: SRS scheduling and the daily challenge (see
+> local stats record every round; the daily challenge serves one four-clue soup a
+> day. Next up: more game modes and SRS scheduling (see
 > [Roadmap](#roadmap)). Everything below marked *planned* is decided but not yet built.
 
 ## What is this project?
@@ -28,10 +29,11 @@ The concept, in priorities:
 | Present in this repo | Planned (decided in OpenSpec changes) |
 |---|---|
 | pnpm monorepo: `packages/{schema,data,engine,stats}` + `apps/soup-quiz` (Expo, iOS + Android) | SRS scheduling (serving weak soups more often) |
-| Zod item contract with JSON Schema export; 249-country registry; flag emoji | UTC daily challenge; share texts |
+| Zod item contract with JSON Schema export; 249-country registry; flag emoji; country centroids + distance heat bands | |
 | Seed-deterministic engine: mode-as-data, `generateRound`, scoring | Share-card page, notifications, store submission |
 | Real dataset: 347 soups via the Python pipeline, review pass + overrides; one playable mode | More game modes over the same data (declarative configs) |
 | Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, mastery | |
+| Daily challenge: one UTC soup a day — photo → ingredients → name ladder, search-select guessing, distance heat, streak, share, optional reminder | |
 | 295 credited Commons images bundled as ~200px sun-faded JPEG (3.8 MB) | |
 | Post-answer option strip (five flag tiles) + collapsible question card | |
 | Raw wikitext snapshots + cached article leads feeding the pipeline (`data/`) | |
@@ -43,8 +45,8 @@ The concept, in priorities:
 Fraunces via @expo-google-fonts), zod 4 (with native JSON Schema export), Vitest,
 Biome; Python pipeline (stdlib + pycountry + Pillow) under `data/pipeline/`.
 
-**Planned additions** (adjusted only via OpenSpec changes): an SRS scheduler and the
-daily challenge on top of the existing SQLite stats.
+**Planned additions** (adjusted only via OpenSpec changes): an SRS scheduler and more
+game modes on top of the existing SQLite stats.
 
 ## Repository layout
 
@@ -106,7 +108,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | 3 | `add-quiz-modes` — declarative mode configs over the real dataset | planned |
 | 4 | `add-stats-page` — local recording, streaks, mastery, stats screen | **archived 2026-10-02** (10/10 tasks) |
 | 5 | `add-srs-scheduling` — spaced-repetition serving from recorded data | planned |
-| 6 | `add-daily-challenge` — UTC daily + emoji share texts | planned |
+| 6 | `add-daily-challenge` — UTC daily: clue ladder, heat feedback, streak, share, reminder | applying 2026-10-04 |
 | 7 | later — share-card page, notifications, photo mode, store submission | backlog |
 | 8 | `polish-reveal-ui` — post-answer option strip + sun-faded images | **archived 2026-10-04** (8/8 tasks) |
 | 9 | `collapse-question-card` — collapsible ingredients after answering | **archived 2026-10-04** (2/2 tasks) |
