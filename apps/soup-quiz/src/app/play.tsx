@@ -79,7 +79,7 @@ export default function PlayScreen() {
           <ProgressDots current={state.index} total={round.questions.length} answered={answered} />
         </View>
 
-        <QuestionCard item={question.item} />
+        <QuestionCard key={question.item.id} item={question.item} answered={answered} />
 
         {answered ? (
           <Animated.View entering={FadeIn.duration(180)}>
