@@ -2,8 +2,8 @@
 
 ## 1. Geography reference data + heat helpers (schema)
 
-- [ ] 1.1 One-off pipeline script fetching Natural Earth label-point centroids for all registry countries (polite UA, cached); emit `packages/schema` centroid registry; conformance test: every COUNTRIES key covered, spot-checked coordinates
-- [ ] 1.2 `distanceKm(a, b)` (haversine) + `heatBand(km)` with the five bands (🔥 <1500, 🥵 <3000, 🌡️ <5500, ❄️ <9500, 🥶 else) as one constants block; tests pin canonical pairs incl. antimeridian correctness (Fiji↔Samoa, Tokyo↔Honolulu)
+- [x] 1.1 One-off pipeline script fetching Natural Earth label-point centroids for all registry countries (polite UA, cached); emit `packages/schema` centroid registry; conformance test: every COUNTRIES key covered, spot-checked coordinates
+- [x] 1.2 `distanceKm(a, b)` (haversine) + `heatBand(km)` with the five bands (🔥 <1500, 🥵 <3000, 🌡️ <5500, ❄️ <9500, 🥶 else) as one constants block; tests pin canonical pairs incl. antimeridian correctness (Fiji↔Samoa, Tokyo↔Honolulu)
 
 ## 2. Daily derivation (engine, pure)
 
