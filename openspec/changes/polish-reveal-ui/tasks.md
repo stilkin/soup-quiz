@@ -8,9 +8,9 @@
 
 ## 2. Sun-faded treatment
 
-- [ ] 2.1 Add `data/pipeline/treatment.py`: versioned warm/faded profile (per-channel LUT, black-point lift, saturation factor) applied via Pillow point/enhance ops
-- [ ] 2.2 Generate contact sheets: 3 strengths × 4 representative photos (dark stew, pale cream, green herbal, red broth), labeled; user picks the strength, constants recorded in `treatment.py`
-- [ ] 2.3 Apply in `05_images.py::reencode` (after resize, before save); re-run stages 05–06 offline; verify 295 assets regenerate byte-stably and pairing/manifest tests stay green
+- [x] 2.1 Add `data/pipeline/treatment.py`: versioned warm/faded profile (per-channel LUT, black-point lift, saturation factor) applied via Pillow point/enhance ops
+- [x] 2.2 Generate contact sheets: 3 strengths × 4 representative photos (dark stew, pale cream, green herbal, red broth), labeled; user picks the strength, constants recorded in `treatment.py`
+- [x] 2.3 Apply in `05_images.py::reencode` (after resize, before save); re-run stages 05–06 offline; verify 295 assets regenerate byte-stably and pairing/manifest tests stay green
 
 ## 3. Docs + integration
 
