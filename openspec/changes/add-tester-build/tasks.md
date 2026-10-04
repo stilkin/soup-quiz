@@ -2,8 +2,8 @@
 
 ## 1. Build identity + profile
 
-- [ ] 1.1 `apps/soup-quiz/app.json`: set `android.package` to `be.pocito.soupquiz`; run `eas init` from `apps/soup-quiz` and confirm it wrote `extra.eas.projectId`; `pnpm lint` stays green
-- [ ] 1.2 Add `apps/soup-quiz/eas.json` — single `preview` profile (`distribution: internal`, `android: { buildType: apk, autoIncrement: true }`) — and `apps/soup-quiz/.easignore` with the explicit exclusion list from design D4 (build noise + `data/`, `openspec/`, `.claude/`); verify `pnpm lint` parses both files
+- [x] 1.1 `apps/soup-quiz/app.json`: set `android.package` to `be.pocito.soupquiz`; run `eas init` from `apps/soup-quiz` and confirm it wrote `extra.eas.projectId`; `pnpm lint` stays green
+- [x] 1.2 Add `apps/soup-quiz/eas.json` — single `preview` profile (`distribution: internal`, `android: { buildType: apk, autoIncrement: true }`) — and `apps/soup-quiz/.easignore` with the explicit exclusion list from design D4 (build noise + `data/`, `openspec/`, `.claude/`); verify `pnpm lint` parses both files
 
 ## 2. Anchor freeze
 
