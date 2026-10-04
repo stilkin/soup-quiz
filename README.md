@@ -32,7 +32,8 @@ The concept, in priorities:
 | Seed-deterministic engine: mode-as-data, `generateRound`, scoring | Share-card page, notifications, store submission |
 | Real dataset: 347 soups via the Python pipeline, review pass + overrides; one playable mode | More game modes over the same data (declarative configs) |
 | Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, mastery | |
-| 295 credited Commons images bundled as ~200px JPEG (3.8 MB) | |
+| 295 credited Commons images bundled as ~200px sun-faded JPEG (3.8 MB) | |
+| Post-answer option strip (five flag tiles) on the play screen | |
 | Raw wikitext snapshots + cached article leads feeding the pipeline (`data/`) | |
 
 ## Technology
@@ -107,6 +108,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | 5 | `add-srs-scheduling` — spaced-repetition serving from recorded data | planned |
 | 6 | `add-daily-challenge` — UTC daily + emoji share texts | planned |
 | 7 | later — share-card page, notifications, photo mode, store submission | backlog |
+| 8 | `polish-reveal-ui` — post-answer option strip + sun-faded images | applying 2026-10-04 |
 
 ## Data sources and licensing
 
@@ -114,9 +116,10 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
   pipeline *inputs*, never shipped app content.
 - The shipped dataset keeps facts (country, ingredients, types), uses our own short
   descriptions, and carries per-item source attribution + learn-more links.
-- Item images: Commons originals re-encoded to ~200px JPEG thumbs and bundled as app
-  assets (3.8 MB for 295 images) with mandatory per-image credit (author, license,
-  deed link). No external image hosting; incomplete credit means no image.
+- Item images: Commons originals re-encoded to ~200px JPEG thumbs and color-adjusted
+  (uniform sun-faded treatment) and bundled as app assets (3.8 MB for 295 images) with
+  mandatory per-image credit (author, license, deed link). No external image hosting;
+  incomplete credit means no image.
 - Scope decisions: porridge lists excluded; the two redirect-target lists (cheese soups,
   ramen types) included.
 

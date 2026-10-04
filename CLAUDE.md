@@ -95,6 +95,8 @@ contract.
   ramen types) included. Corpus: 413 unique pageids; 347 ship after filtering and review.
 - Shipped data keeps facts + our own descriptions + per-item attribution (source URL,
   image credit). Images bundle as app assets with mandatory credit — no external hosting.
+  Bundled assets are re-encoded and color-adjusted (uniform sun-faded treatment; CC
+  BY-SA adaptation marking — cached originals stay unfiltered).
 - Countries and soup types are normalized 1..n lists (ISO alpha-2; controlled vocabulary
   owned by the schema). Never collapse them to single values.
 

@@ -14,5 +14,5 @@
 
 ## 3. Docs + integration
 
-- [ ] 3.1 README + CLAUDE.md: images are "re-encoded and color-adjusted" (CC BY-SA adaptation marking); present-vs-planned row for the strip
+- [x] 3.1 README + CLAUDE.md: images are "re-encoded and color-adjusted" (CC BY-SA adaptation marking); present-vs-planned row for the strip
 - [ ] 3.2 `pnpm typecheck`/`lint`/`test` green, bundle export passes; on-device round confirms strip + treated photos (user confirms before archive)
