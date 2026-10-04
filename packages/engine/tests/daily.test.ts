@@ -77,6 +77,6 @@ describe('dailyForDay', () => {
     const daily = dailyForDay(dailyDataset, 42)
     expect(daily.daySeed).toBe('daily-42')
     expect(DAILY_TIER_COUNT).toBe(4)
-    expect(LAUNCH_ANCHOR_DAY).toBeGreaterThan(0)
+    expect(LAUNCH_ANCHOR_DAY).toBe(20_639) // frozen at the tester build — bumps must be deliberate
   })
 })

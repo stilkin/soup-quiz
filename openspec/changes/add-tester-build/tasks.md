@@ -7,7 +7,7 @@
 
 ## 2. Anchor freeze
 
-- [ ] 2.1 Freeze `LAUNCH_ANCHOR_DAY` (drop the "provisional" comment; assert value equals the intended ship day before building) and pin the frozen value in `packages/engine/tests/daily.test.ts` so any later bump is deliberate; `pnpm test` green
+- [x] 2.1 Freeze `LAUNCH_ANCHOR_DAY` (drop the "provisional" comment; assert value equals the intended ship day before building) and pin the frozen value in `packages/engine/tests/daily.test.ts` so any later bump is deliberate; `pnpm test` green
 
 ## 3. Build, distribute, verify
 

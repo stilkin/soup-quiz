@@ -13,7 +13,8 @@ export const DAILY_TIER_COUNT = 4
 
 /**
  * Days-since-epoch anchor for share numbering ("Soup Quiz #N = dayIndex − anchor").
- * Provisional until the app ships; freeze it at launch so posted numbers never shift.
+ * Frozen at the first tester build (2026-10-04) — never re-base it: every posted
+ * day number and streak already derives from this value.
  */
 export const LAUNCH_ANCHOR_DAY = 20_639 // 2026-10-04
 
