@@ -33,7 +33,7 @@ The concept, in priorities:
 | Real dataset: 347 soups via the Python pipeline, review pass + overrides; one playable mode | More game modes over the same data (declarative configs) |
 | Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, mastery | |
 | 295 credited Commons images bundled as ~200px sun-faded JPEG (3.8 MB) | |
-| Post-answer option strip (five flag tiles) on the play screen | |
+| Post-answer option strip (five flag tiles) + collapsible question card | |
 | Raw wikitext snapshots + cached article leads feeding the pipeline (`data/`) | |
 
 ## Technology
@@ -109,6 +109,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | 6 | `add-daily-challenge` — UTC daily + emoji share texts | planned |
 | 7 | later — share-card page, notifications, photo mode, store submission | backlog |
 | 8 | `polish-reveal-ui` — post-answer option strip + sun-faded images | **archived 2026-10-04** (8/8 tasks) |
+| 9 | `collapse-question-card` — collapsible ingredients after answering | **archived 2026-10-04** (2/2 tasks) |
 
 ## Data sources and licensing
 
