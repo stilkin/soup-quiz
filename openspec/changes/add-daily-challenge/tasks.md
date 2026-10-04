@@ -16,9 +16,9 @@
 
 ## 4. Daily screen + input + share (app)
 
-- [ ] 4.1 `SearchSelect` component: TextInput + filtered registry list (prefix/substring, capped rows), commit on selection only, a11y labels
-- [ ] 4.2 `/daily` screen: four-tier clue reveal, guess-per-tier flow, heat feedback line (min over item's countries), solve/fail states with score, spoiler-free share text (frozen `LAUNCH_ANCHOR_DAY`), UTC-midnight countdown, play-once gate from recorded daily rounds
-- [ ] 4.3 Home "Today's soup" card (unplayed/solved/failed) routing to `/daily`; record the daily round on completion (`kind='daily'`, `correct`=tier, one answer row per guess); daily streak surfaced with the any-round streak
+- [x] 4.1 `SearchSelect` component: TextInput + filtered registry list (prefix/substring, capped rows), commit on selection only, a11y labels
+- [x] 4.2 `/daily` screen: four-tier clue reveal, guess-per-tier flow, heat feedback line (min over item's countries), solve/fail states with score, spoiler-free share text (frozen `LAUNCH_ANCHOR_DAY`), UTC-midnight countdown, play-once gate from recorded daily rounds
+- [x] 4.3 Home "Today's soup" card (unplayed/solved/failed) routing to `/daily`; record the daily round on completion (`kind='daily'`, `correct`=tier, one answer row per guess); daily streak surfaced with the any-round streak
 - [ ] 4.4 On-device: play a daily across the tiers — wrong guesses show sensible heat, halves split as spec'd, solve at an early tier scores lower-is-better, share text carries no spoilers, returning shows the finished state (user confirms)
 
 ## 5. Notification + integration
