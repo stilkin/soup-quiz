@@ -171,12 +171,14 @@ const styles = StyleSheet.create({
     backgroundColor: colors.tomato,
     borderRadius: radius.pill,
     paddingHorizontal: spacing.xl,
+    minWidth: 104,
     paddingVertical: spacing.md,
   },
   groupPillText: {
     ...type.body,
     color: colors.onTomato,
     fontWeight: '700',
+    textAlign: 'center',
   },
   footer: {
     ...type.caption,
