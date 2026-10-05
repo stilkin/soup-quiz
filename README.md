@@ -133,6 +133,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | 9 | `collapse-question-card` — collapsible ingredients after answering | **archived 2026-10-04** (2/2 tasks) |
 | 10 | `add-tester-build` — EAS preview APKs + tester install links | applying 2026-10-04 |
 | 11 | `polish-home-menu` — equal home tiles, five-bowl rounds | applying 2026-10-05 |
+| 12 | `app-icon-splash` — house-tuned emoji mark, branded splash | applying 2026-10-05 |
 
 ## Data sources and licensing
 
@@ -146,6 +147,11 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
   incomplete credit means no image.
 - Scope decisions: porridge lists excluded; the two redirect-target lists (cheese soups,
   ramen types) included.
+- App icon and splash: the 🥣 mark is [Twemoji](https://github.com/jdecked/twemoji)
+  (graphics CC BY 4.0) recolored to the app palette, with
+  [OpenMoji](https://github.com/hfg-gmuend/openmoji) (CC BY-SA 4.0) strokes as the
+  monochrome themed-icon variant. Vendored sources and the generator live in
+  `apps/soup-quiz/assets/` — assets are regenerated, never hand-edited.
 
 ## API and database
 
