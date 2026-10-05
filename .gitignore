@@ -8,6 +8,7 @@ node_modules/
 # Expo / RN
 .expo/
 dist/
+coverage/
 *.tsbuildinfo
 
 # Python (dataset pipeline, change 2)

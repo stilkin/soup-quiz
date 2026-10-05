@@ -6,6 +6,7 @@
     "start": "pnpm --filter @soup-quiz/app start",
     "typecheck": "pnpm -r run typecheck",
     "test": "pnpm -r run test",
+    "test:coverage": "pnpm -r run test:coverage",
     "lint": "biome check .",
     "format": "biome format --write .",
     "lint:py": "data/pipeline/.venv/bin/ruff check data/pipeline",

@@ -12,5 +12,5 @@
 
 ## 3. Coverage + docs
 
-- [ ] 3.1 Add `@vitest/coverage-v8` to the four packages, root `test:coverage` script, run it and record the per-package numbers in this change's summary
-- [ ] 3.2 CLAUDE.md commands (`lint:py`/`typecheck:py`/`test:py`, `test:coverage`) + README note; `pnpm typecheck`/`lint`/`test` all green
+- [x] 3.1 Add `@vitest/coverage-v8` to the four packages, root `test:coverage` script, run it and record the per-package numbers in this change's summary
+- [x] 3.2 CLAUDE.md commands (`lint:py`/`typecheck:py`/`test:py`, `test:coverage`) + README note; `pnpm typecheck`/`lint`/`test` all green

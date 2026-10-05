@@ -38,6 +38,10 @@ pnpm typecheck   # tsc --noEmit in every workspace package (incl. the Expo app)
 pnpm lint        # Biome check across the workspace
 pnpm format      # Biome format --write
 pnpm test        # Vitest in schema, data, engine, stats
+pnpm test:coverage # the same with v8 coverage
+pnpm lint:py     # ruff over data/pipeline (needs the pipeline venv — see its README)
+pnpm typecheck:py # mypy over data/pipeline
+pnpm test:py     # pytest transform units in data/pipeline/tests
 ```
 
 From `apps/soup-quiz` (or the root, which delegates `pnpm start`):

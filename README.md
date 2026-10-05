@@ -73,7 +73,12 @@ pnpm install        # workspace deps
 pnpm typecheck      # tsc --noEmit across packages
 pnpm lint           # Biome lint + format check
 pnpm test           # Vitest: schema, engine, dataset validation
+pnpm test:coverage  # the same, with per-package coverage
 ```
+
+Python-side checks (ruff / mypy / pytest over `data/pipeline/`) run as `pnpm lint:py`,
+`typecheck:py`, and `test:py` — they need the pipeline venv (see
+`data/pipeline/README.md`).
 
 To play:
 
