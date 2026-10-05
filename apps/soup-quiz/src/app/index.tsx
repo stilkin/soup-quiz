@@ -7,7 +7,7 @@ import {
 } from '@soup-quiz/engine'
 import { router, useFocusEffect } from 'expo-router'
 import { useCallback, useEffect, useState } from 'react'
-import { Pressable, StyleSheet, Text, View } from 'react-native'
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { fetchDailyRound } from '../storage/repo'
 import { colors, radius, spacing, type } from '../theme'
@@ -18,7 +18,7 @@ console.log(`[soup-quiz] dataset loaded via workspace packages: ${soupsV1.length
 /** Unplayed / solved-on-tier / failed — undefined until the storage answers. */
 type DailyState = { played: false } | { played: true; solved: boolean; tier: number }
 
-/** One of the three equal menu destinations: whole card taps, pill marks the action. */
+/** One of the three equal menu destinations: whole group taps, pill marks the action. */
 function MenuTile({
   title,
   hint,
@@ -34,12 +34,12 @@ function MenuTile({
     <Pressable
       accessibilityRole="button"
       onPress={onPress}
-      style={({ pressed }) => [styles.tile, pressed && styles.tilePressed]}
+      style={({ pressed }) => [styles.group, pressed && styles.groupPressed]}
     >
-      <Text style={styles.tileTitle}>{title}</Text>
-      <Text style={styles.tileHint}>{hint}</Text>
-      <View style={styles.tilePill}>
-        <Text style={styles.tilePillText}>{action}</Text>
+      <Text style={styles.groupTitle}>{title}</Text>
+      <Text style={styles.groupHint}>{hint}</Text>
+      <View style={styles.groupPill}>
+        <Text style={styles.groupPillText}>{action}</Text>
       </View>
     </Pressable>
   )
@@ -74,7 +74,7 @@ export default function StartScreen() {
 
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'bottom']}>
-      <View style={styles.wrap}>
+      <ScrollView contentContainerStyle={styles.wrap}>
         <View>
           <Text style={styles.title}>Soup Quiz</Text>
           <DoubleRule />
@@ -105,7 +105,7 @@ export default function StartScreen() {
         </View>
 
         <Text style={styles.footer}>Data from Wikipedia, credited per soup</Text>
-      </View>
+      </ScrollView>
     </SafeAreaView>
   )
 }
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   wrap: {
-    flex: 1,
+    flexGrow: 1,
     gap: spacing.xl,
     padding: spacing.xxl,
     paddingTop: spacing.huge,
@@ -151,35 +151,29 @@ const styles = StyleSheet.create({
   },
   menu: {
     flex: 1,
-    gap: spacing.md,
+    gap: spacing.lg,
+    justifyContent: 'space-evenly',
   },
-  tile: {
-    backgroundColor: colors.surface,
-    borderColor: colors.line,
-    borderRadius: radius.md,
-    borderWidth: 1,
-    flex: 1,
+  group: {
     gap: spacing.sm,
-    padding: spacing.lg,
   },
-  tilePressed: {
+  groupPressed: {
     opacity: 0.85,
   },
-  tileTitle: {
+  groupTitle: {
     ...type.menuTitle,
   },
-  tileHint: {
+  groupHint: {
     ...type.bodySoft,
   },
-  tilePill: {
+  groupPill: {
     alignSelf: 'flex-start',
     backgroundColor: colors.tomato,
     borderRadius: radius.pill,
-    marginTop: 'auto',
     paddingHorizontal: spacing.xl,
     paddingVertical: spacing.md,
   },
-  tilePillText: {
+  groupPillText: {
     ...type.body,
     color: colors.onTomato,
     fontWeight: '700',

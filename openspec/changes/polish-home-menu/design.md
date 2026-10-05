@@ -24,17 +24,24 @@ a "Your stats" text link. Round length lives app-side in `play.tsx`
 
 ## Decisions
 
-- **D1 — Equal thirds via `flex: 1` cards.** Header (title, double rule, menu line)
-  and footer stay fixed; the middle becomes a column of three `flex: 1` `Pressable`
-  cards with the house card treatment (`colors.surface`, `colors.line` border,
-  `radius.md`) separated by the standard gap. No measured heights — equal flex adapts
-  to any screen.
-- **D2 — Whole card is the button; the pill is styling.** Each card holds title
+- **D1 — Equal weight through treatment, not fixed heights.** The three destinations
+  are borderless groups — title, hint, action pill — stacked in the menu area and
+  distributed with `space-evenly` plus a minimum gap. The first build used `flex: 1`
+  bordered cards (equal *pixel* heights); on smaller devices the content outgrew the
+  slot and the bottom-pinned pill escaped the card border (device finding, screenshot
+  `screen_1.jpeg`, 2026-10-05). Natural-height groups cannot overflow by construction.
+  The card chrome (surface, border) is dropped with it: equal billing reads from
+  identical typography and pills.
+- **D2 — Whole group is the button; the pill is styling.** Each group holds title
   (`type.menuTitle`), hint (`type.bodySoft`), and the tomato pill (`Play` / `View` for
   the daily by played state, `Play` for the mode, `Open` for stats) as a non-interactive
-  `View` — the `Pressable` card carries `accessibilityRole="button"` and the label.
-  One tap target the size of the tile beats a pill-sized target on small screens, and
-  the pill still reads as the affordance.
+  `View` under the hint — no bottom-pinning, meaningless at natural height — while the
+  `Pressable` group carries `accessibilityRole="button"`.
+- **D2b — ScrollView as the cramped-screen net.** The screen body sits in a
+  `ScrollView` with `flexGrow: 1`: it fills the viewport on normal phones (identical to
+  a plain `View`) and starts scrolling only when content genuinely cannot fit — small
+  screens, landscape, or accessibility font scaling. Menu fit stays a design goal; the
+  scroll is a fallback, never the primary interaction.
 - **D3 — A tiny `MenuTile` component in `index.tsx`.** Three call sites share
   `{title, hint, action}` props plus `onPress`; the daily passes state-derived strings.
   Not a shared component file — it has exactly one consumer.
@@ -45,8 +52,9 @@ a "Your stats" text link. Round length lives app-side in `play.tsx`
 
 ## Risks / Trade-offs
 
-- [Equal thirds cramp on very short screens] — titles/hints are single-line-ish;
-  `flex: 1` with the existing gap gives each tile more room than the current layout.
+- [Borderless groups read less obviously tappable than cards] — the pill stays as the
+  affordance cue and the pressed state dims the whole group; `space-evenly` keeps the
+  grouping legible without chrome.
 - [Stats card hint must stay honest] — reuse the stats screen's own vocabulary
   (rounds, streaks, mastery), nothing speculative.
 
