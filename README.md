@@ -131,6 +131,8 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | 7 | later — share-card page, photo mode, store submission | backlog |
 | 8 | `polish-reveal-ui` — post-answer option strip + sun-faded images | **archived 2026-10-04** (8/8 tasks) |
 | 9 | `collapse-question-card` — collapsible ingredients after answering | **archived 2026-10-04** (2/2 tasks) |
+| 10 | `add-tester-build` — EAS preview APKs + tester install links | applying 2026-10-04 |
+| 11 | `polish-home-menu` — equal home tiles, five-bowl rounds | applying 2026-10-05 |
 
 ## Data sources and licensing
 

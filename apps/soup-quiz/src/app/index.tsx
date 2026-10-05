@@ -18,6 +18,33 @@ console.log(`[soup-quiz] dataset loaded via workspace packages: ${soupsV1.length
 /** Unplayed / solved-on-tier / failed — undefined until the storage answers. */
 type DailyState = { played: false } | { played: true; solved: boolean; tier: number }
 
+/** One of the three equal menu destinations: whole card taps, pill marks the action. */
+function MenuTile({
+  title,
+  hint,
+  action,
+  onPress,
+}: {
+  title: string
+  hint: string
+  action: string
+  onPress: () => void
+}) {
+  return (
+    <Pressable
+      accessibilityRole="button"
+      onPress={onPress}
+      style={({ pressed }) => [styles.tile, pressed && styles.tilePressed]}
+    >
+      <Text style={styles.tileTitle}>{title}</Text>
+      <Text style={styles.tileHint}>{hint}</Text>
+      <View style={styles.tilePill}>
+        <Text style={styles.tilePillText}>{action}</Text>
+      </View>
+    </Pressable>
+  )
+}
+
 export default function StartScreen() {
   const [dailyState, setDailyState] = useState<DailyState>({ played: false })
 
@@ -39,6 +66,12 @@ export default function StartScreen() {
     console.log(`[soup-quiz] ready to play: ${ingredientsToCountry.title}`)
   }, [])
 
+  const dailyHint = !dailyState.played
+    ? 'One bowl a day. Photo first, name last.'
+    : dailyState.solved
+      ? `Solved on clue ${dailyState.tier} of ${DAILY_TIER_COUNT}`
+      : 'It escaped today — come back tomorrow'
+
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'bottom']}>
       <View style={styles.wrap}>
@@ -50,43 +83,25 @@ export default function StartScreen() {
           </Text>
         </View>
 
-        <Pressable
-          accessibilityRole="button"
-          onPress={() => router.push('/daily')}
-          style={({ pressed }) => [styles.dailyCard, pressed && { opacity: 0.85 }]}
-        >
-          <View>
-            <Text style={styles.dailyTitle}>Today&apos;s soup</Text>
-            <Text style={styles.dailyHint}>
-              {dailyState.played
-                ? dailyState.solved
-                  ? `Solved on clue ${dailyState.tier} of ${DAILY_TIER_COUNT}`
-                  : 'It escaped today — come back tomorrow'
-                : 'One bowl a day. Photo first, name last.'}
-            </Text>
-          </View>
-          <Text style={styles.dailyAction}>{dailyState.played ? 'View' : 'Play'}</Text>
-        </Pressable>
-
-        <View style={styles.modeBlock}>
-          <Text style={styles.modeTitle}>{ingredientsToCountry.title}</Text>
-          <Text style={styles.modeHint}>
-            Read the ingredients, name the country. Eight bowls a round.
-          </Text>
-          <Pressable
-            accessibilityRole="button"
+        <View style={styles.menu}>
+          <MenuTile
+            title="Today&apos;s soup"
+            hint={dailyHint}
+            action={dailyState.played ? 'View' : 'Play'}
+            onPress={() => router.push('/daily')}
+          />
+          <MenuTile
+            title={ingredientsToCountry.title}
+            hint="Read the ingredients, name the country. Five bowls a round."
+            action="Play"
             onPress={() => router.push('/play')}
-            style={({ pressed }) => [styles.play, pressed && styles.playPressed]}
-          >
-            <Text style={styles.playText}>Play</Text>
-          </Pressable>
-          <Pressable
-            accessibilityRole="button"
+          />
+          <MenuTile
+            title="Your stats"
+            hint="Accuracy, streaks, and which soups need practice."
+            action="Open"
             onPress={() => router.push('/stats')}
-            style={({ pressed }) => [styles.statsLink, pressed && { opacity: 0.7 }]}
-          >
-            <Text style={styles.statsLinkText}>Your stats</Text>
-          </Pressable>
+          />
         </View>
 
         <Text style={styles.footer}>Data from Wikipedia, credited per soup</Text>
@@ -116,8 +131,7 @@ const styles = StyleSheet.create({
   },
   wrap: {
     flex: 1,
-    gap: spacing.xxl,
-    justifyContent: 'space-between',
+    gap: spacing.xl,
     padding: spacing.xxl,
     paddingTop: spacing.huge,
   },
@@ -135,66 +149,40 @@ const styles = StyleSheet.create({
   menuLine: {
     ...type.bodySoft,
   },
-  dailyCard: {
-    alignItems: 'center',
+  menu: {
+    flex: 1,
+    gap: spacing.md,
+  },
+  tile: {
     backgroundColor: colors.surface,
     borderColor: colors.line,
     borderRadius: radius.md,
     borderWidth: 1,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flex: 1,
+    gap: spacing.sm,
     padding: spacing.lg,
   },
-  dailyTitle: {
-    ...type.title,
-    fontSize: 18,
-    lineHeight: 24,
+  tilePressed: {
+    opacity: 0.85,
   },
-  dailyHint: {
+  tileTitle: {
+    ...type.menuTitle,
+  },
+  tileHint: {
     ...type.bodySoft,
-    fontSize: 14,
-    lineHeight: 19,
   },
-  dailyAction: {
-    ...type.body,
-    color: colors.tomato,
-    fontWeight: '700',
-  },
-  modeBlock: {
-    gap: spacing.sm,
-  },
-  modeTitle: {
-    ...type.title,
-  },
-  modeHint: {
-    ...type.bodySoft,
-    marginBottom: spacing.md,
-  },
-  play: {
+  tilePill: {
+    alignSelf: 'flex-start',
     backgroundColor: colors.tomato,
     borderRadius: radius.pill,
-    paddingHorizontal: spacing.huge,
-    paddingVertical: spacing.lg,
-    alignSelf: 'flex-start',
+    marginTop: 'auto',
+    paddingHorizontal: spacing.xl,
+    paddingVertical: spacing.md,
   },
-  playPressed: {
-    backgroundColor: colors.tomatoDeep,
-  },
-  playText: {
+  tilePillText: {
     ...type.body,
     color: colors.onTomato,
-    fontSize: 18,
     fontWeight: '700',
-  },
-  statsLink: {
-    alignSelf: 'flex-start',
-    paddingVertical: spacing.sm,
-  },
-  statsLinkText: {
-    ...type.body,
-    color: colors.inkSoft,
-    fontWeight: '600',
-    textDecorationLine: 'underline',
   },
   footer: {
     ...type.caption,
