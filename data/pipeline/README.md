@@ -11,6 +11,17 @@ and normalization, not dataframes.
 ```sh
 python3 -m venv data/pipeline/.venv
 data/pipeline/.venv/bin/pip install pycountry pillow
+data/pipeline/.venv/bin/pip install ruff mypy pytest   # dev tooling (lint/typecheck/tests)
+```
+
+Tooling versions in use (2026-10-05): ruff 0.16, mypy 2.4, pytest 9.1. Config lives in
+`pyproject.toml` (ruff line-length 100 matching Biome, lenient mypy, pytest testpaths).
+Run from the repo root via `pnpm lint:py` / `typecheck:py` / `test:py` — or directly:
+
+```sh
+data/pipeline/.venv/bin/ruff check data/pipeline
+data/pipeline/.venv/bin/mypy data/pipeline
+data/pipeline/.venv/bin/pytest data/pipeline
 ```
 
 ## Stages (run in order; each is independently re-runnable)

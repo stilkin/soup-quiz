@@ -2,7 +2,7 @@
 
 ## 1. Python tooling baseline
 
-- [ ] 1.1 `data/pipeline/pyproject.toml` (ruff lint+format line 100 + I, mypy lenient, pytest) + install ruff/mypy/pytest into the venv; `ruff format` the pipeline, `ruff check --fix` safe fixes, review the rest with the user if behavior-relevant; `mypy` baseline run recorded; README venv section updated (tools + versions)
+- [x] 1.1 `data/pipeline/pyproject.toml` (ruff lint+format line 100 + I, mypy lenient, pytest) + install ruff/mypy/pytest into the venv; `ruff format` the pipeline, `ruff check --fix` safe fixes, review the rest with the user if behavior-relevant; `mypy` baseline run recorded; README venv section updated (tools + versions)
 - [ ] 1.2 Root scripts `lint:py`, `typecheck:py`, `test:py`; verify each fails loudly without the venv and passes with it
 
 ## 2. Transform unit tests

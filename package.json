@@ -7,7 +7,10 @@
     "typecheck": "pnpm -r run typecheck",
     "test": "pnpm -r run test",
     "lint": "biome check .",
-    "format": "biome format --write ."
+    "format": "biome format --write .",
+    "lint:py": "data/pipeline/.venv/bin/ruff check data/pipeline",
+    "typecheck:py": "data/pipeline/.venv/bin/mypy --config-file data/pipeline/pyproject.toml data/pipeline",
+    "test:py": "data/pipeline/.venv/bin/pytest data/pipeline"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.15"
