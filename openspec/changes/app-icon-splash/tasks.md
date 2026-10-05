@@ -2,8 +2,8 @@
 
 ## 1. Sources + generator + assets
 
-- [ ] 1.1 Vendor the two SVGs under `apps/soup-quiz/assets/images/sources/` with license-header sidecars (Twemoji CC BY 4.0, OpenMoji CC BY-SA 4.0); write `make_app_icon.py` applying the D1 palette map via D4 sizes/transparencies; regenerate `icon.png`, `android-icon-{foreground,background,monochrome}.png`, `splash-icon.png`, `favicon.png`; verify a re-run reproduces the assets and the script fails loudly without `rsvg-convert`
-- [ ] 1.2 `app.json`: splash plugin `backgroundColor` → `#F7ECD2`, `imageWidth` → 160; `pnpm typecheck` + `pnpm lint` green
+- [x] 1.1 Vendor the two SVGs under `apps/soup-quiz/assets/images/sources/` with license-header sidecars (Twemoji CC BY 4.0, OpenMoji CC BY-SA 4.0); write `make_app_icon.py` applying the D1 palette map via D4 sizes/transparencies; regenerate `icon.png`, `android-icon-{foreground,background,monochrome}.png`, `splash-icon.png`, `favicon.png`; verify a re-run reproduces the assets and the script fails loudly without `rsvg-convert`
+- [x] 1.2 `app.json`: splash plugin `backgroundColor` → `#F7ECD2`, `imageWidth` → 160; `pnpm typecheck` + `pnpm lint` green
 
 ## 2. Attribution + integration
 
