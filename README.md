@@ -34,7 +34,7 @@ The concept, in priorities:
 | Real dataset: 347 soups via the Python pipeline, review pass + overrides; one playable mode | More game modes over the same data (declarative configs) |
 | Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, mastery | |
 | Daily challenge: one UTC soup a day — photo → ingredients → name ladder, search-select guessing, distance heat, streak, share, optional reminder | |
-| 295 credited Commons images bundled as ~200px sun-faded JPEG (3.8 MB) | |
+| 295 credited Commons images bundled as ~200px sun-faded JPEG (4.3 MB) | |
 | Post-answer option strip (five flag tiles) + collapsible question card | |
 | Tester APKs via EAS (`preview` profile, internal install links) | |
 | Raw wikitext snapshots + cached article leads feeding the pipeline (`data/`) | |
@@ -43,8 +43,9 @@ The concept, in priorities:
 
 **In the repo today:** TypeScript (strict) across `packages/` and the Expo app
 (SDK 57, React Native 0.86, expo-router, Reanimated, expo-image, expo-sqlite,
-Fraunces via @expo-google-fonts), zod 4 (with native JSON Schema export), Vitest,
-Biome; Python pipeline (stdlib + pycountry + Pillow) under `data/pipeline/`.
+expo-notifications, Fraunces via @expo-google-fonts), zod 4 (with native JSON Schema
+export); Vitest + Biome on the TS side, ruff + mypy + pytest on the Python side
+(stdlib + pycountry + Pillow pipeline under `data/pipeline/`).
 
 **Planned additions** (adjusted only via OpenSpec changes): an SRS scheduler and more
 game modes on top of the existing SQLite stats.
@@ -60,6 +61,7 @@ packages/stats/        pure progress computations: aggregation, UTC streaks, mas
 data/pipeline/         Python pipeline: identity, extract, normalize, review, images, compile
 data/raw/wikipedia/    wikitext snapshots (pipeline inputs, not app content)
 data/cache/            cached corpus scan + article leads (offline re-runs)
+docs/                  supplementary docs: database schema reference (Mermaid)
 openspec/              config (locked decisions), changes, durable specs
 .claude/               OpenSpec slash commands + skills (agent workflow)
 ```
@@ -72,7 +74,7 @@ Requires Node 20+ and pnpm 10.
 pnpm install        # workspace deps
 pnpm typecheck      # tsc --noEmit across packages
 pnpm lint           # Biome lint + format check
-pnpm test           # Vitest: schema, engine, dataset validation
+pnpm test           # Vitest: schema, engine, stats, data
 pnpm test:coverage  # the same, with per-package coverage
 ```
 
@@ -139,6 +141,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | 10 | `add-tester-build` — EAS preview APKs + tester install links | applying 2026-10-04 |
 | 11 | `polish-home-menu` — equal home tiles, five-bowl rounds | applying 2026-10-05 |
 | 12 | `app-icon-splash` — house-tuned emoji mark, branded splash | applying 2026-10-05 |
+| 13 | `pipeline-tooling` — ruff/mypy/pytest for the pipeline, vitest coverage | applying 2026-10-05 |
 
 ## Data sources and licensing
 
@@ -162,8 +165,23 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 
 - **REST API: none.** The app is local-first and offline; no backend is planned. (A tiny
   share-card web renderer is a possible later addition and would be documented then.)
-- **Database: on-device only.** `apps/soup-quiz/src/storage/` holds two append-only
-  SQLite tables (`rounds`, `answers`) via expo-sqlite; every stat is derived from them
-  in `packages/stats`. Schema: `rounds(id, kind, mode_id, seed, length, correct,
-  finished_at)`, `answers(id, round_id→rounds, item_id, correct, answered_at)` —
-  timestamps are Unix ms UTC.
+- **Database: on-device only** — `stats.db`, opened in `apps/soup-quiz/src/storage/`
+  (expo-sqlite, WAL journaling, `PRAGMA user_version` migrations). Two append-only
+  tables, `rounds` and `answers`; every stat is derived from them in `packages/stats`,
+  storage never computes. The full schema — Mermaid diagram, column reference,
+  migration policy — lives in [docs/database.md](docs/database.md).
+
+## Support
+
+If you enjoy this software and want to support its development, consider buying me a drink:
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/stilkin)
+
+Your support helps me continue developing and improving Soup Quiz!
+
+## License
+
+[PolyForm Noncommercial 1.0.0](LICENSE) — free to use for personal and non-commercial
+purposes. Bundled assets keep their own licenses: soup images are CC-licensed Commons
+works with per-image credit, and the app icon derives from Twemoji (CC BY 4.0) and
+OpenMoji (CC BY-SA 4.0) — see [Data sources and licensing](#data-sources-and-licensing).

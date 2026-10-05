@@ -1,7 +1,8 @@
 # Dataset pipeline
 
 Python side of the schema-as-contract: turns the wikitext snapshots in
-`data/raw/wikipedia/` into `packages/data/src/soups.v1.json` plus bundled, credited images.
+`data/raw/wikipedia/` into `packages/data/src/soups.v1.json` plus bundled, credited
+images, and the country centroids in `packages/schema/src/centroids.ts`.
 
 Stdlib + `pycountry` + `Pillow` only. No pandas — the job is fetching, wikitext parsing,
 and normalization, not dataframes.
@@ -34,6 +35,7 @@ $V data/pipeline/03_normalize.py   # aliases + type map + ingredient lexicon -> 
 $V data/pipeline/04_review.py      # build/review.csv + build/report.json
 $V data/pipeline/05_images.py      # Commons credit + thumbs -> assets + manifest (network, cached)
 $V data/pipeline/06_compile.py     # overrides merge -> packages/data/src/soups.v1.json
+$V data/pipeline/07_centroids.py   # Natural Earth label points -> packages/schema/src/centroids.ts (network, cached)
 ```
 
 ## Committed data tables
