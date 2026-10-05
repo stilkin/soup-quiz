@@ -7,5 +7,5 @@
 
 ## 2. Attribution + integration
 
-- [ ] 2.1 README: icon attribution line under "Data sources and licensing" (both families, licenses, links); roadmap row for the change; `pnpm test` green
+- [x] 2.1 README: icon attribution line under "Data sources and licensing" (both families, licenses, links); roadmap row for the change; `pnpm test` green
 - [ ] 2.2 Rebuild the preview APK (after `polish-home-menu` is applied) and confirm the new icon/splash in the build; on-device: launcher icon in circle and squircle masks, branded splash on cold start, themed-icon mono variant (user confirms)
