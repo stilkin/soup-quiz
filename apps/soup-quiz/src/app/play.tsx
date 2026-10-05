@@ -12,7 +12,7 @@ import { RevealCard } from '../components/RevealCard'
 import { type RecordedRound, recordRound } from '../storage/repo'
 import { colors, radius, spacing, type } from '../theme'
 
-const ROUND_LENGTH = Math.min(8, soupsV1.length)
+const ROUND_LENGTH = Math.min(5, soupsV1.length)
 
 interface RoundAnswer {
   value: string

@@ -7,5 +7,5 @@
 
 ## 2. Five-bowl rounds
 
-- [ ] 2.1 `play.tsx` `ROUND_LENGTH` 8 → 5 and menu hint copy; `pnpm test` green (engine suites unaffected); `expo export --platform android` bundle smoke check passes
+- [x] 2.1 `play.tsx` `ROUND_LENGTH` 8 → 5 and menu hint copy; `pnpm test` green (engine suites unaffected); `expo export --platform android` bundle smoke check passes
 - [ ] 2.2 On-device: a fresh free-play round serves five questions and scores after the fifth (user confirms)
