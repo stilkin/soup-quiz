@@ -3,12 +3,12 @@
 ## 1. Python tooling baseline
 
 - [x] 1.1 `data/pipeline/pyproject.toml` (ruff lint+format line 100 + I, mypy lenient, pytest) + install ruff/mypy/pytest into the venv; `ruff format` the pipeline, `ruff check --fix` safe fixes, review the rest with the user if behavior-relevant; `mypy` baseline run recorded; README venv section updated (tools + versions)
-- [ ] 1.2 Root scripts `lint:py`, `typecheck:py`, `test:py`; verify each fails loudly without the venv and passes with it
+- [x] 1.2 Root scripts `lint:py`, `typecheck:py`, `test:py`; verify each fails loudly without the venv and passes with it
 
 ## 2. Transform unit tests
 
-- [ ] 2.1 Make stage helpers importable (`main()` guards only, no behavior change); one smoke re-run of a stage to prove identical execution
-- [ ] 2.2 PyTest units for `strip_wikitext` (nesting, file links, paren husks), `split_params` (depth, own-`{{`), `lead_photo`, title normalization, centroid ISO fallback chain on an inline GeoJSON fixture; `test:py` green
+- [x] 2.1 Make stage helpers importable (`main()` guards only, no behavior change); one smoke re-run of a stage to prove identical execution
+- [x] 2.2 PyTest units for `strip_wikitext` (nesting, file links, paren husks), `split_params` (depth, own-`{{`), `lead_photo`, title normalization, centroid ISO fallback chain on an inline GeoJSON fixture; `test:py` green
 
 ## 3. Coverage + docs
 

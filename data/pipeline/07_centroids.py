@@ -33,6 +33,18 @@ UA = {
 # in ADM0_A2 (notably FR/NO); ISO_A2_EH is the least quirky in current versions.
 ISO_FIELDS = ("ISO_A2_EH", "ADM0_A2", "SOV_A2")
 
+
+def pick_iso(props: dict) -> str | None:
+    """First well-formed alpha-2 across the chain; NE emits '-99' for some countries."""
+    return next(
+        (
+            props[field]
+            for field in ISO_FIELDS
+            if re.fullmatch(r"[A-Z]{2}", str(props.get(field) or ""))
+        ),
+        None,
+    )
+
 # Registry codes that Natural Earth keys differently; grow only after a fail-loud run.
 ISO_PATCH: dict[str, str] = {}
 
@@ -76,14 +88,7 @@ def main() -> int:
     skipped = set()
     for feature in data["features"]:
         props = feature["properties"]
-        code = next(
-            (
-                props[field]
-                for field in ISO_FIELDS
-                if re.fullmatch(r"[A-Z]{2}", str(props.get(field) or ""))
-            ),
-            None,
-        )
+        code = pick_iso(props)
         if code is None:
             skipped.add(str(props.get("NAME")) or "?")
             continue
