@@ -18,8 +18,9 @@ finally closes the on-device notification gate left open in `add-daily-challenge
 - Add `.easignore` next to `eas.json` so the committed pipeline inputs under `data/`
   (wikitext snapshots, caches, ~25 MB) never upload to Expo's build servers — the build
   only needs `apps/`, `packages/`, and the root manifests.
-- Freeze `LAUNCH_ANCHOR_DAY` at the day the first tester build ships (its value already
-  is 2026-10-04); day numbers in shares are permanent from the first external install.
+- Freeze `LAUNCH_ANCHOR_DAY` on the eve of the first tester build (20 729 = 2026-10-03)
+  so the first daily, 2026-10-04, numbers #1; day numbers in shares are permanent from
+  the first external install.
 - Document the build + distribution flow (README, CLAUDE.md commands).
 
 Out of scope: Play Store submission (AAB, listings), iOS builds, `expo-updates` OTA,

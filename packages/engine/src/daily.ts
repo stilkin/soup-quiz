@@ -13,10 +13,11 @@ export const DAILY_TIER_COUNT = 4
 
 /**
  * Days-since-epoch anchor for share numbering ("Soup Quiz #N = dayIndex − anchor").
- * Frozen at the first tester build (2026-10-04) — never re-base it: every posted
- * day number and streak already derives from this value.
+ * The eve of the first tester build (20 729 = 2026-10-03), so the first daily
+ * (2026-10-04) numbers #1 — never re-base it: every posted day number and streak
+ * already derives from this value.
  */
-export const LAUNCH_ANCHOR_DAY = 20_639 // 2026-10-04
+export const LAUNCH_ANCHOR_DAY = 20_729 // 2026-10-03
 
 export interface DailySoup {
   item: SoupItem

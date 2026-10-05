@@ -77,6 +77,7 @@ describe('dailyForDay', () => {
     const daily = dailyForDay(dailyDataset, 42)
     expect(daily.daySeed).toBe('daily-42')
     expect(DAILY_TIER_COUNT).toBe(4)
-    expect(LAUNCH_ANCHOR_DAY).toBe(20_639) // frozen at the tester build — bumps must be deliberate
+    // Eve of the first tester build (20 729 = 2026-10-03) so day one is #1 — bumps must be deliberate
+    expect(LAUNCH_ANCHOR_DAY).toBe(20_729)
   })
 })

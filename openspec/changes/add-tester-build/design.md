@@ -52,10 +52,12 @@ only place the reminder path can be verified.
 - **D5 — Monorepo wiring.** Root `package.json` pins `packageManager: pnpm@10.33.2`, so
   EAS installs workspace deps with pnpm correctly; `eas init` run from `apps/soup-quiz`
   registers the project and writes `extra.eas.projectId` into `app.json`.
-- **D6 — Freeze `LAUNCH_ANCHOR_DAY` at the ship day.** Its value (20 639 = 2026-10-04)
-  already matches the intended ship date; the code comment drops "provisional". If the
-  build slips a day, the anchor bumps with it so the first tester day is day 0 — never
-  negative, never re-based after distribution.
+- **D6 — Freeze `LAUNCH_ANCHOR_DAY` at the ship-day eve.** Day numbers in shares are
+  `dayIndex − LAUNCH_ANCHOR_DAY`, so the anchor is the eve of the first tester build
+  (20 729 = 2026-10-03) and the first daily, 2026-10-04, numbers #1. (The value first
+  frozen as 20 639 was actually 2026-07-05 — 91 days early, caught in PR #1 review
+  before any external install.) Never negative on day one, never re-based after
+  distribution.
 - **D7 — Notifications need no build config.** Local-only scheduling: the library's
   manifest contributes `POST_NOTIFICATIONS` (Android 13+), our existing
   `requestPermissionsAsync` call requests it at toggle time. No `google-services.json`:
