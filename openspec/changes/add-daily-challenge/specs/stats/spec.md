@@ -13,6 +13,10 @@ A UTC day SHALL count toward the daily streak when that day's daily challenge wa
 - **WHEN** a UTC day passes without a solved daily, or the day's daily is failed
 - **THEN** the current daily streak restarts from the next solved day
 
+#### Scenario: Failing today ends the current streak immediately
+- **WHEN** today's daily was played and failed
+- **THEN** the current daily streak is 0 while the best streak is preserved
+
 #### Scenario: Free rounds do not extend the daily streak
 - **WHEN** a player finishes free-play rounds but not the daily
 - **THEN** the daily streak is unaffected while the any-round streak may grow

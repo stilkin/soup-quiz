@@ -63,4 +63,18 @@ describe('dailyStreaks', () => {
     ]
     expect(dailyStreaks(rounds, NOW)).toEqual({ current: 2, best: 2 })
   })
+
+  it('ends the streak at once when today was played and failed', () => {
+    const rounds = [
+      round(T('2026-10-02'), { kind: 'daily', correct: 1 }),
+      round(T('2026-10-03'), { kind: 'daily', correct: 1 }),
+      round(T('2026-10-04'), { kind: 'daily', correct: 0 }),
+    ]
+    expect(dailyStreaks(rounds, NOW)).toEqual({ current: 0, best: 2 })
+  })
+
+  it('starts from zero on a first-day fail', () => {
+    const rounds = [round(T('2026-10-04'), { kind: 'daily', correct: 0 })]
+    expect(dailyStreaks(rounds, NOW)).toEqual({ current: 0, best: 0 })
+  })
 })
