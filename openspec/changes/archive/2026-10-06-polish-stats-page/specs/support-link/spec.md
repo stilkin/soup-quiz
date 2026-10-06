@@ -1,5 +1,9 @@
 # Spec Delta
 
+## Purpose
+
+A single, quiet way for players to support development: one external link, placed where it never interrupts gameplay.
+
 ## ADDED Requirements
 
 ### Requirement: The app offers a quiet support link
