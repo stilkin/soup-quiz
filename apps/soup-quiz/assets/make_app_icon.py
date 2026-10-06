@@ -36,7 +36,7 @@ PALETTE_MAP = {
     "#CCD6DD": "#FCF7EA",  # spoon bowl -> surface
 }
 
-FOREGROUND_FRACTION = 0.66  # Android adaptive safe zone
+FOREGROUND_FRACTION = 0.56  # ~84% of the visible mask circle — a cream ring survives Android cropping
 
 
 def render(svg: str, size: int, background: str | None = None) -> Image.Image:
