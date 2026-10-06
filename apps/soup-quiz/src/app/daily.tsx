@@ -18,10 +18,11 @@ import { RevealCard } from '../components/RevealCard'
 import { SearchSelect } from '../components/SearchSelect'
 import { soupImages } from '../images'
 import {
+  DEFAULT_REMINDER_HOUR,
   disableReminder,
   enableReminder,
   notificationsAvailable,
-  reminderEnabled,
+  reminderState,
 } from '../notifications'
 import { fetchDailyRound, fetchRounds, type RecordedAnswer, recordRound } from '../storage/repo'
 import { colors, radius, spacing, type } from '../theme'
@@ -39,7 +40,7 @@ export default function DailyScreen() {
   const [tier, setTier] = useState(1)
   const [heat, setHeat] = useState<string | undefined>()
   const [streak, setStreak] = useState({ current: 0, best: 0 })
-  const [nudge, setNudge] = useState({ on: false, hour: 9 })
+  const [nudge, setNudge] = useState({ on: false, hour: DEFAULT_REMINDER_HOUR })
   const [nudgeSupported, setNudgeSupported] = useState(true)
   const guesses = useRef<RecordedAnswer[]>([])
 
@@ -70,9 +71,8 @@ export default function DailyScreen() {
         setOutcome({ status: 'unplayed' })
       }
       setStreak(dailyStreaks(rounds, Date.now()))
-      const reminderOn = await reminderEnabled()
-      setNudge((state) => ({ ...state, on: reminderOn }))
       setNudgeSupported(await notificationsAvailable())
+      setNudge(await reminderState())
     } catch (error) {
       console.warn('[soup-quiz] failed to load the daily', error)
     }
@@ -133,15 +133,17 @@ export default function DailyScreen() {
   const toggleNudge = async () => {
     if (nudge.on) {
       await disableReminder()
-      setNudge({ ...nudge, on: false })
+      setNudge((state) => ({ ...state, on: false }))
       return
     }
-    setNudge({ ...nudge, on: await enableReminder(nudge.hour) })
+    const on = await enableReminder(nudge.hour)
+    setNudge((state) => ({ ...state, on }))
   }
 
   const stepHour = async () => {
     const hour = (nudge.hour + 1) % 24
-    setNudge({ hour, on: await enableReminder(hour) })
+    const on = await enableReminder(hour)
+    setNudge(() => ({ hour, on }))
   }
 
   const played = outcome.status !== 'unplayed'
@@ -181,9 +183,15 @@ export default function DailyScreen() {
                 ? `Solved on clue ${outcome.tier} of ${DAILY_TIER_COUNT}`
                 : 'The soup escaped — see it below'}
             </Text>
-            <Text style={styles.streakLine}>
-              🔥 {streak.current}-day streak (best {streak.best})
-            </Text>
+            {streak.current > 0 ? (
+              <Text style={styles.streakLine}>
+                🔥 {streak.current}-day streak (best {streak.best})
+              </Text>
+            ) : (
+              streak.best > 0 && (
+                <Text style={styles.streakLine}>Best streak: {streak.best} days</Text>
+              )
+            )}
             <Pressable
               accessibilityRole="button"
               onPress={share}
@@ -208,7 +216,7 @@ export default function DailyScreen() {
                     ? '🔔 Daily reminder on'
                     : nudgeSupported
                       ? '🔕 Remind me daily'
-                      : '🔕 Reminders need a dev build'}
+                      : '🔕 Reminders unavailable here'}
                 </Text>
               </Pressable>
               {nudge.on && (
