@@ -32,7 +32,7 @@ The concept, in priorities:
 | Zod item contract with JSON Schema export; 249-country registry; flag emoji; country centroids + distance heat bands | |
 | Seed-deterministic engine: mode-as-data, `generateRound`, scoring | Share-card page, store submission |
 | Real dataset: 347 soups via the Python pipeline, review pass + overrides; one playable mode | More game modes over the same data (declarative configs) |
-| Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, mastery | |
+| Local stats: every round recorded (SQLite), stats screen with UTC day streaks, accuracy, per-country progress with a discovery meter | |
 | Daily challenge: one UTC soup a day — photo → ingredients → name ladder, search-select guessing, distance heat, streak, share, optional reminder | |
 | 295 credited Commons images bundled as ~200px sun-faded JPEG (4.3 MB) | |
 | Post-answer option strip (five flag tiles) + collapsible question card | |
@@ -142,6 +142,7 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 | 11 | `polish-home-menu` — equal home tiles, five-bowl rounds | applying 2026-10-05 |
 | 12 | `app-icon-splash` — house-tuned emoji mark, branded splash | applying 2026-10-05 |
 | 13 | `pipeline-tooling` — ruff/mypy/pytest for the pipeline, vitest coverage | applying 2026-10-05 |
+| 14 | `polish-stats-page` — per-country stats breakdown, discovery meter, Ko-fi link | applying 2026-10-06 |
 
 ## Data sources and licensing
 

@@ -24,5 +24,5 @@
 
 ## 3. Docs
 
-- [ ] 3.1 README present-vs-planned row + roadmap row; `pnpm typecheck`/`lint`/`test`
+- [x] 3.1 README present-vs-planned row + roadmap row; `pnpm typecheck`/`lint`/`test`
   all green
