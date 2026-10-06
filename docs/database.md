@@ -47,7 +47,7 @@ answers by `recordRound` (`src/storage/repo.ts`).
 | `seed` | TEXT | `NOT NULL` | The seed the round was generated from. For dailies `'daily-<dayIndex>'`, so `(kind, seed)` identifies a day exactly — `fetchDailyRound` looks a day up this way. |
 | `length` | INTEGER | `NOT NULL` | Questions served (free play: 5; daily: 4 clue tiers). |
 | `correct` | INTEGER | `NOT NULL` | Correct answers in the round. For dailies, the clue tier the soup was solved on (`0` = failed). A daily counts toward the daily streak when `correct >= 1`. |
-| `finished_at` | INTEGER | `NOT NULL` | Round completion time, Unix milliseconds UTC. |
+| `finished_at` | INTEGER | `NOT NULL` | Round time, Unix milliseconds UTC — wall clock for free rounds; dailies stamp the day's UTC midnight, so a finish across midnight still credits its own day. |
 
 ### `answers`
 

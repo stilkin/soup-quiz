@@ -114,7 +114,8 @@ export default function DailyScreen() {
       seed: daily.daySeed,
       length: DAILY_TIER_COUNT,
       correct: solvingTier,
-      finishedAt: Date.now(),
+      // the day's UTC midnight — a finish across midnight still credits its own day
+      finishedAt: dayIndex * 86_400_000,
       answers: guesses.current,
     })
       .then(refresh)
