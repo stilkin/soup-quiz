@@ -1,11 +1,13 @@
+import Constants from 'expo-constants'
 import { Platform } from 'react-native'
 
 /**
  * The daily nudge: one local notification a day at the player's chosen hour.
  * Every export resolves — nothing here throws; failures log and degrade to "no
- * reminder", so call sites can fire and forget. Local scheduling is the supported
- * subset in Expo Go (the module only warns there; push would need a dev build,
- * and we don't use push). Web has no scheduler at all.
+ * reminder", so call sites can fire and forget. Expo Go on Android ships no
+ * expo-notifications native module at all (removed in SDK 53), so it is gated
+ * before the first import — iOS Expo Go still schedules locally. Web has no
+ * scheduler either.
  */
 
 type NotificationsModule = typeof import('expo-notifications')
@@ -18,6 +20,9 @@ const DAILY_REMINDER_ID = 'daily-soup-reminder'
 let modulePromise: Promise<NotificationsModule | undefined> | undefined
 
 function notificationsModule(): Promise<NotificationsModule | undefined> {
+  if (Platform.OS === 'android' && Constants.executionEnvironment === 'storeClient') {
+    return Promise.resolve(undefined) // Android Expo Go: module absent — never import
+  }
   if (Platform.OS === 'web') return Promise.resolve(undefined)
   modulePromise ??= import('expo-notifications').catch((error) => {
     console.warn('[soup-quiz] notifications unavailable', error)
