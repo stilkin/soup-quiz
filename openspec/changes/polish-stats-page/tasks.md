@@ -19,7 +19,7 @@
 - [x] 2.2 Support link in the stats footer (quiet underlined line above "Clear stats")
   opening `https://ko-fi.com/stilkin` via `Linking.openURL`; `pnpm typecheck`/`lint`
   green, `expo export --platform android` passes
-- [ ] 2.3 Device check: play a round, open stats — ranked countries only, meter grows,
+- [x] 2.3 Device check: play a round, open stats — ranked countries only, meter grows,
   footer link opens the browser (user confirms before archive)
 
 ## 3. Docs

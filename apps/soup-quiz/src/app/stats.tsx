@@ -88,7 +88,7 @@ export default function StatsScreen() {
               onPress={() => void Linking.openURL(SUPPORT_URL)}
               style={({ pressed }) => [styles.clear, pressed && { opacity: 0.7 }]}
             >
-              <Text style={styles.clearText}>Enjoying Soup Quiz? Buy me a drink</Text>
+              <Text style={styles.clearText}>Enjoying Soup Quiz? Buy me a drink ☕</Text>
             </Pressable>
             <Pressable
               onPress={confirmClear}
