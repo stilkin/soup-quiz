@@ -13,10 +13,10 @@
 
 ## 2. Stats screen rework + support link (app)
 
-- [ ] 2.1 `stats.tsx`: country breakdown replaces the per-soup list — rows of flag +
+- [x] 2.1 `stats.tsx`: country breakdown replaces the per-soup list — rows of flag +
   name + accuracy + answer count (existing row idiom and theme tokens); summary gains
   "Countries discovered: X/63"; `SoupMasteryRow` deleted; empty state unchanged
-- [ ] 2.2 Support link in the stats footer (quiet underlined line above "Clear stats")
+- [x] 2.2 Support link in the stats footer (quiet underlined line above "Clear stats")
   opening `https://ko-fi.com/stilkin` via `Linking.openURL`; `pnpm typecheck`/`lint`
   green, `expo export --platform android` passes
 - [ ] 2.3 Device check: play a round, open stats — ranked countries only, meter grows,
