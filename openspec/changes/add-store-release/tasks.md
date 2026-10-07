@@ -2,16 +2,16 @@
 
 ## 1. Store build profiles & app identity
 
-- [ ] 1.1 Add `ios.bundleIdentifier` (`be.pocito.soupquiz`) and `ios.buildNumber` (1) to `app.json`; verify with `pnpm exec expo config --type public` showing both values
-- [ ] 1.2 Add `production` (android `app-bundle`, no autoIncrement) and `ios-sim` (`ios.simulator: true`, internal) profiles to `eas.json`; verify `pnpm exec eas config --profile production --platform android` resolves with the expected build type and no autoIncrement
-- [ ] 1.3 Wrap `SearchSelect` content in a `KeyboardAvoidingView` (iOS `padding` behavior, Android unchanged); verify `pnpm typecheck && pnpm lint` pass — on-iOS behavior is confirmed by the 4.2 smoke checklist
+- [x] 1.1 Add `ios.bundleIdentifier` (`be.pocito.soupquiz`) and `ios.buildNumber` (1) to `app.json`; verify with `pnpm exec expo config --type public` showing both values
+- [x] 1.2 Add `production` (android `app-bundle`, no autoIncrement) and `ios-sim` (`ios.simulator: true`, internal) profiles to `eas.json`; verify `pnpm exec eas config --profile production --platform android` resolves with the expected build type and no autoIncrement
+- [x] 1.3 Wrap `SearchSelect` content in a `KeyboardAvoidingView` (iOS `padding` behavior, Android unchanged); verify `pnpm typecheck && pnpm lint` pass — on-iOS behavior is confirmed by the 4.2 smoke checklist
 
 ## 2. Privacy policy & listing kit
 
-- [ ] 2.1 Write `docs/index.md` privacy page (no data collected, no accounts, all progress on-device, support contact); verify the page states the no-collection policy and `pnpm ls --depth 0`-style dependency audit shows no analytics/telemetry packages
+- [x] 2.1 Write `docs/index.md` privacy page (no data collected, no accounts, all progress on-device, support contact); verify the page states the no-collection policy and `pnpm ls --depth 0`-style dependency audit shows no analytics/telemetry packages
 - [ ] 2.2 Enable GitHub Pages (main branch, `/docs` root) in repo settings — user gate; verify `curl -s https://stilkin.github.io/soup-quiz/` returns the rendered policy
-- [ ] 2.3 Write `docs/store-listing.md` with Play + App Store copy (title, short and full descriptions, keywords, what's new); verify every field is within its store's character limits
-- [ ] 2.4 Extend `make_app_icon.py` to emit the 1024×500 Play feature graphic (flat, no alpha) and a 512×512 Play icon; verify regeneration runs offline and PIL reports the exact sizes/modes
+- [x] 2.3 Write `docs/store-listing.md` with Play + App Store copy (title, short and full descriptions, keywords, what's new); verify every field is within its store's character limits
+- [x] 2.4 Extend `make_app_icon.py` to emit the 1024×500 Play feature graphic (flat, no alpha) and a 512×512 Play icon; verify regeneration runs offline and PIL reports the exact sizes/modes
 
 ## 3. Android store build (Google Play)
 

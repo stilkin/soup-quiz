@@ -1,8 +1,11 @@
 #!/usr/bin/env python
-"""Regenerates the app's identity assets (icon, adaptive layers, mono, splash, favicon).
+"""Regenerates the app's identity assets (icon, adaptive layers, mono, splash,
+favicon) and the store listing graphics (Play icon, Play feature graphic).
 
 Change `app-icon-splash` design D1/D4: the Twemoji bowl-with-spoon recolored to the
 theme palette, plus OpenMoji's stroke layer as the monochrome themed-icon variant.
+Change `add-store-release` D5: the feature graphic adds the app name in Fraunces
+(the app's display face, vendored under images/sources/, SIL OFL 1.1).
 
 Run from anywhere:  ../../data/pipeline/.venv/bin/python make_app_icon.py
 Requires Pillow and `rsvg-convert` (brew install librsvg) on PATH. No network —
@@ -17,7 +20,7 @@ import sys
 import tempfile
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 
 HERE = Path(__file__).resolve().parent
 SRC = HERE / "images" / "sources"
@@ -79,6 +82,16 @@ def centered(art: Image.Image, canvas_size: int, fraction: float) -> Image.Image
     return canvas
 
 
+def feature_graphic(mark: Image.Image, name: str) -> Image.Image:
+    """Play feature graphic: mark centered, app name below in the theme display face."""
+    canvas = Image.new("RGB", (1024, 500), CREAM)
+    art = mark.resize((300, 300), Image.LANCZOS)
+    canvas.paste(art, ((1024 - 300) // 2, 42), art)
+    font = ImageFont.truetype(str(SRC / "fraunces-900black.ttf"), 88)
+    ImageDraw.Draw(canvas).text((512, 398), name, font=font, fill=INK, anchor="mm")
+    return canvas
+
+
 def main() -> None:
     twemoji = (SRC / "twemoji-1f963.svg").read_text()
     openmoji = (SRC / "openmoji-1f963.svg").read_text()
@@ -96,6 +109,9 @@ def main() -> None:
         "android-icon-monochrome.png": centered(render(mono, 1024), 1024, FOREGROUND_FRACTION),
         # Splash: mark on transparency; app.json sizes it over the cream background.
         "splash-icon.png": render(mark, 1024),
+        # Play Store: flat icon and the 1024x500 feature graphic, no alpha.
+        "play-icon-512.png": render(mark, 512, background=CREAM).convert("RGB"),
+        "play-feature-graphic.png": feature_graphic(render(mark, 1024), "Soup Quiz"),
     }
     for name, image in outputs.items():
         image.save(OUT / name)

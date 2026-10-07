@@ -1,0 +1,78 @@
+# Store listing copy — Soup Quiz 1.0
+
+Single source of truth for the Google Play and App Store Connect listings. Paste from
+here; every wording change is a repo diff (release-builds spec). Character counts are
+checked against each store's limit at the field.
+
+## Shared fields
+
+| Field | Value | Limit |
+|---|---|---|
+| App name | Soup Quiz | 30 |
+| Privacy policy URL | https://stilkin.github.io/soup-quiz/ | — |
+| Support URL | https://github.com/stilkin/soup-quiz/issues | — |
+| Marketing URL (ASC) | https://github.com/stilkin/soup-quiz | — |
+
+## Google Play
+
+- **Category:** Game → Trivia
+- **Short description** (80/80):
+  `Guess the world's soups from photos and clues. Daily challenge, streaks, no ads.`
+- **Full description** (see below, ~1,100/4,000)
+- **Content rating:** Everyone — questionnaire answers: no violence, no gambling, no
+  user-generated content sharing, no ads, no in-app purchases
+- **Data safety:** collects no data of any type; no data shared; data can't be deleted
+  because none is collected (on-device stats are the user's own, clearable in-app)
+- **Target audience:** 13+ (avoids the Families policy requirements)
+- **Assets:** 512×512 icon (`play-icon-512.png`), 1024×500 feature graphic
+  (`play-feature-graphic.png`), ≥2 phone screenshots from the tester device
+
+### Play full description
+
+```text
+Soup Quiz is an offline trivia game about the world's soups — 347 of them, from pho to
+borscht, compiled from Wikipedia with per-item credits.
+
+HOW YOU PLAY
+• Photo rounds: name the soup from its picture
+• Text rounds: match soups to their countries and ingredients
+• The daily challenge: one soup a day for everyone, revealed in four clue tiers — the
+  picture, half the ingredients, the rest, then the name. Solve it in as few guesses
+  as you can.
+• Heat feedback: a wrong country guess tells you how close you are
+
+KEEPING SCORE
+• Streaks for daily players and for free play
+• Per-country progress shows where your weak spots are
+• Everything works offline — planes, subways, basements
+
+NO STRINGS
+• No ads, no accounts, no tracking
+• Your stats live on your device, and clearing them really clears them
+• Facts and images from Wikipedia (CC BY-SA), credited soup by soup in the app
+```
+
+## Apple App Store
+
+- **Category:** Games → Trivia
+- **Subtitle** (26/30): `The world's soups, offline`
+- **Keywords** (75/100): `soup,quiz,food,trivia,daily,geography,countries,cooking,guess,photo,offline`
+- **Description:** same text as the Play full description above
+- **What's new (1.0):**
+  `First release: quiz rounds over 347 world soups, the daily challenge with streaks, and per-country progress.`
+- **Age rating:** expected 4+. On the "unrestricted web access" question answer **No**:
+  the app contains no browser; credit and support links open specific external pages,
+  there is no general web navigation.
+- **App Privacy:** Data Not Collected — no identity, location, contact, health,
+  financial, or usage data; no tracking
+- **Assets:** iPhone 6.7" screenshot set (1290×2796) captured in the simulator during
+  the 4.2 smoke checklist; app icon comes from the build
+
+## Screenshot shot-list (both stores)
+
+1. Menu — the bowl card grid
+2. Photo round mid-question
+3. Daily challenge — clue ladder with a guess committed
+4. Daily result — solved, score tier + streak
+5. Stats — summary + per-country progress
+6. Soup detail — image with attribution row
