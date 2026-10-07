@@ -1,6 +1,13 @@
 import { COUNTRIES, countryName, flagEmoji } from '@soup-quiz/schema'
 import { useState } from 'react'
-import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native'
+import {
+  KeyboardAvoidingView,
+  Platform,
+  Pressable,
+  StyleSheet,
+  Text,
+  TextInput,
+} from 'react-native'
 import { colors, radius, spacing, type } from '../theme'
 
 const ALL_CODES = Object.keys(COUNTRIES)
@@ -27,7 +34,10 @@ export function SearchSelect({ onCommit, disabled = false }: SearchSelectProps) 
         )
 
   return (
-    <View style={styles.wrap}>
+    <KeyboardAvoidingView
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      style={styles.wrap}
+    >
       <TextInput
         accessibilityLabel="Country guess"
         editable={!disabled}
@@ -52,7 +62,7 @@ export function SearchSelect({ onCommit, disabled = false }: SearchSelectProps) 
           <Text style={styles.name}>{countryName(code)}</Text>
         </Pressable>
       ))}
-    </View>
+    </KeyboardAvoidingView>
   )
 }
 

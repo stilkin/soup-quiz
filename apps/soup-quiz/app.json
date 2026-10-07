@@ -7,7 +7,10 @@
     "icon": "./assets/images/icon.png",
     "scheme": "soupquiz",
     "userInterfaceStyle": "automatic",
-    "ios": {},
+    "ios": {
+      "bundleIdentifier": "be.pocito.soupquiz",
+      "buildNumber": "1"
+    },
     "android": {
       "package": "be.pocito.soupquiz",
       "adaptiveIcon": {
@@ -17,7 +20,7 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "versionCode": 11
+      "versionCode": 12
     },
     "web": {
       "output": "static",
@@ -44,6 +47,6 @@
         "projectId": "e09d24b1-8699-4135-aa4c-ffa42f3d5896"
       }
     },
-    "owner": "pocito"
+    "owner": "pocito-be"
   }
 }

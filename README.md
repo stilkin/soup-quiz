@@ -159,7 +159,9 @@ Project-wide constraints (stack, local-first, UTC dailies, attribution posture) 
 - App icon and splash: the 🥣 mark is [Twemoji](https://github.com/jdecked/twemoji)
   (graphics CC BY 4.0) recolored to the app palette, with
   [OpenMoji](https://github.com/hfg-gmuend/openmoji) (CC BY-SA 4.0) strokes as the
-  monochrome themed-icon variant. Vendored sources and the generator live in
+  monochrome themed-icon variant. Store assets add the app name in
+  [Fraunces](https://github.com/google/fonts) (SIL OFL 1.1) on the Play feature
+  graphic. Vendored sources and the generator live in
   `apps/soup-quiz/assets/` — assets are regenerated, never hand-edited.
 
 ## API and database
