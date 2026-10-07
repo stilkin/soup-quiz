@@ -7,7 +7,10 @@
     "icon": "./assets/images/icon.png",
     "scheme": "soupquiz",
     "userInterfaceStyle": "automatic",
-    "ios": {},
+    "ios": {
+      "bundleIdentifier": "be.pocito.soupquiz",
+      "buildNumber": "1"
+    },
     "android": {
       "package": "be.pocito.soupquiz",
       "adaptiveIcon": {

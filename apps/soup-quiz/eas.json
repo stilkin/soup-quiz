@@ -9,6 +9,17 @@
         "buildType": "apk",
         "autoIncrement": true
       }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      }
+    },
+    "ios-sim": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
     }
   }
 }
