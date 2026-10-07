@@ -24,4 +24,5 @@ __pycache__/
 
 # Pipeline build artifacts (regenerable; caches are committed)
 data/build/
-/app.json  # eas-cli droppings — real config is apps/soup-quiz/app.json
+# eas-cli droppings — real config is apps/soup-quiz/app.json
+/app.json
