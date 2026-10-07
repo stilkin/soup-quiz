@@ -15,7 +15,7 @@
 
 ## 3. Android store build (Google Play)
 
-- [ ] 3.1 Set `versionCode` to 12 (exceeds distributed 11) and run `eas build --profile production --platform android`; verify the EAS build finishes and the artifact is an `.aab`
+- [x] 3.1 Set `versionCode` to 12 (exceeds distributed 11) and run `eas build --profile production --platform android`; verify the EAS build finishes and the artifact is an `.aab`
 - [ ] 3.2 Play Console — user gate: create the app record, and on first `.aab` upload enroll the **existing** keystore as the app signing key (design D1), upload to the internal track; verify the console shows the uploaded key as the app signing key
 - [ ] 3.3 Play Console listing — user gate: paste copy from `docs/store-listing.md`, upload icon + feature graphic, device screenshots (≥2, captured on the Android tester device), complete content-rating and data-safety (no collection) forms; verify the console's listing-completeness check is green
 - [ ] 3.4 Install-over-tester gate — user gate: install the internal-track build from Play over the sideloaded APK; verify it upgrades in place with rounds and streaks intact (the spec scenario)
