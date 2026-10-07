@@ -85,7 +85,7 @@ export default function StatsScreen() {
             ))}
             <Pressable
               accessibilityRole="link"
-              onPress={() => void Linking.openURL(SUPPORT_URL)}
+              onPress={() => void Linking.openURL(SUPPORT_URL).catch(() => {})}
               style={({ pressed }) => [styles.clear, pressed && { opacity: 0.7 }]}
             >
               <Text style={styles.clearText}>Enjoying Soup Quiz? Buy me a drink ☕</Text>
