@@ -24,4 +24,4 @@
 ## 5. Notification + integration
 
 - [x] 5.1 Local daily notification at a user-picked hour with toggle on the daily screen; declined permission disables the toggle only; reschedule on hour change
-- [ ] 5.2 `pnpm typecheck`/`lint`/`test` green, bundle export passes; README present-vs-planned + roadmap, CLAUDE.md notes; on-device final check incl. a notification (user confirms before archive)
+- [x] 5.2 `pnpm typecheck`/`lint`/`test` green, bundle export passes; README present-vs-planned + roadmap, CLAUDE.md notes; on-device final check incl. a notification (user confirms before archive)
