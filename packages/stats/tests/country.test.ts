@@ -36,9 +36,26 @@ describe('countryProgress', () => {
     expect(view.discovered).toBe(3)
   })
 
-  it('breaks accuracy ties by fewer answers, then by code', () => {
+  it('breaks accuracy ties by fewer answers', () => {
     const answers = [
-      // MY and SG both 3/3 via laksa; JP also 3/3
+      // JP 1/3 in 3 answers; VN 1/3 in 6 — the lighter record ranks first
+      answer('miso', 0, T('2026-10-01')),
+      answer('miso', 1, T('2026-10-02')),
+      answer('miso', 0, T('2026-10-03')),
+      answer('pho', 1, T('2026-10-01')),
+      answer('pho', 1, T('2026-10-02')),
+      answer('pho', 0, T('2026-10-03')),
+      answer('pho', 0, T('2026-10-04')),
+      answer('pho', 0, T('2026-10-05')),
+      answer('pho', 0, T('2026-10-06')),
+    ]
+    const view = countryProgress(answers, items)
+    expect(view.ranked.map((row) => row.code)).toEqual(['JP', 'VN'])
+  })
+
+  it('breaks full ties by code order', () => {
+    const answers = [
+      // JP 2/3 ranks first; MY and SG tie at 3/3 with equal answers — code breaks it
       answer('laksa', 1, T('2026-10-01')),
       answer('laksa', 1, T('2026-10-02')),
       answer('laksa', 1, T('2026-10-03')),
