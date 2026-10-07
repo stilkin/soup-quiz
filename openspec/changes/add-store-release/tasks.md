@@ -33,7 +33,7 @@
 
 ## 5. Wrap-up
 
-- [ ] 5.1 Full local gates on the final tree: `pnpm typecheck`, `pnpm lint`, `pnpm test`, and `pnpm exec expo export --platform android`; verify all pass
+- [ ] 5.1 Full local gates on the release-candidate tree — run before the 3.5 promotion and the 4.7 submission, and again whenever a release candidate changes: `pnpm typecheck`, `pnpm lint`, `pnpm test`, and `pnpm exec expo export --platform android`; verify all pass
 - [ ] 5.2 Update the README present-vs-planned table and CLAUDE.md status line for the shipped 1.0 store release; verify both mention both stores
 
 ## Workflow follow-up

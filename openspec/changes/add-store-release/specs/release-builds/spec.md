@@ -18,15 +18,15 @@ Production store builds SHALL use the same permanent application identity as tes
 - **THEN** its bundle identifier is `be.pocito.soupquiz` and its build number starts at 1 and rises monotonically
 
 ### Requirement: A privacy policy is published at a stable public URL
-The project SHALL publish a privacy policy stating that the app collects no data, has no accounts, and keeps all progress on the device. Both store listings SHALL reference the same stable URL.
+The project SHALL publish a privacy policy stating that the app itself collects no data — no analytics, no tracking, no accounts — and keeps all progress on the device, and disclosing that user-initiated external links (support, sources, credits) are governed by the destination services' own policies. Both store listings SHALL reference the same stable URL.
 
 #### Scenario: The page is publicly reachable
 - **WHEN** anyone opens the policy URL, including store review tooling
 - **THEN** the page loads without authentication and states the no-collection policy
 
 #### Scenario: Claims match the app
-- **WHEN** the policy asserts that no data leaves the device
-- **THEN** it matches the app, which makes no analytics, tracking, or account network calls
+- **WHEN** the policy describes the app's data handling
+- **THEN** it states the app makes no analytics, tracking, or account network calls, and discloses that tapping external links opens third-party services under their own policies
 
 #### Scenario: Both listings point at it
 - **WHEN** a store listing is completed
@@ -48,7 +48,7 @@ Listing copy (app name, short and full descriptions) SHALL live in the repo; the
 - **THEN** each one depicts the actual app captured on a device or simulator
 
 ### Requirement: Releases roll out staged, never review-first
-The first store releases SHALL be gated by a prior successful run of the same build: an Android store build SHALL first install cleanly over the tester app via the Play internal track, and an iOS build SHALL first launch and pass a recorded smoke checklist in the iOS simulator before store submission.
+The first store releases SHALL be gated by a prior successful run: an Android store build SHALL first install cleanly — the same artifact later promoted — over the tester app via the Play internal track, and an iOS store submission SHALL be preceded by the same app revision, built in a release-equivalent configuration, launching and passing a recorded smoke checklist in the iOS simulator.
 
 #### Scenario: Android internal-track gate
 - **WHEN** the production `.aab` is built
@@ -56,4 +56,4 @@ The first store releases SHALL be gated by a prior successful run of the same bu
 
 #### Scenario: iOS smoke before submission
 - **WHEN** the production build is submitted for App Review
-- **THEN** the same app revision has already launched in the simulator and passed the smoke checklist covering the menu, a quiz round, the daily challenge with its reminder toggle, stats, and share
+- **THEN** the same app revision, built with release-equivalent configuration, has already launched in the simulator and passed the smoke checklist covering the menu, a quiz round, the daily challenge with its reminder toggle, stats, and share

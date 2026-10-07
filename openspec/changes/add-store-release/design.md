@@ -45,9 +45,10 @@ data loss for our most invested players.
 ### D2 — Two profiles: `production` and an iOS simulator variant
 
 `production` (android `app-bundle`, iOS release with EAS-managed distribution
-credentials generated at first build) is the store interface. A second profile with
-`ios.simulator: true` produces an unsigned `.app` needing no Apple credentials — the
-smoke-gate binary. Both inherit `.easignore`.
+credentials generated at first build) is the store interface. A second profile
+**extends `production`**, overriding only `distribution` and `ios.simulator`, to
+produce an unsigned `.app` needing no Apple credentials — the smoke-gate binary that
+provably exercises the release configuration. Both inherit `.easignore`.
 
 *Alternative:* one profile plus CLI flags — rejected: the committed profile *is* the
 reproducible interface (release-builds spec); flags are tribal memory.

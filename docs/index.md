@@ -11,7 +11,9 @@ privacy story is simple.
 
 **What we collect: nothing.** The app contains no analytics, no advertising SDKs, no
 trackers, and it makes no network requests to us or to any third party. There are no
-accounts and no server — it works entirely offline.
+accounts and no server — it works entirely offline. Tapping an external link (support,
+a soup's source, an image credit) opens that website in your browser; from there the
+destination's own privacy policy applies.
 
 **Your data stays on your device.** All progress — rounds, answers, streaks, and
 daily-challenge results — lives in a local database on your device and never leaves it.
