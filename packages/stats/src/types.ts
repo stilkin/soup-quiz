@@ -47,3 +47,20 @@ export interface StatsView {
   /** Weakest first: accuracy ascending, most recently seen as tie-break. */
   soups: SoupProgress[]
 }
+
+/** Derived per-country progress: an answer counts toward every country of its item. */
+export interface CountryProgress {
+  code: string
+  asked: number
+  correct: number
+  accuracy: number
+}
+
+export interface CountryView {
+  /** Only countries with at least RANKED_MIN_ANSWERS answers, weakest first. */
+  ranked: CountryProgress[]
+  /** Countries with at least one answer. */
+  discovered: number
+  /** Distinct countries across the dataset. */
+  total: number
+}

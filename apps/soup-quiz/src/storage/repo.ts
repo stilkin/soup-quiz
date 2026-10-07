@@ -53,6 +53,15 @@ export async function fetchRounds(): Promise<RoundRow[]> {
   )
 }
 
+/** The day's daily round, if it was played — kind + seed identify a day exactly. */
+export async function fetchDailyRound(daySeed: string): Promise<RoundRow | null> {
+  const db = await getStatsDb()
+  return db.getFirstAsync<RoundRow>(
+    "SELECT id, kind, mode_id, seed, length, correct, finished_at FROM rounds WHERE kind = 'daily' AND seed = ?;",
+    daySeed,
+  )
+}
+
 export async function fetchAnswers(): Promise<AnswerRow[]> {
   const db = await getStatsDb()
   return db.getAllAsync<AnswerRow>(

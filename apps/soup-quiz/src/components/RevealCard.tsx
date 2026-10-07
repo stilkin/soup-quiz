@@ -29,7 +29,10 @@ export function RevealCard({ item }: { item: SoupItem }) {
       {image !== undefined && credit !== undefined && (
         <View style={styles.imageBlock}>
           <Image style={styles.image} source={image} contentFit="cover" />
-          <Pressable accessibilityRole="link" onPress={() => Linking.openURL(credit.licenseUrl)}>
+          <Pressable
+            accessibilityRole="link"
+            onPress={() => void Linking.openURL(credit.licenseUrl).catch(() => {})}
+          >
             <Text style={styles.credit}>
               {credit.author} · {credit.license}
             </Text>
@@ -39,7 +42,7 @@ export function RevealCard({ item }: { item: SoupItem }) {
 
       <Pressable
         accessibilityRole="link"
-        onPress={() => Linking.openURL(item.sourceUrl)}
+        onPress={() => void Linking.openURL(item.sourceUrl).catch(() => {})}
         style={({ pressed }) => [styles.linkWrap, pressed && { opacity: 0.7 }]}
       >
         <Text style={styles.link}>Read more on Wikipedia</Text>

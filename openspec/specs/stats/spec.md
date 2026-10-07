@@ -18,11 +18,15 @@ When a round finishes, the system SHALL store the round (mode, seed, length, cor
 - **THEN** the round result screen still shows and no error surfaces to the player
 
 ### Requirement: Progress is derived, not stored
-Aggregates SHALL be computed from the recorded events: per-item seen/correct/last-seen, overall accuracy, and counts. The definitions SHALL live in one tested implementation shared by every view.
+Aggregates SHALL be computed from the recorded events: per-item seen/correct/last-seen, per-country seen/correct (an answer counts toward every country listed on its item), overall accuracy, and counts. The definitions SHALL live in one tested implementation shared by every view.
 
 #### Scenario: Aggregates reflect the event log
 - **WHEN** an item has been answered three times with one miss
 - **THEN** its derived row shows seen=3, correct=2, and the accuracy matches
+
+#### Scenario: A multi-country item feeds every listed country
+- **WHEN** an item listing two countries is answered once, correctly
+- **THEN** both countries' derived rows count one answer, one correct
 
 #### Scenario: Empty state is a valid state
 - **WHEN** nothing has been recorded yet
@@ -43,16 +47,20 @@ A day counts toward a streak when at least one round finished on that UTC calend
 - **WHEN** a round finishes at 23:59 UTC and another at 00:01 UTC the next day
 - **THEN** both days count and the streak is two days
 
-### Requirement: The stats screen shows summary and per-soup progress
-The stats screen SHALL show a summary (rounds played, answers, overall accuracy, soups seen out of total, current and best streak) and a per-soup list sorted weakest-first (accuracy ascending), with an indication of mastery.
+### Requirement: The stats screen shows summary and per-country progress
+The stats screen SHALL show a summary (rounds played, answers, overall accuracy, countries discovered out of the dataset's country total, current and best streak) and a per-country breakdown: flag, country name, accuracy, and answer count. The breakdown SHALL rank and render only countries with at least three recorded answers, sorted weakest-first (accuracy ascending); countries below the threshold SHALL NOT render as placeholder rows. A country counts as discovered when it has at least one recorded answer.
 
-#### Scenario: Weakest soups surface first
-- **WHEN** soups have different accuracies
-- **THEN** the list orders them weakest-first
+#### Scenario: Weakest countries surface first
+- **WHEN** countries with at least three answers have different accuracies
+- **THEN** the breakdown orders them weakest-first
 
-#### Scenario: Mastery is indicated per soup
-- **WHEN** a soup's most recent consecutive correct encounters reach the mastery threshold
-- **THEN** the soup is marked as mastered in the list
+#### Scenario: Small samples stay off the list
+- **WHEN** a country has fewer than three recorded answers
+- **THEN** no row renders for it, while the discovery count still includes it once it has any answer
+
+#### Scenario: Discovery counts countries, not soups
+- **WHEN** answers cover 12 distinct countries out of 63 in the dataset
+- **THEN** the summary shows a discovery meter of 12 out of 63
 
 ### Requirement: The player can clear recorded stats
 The stats screen SHALL offer a confirmed action that deletes all recorded rounds and answers. Confirmation SHALL be explicit; the action SHALL result in the empty state.

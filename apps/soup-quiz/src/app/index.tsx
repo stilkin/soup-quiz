@@ -1,23 +1,80 @@
 import { soupsV1 } from '@soup-quiz/data'
-import { ingredientsToCountry } from '@soup-quiz/engine'
-import { router } from 'expo-router'
-import { useEffect } from 'react'
-import { Pressable, StyleSheet, Text, View } from 'react-native'
+import {
+  DAILY_TIER_COUNT,
+  dailyForDay,
+  dayIndexFrom,
+  ingredientsToCountry,
+} from '@soup-quiz/engine'
+import { router, useFocusEffect } from 'expo-router'
+import { useCallback, useEffect, useState } from 'react'
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import { fetchDailyRound } from '../storage/repo'
 import { colors, radius, spacing, type } from '../theme'
 
 // Task 5.2 gate: proves the monorepo packages resolve through Metro.
 console.log(`[soup-quiz] dataset loaded via workspace packages: ${soupsV1.length} items`)
 
+/** Unplayed / solved-on-tier / failed — undefined until the storage answers. */
+type DailyState = { played: false } | { played: true; solved: boolean; tier: number }
+
+/** One of the three equal menu destinations: whole group taps, pill marks the action. */
+function MenuTile({
+  title,
+  hint,
+  action,
+  onPress,
+}: {
+  title: string
+  hint: string
+  action: string
+  onPress: () => void
+}) {
+  return (
+    <Pressable
+      accessibilityRole="button"
+      onPress={onPress}
+      style={({ pressed }) => [styles.group, pressed && styles.groupPressed]}
+    >
+      <Text style={styles.groupTitle}>{title}</Text>
+      <Text style={styles.groupHint}>{hint}</Text>
+      <View style={styles.groupPill}>
+        <Text style={styles.groupPillText}>{action}</Text>
+      </View>
+    </Pressable>
+  )
+}
+
 export default function StartScreen() {
+  const [dailyState, setDailyState] = useState<DailyState>({ played: false })
+
+  useFocusEffect(
+    useCallback(() => {
+      const today = dailyForDay(soupsV1, dayIndexFrom(Date.now()))
+      fetchDailyRound(today.daySeed)
+        .then((row) =>
+          setDailyState(
+            row ? { played: true, solved: row.correct > 0, tier: row.correct } : { played: false },
+          ),
+        )
+        .catch((error) => console.warn('[soup-quiz] failed to load the daily state', error))
+    }, []),
+  )
+
   useEffect(() => {
     // keep the log per-mount too, so Expo Go reloads surface it
     console.log(`[soup-quiz] ready to play: ${ingredientsToCountry.title}`)
   }, [])
 
+  const dailyHint = !dailyState.played
+    ? 'One bowl a day. Photo first, name last.'
+    : dailyState.solved
+      ? `Solved on clue ${dailyState.tier} of ${DAILY_TIER_COUNT}`
+      : 'It escaped today — come back tomorrow'
+
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'bottom']}>
-      <View style={styles.wrap}>
+      <ScrollView contentContainerStyle={styles.wrap}>
         <View>
           <Text style={styles.title}>Soup Quiz</Text>
           <DoubleRule />
@@ -26,29 +83,29 @@ export default function StartScreen() {
           </Text>
         </View>
 
-        <View style={styles.modeBlock}>
-          <Text style={styles.modeTitle}>{ingredientsToCountry.title}</Text>
-          <Text style={styles.modeHint}>
-            Read the ingredients, name the country. Eight bowls a round.
-          </Text>
-          <Pressable
-            accessibilityRole="button"
+        <View style={styles.menu}>
+          <MenuTile
+            title="Today&apos;s soup"
+            hint={dailyHint}
+            action={dailyState.played ? 'View' : 'Play'}
+            onPress={() => router.push('/daily')}
+          />
+          <MenuTile
+            title={ingredientsToCountry.title}
+            hint="Read the ingredients, name the country. Five bowls a round."
+            action="Play"
             onPress={() => router.push('/play')}
-            style={({ pressed }) => [styles.play, pressed && styles.playPressed]}
-          >
-            <Text style={styles.playText}>Play</Text>
-          </Pressable>
-          <Pressable
-            accessibilityRole="button"
+          />
+          <MenuTile
+            title="Your stats"
+            hint="Accuracy, streaks, and which soups need practice."
+            action="Open"
             onPress={() => router.push('/stats')}
-            style={({ pressed }) => [styles.statsLink, pressed && { opacity: 0.7 }]}
-          >
-            <Text style={styles.statsLinkText}>Your stats</Text>
-          </Pressable>
+          />
         </View>
 
         <Text style={styles.footer}>Data from Wikipedia, credited per soup</Text>
-      </View>
+      </ScrollView>
     </SafeAreaView>
   )
 }
@@ -73,9 +130,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   wrap: {
-    flex: 1,
-    gap: spacing.xxl,
-    justifyContent: 'space-between',
+    flexGrow: 1,
+    gap: spacing.xl,
     padding: spacing.xxl,
     paddingTop: spacing.huge,
   },
@@ -93,41 +149,36 @@ const styles = StyleSheet.create({
   menuLine: {
     ...type.bodySoft,
   },
-  modeBlock: {
+  menu: {
+    flex: 1,
+    gap: spacing.lg,
+    justifyContent: 'space-evenly',
+  },
+  group: {
     gap: spacing.sm,
   },
-  modeTitle: {
-    ...type.title,
+  groupPressed: {
+    opacity: 0.85,
   },
-  modeHint: {
+  groupTitle: {
+    ...type.menuTitle,
+  },
+  groupHint: {
     ...type.bodySoft,
-    marginBottom: spacing.md,
   },
-  play: {
+  groupPill: {
+    alignSelf: 'flex-start',
     backgroundColor: colors.tomato,
     borderRadius: radius.pill,
-    paddingHorizontal: spacing.huge,
-    paddingVertical: spacing.lg,
-    alignSelf: 'flex-start',
+    paddingHorizontal: spacing.xl,
+    minWidth: 104,
+    paddingVertical: spacing.md,
   },
-  playPressed: {
-    backgroundColor: colors.tomatoDeep,
-  },
-  playText: {
+  groupPillText: {
     ...type.body,
     color: colors.onTomato,
-    fontSize: 18,
     fontWeight: '700',
-  },
-  statsLink: {
-    alignSelf: 'flex-start',
-    paddingVertical: spacing.sm,
-  },
-  statsLinkText: {
-    ...type.body,
-    color: colors.inkSoft,
-    fontWeight: '600',
-    textDecorationLine: 'underline',
+    textAlign: 'center',
   },
   footer: {
     ...type.caption,

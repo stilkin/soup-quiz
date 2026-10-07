@@ -1,26 +1,31 @@
 import { soupsV1 } from '@soup-quiz/data'
-import { aggregateStats, type StatsView } from '@soup-quiz/stats'
+import { aggregateStats, type CountryView, countryProgress, type StatsView } from '@soup-quiz/stats'
+import * as Linking from 'expo-linking'
 import { router, useFocusEffect } from 'expo-router'
 import { useCallback, useState } from 'react'
 import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import { SoupMasteryRow } from '../components/SoupMasteryRow'
+import { CountryRow } from '../components/CountryRow'
 import { StatSummary } from '../components/StatSummary'
 import { clearAllStats, fetchAnswers, fetchRounds } from '../storage/repo'
 import { colors, spacing, type } from '../theme'
 
-const byId = new Map(soupsV1.map((soup) => [soup.id, soup]))
+const EMPTY_COUNTRIES = countryProgress([], soupsV1)
+const SUPPORT_URL = 'https://ko-fi.com/stilkin'
 
 export default function StatsScreen() {
   const [view, setView] = useState<StatsView | undefined>()
+  const [countries, setCountries] = useState<CountryView>(EMPTY_COUNTRIES)
 
   const load = useCallback(async () => {
     try {
       const [rounds, answers] = await Promise.all([fetchRounds(), fetchAnswers()])
       setView(aggregateStats(rounds, answers, soupsV1.length))
+      setCountries(countryProgress(answers, soupsV1))
     } catch (error) {
       console.warn('[soup-quiz] failed to load stats', error)
       setView(aggregateStats([], [], soupsV1.length))
+      setCountries(EMPTY_COUNTRIES)
     }
   }, [])
 
@@ -60,7 +65,7 @@ export default function StatsScreen() {
             <Text style={styles.emptyTitle}>No bowls tasted yet.</Text>
             <Text style={styles.emptyHint}>
               Play a round and your progress will be served here — accuracy, streaks, and which
-              soups still need practice.
+              countries need practice.
             </Text>
             <Pressable
               onPress={() => router.push('/play')}
@@ -73,13 +78,18 @@ export default function StatsScreen() {
 
         {view !== undefined && !empty && (
           <>
-            <StatSummary summary={view.summary} />
-            <Text style={styles.section}>Weakest first</Text>
-            {view.soups.map((progress) => {
-              const item = byId.get(progress.itemId)
-              if (item === undefined) return null
-              return <SoupMasteryRow key={progress.itemId} item={item} progress={progress} />
-            })}
+            <StatSummary summary={view.summary} countries={countries} />
+            {countries.ranked.length > 0 && <Text style={styles.section}>Weakest first</Text>}
+            {countries.ranked.map((progress) => (
+              <CountryRow key={progress.code} progress={progress} />
+            ))}
+            <Pressable
+              accessibilityRole="link"
+              onPress={() => void Linking.openURL(SUPPORT_URL).catch(() => {})}
+              style={({ pressed }) => [styles.clear, pressed && { opacity: 0.7 }]}
+            >
+              <Text style={styles.clearText}>Enjoying Soup Quiz? Buy me a drink ☕</Text>
+            </Pressable>
             <Pressable
               onPress={confirmClear}
               style={({ pressed }) => [styles.clear, pressed && { opacity: 0.7 }]}

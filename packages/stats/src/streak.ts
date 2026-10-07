@@ -48,3 +48,24 @@ export function dayStreaks(
 
   return { current, best }
 }
+
+/**
+ * Daily-challenge streaks: a day counts only when that day's daily was solved
+ * (correct carries the solving tier, 0 for a failed day). Wordle semantics, kept
+ * independent of the any-round streak above — a day played and failed ends the
+ * current streak at once, not only once the day is over.
+ */
+export function dailyStreaks(
+  rounds: readonly RoundRow[],
+  now: number,
+): { current: number; best: number } {
+  const dailies = rounds.filter((round) => round.kind === 'daily')
+  const { current, best } = dayStreaks(
+    dailies.filter((round) => round.correct >= 1),
+    now,
+  )
+  const failedToday = dailies.some(
+    (round) => round.correct === 0 && utcDay(round.finished_at) === utcDay(now),
+  )
+  return { current: failedToday ? 0 : current, best }
+}

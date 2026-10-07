@@ -1,3 +1,5 @@
+export { CENTROIDS, type Centroid } from './centroids'
+export { distanceKm, type HeatBand, heatBand } from './geo'
 export {
   creditSchema,
   type Ingredient,

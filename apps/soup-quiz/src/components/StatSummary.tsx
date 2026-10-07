@@ -3,13 +3,22 @@ import { StyleSheet, Text, View } from 'react-native'
 import { colors, font, radius, spacing, type } from '../theme'
 
 /** Summary card: the headline numbers in the display face, menu-price style. */
-export function StatSummary({ summary }: { summary: StatsSummary }) {
+export function StatSummary({
+  summary,
+  countries,
+}: {
+  summary: StatsSummary
+  countries: { discovered: number; total: number }
+}) {
   return (
     <View style={styles.card}>
       <View style={styles.grid}>
         <StatNumber label="rounds" value={String(summary.rounds)} />
         <StatNumber label="accuracy" value={percent(summary.accuracy)} />
-        <StatNumber label="soups tasted" value={`${summary.soupsSeen}/${summary.soupsTotal}`} />
+        <StatNumber
+          label="countries discovered"
+          value={`${countries.discovered}/${countries.total}`}
+        />
         <StatNumber label="day streak" value={String(summary.currentStreak)} />
       </View>
       <Text style={styles.best}>Best streak {summary.bestStreak} days</Text>

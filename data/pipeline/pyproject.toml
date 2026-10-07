@@ -1,0 +1,25 @@
+[project]
+name = "soup-quiz-pipeline"
+version = "0.1.0"
+description = "Dataset pipeline for Soup Quiz (see README.md for stage order and venv setup)"
+requires-python = ">=3.12"
+
+# Dev tooling (installed into the venv alongside the runtime deps — see README.md):
+#   pip install ruff mypy pytest
+[project.optional-dependencies]
+dev = ["ruff>=0.14", "mypy>=1.18", "pytest>=8"]
+
+[tool.ruff]
+line-length = 100 # matches Biome's lineWidth — one wrapping rule across the repo
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"] # pycodestyle errors, pyflakes, import sorting
+
+[tool.mypy]
+python_version = "3.12"
+ignore_missing_imports = true # pycountry ships no stubs
+exclude = ["\\.venv", "__pycache__"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

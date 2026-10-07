@@ -1,7 +1,8 @@
 # Dataset pipeline
 
 Python side of the schema-as-contract: turns the wikitext snapshots in
-`data/raw/wikipedia/` into `packages/data/src/soups.v1.json` plus bundled, credited images.
+`data/raw/wikipedia/` into `packages/data/src/soups.v1.json` plus bundled, credited
+images, and the country centroids in `packages/schema/src/centroids.ts`.
 
 Stdlib + `pycountry` + `Pillow` only. No pandas — the job is fetching, wikitext parsing,
 and normalization, not dataframes.
@@ -11,6 +12,17 @@ and normalization, not dataframes.
 ```sh
 python3 -m venv data/pipeline/.venv
 data/pipeline/.venv/bin/pip install pycountry pillow
+data/pipeline/.venv/bin/pip install ruff mypy pytest   # dev tooling (lint/typecheck/tests)
+```
+
+Tooling versions in use (2026-10-05): ruff 0.16, mypy 2.4, pytest 9.1. Config lives in
+`pyproject.toml` (ruff line-length 100 matching Biome, lenient mypy, pytest testpaths).
+Run from the repo root via `pnpm lint:py` / `typecheck:py` / `test:py` — or directly:
+
+```sh
+data/pipeline/.venv/bin/ruff check data/pipeline
+data/pipeline/.venv/bin/mypy data/pipeline
+data/pipeline/.venv/bin/pytest data/pipeline
 ```
 
 ## Stages (run in order; each is independently re-runnable)
@@ -23,6 +35,7 @@ $V data/pipeline/03_normalize.py   # aliases + type map + ingredient lexicon -> 
 $V data/pipeline/04_review.py      # build/review.csv + build/report.json
 $V data/pipeline/05_images.py      # Commons credit + thumbs -> assets + manifest (network, cached)
 $V data/pipeline/06_compile.py     # overrides merge -> packages/data/src/soups.v1.json
+$V data/pipeline/07_centroids.py   # Natural Earth label points -> packages/schema/src/centroids.ts (network, cached)
 ```
 
 ## Committed data tables

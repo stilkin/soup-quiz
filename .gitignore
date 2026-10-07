@@ -8,15 +8,21 @@ node_modules/
 # Expo / RN
 .expo/
 dist/
+coverage/
 *.tsbuildinfo
 
 # Python (dataset pipeline, change 2)
 .venv/
 __pycache__/
 *.pyc
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
 
 # OS / editor noise
 .DS_Store
 
 # Pipeline build artifacts (regenerable; caches are committed)
 data/build/
+# eas-cli droppings — real config is apps/soup-quiz/app.json
+/app.json

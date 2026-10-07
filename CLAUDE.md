@@ -9,8 +9,8 @@ from Wikipedia list articles). Local-first, offline, no backend. See `README.md`
 full concept and the present-vs-planned table.
 
 **Status: playable app on real data.** Skeleton, local stats, and the dataset pipeline
-(347 soups, 295 credited images) are shipped; roadmap next: SRS scheduling, daily
-challenge. README carries the present-vs-planned table.
+(347 soups, 295 credited images) and the daily challenge are shipped; roadmap next:
+more game modes, SRS scheduling. README carries the present-vs-planned table.
 
 ## How work happens: OpenSpec, always
 
@@ -38,6 +38,10 @@ pnpm typecheck   # tsc --noEmit in every workspace package (incl. the Expo app)
 pnpm lint        # Biome check across the workspace
 pnpm format      # Biome format --write
 pnpm test        # Vitest in schema, data, engine, stats
+pnpm test:coverage # the same with v8 coverage
+pnpm lint:py     # ruff over data/pipeline (needs the pipeline venv — see its README)
+pnpm typecheck:py # mypy over data/pipeline
+pnpm test:py     # pytest transform units in data/pipeline/tests
 ```
 
 From `apps/soup-quiz` (or the root, which delegates `pnpm start`):
@@ -45,7 +49,11 @@ From `apps/soup-quiz` (or the root, which delegates `pnpm start`):
 ```bash
 pnpm start                                      # expo start — scan the QR with Expo Go
 pnpm exec expo export --platform android        # bundle smoke check, no device needed
+eas build --profile preview --platform android  # tester APK (from apps/soup-quiz; EAS cloud)
 ```
+
+The tester build's `.easignore` lives at the **repo root** — eas-cli resolves it from
+the git root, not the app directory, and it replaces `.gitignore` for uploads.
 
 The dataset (`packages/data/src/soups.v1.json`) is pipeline-generated — never edit it
 by hand; its tests gate conformance and image pairing.
