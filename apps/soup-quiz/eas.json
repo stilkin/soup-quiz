@@ -16,6 +16,7 @@
       }
     },
     "ios-sim": {
+      "extends": "production",
       "distribution": "internal",
       "ios": {
         "simulator": true
