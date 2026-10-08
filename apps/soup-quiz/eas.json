@@ -2,8 +2,14 @@
   "cli": {
     "appVersionSource": "local"
   },
-  "build": {
-    "preview": {
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "6820671162"
+      }
+    }
+  },
+  "build": {    "preview": {
       "distribution": "internal",
       "android": {
         "buildType": "apk",
