@@ -22,7 +22,7 @@ build uploads; new profiles inherit that.
 
 **Non-Goals:**
 
-- `eas submit` or any store API credentials — manual console uploads for 1.0.
+- `eas submit` or any store API credentials — manual console uploads for 1.0. (Superseded for Apple by D8; Play stays manual.)
 - TestFlight external testing as a *required* gate (available as belt-and-braces).
 - Exiting the managed workflow (no `ios/` prebuild dir, no local Xcode build).
 - Staged percentage rollouts, localized listings, custom domain, in-app policy screen.
@@ -100,6 +100,20 @@ path unchanged. No new dependency, no global manifest change.
 
 *Alternative:* `softwareKeyboardLayoutMode` in the manifest — rejected: global blast
 radius for a one-screen problem.
+
+### D8 — Apple submission rides the App Store Connect API
+
+The ASC API (4.5.1, verified against Apple's OpenAPI spec) can register the bundle ID,
+create the version record and localizations, upload screenshots, set free pricing and —
+since Apple added `buildUploads` — upload the `.ipa` binary itself. With a scoped
+App Manager key, the Apple side runs from the repo machine; the console sees exactly:
+the one-time Create App (done by the user), the App Privacy labels and age-rating
+questionnaire (console-only), and the final Submit click (kept human deliberately).
+The key lives at `~/.config/soup-quiz/asc/` (0600), is never committed to this public
+repo, never printed, revocable in ASC anytime. Transporter and the MacBook are not
+needed. This supersedes the 1.0 "manual uploads" stance for Apple only; Play stays
+manual (app creation is console-only there and uploads need a separate service-account
+key we deliberately don't have).
 
 ## Risks / Trade-offs
 

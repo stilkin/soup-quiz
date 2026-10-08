@@ -24,8 +24,10 @@ the momentum of a clean, all-green codebase instead of stacking it behind new fe
   iOS simulator).
 - A staged rollout, user-gated: Android ships via the Play internal track with an
   in-place-upgrade check over the tester APK before production; iOS passes a simulator
-  smoke checklist before its App Store submission. Store uploads are manual — no
-  `eas submit`, no store API keys in any loop.
+  smoke checklist before its App Store submission. Apple-side submission rides the
+  App Store Connect API with a scoped key (bundle ID, metadata, screenshots, and the
+  binary itself via Apple's `buildUploads`); Play uploads stay manual; the final
+  Submit for Review stays a human click.
 - Ride-along fix: keyboard avoidance for the country `SearchSelect` used by the daily
   challenge (backlog item; iOS punishes the current behavior more than Android). No spec
   delta — no current spec speaks to keyboard behavior; this is implementation quality.
