@@ -32,6 +32,10 @@ The project SHALL publish a privacy policy stating that the app itself collects 
 - **WHEN** a store listing is completed
 - **THEN** it carries the policy URL
 
+#### Scenario: Linked from inside the app
+- **WHEN** the stats screen is opened, whether or not any round has been played
+- **THEN** the policy link is visible beside the support link, and tapping it opens the policy URL in the device browser
+
 ### Requirement: Store listing assets are prepared from committed sources
 Listing copy (app name, short and full descriptions) SHALL live in the repo; the Play feature graphic SHALL be an output of the committed identity-asset generator run against the vendored open-licensed sources; screenshots SHALL be captures of real app runs.
 
@@ -45,15 +49,17 @@ Listing copy (app name, short and full descriptions) SHALL live in the repo; the
 
 #### Scenario: Screenshots are real screens
 - **WHEN** screenshots accompany a store submission
-- **THEN** each one depicts the actual app captured on a device or simulator
+- **THEN** each one depicts the actual app — Play's captured on a device, Apple's
+  rendered by the committed screenshot rig driving the app's web export — never a
+  mockup, and every Apple set regenerates by re-running that committed script
 
 ### Requirement: Releases roll out staged, never review-first
-The first store releases SHALL be gated by a prior successful run: an Android store build SHALL first install cleanly — the same artifact later promoted — over the tester app via the Play internal track, and an iOS store submission SHALL be preceded by the same app revision, built in a release-equivalent configuration, launching and passing a recorded smoke checklist in the iOS simulator.
+The first store releases SHALL be gated by a prior successful run: an Android store build SHALL first install cleanly — the same artifact later promoted — over the tester app via the Play internal track, and an iOS store submission SHALL be preceded by the same revision passing the simulator smoke checklist — the 1.0.0 submission alone deferred the iOS gate (2026-10-09, design D6); every later version restores it.
 
 #### Scenario: Android internal-track gate
 - **WHEN** the production `.aab` is built
 - **THEN** it is verified via the Play internal track over the tester installation before any production rollout
 
 #### Scenario: iOS smoke before submission
-- **WHEN** the production build is submitted for App Review
+- **WHEN** an iOS production build is submitted for App Review — every version after the deferred 1.0.0
 - **THEN** the same app revision, built with release-equivalent configuration, has already launched in the simulator and passed the smoke checklist covering the menu, a quiz round, the daily challenge with its reminder toggle, stats, and share

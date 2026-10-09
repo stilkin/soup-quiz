@@ -12,6 +12,7 @@ import { colors, spacing, type } from '../theme'
 
 const EMPTY_COUNTRIES = countryProgress([], soupsV1)
 const SUPPORT_URL = 'https://ko-fi.com/stilkin'
+const PRIVACY_URL = 'https://soup-quiz.pocito.fyi/privacy/'
 
 export default function StatsScreen() {
   const [view, setView] = useState<StatsView | undefined>()
@@ -52,6 +53,7 @@ export default function StatsScreen() {
   }
 
   const empty = view !== undefined && view.summary.rounds === 0
+  const populated = view !== undefined && !empty
 
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'bottom']}>
@@ -76,27 +78,40 @@ export default function StatsScreen() {
           </View>
         )}
 
-        {view !== undefined && !empty && (
+        {populated && (
           <>
             <StatSummary summary={view.summary} countries={countries} />
             {countries.ranked.length > 0 && <Text style={styles.section}>Weakest first</Text>}
             {countries.ranked.map((progress) => (
               <CountryRow key={progress.code} progress={progress} />
             ))}
-            <Pressable
-              accessibilityRole="link"
-              onPress={() => void Linking.openURL(SUPPORT_URL).catch(() => {})}
-              style={({ pressed }) => [styles.clear, pressed && { opacity: 0.7 }]}
-            >
-              <Text style={styles.clearText}>Enjoying Soup Quiz? Buy me a drink ☕</Text>
-            </Pressable>
-            <Pressable
-              onPress={confirmClear}
-              style={({ pressed }) => [styles.clear, pressed && { opacity: 0.7 }]}
-            >
-              <Text style={styles.clearText}>Clear stats</Text>
-            </Pressable>
           </>
+        )}
+
+        {/* always rendered, fresh installs included — store review opens a brand-new
+          app, and the policy must be reachable before the first bowl */}
+        <Pressable
+          accessibilityRole="link"
+          onPress={() => void Linking.openURL(SUPPORT_URL).catch(() => {})}
+          style={({ pressed }) => [styles.clear, pressed && { opacity: 0.7 }]}
+        >
+          <Text style={styles.clearText}>Enjoying Soup Quiz? Buy me a drink ☕</Text>
+        </Pressable>
+        <Pressable
+          accessibilityRole="link"
+          onPress={() => void Linking.openURL(PRIVACY_URL).catch(() => {})}
+          style={({ pressed }) => [styles.clear, pressed && { opacity: 0.7 }]}
+        >
+          <Text style={styles.clearText}>Privacy policy</Text>
+        </Pressable>
+
+        {populated && (
+          <Pressable
+            onPress={confirmClear}
+            style={({ pressed }) => [styles.clear, pressed && { opacity: 0.7 }]}
+          >
+            <Text style={styles.clearText}>Clear stats</Text>
+          </Pressable>
         )}
       </ScrollView>
     </SafeAreaView>

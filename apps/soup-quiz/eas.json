@@ -2,6 +2,16 @@
   "cli": {
     "appVersionSource": "local"
   },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "6820671162",
+        "ascApiKeyPath": "/home/srt/.config/soup-quiz/asc/AuthKey_9YTH8FWWQN.p8",
+        "ascApiKeyId": "9YTH8FWWQN",
+        "ascApiKeyIssuerId": "07f425d9-b682-4d58-9871-496ed61c6a6b"
+      }
+    }
+  },
   "build": {
     "preview": {
       "distribution": "internal",

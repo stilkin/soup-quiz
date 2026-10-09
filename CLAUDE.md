@@ -44,16 +44,28 @@ pnpm typecheck:py # mypy over data/pipeline
 pnpm test:py     # pytest transform units in data/pipeline/tests
 ```
 
+Single test (tests live in `packages/<pkg>/tests/*.test.ts`; the app has no tests):
+
+```bash
+pnpm --filter @soup-quiz/engine exec vitest run tests/daily.test.ts
+pnpm --filter @soup-quiz/engine exec vitest run -t "<test name substring>"
+```
+
 From `apps/soup-quiz` (or the root, which delegates `pnpm start`):
 
 ```bash
 pnpm start                                      # expo start — scan the QR with Expo Go
 pnpm exec expo export --platform android        # bundle smoke check, no device needed
 eas build --profile preview --platform android  # tester APK (from apps/soup-quiz; EAS cloud)
+eas build --profile production --platform android  # Play app bundle; ios-sim profile for simulators
 ```
 
+Run `eas` **only from `apps/soup-quiz`** — the real config is `apps/soup-quiz/app.json` +
+`eas.json` (owner `pocito-be`). Running it from the root drops a stray `app.json` (gitignored)
+/ `eas.json` bound to the wrong project; delete those, don't commit them.
 The tester build's `.easignore` lives at the **repo root** — eas-cli resolves it from
 the git root, not the app directory, and it replaces `.gitignore` for uploads.
+`apps/soup-quiz/README.md` is untouched create-expo-app boilerplate (npm instructions) — ignore it.
 
 The dataset (`packages/data/src/soups.v1.json`) is pipeline-generated — never edit it
 by hand; its tests gate conformance and image pairing.

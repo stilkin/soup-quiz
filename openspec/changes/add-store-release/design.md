@@ -22,7 +22,7 @@ build uploads; new profiles inherit that.
 
 **Non-Goals:**
 
-- `eas submit` or any store API credentials — manual console uploads for 1.0.
+- `eas submit` or any store API credentials — manual console uploads for 1.0. (Superseded for Apple by D8; Play stays manual.)
 - TestFlight external testing as a *required* gate (available as belt-and-braces).
 - Exiting the managed workflow (no `ios/` prebuild dir, no local Xcode build).
 - Staged percentage rollouts, localized listings, custom domain, in-app policy screen.
@@ -65,14 +65,19 @@ verifying the bump, making lineage deliberate rather than emergent.
 *Alternative:* `autoIncrement` on production — rejected: build count is not release
 count; a retried/failed build would silently consume a store version number.
 
-### D4 — Privacy policy via GitHub Pages on `/docs`
+### D4 — Privacy policy: in-repo content, canonical URL on pocito.fyi
 
-The repo is public → Pages is free and zero-ops. A `docs/index.md` (rendered by
-GitHub's default Jekyll) publishes at `https://stilkin.github.io/soup-quiz/`; enabling
-Pages (main branch, `/docs` root) is a one-time repo-settings action. Other `docs/`
-files becoming reachable as pages is harmless — they are public in the repo anyway.
+`docs/index.md` is the policy's content source. The canonical stable URL — used by
+both store listings **and the in-app link** — is `https://soup-quiz.pocito.fyi/privacy/`;
+serving that URL is the user's side (their pocito.fyi domain, one canonical address per
+app), tracked as user gate 2.2. GitHub Pages on `/docs` can still publish the same
+content (`stilkin.github.io/soup-quiz/`); it is no longer the address the stores and
+app cite. Other `docs/` files becoming reachable as pages is harmless — they are
+public in the repo anyway.
 
-*Alternative:* an external static host — rejected: a second service for one page.
+*Was:* the github.io Pages URL as the canonical address — superseded 2026-10-09 by the
+user's pocito.fyi subdomain decision (rejected earlier as "a second service for one
+page"; overruled because the user already operates the domain for their apps).
 
 ### D5 — Feature graphic from the identity generator
 
@@ -91,6 +96,14 @@ no dev tooling). `eas build` with `ios.simulator: true` yields exactly that, uns
 Expo Go in the simulator (over LAN, like the Android loop) remains the *iteration* loop
 for any fixes the smoke surfaces. No prebuild, no local Xcode project.
 
+*Deferred (2026-10-09):* the 1.0.0 submission (build `c615924c`) went to review without
+this gate — the user accepted store review as the first pass on the native binary, on
+the strength of the web-export screenshot rig having exercised the same UI flows and
+the tester APK the same code paths. The gate returns with the next iOS version: that
+revision gets its simulator smoke before its submission. The deferral also carries the
+known gap that the submitted binary predates the in-app privacy-policy link (task 2.5)
+— a rejection for it routes straight to the 4.3/4.7 rebuild path.
+
 ### D7 — Keyboard fix scoped inside `SearchSelect`
 
 `SearchSelect` is a plain `View` — on iOS the keyboard can cover the suggestion rows
@@ -100,6 +113,39 @@ path unchanged. No new dependency, no global manifest change.
 
 *Alternative:* `softwareKeyboardLayoutMode` in the manifest — rejected: global blast
 radius for a one-screen problem.
+
+### D8 — Apple submission rides the App Store Connect API
+
+The ASC API (4.5.1, verified against Apple's OpenAPI spec) can register the bundle ID,
+create the version record and localizations, upload screenshots, set free pricing and —
+since Apple added `buildUploads` — upload the `.ipa` binary itself. With a scoped
+App Manager key, the Apple side runs from the repo machine; the console sees exactly:
+the one-time Create App (done by the user), the App Privacy labels and age-rating
+questionnaire (console-only), and the final Submit click (kept human deliberately).
+The key lives at `~/.config/soup-quiz/asc/` (0600), is never committed to this public
+repo, never printed, revocable in ASC anytime. Transporter and the MacBook are not
+needed. This supersedes the 1.0 "manual uploads" stance for Apple only; Play stays
+manual (app creation is console-only there and uploads need a separate service-account
+key we deliberately don't have).
+
+### D9 — App Store screenshots come from the web export, driven headlessly
+
+The App Store screenshot sets are generated, not hand-captured: `expo export -p web`
+(static output `app.json` already configures) served by a tiny local server, then
+playwright-core with system Chromium at the exact required device viewports — iPhone
+393×852 @3x → 1179×2556 (`APP_IPHONE_61`), iPad 1032×1376 @2x → 2064×2752
+(`APP_IPAD_PRO_3GEN_129`); `deviceScaleFactor` does the pixel math so
+`page.screenshot()` equals Apple's physical size exactly. Scenes are driven through
+the real UI (taps by accessibility label, waits on real text, deliberate settle
+times) in fresh contexts — every shot is the app a player sees. The rig
+(`scripts/gen-store-screens.mjs` under the app) is committed and re-runnable; uploads
+ride the ASC API (`scripts/asc-upload-screens.mjs`). The server sends COOP/COEP
+headers because expo-sqlite's web backend (wa-sqlite OPFS) needs cross-origin
+isolation for the storage-backed scenes (stats, solved dailies). This replaces
+simulator capture for Apple only — no MacBook round-trip, deterministic, regenerable
+on listing changes; Play screenshots stay device-captured. Trade-off —
+react-native-web is not the native renderer — accepted: same components, theme, and
+bundled data, and App Review judges the binary, not the screenshot renderer.
 
 ## Risks / Trade-offs
 
