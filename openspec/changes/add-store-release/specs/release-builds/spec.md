@@ -32,6 +32,10 @@ The project SHALL publish a privacy policy stating that the app itself collects 
 - **WHEN** a store listing is completed
 - **THEN** it carries the policy URL
 
+#### Scenario: Linked from inside the app
+- **WHEN** the stats screen is opened, whether or not any round has been played
+- **THEN** the policy link is visible beside the support link, and tapping it opens the policy URL in the device browser
+
 ### Requirement: Store listing assets are prepared from committed sources
 Listing copy (app name, short and full descriptions) SHALL live in the repo; the Play feature graphic SHALL be an output of the committed identity-asset generator run against the vendored open-licensed sources; screenshots SHALL be captures of real app runs.
 

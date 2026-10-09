@@ -65,14 +65,19 @@ verifying the bump, making lineage deliberate rather than emergent.
 *Alternative:* `autoIncrement` on production — rejected: build count is not release
 count; a retried/failed build would silently consume a store version number.
 
-### D4 — Privacy policy via GitHub Pages on `/docs`
+### D4 — Privacy policy: in-repo content, canonical URL on pocito.fyi
 
-The repo is public → Pages is free and zero-ops. A `docs/index.md` (rendered by
-GitHub's default Jekyll) publishes at `https://stilkin.github.io/soup-quiz/`; enabling
-Pages (main branch, `/docs` root) is a one-time repo-settings action. Other `docs/`
-files becoming reachable as pages is harmless — they are public in the repo anyway.
+`docs/index.md` is the policy's content source. The canonical stable URL — used by
+both store listings **and the in-app link** — is `https://soup-quiz.pocito.fyi/privacy/`;
+serving that URL is the user's side (their pocito.fyi domain, one canonical address per
+app), tracked as user gate 2.2. GitHub Pages on `/docs` can still publish the same
+content (`stilkin.github.io/soup-quiz/`); it is no longer the address the stores and
+app cite. Other `docs/` files becoming reachable as pages is harmless — they are
+public in the repo anyway.
 
-*Alternative:* an external static host — rejected: a second service for one page.
+*Was:* the github.io Pages URL as the canonical address — superseded 2026-10-09 by the
+user's pocito.fyi subdomain decision (rejected earlier as "a second service for one
+page"; overruled because the user already operates the domain for their apps).
 
 ### D5 — Feature graphic from the identity generator
 

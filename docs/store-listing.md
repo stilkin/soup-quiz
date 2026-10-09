@@ -9,7 +9,7 @@ checked against each store's limit at the field.
 | Field | Value | Limit |
 |---|---|---|
 | App name | Soup Quiz | 30 |
-| Privacy policy URL | https://stilkin.github.io/soup-quiz/ | — |
+| Privacy policy URL | https://soup-quiz.pocito.fyi/privacy/ | — |
 | Support URL | https://github.com/stilkin/soup-quiz/issues | — |
 | Marketing URL (ASC) | https://github.com/stilkin/soup-quiz | — |
 
