@@ -27,7 +27,7 @@
 - [ ] 4.2 Smoke checklist — user gate, on the simulator: launch, menu, a full quiz round, the daily (tiered clues, guess commit, reminder toggle + permission prompt), stats screen, share sheet, and the country search usable with the keyboard open; capture the App Store screenshot set (6.7") while there; verify every checklist item passes and screenshots are saved
 - [ ] 4.3 Fix anything the smoke surfaces (iterate via Expo Go in the simulator over LAN); if the binary changed, rebuild 4.1 and re-run the checklist; verify the final revision passes clean
 - [x] 4.4 Run `eas build --profile production --platform ios` with the ASC API key as EAS' credentials source (distribution cert + profile minted through it); verify the build finishes and the artifact is an `.ipa`
-- [ ] 4.5 Upload the `.ipa` through the ASC API `buildUploads` flow (or `eas submit` if it implements that flow); verify the build appears and processes in App Store Connect
+- [x] 4.5 Upload the `.ipa` through the ASC API `buildUploads` flow (or `eas submit` if it implements that flow); verify the build appears and processes in App Store Connect
 - [ ] 4.6 Fill the ASC listing from `docs/store-listing.md` via the API — version 1.0.0 (copyright `© 2026 pocito.fyi`, releaseType automatic), localizations (description, keywords, support + marketing URLs, what's new), Games → Trivia category, free pricing, screenshots from 4.2 — then the user completes the console-only App Privacy and age-rating questionnaires; verify the submission checklist is green
 - [ ] 4.7 Submit for review — user gate: the user clicks Submit in App Store Connect with review contact info; verify approval and automatic release (respond to any rejection, then resubmit)
 
