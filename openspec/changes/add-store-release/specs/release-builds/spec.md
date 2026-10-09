@@ -54,7 +54,7 @@ Listing copy (app name, short and full descriptions) SHALL live in the repo; the
   mockup, and every Apple set regenerates by re-running that committed script
 
 ### Requirement: Releases roll out staged, never review-first
-The first store releases SHALL be gated by a prior successful run: an Android store build SHALL first install cleanly — the same artifact later promoted — over the tester app via the Play internal track, and an iOS store submission SHALL be preceded by the same app revision, built in a release-equivalent configuration, launching and passing a recorded smoke checklist in the iOS simulator — with one exception on record: the 1.0.0 submission deferred the iOS gate (2026-10-09, design D6), and every later iOS version restores it.
+The first store releases SHALL be gated by a prior successful run: an Android store build SHALL first install cleanly — the same artifact later promoted — over the tester app via the Play internal track, and an iOS store submission SHALL be preceded by the same revision passing the simulator smoke checklist — the 1.0.0 submission alone deferred the iOS gate (2026-10-09, design D6); every later version restores it.
 
 #### Scenario: Android internal-track gate
 - **WHEN** the production `.aab` is built
