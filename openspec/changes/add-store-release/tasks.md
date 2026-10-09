@@ -9,7 +9,7 @@
 ## 2. Privacy policy & listing kit
 
 - [x] 2.1 Write `docs/index.md` privacy page (no data collected, no accounts, all progress on-device, support contact); verify the page states the no-collection policy and `pnpm ls --depth 0`-style dependency audit shows no analytics/telemetry packages
-- [ ] 2.2 Publish the policy at the canonical URL `https://soup-quiz.pocito.fyi/privacy/` — user gate (the user's pocito.fyi domain serves the `docs/index.md` content); verify `curl -sL https://soup-quiz.pocito.fyi/privacy/` returns the rendered policy
+- [x] 2.2 Publish the policy at the canonical URL `https://soup-quiz.pocito.fyi/privacy/` — user gate (the user's pocito.fyi domain serves the `docs/index.md` content); verify `curl -sL https://soup-quiz.pocito.fyi/privacy/` returns the rendered policy
 - [x] 2.3 Write `docs/store-listing.md` with Play + App Store copy (title, short and full descriptions, keywords, what's new); verify every field is within its store's character limits
 - [x] 2.4 Extend `make_app_icon.py` to emit the 1024×500 Play feature graphic (flat, no alpha) and a 512×512 Play icon; verify regeneration runs offline and PIL reports the exact sizes/modes
 - [x] 2.5 Link the privacy policy inside the app — a quiet footer link on the stats screen beside the Ko-Fi link, both rendered on every install (lifted out of the populated-only branch so fresh installs show them too); verify the empty stats screen shows both links and `pnpm typecheck && pnpm lint` pass
