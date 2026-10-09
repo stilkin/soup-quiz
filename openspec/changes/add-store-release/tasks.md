@@ -24,14 +24,14 @@
 
 ## 4. iOS build & simulator smoke
 
-- [ ] 4.1 Run `eas build --profile ios-sim --platform ios` (can start any time after 1.2); verify the artifact unpacks to an `.app` that opens in the MacBook's iPhone simulator
-- [ ] 4.2 Smoke checklist — user gate, on the simulator: launch, menu, a full quiz round, the daily (tiered clues, guess commit, reminder toggle + permission prompt), stats screen, share sheet, and the country search usable with the keyboard open; verify every checklist item passes
+- [ ] 4.1 Run `eas build --profile ios-sim --platform ios` (can start any time after 1.2) — deferred past the 1.0.0 submission (design D6): re-cut against the next revision when the smoke runs; verify the artifact unpacks to an `.app` that opens in the MacBook's iPhone simulator
+- [ ] 4.2 Smoke checklist — user gate, **deferred past the 1.0.0 submission** (design D6, 2026-10-09): run against the next iOS revision before that version's submission — launch, menu, a full quiz round, the daily (tiered clues, guess commit, reminder toggle + permission prompt), stats screen, share sheet, and the country search usable with the keyboard open; verify every checklist item passes
 - [x] 4.2a App Store screenshot rig — write `apps/soup-quiz/scripts/gen-store-screens.mjs`: export the web build, serve it with SPA fallback + COOP/COEP, drive the real UI per the shot list at iPhone 1179×2556 and iPad 2064×2752; verify every PNG is exactly the required size and opaque
-- [ ] 4.3 Fix anything the smoke surfaces (iterate via Expo Go in the simulator over LAN); if the binary changed, rebuild 4.1 and re-run the checklist; verify the final revision passes clean
+- [ ] 4.3 Fix anything the smoke or the 1.0.0 review surfaces (iterate via Expo Go in the simulator over LAN); if the binary changed, rebuild and re-run the checklist; verify the final revision passes clean
 - [x] 4.4 Run `eas build --profile production --platform ios` with the ASC API key as EAS' credentials source (distribution cert + profile minted through it); verify the build finishes and the artifact is an `.ipa`
 - [x] 4.5 Upload the `.ipa` through the ASC API `buildUploads` flow (or `eas submit` if it implements that flow); verify the build appears and processes in App Store Connect
-- [ ] 4.6 Fill the ASC listing from `docs/store-listing.md` via the API — version 1.0.0 (copyright `© 2026 pocito.fyi`, releaseType automatic), localizations (description, keywords, support + marketing URLs, what's new), Games → Trivia category, free pricing, screenshots generated in 4.2a and uploaded via `scripts/asc-upload-screens.mjs` — then the user completes the console-only App Privacy and age-rating questionnaires; verify the submission checklist is green
-- [ ] 4.7 Submit for review — user gate: the user clicks Submit in App Store Connect with review contact info; verify approval and automatic release (respond to any rejection, then resubmit)
+- [x] 4.6 Fill the ASC listing from `docs/store-listing.md` via the API — version 1.0.0 (copyright `© 2026 pocito.fyi`, releaseType automatic), localizations (description, keywords, support + marketing URLs, what's new), Games → Trivia category, free pricing, screenshots generated in 4.2a and uploaded via `scripts/asc-upload-screens.mjs` — then the user completes the console-only App Privacy and age-rating questionnaires; verify the submission checklist is green
+- [ ] 4.7 Submit for review — user gate: the user clicks Submit in App Store Connect with review contact info — **submitted 2026-10-09 with build `c615924c`, state `WAITING_FOR_REVIEW`**; that binary predates the in-app privacy-policy link (2.5), so a rejection for it routes to: bump `ios.buildNumber` to 2, rebuild via 4.4's profile, upload via 4.5's flow, swap the version's build attachment, resubmit; verify approval and automatic release (respond to any rejection, then resubmit)
 
 ## 5. Wrap-up
 

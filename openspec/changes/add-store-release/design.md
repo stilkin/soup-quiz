@@ -96,6 +96,14 @@ no dev tooling). `eas build` with `ios.simulator: true` yields exactly that, uns
 Expo Go in the simulator (over LAN, like the Android loop) remains the *iteration* loop
 for any fixes the smoke surfaces. No prebuild, no local Xcode project.
 
+*Deferred (2026-10-09):* the 1.0.0 submission (build `c615924c`) went to review without
+this gate — the user accepted store review as the first pass on the native binary, on
+the strength of the web-export screenshot rig having exercised the same UI flows and
+the tester APK the same code paths. The gate returns with the next iOS version: that
+revision gets its simulator smoke before its submission. The deferral also carries the
+known gap that the submitted binary predates the in-app privacy-policy link (task 2.5)
+— a rejection for it routes straight to the 4.3/4.7 rebuild path.
+
 ### D7 — Keyboard fix scoped inside `SearchSelect`
 
 `SearchSelect` is a plain `View` — on iOS the keyboard can cover the suggestion rows
