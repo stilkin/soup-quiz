@@ -25,7 +25,7 @@
 
 - [ ] 4.1 Run `eas build --profile ios-sim --platform ios` (can start any time after 1.2); verify the artifact unpacks to an `.app` that opens in the MacBook's iPhone simulator
 - [ ] 4.2 Smoke checklist — user gate, on the simulator: launch, menu, a full quiz round, the daily (tiered clues, guess commit, reminder toggle + permission prompt), stats screen, share sheet, and the country search usable with the keyboard open; verify every checklist item passes
-- [ ] 4.2a App Store screenshot rig — write `apps/soup-quiz/scripts/gen-store-screens.mjs`: export the web build, serve it with SPA fallback + COOP/COEP, drive the real UI per the shot list at iPhone 1179×2556 and iPad 2064×2752; verify every PNG is exactly the required size and opaque
+- [x] 4.2a App Store screenshot rig — write `apps/soup-quiz/scripts/gen-store-screens.mjs`: export the web build, serve it with SPA fallback + COOP/COEP, drive the real UI per the shot list at iPhone 1179×2556 and iPad 2064×2752; verify every PNG is exactly the required size and opaque
 - [ ] 4.3 Fix anything the smoke surfaces (iterate via Expo Go in the simulator over LAN); if the binary changed, rebuild 4.1 and re-run the checklist; verify the final revision passes clean
 - [x] 4.4 Run `eas build --profile production --platform ios` with the ASC API key as EAS' credentials source (distribution cert + profile minted through it); verify the build finishes and the artifact is an `.ipa`
 - [x] 4.5 Upload the `.ipa` through the ASC API `buildUploads` flow (or `eas submit` if it implements that flow); verify the build appears and processes in App Store Connect
