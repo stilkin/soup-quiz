@@ -45,7 +45,9 @@ Listing copy (app name, short and full descriptions) SHALL live in the repo; the
 
 #### Scenario: Screenshots are real screens
 - **WHEN** screenshots accompany a store submission
-- **THEN** each one depicts the actual app captured on a device or simulator
+- **THEN** each one depicts the actual app — Play's captured on a device, Apple's
+  rendered by the committed screenshot rig driving the app's web export — never a
+  mockup, and every Apple set regenerates by re-running that committed script
 
 ### Requirement: Releases roll out staged, never review-first
 The first store releases SHALL be gated by a prior successful run: an Android store build SHALL first install cleanly — the same artifact later promoted — over the tester app via the Play internal track, and an iOS store submission SHALL be preceded by the same app revision, built in a release-equivalent configuration, launching and passing a recorded smoke checklist in the iOS simulator.

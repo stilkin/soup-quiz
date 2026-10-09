@@ -115,6 +115,25 @@ needed. This supersedes the 1.0 "manual uploads" stance for Apple only; Play sta
 manual (app creation is console-only there and uploads need a separate service-account
 key we deliberately don't have).
 
+### D9 — App Store screenshots come from the web export, driven headlessly
+
+The App Store screenshot sets are generated, not hand-captured: `expo export -p web`
+(static output `app.json` already configures) served by a tiny local server, then
+playwright-core with system Chromium at the exact required device viewports — iPhone
+393×852 @3x → 1179×2556 (`APP_IPHONE_61`), iPad 1032×1376 @2x → 2064×2752
+(`APP_IPAD_PRO_3GEN_129`); `deviceScaleFactor` does the pixel math so
+`page.screenshot()` equals Apple's physical size exactly. Scenes are driven through
+the real UI (taps by accessibility label, waits on real text, deliberate settle
+times) in fresh contexts — every shot is the app a player sees. The rig
+(`scripts/gen-store-screens.mjs` under the app) is committed and re-runnable; uploads
+ride the ASC API (`scripts/asc-upload-screens.mjs`). The server sends COOP/COEP
+headers because expo-sqlite's web backend (wa-sqlite OPFS) needs cross-origin
+isolation for the storage-backed scenes (stats, solved dailies). This replaces
+simulator capture for Apple only — no MacBook round-trip, deterministic, regenerable
+on listing changes; Play screenshots stay device-captured. Trade-off —
+react-native-web is not the native renderer — accepted: same components, theme, and
+bundled data, and App Review judges the binary, not the screenshot renderer.
+
 ## Risks / Trade-offs
 
 - [Play key enrollment done wrong → testers forced to reinstall, data lost] → D1
