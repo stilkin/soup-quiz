@@ -17,7 +17,9 @@
  * solved scene waits for "Solved on clue 1", which fails loudly if they drift.
  *
  * Prerequisite: a current web export in dist/ (pnpm exec expo export -p web).
- * Usage: node scripts/gen-store-screens.mjs   (CHROMIUM_PATH overrides the browser)
+ * Usage: node scripts/gen-store-screens.mjs           (Apple sets — the default)
+ *        PLAY=1 node scripts/gen-store-screens.mjs    (Play phone set, see DEVICES)
+ * CHROMIUM_PATH overrides the browser.
  */
 import { mkdir, readFile, stat } from 'node:fs/promises'
 import { createServer } from 'node:http'
@@ -28,14 +30,19 @@ import { createRng } from '../../../packages/engine/src/rng.ts'
 import { countryName } from '../../../packages/schema/src/registries.ts'
 
 const DIST = 'dist'
-const OUT = 'assets/store-listing/ios'
+const PLAY = process.env.PLAY === '1'
+const OUT = PLAY ? 'assets/store-listing/android' : 'assets/store-listing/ios'
 const CHROMIUM = process.env.CHROMIUM_PATH ?? '/usr/bin/chromium-browser'
 
-/** deviceScaleFactor does the heavy lifting: CSS viewport x scale = exact Apple pixels */
-const DEVICES = [
-  { name: 'iphone', width: 393, height: 852, scale: 3 },
-  { name: 'ipad', width: 1032, height: 1376, scale: 2 },
-]
+/** deviceScaleFactor does the heavy lifting: CSS viewport x scale = exact store pixels */
+const DEVICES = PLAY
+  ? // Play caps screenshots at 2:1 (max side <= 2x min side), so the phone set
+    // renders 393x786 CSS px @3x = 1179x2358 — exactly on the cap.
+    [{ name: 'play-phone', width: 393, height: 786, scale: 3 }]
+  : [
+      { name: 'iphone', width: 393, height: 852, scale: 3 },
+      { name: 'ipad', width: 1032, height: 1376, scale: 2 },
+    ]
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -209,6 +216,8 @@ async function dailyScenes(browser, device) {
     await page.getByText('Clue 2 of 4').waitFor({ timeout: 10_000 })
     await commitCountry(page, wrongs[1])
     await page.getByText('Clue 3 of 4').waitFor({ timeout: 10_000 })
+    // no-op at Apple sizes; on the shorter Play viewport it pulls the ladder into frame
+    await page.getByText('Clue 3 of 4').scrollIntoViewIfNeeded()
     await page.waitForTimeout(600)
     await shot(page, `${device.name}-04-daily-mid.png`)
     await context.close()
