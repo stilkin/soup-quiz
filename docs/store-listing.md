@@ -25,7 +25,9 @@ checked against each store's limit at the field.
   because none is collected (on-device stats are the user's own, clearable in-app)
 - **Target audience:** 13+ (avoids the Families policy requirements)
 - **Assets:** 512×512 icon (`play-icon-512.png`), 1024×500 feature graphic
-  (`play-feature-graphic.png`), ≥2 phone screenshots from the tester device
+  (`play-feature-graphic.png`), phone screenshot set rendered by the rig
+  (`PLAY=1`, 1179×2358 — Play caps screenshots at 2:1) plus the iPad renders as the
+  10-inch tablet set; listing language en-US
 
 ### Play full description
 

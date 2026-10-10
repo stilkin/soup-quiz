@@ -143,9 +143,15 @@ ride the ASC API (`scripts/asc-upload-screens.mjs`). The server sends COOP/COEP
 headers because expo-sqlite's web backend (wa-sqlite OPFS) needs cross-origin
 isolation for the storage-backed scenes (stats, solved dailies). This replaces
 simulator capture for Apple only — no MacBook round-trip, deterministic, regenerable
-on listing changes; Play screenshots stay device-captured. Trade-off —
+on listing changes. Trade-off —
 react-native-web is not the native renderer — accepted: same components, theme, and
 bundled data, and App Review judges the binary, not the screenshot renderer.
+
+*Extended to Play (2026-10-10):* Play caps screenshots at 2:1 (max side ≤ 2× min
+side), so the Apple iPhone renders (2.17:1) are unuploadable and no tester-device
+capture ever happened. The rig gained `PLAY=1` — same six scenes at 393×786 CSS px
+@3x = 1179×2358, exactly on the cap — and the same web-export trade-off now covers
+both stores. The iPad renders double as Play's 10-inch tablet set.
 
 ## Risks / Trade-offs
 
