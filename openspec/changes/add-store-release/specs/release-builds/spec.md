@@ -52,11 +52,11 @@ Listing copy (app name, short and full descriptions) SHALL live in the repo; the
 - **THEN** each one depicts the actual app, rendered by the committed screenshot rig driving the app's web export — never a mockup — and every set regenerates by re-running that committed script (Apple's exact viewports by default, Play's 2:1 phone set via `PLAY=1`)
 
 ### Requirement: Releases roll out staged, never review-first
-The first store releases SHALL be gated by a prior successful run: an Android store build SHALL first install cleanly — the same artifact later promoted — over the tester app via the Play internal track, and an iOS store submission SHALL be preceded by the same revision passing the simulator smoke checklist — the 1.0.0 submission alone deferred the iOS gate (2026-10-09, design D6); every later version restores it.
+The first store releases SHALL be gated by a prior successful run: an Android store build SHALL first install cleanly — the same artifact later promoted — over the tester app via a Play test track (the first release rode the open track, 2026-10-11), and an iOS store submission SHALL be preceded by the same revision passing the simulator smoke checklist — the 1.0.0 submission alone deferred the iOS gate (2026-10-09, design D6); every later version restores it.
 
-#### Scenario: Android internal-track gate
+#### Scenario: Android test-track gate
 - **WHEN** the production `.aab` is built
-- **THEN** it is verified via the Play internal track over the tester installation before any production rollout
+- **THEN** it is verified via a Play test track over the tester installation before any production rollout — the first release rode the open track (2026-10-11)
 
 #### Scenario: iOS smoke before submission
 - **WHEN** an iOS production build is submitted for App Review — every version after the deferred 1.0.0

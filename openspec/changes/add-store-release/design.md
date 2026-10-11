@@ -39,6 +39,13 @@ choose "export/upload a key from a Java keystore" and enroll the existing key (t
 holds its backup from the tester-build change). The internal-track
 install-over-tester gate exists precisely to verify this before production.
 
+*Status (2026-10-11):* the first upload happened in the user's console session for the
+open-test submission; whether the existing key was enrolled is unverified — Google's
+default is to generate its own RSA 4096 key. The check (Setup → App signing, or
+Protected with Play → Play Store distribution) and, if needed, the "Change signing key →
+provide a copy" PEPK path stay available until the first production release; the
+install-over-tester gate (3.4) fails loudly if the keys diverge.
+
 *Alternative:* let Google generate the key and have testers reinstall — rejected: silent
 data loss for our most invested players.
 
