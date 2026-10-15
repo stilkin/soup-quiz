@@ -22,7 +22,8 @@ build uploads; new profiles inherit that.
 
 **Non-Goals:**
 
-- `eas submit` or any store API credentials — manual console uploads for 1.0. (Superseded for Apple by D8; Play stays manual.)
+- `eas submit` — store uploads don't ride EAS: Apple submissions run on the ASC API
+  (D8); Play uploads stay manual in the console.
 - TestFlight external testing as a *required* gate (available as belt-and-braces).
 - Exiting the managed workflow (no `ios/` prebuild dir, no local Xcode build).
 - Staged percentage rollouts, localized listings, custom domain, in-app policy screen.
