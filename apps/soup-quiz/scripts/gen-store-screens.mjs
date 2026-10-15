@@ -230,7 +230,11 @@ async function dailyScenes(browser, device) {
     await page.waitForTimeout(2000) // same on-focus refresh as above
     await commitCountry(page, daily.countries[0])
     await page.getByText('Solved on clue 1 of 4').waitFor({ timeout: 10_000 })
-    await page.locator('img').first().waitFor({ timeout: 10_000 })
+    // the second img is the reveal's (the first is the clue photo) — bring it
+    // into frame so the credit row ships in the shot
+    const reveal = page.locator('img').nth(1)
+    await reveal.waitFor({ timeout: 10_000 })
+    await reveal.scrollIntoViewIfNeeded()
     await page.waitForTimeout(2200) // reveal card's spring settle
     await shot(page, `${device.name}-05-daily-solved.png`)
     await context.close()

@@ -2,7 +2,9 @@
  * Uploads the generated App Store screenshots via the ASC API's documented flow
  * (add-store-release design D8/D9): ensure a screenshot set per display type on
  * the en-GB version localization, then per image — reserve a slot, PUT the bytes
- * to Apple's signed upload operations, commit with {uploaded:true}.
+ * to Apple's signed upload operations, commit with
+ * {uploaded:true, sourceFileChecksum} per Apple's documented flow, and poll
+ * until every asset reports delivered.
  *
  * No retries by design (the careful-API rules): any unexpected status prints the
  * response and stops the run. Refuses to touch a set that already holds
@@ -14,7 +16,7 @@
  * Usage: node scripts/asc-upload-screens.mjs
  */
 
-import { sign as cryptoSign } from 'node:crypto'
+import { createHash, sign as cryptoSign } from 'node:crypto'
 import { appendFileSync, readFileSync, statSync } from 'node:fs'
 
 const API = 'https://api.appstoreconnect.apple.com'
@@ -25,6 +27,8 @@ const SETS = [
   { displayType: 'APP_IPAD_PRO_3GEN_129', prefix: 'ipad' }, // iPad 13", 2064x2752
 ]
 const SCENES = ['menu', 'question', 'answered', 'daily-mid', 'daily-solved', 'stats']
+const DELIVERY_POLLS = 10
+const DELIVERY_WAIT_MS = 6000
 
 const KEY_PATH = process.env.ASC_KEY_PATH
 const KEY_ID = process.env.ASC_KEY_ID
@@ -124,6 +128,7 @@ async function uploadImage(setId, path, fileName) {
   })
   const shot = reserved.data
   const bytes = readFileSync(path)
+  const sourceFileChecksum = createHash('md5').update(bytes).digest('hex')
   for (const op of shot.attributes.uploadOperations ?? []) {
     const chunk = bytes.subarray(op.offset ?? 0, (op.offset ?? 0) + op.length)
     const headers = Object.fromEntries((op.requestHeaders ?? []).map((h) => [h.name, h.value]))
@@ -137,8 +142,25 @@ async function uploadImage(setId, path, fileName) {
     }
   }
   await ascFetch('PATCH', `/v1/appScreenshots/${shot.id}`, {
-    data: { type: 'appScreenshots', id: shot.id, attributes: { uploaded: true } },
+    data: {
+      type: 'appScreenshots',
+      id: shot.id,
+      attributes: { uploaded: true, sourceFileChecksum },
+    },
   })
+}
+
+/** Delivery state of a set's screenshots: Apple processes commits asynchronously. */
+async function deliveryState(setId) {
+  const body = await ascFetch('GET', `/v1/appScreenshotSets/${setId}?include=appScreenshots`)
+  const states = (body.included ?? [])
+    .filter((r) => r.type === 'appScreenshots')
+    .map((r) => r.attributes.assetDeliveryState?.state)
+  return {
+    total: states.length,
+    complete: states.filter((s) => s === 'COMPLETE').length,
+    failed: states.filter((s) => s === 'FAILED').length,
+  }
 }
 
 async function main() {
@@ -154,13 +176,21 @@ async function main() {
       await uploadImage(setId, `${DIR}/${prefix}-0${i + 1}-${scene}.png`, name)
     }
   }
-  // read-back (GET_INSTANCE — this key has no GET_COLLECTION on sets): both sets
-  // should show six screenshots, each uploaded and delivered
+  // delivery check (GET_INSTANCE — this key has no GET_COLLECTION on sets): poll
+  // until every screenshot reports COMPLETE, then fail loudly otherwise
   for (const { displayType, setId } of setIds) {
-    const body = await ascFetch('GET', `/v1/appScreenshotSets/${setId}?include=appScreenshots`)
-    const shots = body.included?.filter((r) => r.type === 'appScreenshots') ?? []
-    const delivered = shots.filter((s) => s.attributes.assetDeliveryState?.state === 'COMPLETE')
-    console.log(`${displayType}: ${shots.length} screenshots (${delivered.length} delivered)`)
+    let state
+    for (let attempt = 1; attempt <= DELIVERY_POLLS; attempt++) {
+      state = await deliveryState(setId)
+      if (state.failed > 0 || state.complete === state.total) break
+      if (attempt < DELIVERY_POLLS) await new Promise((r) => setTimeout(r, DELIVERY_WAIT_MS))
+    }
+    if (state.failed > 0 || state.total !== SCENES.length || state.complete < state.total) {
+      throw new Error(
+        `${displayType}: delivery incomplete — ${state.complete}/${state.total} complete, ${state.failed} failed`,
+      )
+    }
+    console.log(`${displayType}: ${state.complete}/${state.total} screenshots delivered`)
   }
 }
 
