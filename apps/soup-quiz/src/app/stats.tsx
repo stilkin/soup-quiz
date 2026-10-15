@@ -1,5 +1,11 @@
 import { soupsV1 } from '@soup-quiz/data'
-import { aggregateStats, type CountryView, countryProgress, type StatsView } from '@soup-quiz/stats'
+import {
+  aggregateStats,
+  type CountryView,
+  countryProgress,
+  RANKED_MIN_ANSWERS,
+  type StatsView,
+} from '@soup-quiz/stats'
 import * as Linking from 'expo-linking'
 import { router, useFocusEffect } from 'expo-router'
 import { useCallback, useState } from 'react'
@@ -86,6 +92,12 @@ export default function StatsScreen() {
               <CountryRow key={progress.code} progress={progress} />
             ))}
           </>
+        )}
+
+        {populated && countries.ranked.length === 0 && (
+          <Text style={styles.hint}>
+            If you answer a country {RANKED_MIN_ANSWERS} times, its stats will show up.
+          </Text>
         )}
 
         {/* always rendered, fresh installs included — store review opens a brand-new
